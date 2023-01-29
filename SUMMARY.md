@@ -2,8 +2,8 @@
 
 * [Welcome!](README.md)
 
-## Group 1
+## 📛 Threats
 
-* [Malware](group-1/malware.md)
-* [Phishing](group-1/phishing.md)
-* [Social Engineering](group-1/social-engineering.md)
+* [Malware](threats/malware.md)
+* [Phishing](threats/phishing.md)
+* [Social Engineering](threats/social-engineering.md)
