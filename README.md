@@ -23,3 +23,13 @@ We welcome contributions from everyone, whether you're a beginner or an expert. 
 To contribute, please read our guidelines and follow our code of conduct.
 
 Thank you for your interest in this repository. We're excited to see what you'll build with the information provided here!
+
+# Appreciation
+
+We'd like to thank the following contributors specifically for their excellent contributions...
+
+-
+-
+-
+-
+-
