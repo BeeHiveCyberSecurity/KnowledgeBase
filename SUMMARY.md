@@ -4,6 +4,7 @@
 
 ## 📛 Threats
 
-* [Malware](threats/malware.md)
-* [Phishing](threats/phishing.md)
+* [Malware](group-1/malware.md)
+* [Phishing](group-1/phishing.md)
 * [Social Engineering](threats/social-engineering.md)
+* [Macros](threats/macros.md)
