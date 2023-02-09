@@ -9,3 +9,7 @@
 * [Social Engineering](threats/social-engineering.md)
 * [Macros](threats/macros.md)
 * [Ransomware](threats/ransomware.md)
+
+## 🛡 Law, Policy, and Ethics
+
+* [Fair Use](law-policy-and-ethics/fair-use.md)
