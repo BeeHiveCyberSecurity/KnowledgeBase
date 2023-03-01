@@ -9,6 +9,7 @@
 * [Social Engineering](threats/social-engineering.md)
 * [Macros](threats/macros.md)
 * [Ransomware](threats/ransomware.md)
+* [Typosquatting](threats/typosquatting.md)
 
 ## 🛡 Law, Policy, and Ethics
 
