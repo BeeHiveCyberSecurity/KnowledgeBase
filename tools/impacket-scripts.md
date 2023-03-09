@@ -1,3 +1,10 @@
+---
+description: >-
+  Impacket is a Python library for working with network protocols and packets.
+  It provides a set of Python classes for crafting and decoding network packets
+  and provides access to a variety of protocols
+---
+
 # impacket-scripts
 
 ### Packages and Binaries:
