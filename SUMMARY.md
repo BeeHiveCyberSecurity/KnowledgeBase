@@ -20,6 +20,8 @@
 * [theharvester](tools/theharvester.md)
 * [tcpdump](tools/tcpdump.md)
 * [subfinder](tools/subfinder.md)
+* [traceroute](tools/traceroute.md)
+* [crunch](tools/crunch.md)
 
 ## 🛡 Law, Policy, and Ethics
 
