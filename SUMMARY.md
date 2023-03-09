@@ -17,6 +17,9 @@
 * [impacket-scripts](tools/impacket-scripts.md)
 * [metasploit-framework](tools/metasploit-framework.md)
 * [john](tools/john.md)
+* [theharvester](tools/theharvester.md)
+* [tcpdump](tools/tcpdump.md)
+* [subfinder](tools/subfinder.md)
 
 ## 🛡 Law, Policy, and Ethics
 
