@@ -22,6 +22,7 @@
 * [subfinder](tools/subfinder.md)
 * [traceroute](tools/traceroute.md)
 * [crunch](tools/crunch.md)
+* [hashcat](tools/hashcat.md)
 
 ## 🛡 Law, Policy, and Ethics
 
