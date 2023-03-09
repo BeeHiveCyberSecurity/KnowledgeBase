@@ -4,8 +4,6 @@ layout: landing
 
 # Welcome!
 
-## Welcome!
-
 Welcome to our open-source repository!
 
 This repository contains valuable information that anyone can learn from and contribute to. Our goal is to create a community-driven resource that empowers individuals and organizations to expand their knowledge and skills.
