@@ -1,3 +1,10 @@
+---
+description: >-
+  Wireshark is a popular open-source network protocol analyzer that is used to
+  capture, analyze, and troubleshoot network traffic. It is widely used by
+  network administrators & security professionals.
+---
+
 # wireshark
 
 ### Screenshots <a href="#screenshots" id="screenshots"></a>
