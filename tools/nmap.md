@@ -1,3 +1,10 @@
+---
+description: >-
+  Nmap (Network Mapper) is a powerful and widely used network exploration and
+  security auditing tool. It is designed to scan and map networks and systems
+  for open ports, available services, and vulns.
+---
+
 # nmap
 
 ### nmap Usage Example <a href="#nmap-usage-example" id="nmap-usage-example"></a>
