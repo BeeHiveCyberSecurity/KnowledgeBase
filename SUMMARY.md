@@ -23,6 +23,7 @@
 * [traceroute](tools/traceroute.md)
 * [crunch](tools/crunch.md)
 * [hashcat](tools/hashcat.md)
+* [wireshark](tools/wireshark.md)
 
 ## 🛡 Law, Policy, and Ethics
 
