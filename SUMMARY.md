@@ -19,3 +19,4 @@
 ## ⚙ Tools
 
 * [nmap](tools/nmap.md)
+* [impacket-scripts](tools/impacket-scripts.md)
