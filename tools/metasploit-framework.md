@@ -1,3 +1,10 @@
+---
+description: >-
+  Metasploit is a popular open-source penetration testing framework that is used
+  by security professionals to test the security of networks, systems, and
+  applications.
+---
+
 # metasploit-framework
 
 ### msfrpcd <a href="#msfrpcd" id="msfrpcd"></a>
