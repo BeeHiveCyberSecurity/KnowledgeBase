@@ -15,3 +15,7 @@
 
 * [Fair Use](law-policy-and-ethics/fair-use.md)
 * [DMCA](law-policy-and-ethics/dmca.md)
+
+## ⚙ Tools
+
+* [nmap](tools/nmap.md)
