@@ -15,6 +15,8 @@
 
 * [nmap](tools/nmap.md)
 * [impacket-scripts](tools/impacket-scripts.md)
+* [metasploit-framework](tools/metasploit-framework.md)
+* [john](tools/john.md)
 
 ## 🛡 Law, Policy, and Ethics
 
