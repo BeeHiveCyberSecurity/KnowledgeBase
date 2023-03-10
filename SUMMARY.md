@@ -198,6 +198,11 @@
     * [Utilities](operating-systems/arch-linux/applications/utilities.md)
     * [Others](operating-systems/arch-linux/applications/others.md)
   * [Arch compared to other distributions](operating-systems/arch-linux/arch-compared-to-other-distributions.md)
+* [⚙ NetBSD](operating-systems/netbsd/README.md)
+  * [Calls and Errors](operating-systems/netbsd/calls-and-errors.md)
+  * [Libraries](operating-systems/netbsd/libraries.md)
+  * [Lua Modules](operating-systems/netbsd/lua-modules.md)
+  * [Devices and Drivers](operating-systems/netbsd/devices-and-drivers.md)
 
 ## 🛡 Law, Policy, and Ethics
 
