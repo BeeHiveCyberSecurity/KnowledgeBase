@@ -185,6 +185,19 @@
     * [Recompiling the Kali Linux Kernel](operating-systems/kali-linux/kali-development/recompiling-the-kali-linux-kernel.md)
     * [ARM Build Scripts](operating-systems/kali-linux/kali-development/arm-build-scripts.md)
     * [Preparing a Kali Linux ARM chroot](operating-systems/kali-linux/kali-development/preparing-a-kali-linux-arm-chroot.md)
+* [🐧 Arch Linux](operating-systems/arch-linux/README.md)
+  * [Installation Guide](operating-systems/arch-linux/installation-guide.md)
+  * [Frequently Asked Questions](operating-systems/arch-linux/frequently-asked-questions.md)
+  * [General Recommendations](operating-systems/arch-linux/general-recommendations.md)
+  * [Applications](operating-systems/arch-linux/applications/README.md)
+    * [Office & Docs](operating-systems/arch-linux/applications/office-and-docs.md)
+    * [Internet](operating-systems/arch-linux/applications/internet.md)
+    * [Multimedia](operating-systems/arch-linux/applications/multimedia.md)
+    * [Science](operating-systems/arch-linux/applications/science.md)
+    * [Security](operating-systems/arch-linux/applications/security.md)
+    * [Utilities](operating-systems/arch-linux/applications/utilities.md)
+    * [Others](operating-systems/arch-linux/applications/others.md)
+  * [Arch compared to other distributions](operating-systems/arch-linux/arch-compared-to-other-distributions.md)
 
 ## 🛡 Law, Policy, and Ethics
 
