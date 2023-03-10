@@ -140,6 +140,13 @@
     * [Installing Flatpak on Kali Linux](operating-systems/kali-linux/tools/installing-flatpak-on-kali-linux.md)
     * [Submitting tools to Kali](operating-systems/kali-linux/tools/submitting-tools-to-kali.md)
     * [Removed Tools From Kali](operating-systems/kali-linux/tools/removed-tools-from-kali.md)
+  * [Troubleshooting](operating-systems/kali-linux/troubleshooting/README.md)
+    * [Discovering Problems With Download Speed](operating-systems/kali-linux/troubleshooting/discovering-problems-with-download-speed.md)
+    * [Common Cloud Based Setup Information](operating-systems/kali-linux/troubleshooting/common-cloud-based-setup-information.md)
+    * [The Basics of Troubleshooting](operating-systems/kali-linux/troubleshooting/the-basics-of-troubleshooting.md)
+    * [Troubleshooting Installations Failures](operating-systems/kali-linux/troubleshooting/troubleshooting-installations-failures.md)
+    * [Troubleshooting Wireless Drivers](operating-systems/kali-linux/troubleshooting/troubleshooting-wireless-drivers.md)
+    * [Minimum Install Setup Information](operating-systems/kali-linux/troubleshooting/minimum-install-setup-information.md)
 
 ## 🛡 Law, Policy, and Ethics
 
