@@ -29,11 +29,11 @@
 * [🗃 sqlmap](tools/sqlmap.md)
 * [🌐 aircrack-ng](tools/aircrack-ng.md)
 
+## 🖥 Operating Systems
+
+* [🐧 Kali Linux](operating-systems/kali-linux.md)
+
 ## 🛡 Law, Policy, and Ethics
 
 * [Fair Use](law-policy-and-ethics/fair-use.md)
 * [DMCA](law-policy-and-ethics/dmca.md)
-
-## 🖥 Operating Systems
-
-* [🐧 Kali Linux](operating-systems/kali-linux.md)
