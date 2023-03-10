@@ -4,12 +4,15 @@
 
 ## 📛 Threats
 
-* [Malware](threats/malware.md)
-* [Phishing](threats/phishing.md)
-* [Social Engineering](threats/social-engineering.md)
-* [Macros](threats/macros.md)
-* [Ransomware](threats/ransomware.md)
-* [Typosquatting](threats/typosquatting.md)
+* [👩💻 Software](threats/software/README.md)
+  * [Malware](threats/software/malware.md)
+  * [Ransomware](threats/software/ransomware.md)
+  * [Macros](threats/software/macros.md)
+* [🖥 Hardware](threats/hardware.md)
+* [🤦 Human](threats/human/README.md)
+  * [Phishing](threats/human/phishing.md)
+  * [Social Engineering](threats/human/social-engineering.md)
+  * [Typosquatting](threats/human/typosquatting.md)
 
 ## ⚙ Tools
 
