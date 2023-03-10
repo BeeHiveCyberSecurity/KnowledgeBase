@@ -1,4 +1,4 @@
-# burpsuite
+# 🎩 burpsuite
 
 ### Screenshots <a href="#screenshots" id="screenshots"></a>
 
@@ -6,7 +6,7 @@
 burpsuite
 ```
 
-[![burpsuite](../.gitbook/assets/burpsuite.png)](../.gitbook/assets/burpsuite.png)
+[![burpsuite](../../.gitbook/assets/burpsuite.png)](../../.gitbook/assets/burpsuite.png)
 
 ***
 

@@ -1,8 +1,8 @@
-# beef-xss
+# 🎩 beef-xss
 
 ### Screenshots <a href="#screenshots" id="screenshots"></a>
 
-[![beef-xss](<../.gitbook/assets/beef xss.png>)](<../.gitbook/assets/beef xss.png>)
+[![beef-xss](<../../.gitbook/assets/beef xss.png>)](<../../.gitbook/assets/beef xss.png>)
 
 ### beef Usage Example <a href="#beef-usage-example" id="beef-usage-example"></a>
 

@@ -1,4 +1,4 @@
-# dirb
+# ℹ dirb
 
 ### dirb Usage Example <a href="#dirb-usage-example" id="dirb-usage-example"></a>
 

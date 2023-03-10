@@ -1,4 +1,4 @@
-# gobuster
+# 📈 gobuster
 
 ### Video <a href="#video" id="video"></a>
 

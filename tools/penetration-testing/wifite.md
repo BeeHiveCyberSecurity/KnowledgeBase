@@ -1,4 +1,4 @@
-# wifite
+# 🎩 wifite
 
 ### wifite Usage Example <a href="#wifite-usage-example" id="wifite-usage-example"></a>
 

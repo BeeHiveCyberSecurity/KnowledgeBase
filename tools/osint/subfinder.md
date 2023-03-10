@@ -1,4 +1,4 @@
-# subfinder
+# ℹ subfinder
 
 ### Packages and Binaries:
 

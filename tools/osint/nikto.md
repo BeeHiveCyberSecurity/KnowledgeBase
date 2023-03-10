@@ -1,4 +1,4 @@
-# nikto
+# ℹ nikto
 
 ### Nikto Usage Example <a href="#nikto-usage-example" id="nikto-usage-example"></a>
 

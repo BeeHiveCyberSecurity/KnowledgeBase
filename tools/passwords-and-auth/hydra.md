@@ -1,4 +1,4 @@
-# hydra
+# 🔐 hydra
 
 ### hydra Usage Example <a href="#hydra-usage-example" id="hydra-usage-example"></a>
 

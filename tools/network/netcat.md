@@ -1,4 +1,4 @@
-# netcat
+# 🌐 netcat
 
 ### Packages and Binaries:
 

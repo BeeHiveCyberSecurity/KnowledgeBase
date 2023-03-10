@@ -1,4 +1,4 @@
-# sherlock
+# ℹ sherlock
 
 ### Packages and Binaries:
 

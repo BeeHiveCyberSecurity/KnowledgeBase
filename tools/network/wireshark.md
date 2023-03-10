@@ -13,7 +13,7 @@ description: >-
 wireshark
 ```
 
-[![wireshark](<../.gitbook/assets/wireshark (1).png>)](<../.gitbook/assets/wireshark (1).png>)
+[![wireshark](<../../.gitbook/assets/wireshark (1).png>)](<../../.gitbook/assets/wireshark (1).png>)
 
 ### tshark Usage Example <a href="#tshark-usage-example" id="tshark-usage-example"></a>
 
