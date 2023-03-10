@@ -52,7 +52,7 @@ The Kali panel is placed at the top of the screen and the Windows Start menu at 
 
 when asked for authorization to allow traffic through the Windows Defender firewall
 
-[![](<../../../.gitbook/assets/win kex pulseaudio\_firewall.png>)](<../../../.gitbook/assets/win kex pulseaudio\_firewall.png>)
+[![](<../../../.gitbook/assets/win kex pulseaudio\_firewall (1).png>)](<../../../.gitbook/assets/win kex pulseaudio\_firewall (1).png>)
 
 [Multiscreen Support](broken-reference)
 
