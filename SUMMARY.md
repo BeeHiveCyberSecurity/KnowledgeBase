@@ -94,6 +94,12 @@
     * [ODROID-U2/U3](operating-systems/kali-linux/kali-on-arm/odroid-u2-u3.md)
     * [ODROID-C2](operating-systems/kali-linux/kali-on-arm/odroid-c2.md)
     * [Pinebook](operating-systems/kali-linux/kali-on-arm/pinebook.md)
+  * [Containers](operating-systems/kali-linux/containers/README.md)
+    * [Kali Linux LXC/LXD Images](operating-systems/kali-linux/containers/kali-linux-lxc-lxd-images.md)
+    * [Official Kali Linux Docker Images](operating-systems/kali-linux/containers/official-kali-linux-docker-images.md)
+    * [Installing Docker on Kali Linux](operating-systems/kali-linux/containers/installing-docker-on-kali-linux.md)
+    * [Using Kali Linux Docker Images](operating-systems/kali-linux/containers/using-kali-linux-docker-images.md)
+    * [Using Kali Linux Podman Images](operating-systems/kali-linux/containers/using-kali-linux-podman-images.md)
 
 ## 🛡 Law, Policy, and Ethics
 
