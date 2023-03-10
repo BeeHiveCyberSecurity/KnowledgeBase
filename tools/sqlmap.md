@@ -1,4 +1,4 @@
-# sqlmap
+# 🗃 sqlmap
 
 ### sqlmap Usage Example <a href="#sqlmap-usage-example" id="sqlmap-usage-example"></a>
 

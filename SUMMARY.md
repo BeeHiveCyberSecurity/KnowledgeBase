@@ -19,14 +19,14 @@
 * [🔐 john](tools/john.md)
 * [👁🗨 theharvester](tools/theharvester.md)
 * [🌐 tcpdump](tools/tcpdump.md)
-* [subfinder](tools/subfinder.md)
-* [traceroute](tools/traceroute.md)
-* [crunch](tools/crunch.md)
-* [hashcat](tools/hashcat.md)
-* [wireshark](tools/wireshark.md)
-* [dsniff](tools/dsniff.md)
-* [responder](tools/responder.md)
-* [sqlmap](tools/sqlmap.md)
+* [👁🗨 subfinder](tools/subfinder.md)
+* [🌐 traceroute](tools/traceroute.md)
+* [📔 crunch](tools/crunch.md)
+* [🔐 hashcat](tools/hashcat.md)
+* [🌐 wireshark](tools/wireshark.md)
+* [👁🗨 dsniff](tools/dsniff.md)
+* [🌐 responder](tools/responder.md)
+* [🗃 sqlmap](tools/sqlmap.md)
 
 ## 🛡 Law, Policy, and Ethics
 
