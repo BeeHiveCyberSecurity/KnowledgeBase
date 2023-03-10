@@ -25,6 +25,7 @@
 * [hashcat](tools/hashcat.md)
 * [wireshark](tools/wireshark.md)
 * [dsniff](tools/dsniff.md)
+* [responder](tools/responder.md)
 
 ## 🛡 Law, Policy, and Ethics
 
