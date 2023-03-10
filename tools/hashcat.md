@@ -1,4 +1,4 @@
-# hashcat
+# 🔐 hashcat
 
 ### hashcat Usage Examples <a href="#hashcat-usage-examples" id="hashcat-usage-examples"></a>
 

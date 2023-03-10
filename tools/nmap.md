@@ -5,7 +5,7 @@ description: >-
   for open ports, available services, and vulns.
 ---
 
-# nmap
+# 🌐 nmap
 
 ### nmap Usage Example <a href="#nmap-usage-example" id="nmap-usage-example"></a>
 

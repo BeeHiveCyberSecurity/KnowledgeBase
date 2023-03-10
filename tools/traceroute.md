@@ -1,4 +1,4 @@
-# traceroute
+# 🌐 traceroute
 
 #### traceroute <a href="#traceroute" id="traceroute"></a>
 

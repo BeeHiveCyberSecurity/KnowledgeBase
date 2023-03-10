@@ -5,7 +5,7 @@ description: >-
   and provides access to a variety of protocols
 ---
 
-# impacket-scripts
+# 🌐 impacket-scripts
 
 ### Packages and Binaries:
 
