@@ -1,7 +1,3 @@
----
-layout: landing
----
-
 # Welcome!
 
 Welcome to our open-source repository!
