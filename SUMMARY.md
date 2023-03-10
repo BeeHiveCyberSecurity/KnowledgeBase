@@ -100,6 +100,12 @@
     * [Installing Docker on Kali Linux](operating-systems/kali-linux/containers/installing-docker-on-kali-linux.md)
     * [Using Kali Linux Docker Images](operating-systems/kali-linux/containers/using-kali-linux-docker-images.md)
     * [Using Kali Linux Podman Images](operating-systems/kali-linux/containers/using-kali-linux-podman-images.md)
+  * [WSL](operating-systems/kali-linux/wsl/README.md)
+    * [Win-KeX SL](operating-systems/kali-linux/wsl/win-kex-sl.md)
+    * [Win-KeX ESM](operating-systems/kali-linux/wsl/win-kex-esm.md)
+    * [Preparing a system for WSL](operating-systems/kali-linux/wsl/preparing-a-system-for-wsl.md)
+    * [Win-KeX](operating-systems/kali-linux/wsl/win-kex.md)
+    * [Win-KeX Win](operating-systems/kali-linux/wsl/win-kex-win.md)
 
 ## 🛡 Law, Policy, and Ethics
 
