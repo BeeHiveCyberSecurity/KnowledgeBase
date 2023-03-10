@@ -15,18 +15,19 @@
 
 * [🌐 nmap](tools/nmap.md)
 * [🌐 impacket-scripts](tools/impacket-scripts.md)
-* [👁🗨 metasploit-framework](tools/metasploit-framework.md)
+* [👁🗨 👁🗨 metasploit-framework](tools/metasploit-framework.md)
 * [🔐 john](tools/john.md)
-* [👁🗨 theharvester](tools/theharvester.md)
+* [👁🗨 👁🗨 theharvester](tools/theharvester.md)
 * [🌐 tcpdump](tools/tcpdump.md)
-* [👁🗨 subfinder](tools/subfinder.md)
+* [👁🗨 👁🗨 subfinder](tools/subfinder.md)
 * [🌐 traceroute](tools/traceroute.md)
 * [📔 crunch](tools/crunch.md)
 * [🔐 hashcat](tools/hashcat.md)
 * [🌐 wireshark](tools/wireshark.md)
-* [👁🗨 dsniff](tools/dsniff.md)
+* [👁🗨 👁🗨 dsniff](tools/dsniff.md)
 * [🌐 responder](tools/responder.md)
 * [🗃 sqlmap](tools/sqlmap.md)
+* [🌐 aircrack-ng](tools/aircrack-ng.md)
 
 ## 🛡 Law, Policy, and Ethics
 
