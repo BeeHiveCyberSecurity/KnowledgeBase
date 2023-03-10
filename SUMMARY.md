@@ -132,6 +132,14 @@
     * [NetHunter MANA Evil Access Point](operating-systems/kali-linux/kali-nethunter/nethunter-mana-evil-access-point.md)
     * [NetHunter Man In The Middle Framework](operating-systems/kali-linux/kali-nethunter/nethunter-man-in-the-middle-framework.md)
     * [NetHunter KeX Manager](operating-systems/kali-linux/kali-nethunter/nethunter-kex-manager.md)
+  * [Tools](operating-systems/kali-linux/tools/README.md)
+    * [Installing Tor Browser on Kali Linux](operating-systems/kali-linux/tools/installing-tor-browser-on-kali-linux.md)
+    * [Kali Tools](operating-systems/kali-linux/tools/kali-tools.md)
+    * [Installing snapd on Kali Linux](operating-systems/kali-linux/tools/installing-snapd-on-kali-linux.md)
+    * [Metasploit Framework](operating-systems/kali-linux/tools/metasploit-framework.md)
+    * [Installing Flatpak on Kali Linux](operating-systems/kali-linux/tools/installing-flatpak-on-kali-linux.md)
+    * [Submitting tools to Kali](operating-systems/kali-linux/tools/submitting-tools-to-kali.md)
+    * [Removed Tools From Kali](operating-systems/kali-linux/tools/removed-tools-from-kali.md)
 
 ## 🛡 Law, Policy, and Ethics
 
