@@ -28,6 +28,17 @@
 * [🌐 responder](tools/responder.md)
 * [🗃 sqlmap](tools/sqlmap.md)
 * [🌐 aircrack-ng](tools/aircrack-ng.md)
+* [dnsrecon](tools/dnsrecon.md)
+* [hydra](tools/hydra.md)
+* [beef-xss](tools/beef-xss.md)
+* [sherlock](tools/sherlock.md)
+* [dirb](tools/dirb.md)
+* [cewl](tools/cewl.md)
+* [burpsuite](tools/burpsuite.md)
+* [netcat](tools/netcat.md)
+* [wifite](tools/wifite.md)
+* [nikto](tools/nikto.md)
+* [gobuster](tools/gobuster.md)
 
 ## 🖥 Operating Systems
 
