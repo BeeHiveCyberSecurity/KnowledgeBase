@@ -17,7 +17,7 @@ Window mode helps keeping the Windows and Kali environments visually apart.
 
 Win-KeX utilises [TigerVNC](https://tigervnc.org/) for its client and server components.
 
-[![](<../../../.gitbook/assets/win kex full.png>)](<../../../.gitbook/assets/win kex full.png>)
+[![](<../../../.gitbook/assets/win kex full (1).png>)](<../../../.gitbook/assets/win kex full (1).png>)
 
 [Usage](broken-reference)[Start](broken-reference)
 
@@ -29,7 +29,7 @@ Win-KeX utilises [TigerVNC](https://tigervnc.org/) for its client and server com
 
     This will start the Win-KeX server and launch the Win-KeX client in full screen mode:
 
-    [![](<../../../.gitbook/assets/win kex.png>)](<../../../.gitbook/assets/win kex.png>)
+    [![](<../../../.gitbook/assets/win kex (2).png>)](<../../../.gitbook/assets/win kex (2).png>)
 
 [Start Root Session](broken-reference)
 
@@ -56,7 +56,7 @@ Win-KeX utilises [TigerVNC](https://tigervnc.org/) for its client and server com
 
     when asked for authorisation to allow traffic through the Windows Defender firewall
 
-[![](<../../../.gitbook/assets/win kex pulseaudio\_firewall.png>)](<../../../.gitbook/assets/win kex pulseaudio\_firewall.png>)
+[![](<../../../.gitbook/assets/win kex pulseaudio\_firewall (1).png>)](<../../../.gitbook/assets/win kex pulseaudio\_firewall (1).png>)
 
 [Multiscreen Support](broken-reference)
 

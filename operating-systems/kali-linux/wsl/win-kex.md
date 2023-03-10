@@ -20,7 +20,7 @@
 * Multi-session support: root window & non-priv window & seamless sessions concurrently
 * Fully compatible with WSLg
 
-[![](<../../../.gitbook/assets/win kex sl (1).png>)](<../../../.gitbook/assets/win kex sl (1).png>)
+[![](<../../../.gitbook/assets/win kex sl.png>)](<../../../.gitbook/assets/win kex sl.png>)
 
 [**This page details the steps to install Win-Kex in under 2 minutes.**](broken-reference)[Installation](broken-reference)
 
@@ -71,7 +71,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 
 *   Window Mode:
 
-    [![](<../../../.gitbook/assets/win kex (2).png>)](<../../../.gitbook/assets/win kex (2).png>)
+    [![](<../../../.gitbook/assets/win kex.png>)](<../../../.gitbook/assets/win kex.png>)
 
     To start Win-KeX in Window mode with sound support, run
 
@@ -80,7 +80,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
     Refer to the [Win-KeX Win usage documentation](broken-reference) for further information.
 *   Enhanced Session Mode:
 
-    [![](<../../../.gitbook/assets/win kex 2 (1).png>)](<../../../.gitbook/assets/win kex 2 (1).png>)
+    [![](<../../../.gitbook/assets/win kex 2.png>)](<../../../.gitbook/assets/win kex 2.png>)
 *   To start Win-KeX in Enhanced Session Mode with sound support and arm workaround, run
 
     `kex --esm --ip -s`
@@ -88,7 +88,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
     Refer to the [Win-KeX ESM usage documentation](broken-reference) for further information.
 *   Seamless mode:
 
-    [![](<../../../.gitbook/assets/win kex sl (1).png>)](<../../../.gitbook/assets/win kex sl (1).png>)
+    [![](<../../../.gitbook/assets/win kex sl.png>)](<../../../.gitbook/assets/win kex sl.png>)
 
     To start Win-KeX in Seamless mode with sound support, run
 
@@ -190,7 +190,7 @@ Copy the kali-menu.png icon across to your windows picture directory and add the
 
 [![](<../../../.gitbook/assets/win kex wt2.png>)](<../../../.gitbook/assets/win kex wt2.png>)
 
-[![](<../../../.gitbook/assets/win kex full (1).png>)](<../../../.gitbook/assets/win kex full (1).png>)
+[![](<../../../.gitbook/assets/win kex full.png>)](<../../../.gitbook/assets/win kex full.png>)
 
 [Help](broken-reference)
 

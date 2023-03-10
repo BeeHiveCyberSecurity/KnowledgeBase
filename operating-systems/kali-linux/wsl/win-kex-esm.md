@@ -59,7 +59,7 @@ This will start the Win-KeX server and launch the Win-KeX client in full screen 
 
 *   To close the Win-KeX client, log out of the Kali GUI session
 
-    [![](<../../../.gitbook/assets/win kex 2.png>)](<../../../.gitbook/assets/win kex 2.png>)
+    [![](<../../../.gitbook/assets/win kex 2 (1).png>)](<../../../.gitbook/assets/win kex 2 (1).png>)
 * To shutdown Win-KeX in ESM mode, type `kex --esm --stop`
 
 [**Enjoy Win-KeX!**](broken-reference)
