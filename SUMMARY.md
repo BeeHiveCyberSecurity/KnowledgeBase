@@ -106,6 +106,11 @@
     * [Preparing a system for WSL](operating-systems/kali-linux/wsl/preparing-a-system-for-wsl.md)
     * [Win-KeX](operating-systems/kali-linux/wsl/win-kex.md)
     * [Win-KeX Win](operating-systems/kali-linux/wsl/win-kex-win.md)
+  * [Cloud](operating-systems/kali-linux/cloud/README.md)
+    * [Digital Ocean](operating-systems/kali-linux/cloud/digital-ocean.md)
+    * [AWS](operating-systems/kali-linux/cloud/aws.md)
+    * [Azure](operating-systems/kali-linux/cloud/azure.md)
+    * [Linode](operating-systems/kali-linux/cloud/linode.md)
 
 ## 🛡 Law, Policy, and Ethics
 
