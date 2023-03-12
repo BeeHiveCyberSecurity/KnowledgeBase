@@ -1,3 +1,9 @@
+---
+description: >-
+  Ransomware is a type of malware that encrypts a victim's data and demands
+  payment, usually in cryptocurrency, in exchange for the decryption key.
+---
+
 # Ransomware
 
 Ransomware is a type of malware that encrypts a victim's files and demands payment in exchange for the decryption key. It is a rapidly growing threat that can cause significant financial and operational damage to individuals and organizations. In this essay, we will discuss the characteristics of ransomware and the steps that can be taken to protect against it.

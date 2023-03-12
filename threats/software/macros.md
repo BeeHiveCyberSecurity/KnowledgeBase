@@ -1,3 +1,9 @@
+---
+description: >-
+  Microsoft Office macros are small programs that automate repetitive tasks in
+  Office applications, such as Word, Excel, and PowerPoint.
+---
+
 # Macros
 
 Malicious macros are a type of computer virus that are spread through the use of macro-enabled documents, such as Microsoft Word or Excel files. These macros, which are small programs or scripts, are embedded within the document and are designed to perform specific actions when the document is opened. They can be used to automate tasks, such as formatting text or creating charts, but they can also be used to infect a computer with malware or to steal sensitive information.

@@ -292,4 +292,4 @@
 ## 🛡 Law, Policy, and Ethics
 
 * [⚖ Fair Use](law-policy-and-ethics/fair-use.md)
-* [DMCA](law-policy-and-ethics/dmca.md)
+* [⚖ DMCA](law-policy-and-ethics/dmca.md)
