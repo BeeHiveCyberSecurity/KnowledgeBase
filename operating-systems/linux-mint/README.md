@@ -1,3 +1,10 @@
+---
+description: >-
+  Linux Mint: Fast, reliable, user-friendly OS with Cinnamon desktop, preloaded
+  essential software, and community-driven development. A free alternative to
+  proprietary systems.
+---
+
 # 🐧 Linux Mint
 
 Linux Mint is a free and open-source operating system designed for personal computers. It is based on the Ubuntu Linux distribution and offers a modern and user-friendly desktop environment that is easy to use for both novice and experienced users.
