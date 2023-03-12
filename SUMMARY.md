@@ -14,6 +14,7 @@
   * [Social Engineering](threats/human/social-engineering.md)
   * [Typosquatting](threats/human/typosquatting.md)
 * [➡ Disinformation](threats/disinformation/README.md)
+  * [🍥 Astroturfing](threats/disinformation/astroturfing.md)
   * [🟢 Greenwashing](threats/disinformation/greenwashing.md)
   * [🔵 Bluewashing](threats/disinformation/bluewashing.md)
   * [⚫ Black Propaganda](threats/disinformation/black-propaganda.md)
