@@ -1,4 +1,25 @@
+---
+description: >-
+  Ubertooth is a portable open-source Bluetooth security tool used for
+  monitoring, injecting, and jamming Bluetooth packets to test security
+  vulnerabilities.
+---
+
 # 🌐 ubertooth
+
+Ubertooth is an open-source Bluetooth security tool designed for monitoring and testing Bluetooth Low Energy (BLE) and Bluetooth Classic (BT) wireless communications. It is a hardware device that can be used in combination with software tools to perform various security-related tasks, such as sniffing, injecting, jamming, and capturing Bluetooth packets.
+
+The Ubertooth device is based on an ARM Cortex-M3 microcontroller, and it features a radio transceiver module for operating on the 2.4 GHz ISM band. The device has a USB interface for connecting to a host computer, and it is powered via USB or an external battery. The Ubertooth is highly portable, lightweight, and can be used in various scenarios, such as in the field or in a lab environment.
+
+The Ubertooth tool provides a range of functionalities to security researchers and developers. Its primary function is to sniff Bluetooth traffic, which means it can intercept and analyze Bluetooth packets sent between two devices. This can be useful for detecting security vulnerabilities, identifying Bluetooth devices, and monitoring traffic patterns. Additionally, the Ubertooth can be used for injecting or jamming Bluetooth traffic, which can help in identifying potential weaknesses in Bluetooth devices or protocols.
+
+The Ubertooth tool is highly versatile and can be used with a variety of software tools. One of the most popular software tools for Ubertooth is Wireshark, which is a network protocol analyzer that can be used to inspect Bluetooth packets captured by the Ubertooth device. Other tools, such as GATTacker and BTLEJuice, can be used for Bluetooth security testing, and they can be integrated with the Ubertooth device for enhanced capabilities.
+
+One of the key advantages of the Ubertooth tool is its ability to operate in promiscuous mode. This means that the device can capture all Bluetooth packets within range, regardless of whether they are destined for the Ubertooth or not. This feature is particularly useful for detecting and analyzing Bluetooth devices that may be operating in a hidden or stealth mode.
+
+The Ubertooth tool is not without its limitations, however. For instance, it is not able to decrypt encrypted Bluetooth traffic. Additionally, the Ubertooth device is limited to a range of around 10-30 meters, depending on the environment and any obstructions. Finally, while the Ubertooth is an excellent tool for detecting and analyzing Bluetooth traffic, it should be used ethically and within legal limits.
+
+In summary, the Ubertooth tool is a highly capable and versatile Bluetooth security tool that is well-suited for a range of security-related tasks. It can be used for monitoring and analyzing Bluetooth traffic, injecting or jamming Bluetooth packets, and integrating with other software tools. While it has some limitations, the Ubertooth tool is an essential tool for any security researcher or developer working with Bluetooth communications.
 
 #### libubertooth-dev <a href="#libubertooth-dev" id="libubertooth-dev"></a>
 
