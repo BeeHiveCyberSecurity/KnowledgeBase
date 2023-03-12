@@ -1,3 +1,10 @@
+---
+description: >-
+  Phishing is a type of cyber attack that uses fraudulent emails, messages, or
+  websites to trick individuals into providing sensitive information such as
+  passwords or credit card details.
+---
+
 # Phishing
 
 Phishing is a type of cyber attack where a malicious actor attempts to trick a victim into providing sensitive information such as login credentials, financial information, or personal information by disguising as a trustworthy source. This is usually done through fake emails, text messages, or websites that are designed to look legitimate.

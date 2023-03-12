@@ -1,3 +1,10 @@
+---
+description: >-
+  Social engineering is the use of psychological manipulation tactics to trick
+  people into divulging confidential information or performing actions that are
+  not in their best interest.
+---
+
 # Social Engineering
 
 ## Social Engineering
