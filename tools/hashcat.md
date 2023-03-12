@@ -1,3 +1,9 @@
+---
+description: >-
+  Hashcat is a popular open-source password recovery tool that uses brute-force
+  and dictionary attacks to crack password hashes in various formats.
+---
+
 # 🔐 hashcat
 
 ### hashcat Usage Examples <a href="#hashcat-usage-examples" id="hashcat-usage-examples"></a>

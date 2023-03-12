@@ -1,3 +1,10 @@
+---
+description: >-
+  Hydra is a popular password cracking tool that uses brute-force and dictionary
+  attacks to test credentials against various protocols such as HTTP, FTP, SSH,
+  and more.
+---
+
 # 🔐 hydra
 
 ### hydra Usage Example <a href="#hydra-usage-example" id="hydra-usage-example"></a>
