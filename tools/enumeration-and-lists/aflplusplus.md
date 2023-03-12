@@ -1,4 +1,4 @@
-# 🧩 aflplusplus
+# 🔎 aflplusplus
 
 ### Packages and Binaries:
 
