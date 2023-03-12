@@ -14,6 +14,7 @@
   * [Social Engineering](threats/human/social-engineering.md)
   * [Typosquatting](threats/human/typosquatting.md)
 * [➡ Disinformation](threats/disinformation/README.md)
+  * [👨 "Joe Jobs"](threats/disinformation/joe-jobs.md)
   * [🚩 False Flags](threats/disinformation/false-flags.md)
   * [🍥 Astroturfing](threats/disinformation/astroturfing.md)
   * [🟢 Greenwashing](threats/disinformation/greenwashing.md)
