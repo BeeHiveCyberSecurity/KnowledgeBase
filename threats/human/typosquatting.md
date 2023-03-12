@@ -1,3 +1,10 @@
+---
+description: >-
+  Typosquatting is a type of cyber-attack where attackers create domain names
+  similar to legitimate ones, hoping users will make typos and enter sensitive
+  information on the fake site.
+---
+
 # Typosquatting
 
 Typosquatting, also known as URL hijacking or fake URL, is a type of cyber attack where an attacker registers a domain name that is very similar to a legitimate website's domain name with the intent of deceiving users who mistype the legitimate website's URL into their web browser.
