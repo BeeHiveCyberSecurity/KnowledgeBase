@@ -31,6 +31,7 @@
   * [🎩 beef-xss](tools/penetration-testing/beef-xss.md)
   * [🎩 wifite](tools/penetration-testing/wifite.md)
   * [🎩 burpsuite](tools/penetration-testing/burpsuite.md)
+  * [🎩 legion](tools/penetration-testing/legion.md)
 * [🔐 Passwords & Auth](tools/passwords-and-auth/README.md)
   * [🔐 john](tools/john.md)
   * [🔐 hashcat](tools/hashcat.md)
@@ -57,7 +58,7 @@
   * [🌐 ubertooth](tools/networks-and-wireless/ubertooth.md)
   * [🔏 libnfc](tools/networks-and-wireless/libnfc.md)
 * [🇸🇴 Social Media](tools/social-media/README.md)
-  * [ℹ sherlock](tools/social-media/sherlock.md)
+  * [ℹ sherlock](tools/osint/sherlock.md)
 
 ## 🖥 Operating Systems
 
