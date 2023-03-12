@@ -1,6 +1,6 @@
 # Installation Guide
 
-[![\_images/qr.png](../../../.gitbook/assets/qr.png)](../../../.gitbook/assets/qr.png)
+[![\_images/qr.png](<../../../.gitbook/assets/qr (1).png>)](<../../../.gitbook/assets/qr (1).png>)
 
 Linux Mint comes in the form of an ISO image (an .iso file) which can be used to make a bootable DVD or a bootable USB stick.
 
