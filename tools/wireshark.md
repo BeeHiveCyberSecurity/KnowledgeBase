@@ -1,11 +1,26 @@
 ---
 description: >-
-  Wireshark is a popular open-source network protocol analyzer that is used to
-  capture, analyze, and troubleshoot network traffic. It is widely used by
-  network administrators & security professionals.
+  Wireshark is a free and open-source packet analyzer used by network admins and
+  security professionals to capture, analyze, and filter network traffic.
 ---
 
 # 🌐 wireshark
+
+Wireshark is a free and open-source packet analyzer that allows users to capture and analyze network traffic in real-time. It was originally known as Ethereal and was developed by Gerald Combs in 1998. Wireshark is available for multiple platforms, including Windows, macOS, and Linux.
+
+The tool is used by network administrators and security professionals to troubleshoot network issues, detect and prevent network attacks, and analyze network performance. It can capture and display a wide range of protocols, including TCP, UDP, HTTP, DNS, and many more. This makes it an indispensable tool for any organization that relies on networks to carry out its operations.
+
+One of the key features of Wireshark is its ability to capture packets in real-time. This allows users to see network traffic as it is happening and quickly identify any anomalies or suspicious activity. Wireshark can also save captured packets to a file for later analysis, which can be useful for forensics and incident response.
+
+Another important feature of Wireshark is its powerful filtering capabilities. Users can apply filters to capture only the packets they are interested in, making it easier to analyze large network traces. Wireshark supports a wide range of filter expressions, including protocol types, IP addresses, and port numbers.
+
+In addition to packet capturing and analysis, Wireshark also includes tools for generating traffic and sending packets. This can be useful for testing network configurations and verifying the behavior of network devices.
+
+Wireshark is a very flexible tool that can be customized to suit the needs of individual users. It supports a range of plugins and extensions, which can add new functionality to the tool. It also has a rich ecosystem of third-party tools and scripts that can be used to extend its capabilities even further.
+
+One of the challenges of using Wireshark is that it can generate large amounts of data. Capturing and analyzing packets can quickly consume a lot of disk space and processing power. Users need to be aware of these limitations and use the tool judiciously to avoid overwhelming their systems.
+
+Despite these challenges, Wireshark is an essential tool for anyone who works with networks. Its ability to capture, analyze, and filter network traffic makes it an invaluable resource for troubleshooting, security, and performance tuning. With its rich set of features and flexibility, Wireshark is a must-have tool for any network professional.
 
 ### Screenshots <a href="#screenshots" id="screenshots"></a>
 
