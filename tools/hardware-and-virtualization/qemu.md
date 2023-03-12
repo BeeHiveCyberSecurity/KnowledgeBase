@@ -1,3 +1,9 @@
+---
+description: >-
+  QEMU is a free and open-source emulator that allows users to run virtual
+  machines on a host computer with support for multiple architectures.
+---
+
 # 🇲🇭 qemu
 
 ### Packages and Binaries:
