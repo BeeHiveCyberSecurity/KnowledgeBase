@@ -51,6 +51,7 @@
   * [📔 crunch](tools/crunch.md)
   * [🔎 aflplusplus](tools/enumeration-and-lists/aflplusplus.md)
   * [🔎 ffuf](tools/enumeration-and-lists/ffuf.md)
+  * [📊 maltego](tools/enumeration-and-lists/maltego.md)
 * [🎩 Penetration Testing](tools/penetration-testing/README.md)
   * [🎩 beef-xss](tools/penetration-testing/beef-xss.md)
   * [🎩 wifite](tools/penetration-testing/wifite.md)
