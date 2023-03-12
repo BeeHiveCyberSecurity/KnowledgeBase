@@ -1,10 +1,23 @@
 ---
 description: >-
-  Firewall Builder consists of an object-oriented GUI and a set of policy
-  compilers for various firewall platforms.
+  FWBuilder simplifies firewall configuration management with a graphical
+  interface, object model, and simulation mode. Supports Linux iptables, Cisco
+  PIX/ASA.
 ---
 
 # 🧱 fwbuilder
+
+FWBuilder is a powerful and comprehensive security tool that is designed to simplify the process of building and managing firewall rulesets for various platforms. It is a graphical user interface that provides a convenient way to create, manage, and deploy complex firewall configurations with ease. FWBuilder has been designed to support a variety of firewall platforms, including Linux iptables, Cisco PIX/ASA, and many others.
+
+With FWBuilder, users can easily create and manage complex firewall configurations using a simple and intuitive graphical interface. The tool provides a wide range of features that make it easy to build, test, and deploy firewall rulesets. For example, the tool provides a rule wizard that guides users through the process of creating firewall rules, making it easy for even novice users to create effective rulesets. Additionally, FWBuilder includes a powerful object model that enables users to create reusable objects that can be used across multiple rulesets.
+
+One of the key benefits of FWBuilder is that it simplifies the process of managing complex firewall configurations. With FWBuilder, users can easily manage large numbers of rulesets and objects, making it easy to maintain consistency across multiple configurations. The tool provides a variety of tools that enable users to organize, search, and filter their firewall configurations, making it easy to find and modify specific rules.
+
+Another benefit of FWBuilder is that it enables users to test their firewall configurations before deploying them. The tool includes a built-in simulation mode that allows users to test their configurations without actually deploying them. This can be particularly useful when testing complex configurations that involve multiple rulesets and objects.
+
+FWBuilder also provides a variety of deployment options, making it easy to deploy firewall configurations to a variety of platforms. The tool includes built-in support for popular deployment options such as SCP, SFTP, and SSH, making it easy to deploy configurations to remote systems. Additionally, FWBuilder provides built-in support for popular version control systems such as Git, enabling users to easily manage changes to their firewall configurations over time.
+
+Overall, FWBuilder is a powerful and comprehensive security tool that provides users with a wide range of features for building, managing, and deploying complex firewall configurations. With its intuitive graphical interface, powerful object model, and extensive deployment options, FWBuilder is an essential tool for any organization that needs to manage complex firewall configurations.
 
 #### fwbuilder <a href="#fwbuilder" id="fwbuilder"></a>
 
