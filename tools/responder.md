@@ -1,4 +1,23 @@
+---
+description: >-
+  Responder is an open-source security tool for detecting/responding to network
+  attacks, with features like credential interception and MITM. Requires
+  expertise.
+---
+
 # 🌐 responder
+
+Responder is a powerful and open-source security tool designed for detecting and responding to network-based attacks. The tool is used for testing the security of various systems and services by simulating different attack scenarios.
+
+Responder works by passively listening for traffic on the network and analyzing it for potential vulnerabilities. The tool can detect and respond to several types of attacks, including SMB relay, NTLMv1 and NTLMv2, HTTP and HTTPS, FTP and FTPS, and several others.
+
+One of the main features of Responder is its ability to intercept and relay network traffic to authenticate credentials. This makes it a useful tool for capturing passwords, hashes, and other sensitive information. It can also be used to perform man-in-the-middle attacks, allowing an attacker to intercept and modify network traffic.
+
+Responser is compatible with both Windows and Linux operating systems and can be run from a command-line interface. The tool has an extensive range of options and settings that allow users to customize it to their specific needs. The tool also supports various output formats, making it easy to integrate with other security tools and processes.
+
+Despite its many capabilities, Responder is not a tool for novice users. Its complexity and power require a good understanding of networking and security concepts. Additionally, the tool can be used maliciously, making it important to use it responsibly and ethically.
+
+In summary, Responder is a versatile and powerful security tool that can be used for detecting and responding to network-based attacks. Its ability to intercept and relay network traffic, authenticate credentials, and perform man-in-the-middle attacks make it a valuable tool for testing network security. However, it should be used responsibly and with caution by knowledgeable security professionals.
 
 Specify the IP address to redirect to (`-i 192.168.1.202`), enabling the WPAD rogue proxy (`-w On`), answers for netbios wredir (`-r On`), and fingerprinting (`-f On`):
 
