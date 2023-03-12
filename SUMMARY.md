@@ -14,6 +14,7 @@
   * [Social Engineering](threats/human/social-engineering.md)
   * [Typosquatting](threats/human/typosquatting.md)
 * [➡ Disinformation](threats/disinformation/README.md)
+  * [⚔ Info Warfare](threats/disinformation/info-warfare.md)
   * [🔇 Whisper Campaigns](threats/disinformation/whisper-campaigns.md)
   * [📳 Push Polling](threats/disinformation/push-polling.md)
   * [👨 "Joe Jobs"](threats/disinformation/joe-jobs.md)
