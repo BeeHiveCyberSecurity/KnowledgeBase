@@ -7,8 +7,6 @@ description: >-
 
 # 👋 Welcome!
 
-<figure><img src=".gitbook/assets/GitBook Image.jpg" alt=""><figcaption></figcaption></figure>
-
 ### Here's what you'll find in this repository:
 
 • Detailed documentation and tutorials on various software, hardware, operating systems, and more
