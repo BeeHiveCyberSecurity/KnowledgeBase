@@ -1,3 +1,9 @@
+---
+description: >-
+  Apache2 is a popular open-source web server software used for hosting websites
+  and applications on the internet. It's reliable, secure and customizable.
+---
+
 # 🌐 apache2
 
 ### Packages and Binaries:
