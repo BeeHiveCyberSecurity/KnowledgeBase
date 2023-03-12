@@ -18,10 +18,10 @@
 
 * [🖲 Hardware](tools/hardware/README.md)
   * [🇲🇭 qemu](tools/hardware/qemu.md)
-* [☁ Database, Cloud, & Firewalls](tools/database-cloud-and-firewalls/README.md)
-  * [🗃 sqlmap](tools/database-cloud-and-firewalls/sqlmap.md)
-  * [⏺ cewl](tools/database-cloud-and-firewalls/cewl.md)
-  * [📈 gobuster](tools/database-cloud-and-firewalls/gobuster.md)
+* [☁ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
+  * [🗃 sqlmap](tools/sqlmap.md)
+  * [⏺ cewl](tools/database-and-cloud/cewl.md)
+  * [📈 gobuster](tools/database-and-cloud/gobuster.md)
   * [🧱 fwbuilder](tools/database-cloud-and-firewalls/fwbuilder.md)
 * [📰 Enumeration & Lists](tools/enumeration/README.md)
   * [📔 crunch](tools/crunch.md)
@@ -55,6 +55,7 @@
   * [🌐 netcat](tools/network/netcat.md)
   * [🌐 kismet](tools/networks-and-wireless/kismet.md)
   * [🌐 ubertooth](tools/networks-and-wireless/ubertooth.md)
+  * [🔏 libnfc](tools/networks-and-wireless/libnfc.md)
 
 ## 🖥 Operating Systems
 
