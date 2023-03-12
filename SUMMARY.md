@@ -42,7 +42,6 @@
   * [ℹ subfinder](tools/subfinder.md)
   * [ℹ dsniff](tools/dsniff.md)
   * [ℹ dnsrecon](tools/osint/dnsrecon.md)
-  * [ℹ sherlock](tools/osint/sherlock.md)
   * [ℹ dirb](tools/osint/dirb.md)
   * [ℹ nikto](tools/osint/nikto.md)
 * [🌐 Networks & Wireless](tools/network/README.md)
@@ -57,6 +56,8 @@
   * [🌐 kismet](tools/networks-and-wireless/kismet.md)
   * [🌐 ubertooth](tools/networks-and-wireless/ubertooth.md)
   * [🔏 libnfc](tools/networks-and-wireless/libnfc.md)
+* [🇸🇴 Social Media](tools/social-media/README.md)
+  * [ℹ sherlock](tools/social-media/sherlock.md)
 
 ## 🖥 Operating Systems
 
