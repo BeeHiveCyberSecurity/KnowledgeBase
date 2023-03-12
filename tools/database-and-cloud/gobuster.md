@@ -1,10 +1,23 @@
 ---
 description: >-
-  Gobuster is an open-source command-line tool used for directory and subdomain
-  enumeration by sending requests to a target and analyzing the responses.
+  Gobuster: open-source security tool for web app testing. Supports HTTP
+  methods, directory/file brute-force attacks, custom wordlists, and HTTP
+  authentication.
 ---
 
 # 📈 gobuster
+
+Gobuster is an open-source security tool designed for penetration testers, system administrators, and developers. The tool is widely used for identifying vulnerabilities and performing attacks on web applications. With its powerful features, Gobuster has become a popular tool in the information security industry.
+
+Gobuster offers a simple and intuitive command-line interface that allows users to easily configure and run scans. It supports various HTTP methods, including GET, HEAD, and POST, and allows users to specify the parameters and payloads to use in their attacks. The tool also includes various plugins that can be used to extend its functionality, such as DNS resolution and SSL certificate verification.
+
+One of the key features of Gobuster is its ability to perform directory and file brute-force attacks. This means that it can scan a web server for hidden files and directories that may contain sensitive information. Gobuster can also perform recursive scans, which means that it can follow directories and subdirectories to ensure that no files or directories are missed.
+
+Gobuster also includes support for custom wordlists. This allows users to specify their own list of words to use in their brute-force attacks. The tool also includes a built-in list of common directories and files that can be used to quickly identify vulnerabilities.
+
+In addition to its brute-force capabilities, Gobuster also includes support for HTTP authentication. This means that it can authenticate to a web server using various methods, including basic authentication and NTLM authentication. This feature can be useful for testing the security of web applications that require user authentication.
+
+Overall, Gobuster is a powerful and versatile tool that can be used for a wide range of security testing tasks. Its simple and intuitive interface, combined with its powerful features, make it a popular choice among security professionals. Whether you are a penetration tester, system administrator, or developer, Gobuster is a must-have tool in your arsenal.
 
 ### gobuster Usage Examples <a href="#gobuster-usage-examples" id="gobuster-usage-examples"></a>
 
