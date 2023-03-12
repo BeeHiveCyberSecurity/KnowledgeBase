@@ -40,6 +40,7 @@
   * [⏭ freerdp2](tools/hardware-and-virtualization/freerdp2.md)
   * [⚙ util-linux](tools/hardware-and-virtualization/util-linux.md)
   * [📦 llvm-defaults](tools/hardware-and-virtualization/llvm-defaults.md)
+  * [💾 lvm2](tools/hardware-and-virtualization/lvm2.md)
 * [☁ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
   * [🗃 sqlmap](tools/sqlmap.md)
   * [⏺ cewl](tools/database-and-cloud/cewl.md)
