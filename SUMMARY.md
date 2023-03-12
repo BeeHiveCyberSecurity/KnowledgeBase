@@ -39,14 +39,12 @@
   * [🇲🇭 qemu](tools/hardware-and-virtualization/qemu.md)
   * [⏭ freerdp2](tools/hardware-and-virtualization/freerdp2.md)
   * [⚙ util-linux](tools/hardware-and-virtualization/util-linux.md)
-  * [📦 llvm-defaults](tools/hardware-and-virtualization/llvm-defaults.md)
   * [💾 lvm2](tools/hardware-and-virtualization/lvm2.md)
 * [☁ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
   * [🗃 sqlmap](tools/sqlmap.md)
   * [⏺ cewl](tools/database-and-cloud/cewl.md)
   * [📈 gobuster](tools/database-and-cloud/gobuster.md)
   * [🧱 fwbuilder](tools/database-cloud-and-firewalls/fwbuilder.md)
-  * [📦 git](tools/database-cloud-and-firewalls/git.md)
 * [📰 Enumeration & Lists](tools/enumeration/README.md)
   * [📔 crunch](tools/crunch.md)
   * [🔎 aflplusplus](tools/enumeration-and-lists/aflplusplus.md)
@@ -81,7 +79,6 @@
   * [🌐 netcat](tools/network/netcat.md)
   * [🌐 kismet](tools/networks-and-wireless/kismet.md)
   * [🌐 ubertooth](tools/networks-and-wireless/ubertooth.md)
-  * [🔏 libnfc](tools/networks-and-wireless/libnfc.md)
   * [🌐 routersploit](tools/networks-and-wireless/routersploit.md)
   * [🌐 apache2](tools/networks-and-wireless/apache2.md)
   * [🌐 ettercap](tools/networks-and-wireless/ettercap.md)
@@ -89,6 +86,10 @@
   * [🌐 freeradius](tools/networks-and-wireless/freeradius.md)
 * [🇸🇴 Social Media](tools/social-media/README.md)
   * [ℹ sherlock](tools/osint/sherlock.md)
+* [🧩 Miscellaneous](tools/miscellaneous/README.md)
+  * [📦 git](tools/miscellaneous/git.md)
+  * [🔏 libnfc](tools/miscellaneous/libnfc.md)
+  * [📦 llvm-defaults](tools/miscellaneous/llvm-defaults.md)
 
 ## 🖥 Operating Systems
 
