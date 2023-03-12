@@ -1,3 +1,9 @@
+---
+description: >-
+  Git is a version control system used for tracking changes in source code
+  during software development. It allows collaboration and enables rollbacks.
+---
+
 # 📦 git
 
 #### git <a href="#git" id="git"></a>
