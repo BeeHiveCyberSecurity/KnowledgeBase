@@ -1,11 +1,25 @@
 ---
 description: >-
-  SQLMap is a free and open-source penetration testing tool that automates the
-  process of detecting and exploiting SQL injection vulnerabilities in web
-  applications.
+  SQLMap automates detection and exploitation of SQL injection vulnerabilities
+  in web apps. Configurable, customizable, and user-friendly. Essential for web
+  security.
 ---
 
 # 🗃 sqlmap
+
+SQLMap is a powerful security tool designed to automate the process of detecting and exploiting SQL injection vulnerabilities in web applications. Developed by Bernardo Damele and Miroslav Stampar, SQLMap is an open-source tool that has become increasingly popular among penetration testers, security researchers, and web developers who want to secure their web applications against SQL injection attacks.
+
+SQL injection is a type of attack that allows hackers to inject malicious SQL code into a web application's database, giving them access to sensitive information such as usernames, passwords, and credit card numbers. SQLMap automates the process of detecting these vulnerabilities, making it easier for developers to identify and fix them.
+
+One of the key features of SQLMap is its ability to detect a wide range of SQL injection vulnerabilities, including blind SQL injection, error-based SQL injection, and time-based SQL injection. It can also detect and exploit second-order SQL injection vulnerabilities, which are more difficult to detect and exploit than traditional SQL injection vulnerabilities.
+
+SQLMap's user interface is straightforward and easy to use, making it an excellent choice for developers who are new to SQL injection testing. The tool comes with a range of customization options that allow users to tailor their tests to their specific needs. For example, users can specify the type of database they want to test, the type of injection technique they want to use, and the depth of their tests.
+
+SQLMap is also highly configurable, with a wide range of options for customizing the tool's behavior. Users can specify the level of verbosity they want to see in their output, configure their HTTP requests to use specific headers or cookies, and even specify the number of threads they want to use for their tests.
+
+Another important feature of SQLMap is its ability to automate the process of exploiting SQL injection vulnerabilities. Once a vulnerability has been detected, SQLMap can automatically exploit it to retrieve sensitive data from the target database. This makes it an incredibly powerful tool for testing the security of web applications.
+
+Overall, SQLMap is an essential tool for anyone who wants to secure their web applications against SQL injection attacks. With its powerful detection and exploitation capabilities, customizable options, and user-friendly interface, it's an excellent choice for security researchers, penetration testers, and web developers alike.
 
 ### sqlmap Usage Example <a href="#sqlmap-usage-example" id="sqlmap-usage-example"></a>
 
