@@ -1,6 +1,10 @@
-# ⚫ Black Propaganda
+---
+description: >-
+  Black propaganda is a form of propaganda that aims to deceive people by
+  spreading false information or attributing it to a false source.
+---
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/1905\_Velikoe\_v\_malom\_-\_Serge\_Nilus\_-\_Title\_page\_-\_Facsimile\_-\_1920.jpg/170px-1905\_Velikoe\_v\_malom\_-\_Serge\_Nilus\_-\_Title\_page\_-\_Facsimile\_-\_1920.jpg)
+# ⚫ Black Propaganda
 
 Black propaganda is a form of propaganda intended to create the impression that it was created by those it is supposed to discredit. Black propaganda contrasts with gray propaganda, which does not identify its source, as well as white propaganda, which does not disguise its origins at all. It is typically used to vilify or embarrass the enemy through misrepresentation.
 
