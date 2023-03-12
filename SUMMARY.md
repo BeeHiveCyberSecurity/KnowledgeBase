@@ -110,6 +110,7 @@
   * [Getting Started](operating-systems/developer-guide/getting-started/README.md)
     * [Setup](operating-systems/developer-guide/getting-started/setup.md)
   * [Technology](operating-systems/developer-guide/technology.md)
+  * [Cinnamon](operating-systems/developer-guide/cinnamon.md)
   * [Mint Tools](operating-systems/developer-guide/mint-tools.md)
 * [🐧 Kali Linux](operating-systems/kali-linux/README.md)
   * [Installation](operating-systems/kali-linux/installation/README.md)

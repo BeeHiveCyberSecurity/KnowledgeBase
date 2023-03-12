@@ -1,6 +1,6 @@
 # Mint Tools
 
-## Mint tools
+
 
 The first Mint tools were developed around 2006 when the Linux Mint project was born. Throughout the years, new tools were added to Linux Mint to implement functions that it was missing, or to make the user experience easier and more comfortable.
 
