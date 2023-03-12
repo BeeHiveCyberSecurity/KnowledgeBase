@@ -11,7 +11,7 @@ description: >-
 
 ### Here's what you'll find in this repository:
 
-• Detailed documentation and tutorials on various topics
+• Detailed documentation and tutorials on various software, hardware, operating systems, and more
 
 • Sample code and projects that demonstrate practical applications of the information provided
 
