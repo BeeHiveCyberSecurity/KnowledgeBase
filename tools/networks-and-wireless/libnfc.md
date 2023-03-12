@@ -7,6 +7,20 @@ description: >-
 
 # 🔏 libnfc
 
+Libnfc is a free and open-source software library that provides a convenient and secure way to communicate with Near Field Communication (NFC) devices. NFC technology is widely used in various applications such as contactless payment systems, access control systems, public transportation, and electronic ticketing. Libnfc enables developers to easily build applications that interact with NFC devices without needing to understand the low-level details of NFC protocol.
+
+Libnfc is designed to work with various NFC readers and tags, including ISO/IEC 14443 Type A/B, MIFARE, FeliCa, and NFC Forum Type 2 and 4 tags. The library supports a wide range of platforms, including Linux, Windows, and macOS, and is written in the C programming language.
+
+One of the key features of libnfc is its support for secure communication with NFC devices. The library includes support for several cryptographic protocols, including DES, 3DES, and AES, which can be used to encrypt and decrypt data exchanged with NFC devices. This ensures that sensitive data, such as credit card numbers and personal identification information, remains secure and confidential.
+
+In addition to security features, libnfc also provides developers with a simple and easy-to-use API for working with NFC devices. The library includes functions for reading and writing data to NFC tags, as well as for performing other common tasks such as authentication and key management.
+
+Libnfc is also highly customizable, allowing developers to configure the library to work with specific NFC readers and tags. This enables developers to optimize their applications for specific use cases and to ensure that they work seamlessly with the NFC devices they are targeting.
+
+One potential limitation of libnfc is that it requires a certain level of technical expertise to use effectively. Developers need to have a good understanding of the NFC protocol and cryptography to make the most of the library's features. However, there is a large and active community of developers who use and contribute to libnfc, so there are many resources available for those who need help.
+
+Overall, libnfc is an excellent tool for developers who need to work with NFC devices. Its support for secure communication, customizable features, and easy-to-use API make it a powerful and flexible tool for building applications that interact with NFC devices.
+
 #### libnfc-bin <a href="#libnfc-bin" id="libnfc-bin"></a>
 
 Supports most hardware based on the NXP PN531, PN532 or PN533 controller chips.
