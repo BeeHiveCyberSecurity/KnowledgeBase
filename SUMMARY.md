@@ -16,6 +16,8 @@
 
 ## ⚙ Tools
 
+* [👁 Digital Forensics](tools/digital-forensics/README.md)
+  * [💾 afflib](tools/digital-forensics/afflib.md)
 * [🇧🇼 Reverse Engineering](tools/reverse-engineering/README.md)
   * [📎 radare2](tools/reverse-engineering/radare2.md)
 * [🖲 Hardware & Virtualization](tools/hardware-and-virtualization/README.md)
