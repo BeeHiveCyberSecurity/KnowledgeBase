@@ -14,18 +14,31 @@ Athena OS
 
 #### 🏅Born for InfoSec Professionals, Bug Bounty Hunters, Passionate Students and Spicy Hackers🏅
 
-#### 💞 [Download Athena OS "Parthenos" Now ](https://github.com/Athena-OS/athena-iso/releases/latest)�
+#### [Download Athena OS](https://github.com/Athena-OS/athena-iso/releases/latest)
 
-#### Why Athena?
+## Why Athena?
 
-* _Pentesting_: Athena can access to [BlackArch repository](https://blackarch.org/tools.html), the **biggest pentesting tool warehouse**.
-* _User-oriented_: if Arch is born for experienced users, Athena is conceived for **decreasing complexity** and **improving user experience**.
-* _Lightweight_: Athena **optimizes the disk space consumption** by retrieving the tools you need only when you use them. Tools you never use won't be stored and the space is only used for what you really need.
-* _Performance_: Athena is based on Arch Linux so it is configured to load the **bare minimum** for its purpose. No useless services, no useless modules consuming your resources.
-* _Flexibility_: for its Arch nature, Athena is **flexible** and can easily evolve to the new needs of the users.
 
-\
 
+### Penetration Testing
+
+Athena can access to [BlackArch repository](https://blackarch.org/tools.html), the **biggest penetration testing tool warehouse**.
+
+### User-Oriented Experience
+
+If Arch is born for experienced users, Athena is conceived for **decreasing complexity** and **improving user experience**.
+
+### Lightweight
+
+Athena **optimizes the disk space consumption** by retrieving the tools you need only when you use them. Tools you never use won't be stored and the space is only used for what you really need.
+
+### Performance
+
+Athena is based on [ArchLinux](arch-linux/) so it is configured to load the **bare minimum** for its purpose. No useless services, no useless modules consuming your resources.
+
+### Flexibility
+
+Thanks to its' Arch-infused codebase, Athena is **flexible** and can easily evolve to the new needs of the users.
 
 ### Sponsors
 
@@ -34,19 +47,13 @@ Dedicating my spare time to Athena OS in order to keep it stable, updated, flawl
 ### 🥉 Bronze Sponsors 🥉
 
 [@Martian1337](https://github.com/Martian1337)\
-[@Biaogo](https://github.com/Biaogo)\
-
-
-\
-
+[@Biaogo](https://github.com/Biaogo)
 
 ### ☕ Coffee Sponsors ☕
 
 @IlMioAmicoAle\
 [@SinSiXX](https://github.com/SinSiXX)\
 [@anker023](https://github.com/anker023)\
-
-
 \
 Do you like it too? You may [become a sponsor by offering me one coffee ☕ / month](https://github.com/sponsors/Athena-OS)!
 
