@@ -5,11 +5,9 @@ description: >-
   and organizations to succeed and learn.
 ---
 
-# Welcome!
+# 👋 Welcome!
 
-
-
-
+<figure><img src=".gitbook/assets/GitBook Image.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Here's what you'll find in this repository:
 
