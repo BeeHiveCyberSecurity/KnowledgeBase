@@ -4,9 +4,6 @@
 
 ## 📛 Threats
 
-* [➡ Disinformation](threats/disinformation/README.md)
-  * [🟢 Greenwashing](threats/disinformation/greenwashing.md)
-  * [🔵 Bluewashing](threats/disinformation/bluewashing.md)
 * [👩💻 Software](threats/software/README.md)
   * [Malware](threats/software/malware.md)
   * [Ransomware](threats/software/ransomware.md)
@@ -16,6 +13,11 @@
   * [Phishing](threats/human/phishing.md)
   * [Social Engineering](threats/human/social-engineering.md)
   * [Typosquatting](threats/human/typosquatting.md)
+* [➡ Disinformation](threats/disinformation/README.md)
+  * [🟢 Greenwashing](threats/disinformation/greenwashing.md)
+  * [🔵 Bluewashing](threats/disinformation/bluewashing.md)
+  * [⚫ Black Propaganda](threats/disinformation/black-propaganda.md)
+  * [⚪ White Propaganda](threats/disinformation/white-propaganda.md)
 
 ## ⚙ Tools
 
