@@ -4,6 +4,8 @@
 
 ## 📛 Threats
 
+* [➡ Disinformation](threats/disinformation/README.md)
+  * [🟢 Greenwashing](threats/disinformation/greenwashing.md)
 * [👩💻 Software](threats/software/README.md)
   * [Malware](threats/software/malware.md)
   * [Ransomware](threats/software/ransomware.md)
