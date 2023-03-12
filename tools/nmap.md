@@ -1,11 +1,24 @@
 ---
 description: >-
-  Nmap (Network Mapper) is a powerful and widely used network exploration and
-  security auditing tool. It is designed to scan and map networks and systems
-  for open ports, available services, and vulns.
+  Nmap: a free, open-source security tool for network exploration and auditing;
+  identifies hosts, open ports, services, OS, and potential vulnerabilities.
 ---
 
 # 🌐 nmap
+
+Nmap, short for Network Mapper, is a free and open-source security tool used for network exploration, management, and security auditing. It is designed to provide users with a comprehensive and accurate view of a network's structure, devices, and services. Nmap uses a variety of techniques to identify active hosts, operating systems, open ports, and running services.
+
+One of the primary features of Nmap is its ability to conduct "port scanning," which is the process of scanning a host or network for open ports. This is done by sending packets to various ports on the target machine, and analyzing the responses received. The information gathered from port scanning can be used to determine which services are running on the target machine, and identify potential vulnerabilities that could be exploited by an attacker.
+
+Nmap also has the ability to detect the operating system (OS) of a target machine. This is done by analyzing the responses received from the machine during the port scanning process. Nmap uses various techniques to identify the OS, such as analyzing the TTL values of packets received, examining the responses to TCP/IP fingerprinting, and analyzing the behavior of the target machine during the scanning process.
+
+Another feature of Nmap is its ability to perform "service enumeration," which is the process of identifying the services that are running on a target machine. This is done by analyzing the responses received from the machine during the port scanning process. Nmap can identify a wide variety of services, including HTTP, SMTP, FTP, DNS, SSH, and more.
+
+In addition to these features, Nmap also includes a variety of other tools and features that make it a valuable security tool. For example, it includes the ability to perform "traceroute" functionality, which can be used to determine the path that packets take between two hosts. It also includes the ability to perform "ping scanning," which is the process of sending ICMP packets to a target machine to determine if it is active.
+
+Nmap can be used by both security professionals and system administrators to identify potential vulnerabilities and security risks in their network. It can also be used by attackers to identify potential targets and vulnerabilities in a network. However, it should be noted that using Nmap for malicious purposes is illegal and can result in severe legal consequences.
+
+Overall, Nmap is a powerful and versatile security tool that can be used to provide valuable information about a network's structure and security posture. Its ease of use, comprehensive feature set, and open-source nature make it a popular choice among security professionals and enthusiasts alike.
 
 ### nmap Usage Example <a href="#nmap-usage-example" id="nmap-usage-example"></a>
 
