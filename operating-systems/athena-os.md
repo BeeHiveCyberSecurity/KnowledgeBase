@@ -22,7 +22,7 @@ Athena OS
 
 ### Penetration Testing
 
-Athena can access to [BlackArch repository](https://blackarch.org/tools.html), the **biggest penetration testing tool warehouse**.
+Athena can access the [BlackArch repository](https://blackarch.org/tools.html), the **biggest penetration testing tool repository**. This gives Athena OS users access to hundreds, if not thousands, of the most popular security and penetration-testing toolkits.&#x20;
 
 ### User-Oriented Experience
 
@@ -34,7 +34,7 @@ Athena **optimizes the disk space consumption** by retrieving the tools you need
 
 ### Performance
 
-Athena is based on [ArchLinux](arch-linux/) so it is configured to load the **bare minimum** for its purpose. No useless services, no useless modules consuming your resources.
+Athena is based on [ArchLinux](arch-linux/), so it is configured to load the **bare minimum** for its purpose. No useless services, no useless modules consuming your resources.
 
 ### Flexibility
 
