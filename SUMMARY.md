@@ -31,7 +31,7 @@
   * [🎩 beef-xss](tools/penetration-testing/beef-xss.md)
   * [🎩 wifite](tools/penetration-testing/wifite.md)
   * [🎩 burpsuite](tools/penetration-testing/burpsuite.md)
-  * [🎩 metasploit-framework](tools/penetration-testing/metasploit-framework.md)
+  * [🎩 metasploit-framework](tools/metasploit-framework.md)
 * [🔐 Passwords & Auth](tools/passwords-and-auth/README.md)
   * [🔐 john](tools/john.md)
   * [🔐 hashcat](tools/hashcat.md)
@@ -62,6 +62,7 @@
 
 ## 🖥 Operating Systems
 
+* [🌳 Athena OS](operating-systems/athena-os.md)
 * [🐧 Ubuntu](operating-systems/ubuntu/README.md)
   * [Installation](operating-systems/ubuntu/installation/README.md)
     * [Switching](operating-systems/ubuntu/installation/switching/README.md)
