@@ -59,6 +59,7 @@
   * [🌐 ubertooth](tools/networks-and-wireless/ubertooth.md)
   * [🔏 libnfc](tools/networks-and-wireless/libnfc.md)
   * [🌐 routersploit](tools/networks-and-wireless/routersploit.md)
+  * [🌐 apache2](tools/networks-and-wireless/apache2.md)
 * [🇸🇴 Social Media](tools/social-media/README.md)
   * [ℹ sherlock](tools/osint/sherlock.md)
 
