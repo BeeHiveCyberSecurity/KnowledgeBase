@@ -24,6 +24,7 @@
   * [⏺ cewl](tools/database-and-cloud/cewl.md)
   * [📈 gobuster](tools/database-and-cloud/gobuster.md)
   * [🧱 fwbuilder](tools/database-cloud-and-firewalls/fwbuilder.md)
+  * [📦 git](tools/database-cloud-and-firewalls/git.md)
 * [📰 Enumeration & Lists](tools/enumeration/README.md)
   * [📔 crunch](tools/crunch.md)
   * [🔎 aflplusplus](tools/enumeration-and-lists/aflplusplus.md)
