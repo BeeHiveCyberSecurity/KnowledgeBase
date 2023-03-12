@@ -1,4 +1,26 @@
+---
+description: >-
+  Nikto is an open-source web server scanner that detects vulnerabilities and
+  misconfigurations. It sends HTTP requests and provides a detailed report.
+---
+
 # ℹ nikto
+
+Nikto is a free and open-source web server scanner that is widely used for detecting vulnerabilities and security issues in web applications. It is designed to perform comprehensive scans of web servers and identify potential security risks that could be exploited by attackers.
+
+Nikto was developed in Perl and is distributed under the GPL license. It is capable of scanning web servers running on various operating systems, including Windows, Linux, and macOS. It is also compatible with a wide range of web servers, including Apache, IIS, and Nginx.
+
+The tool is primarily used by security professionals, web developers, and system administrators to assess the security posture of web servers and web applications. Nikto uses a database of known vulnerabilities and attacks to detect potential security issues and provide a detailed report of its findings.
+
+Some of the key features of Nikto include the ability to scan multiple web servers simultaneously, support for SSL encryption, integration with other security tools such as Nmap, and the ability to customize scans based on specific requirements. It also provides a command-line interface that can be used to perform automated scans.
+
+Nikto scans web servers by sending HTTP requests to the server and analyzing the responses. It performs a range of tests to detect vulnerabilities such as outdated software, insecure configurations, default credentials, and other potential security issues. The tool also checks for common misconfigurations such as directory listings, insecure headers, and information leakage.
+
+The output of Nikto is presented in a comprehensive report that includes a summary of the findings, detailed information about each vulnerability, and recommendations for remediation. The report also includes a severity rating for each vulnerability, which can be used to prioritize remediation efforts.
+
+While Nikto is a powerful security tool, it is not without its limitations. It can produce a high number of false positives, which can make it difficult to distinguish between real vulnerabilities and false alarms. Additionally, the tool can be resource-intensive, and its scans can sometimes take a long time to complete.
+
+Overall, Nikto is an essential tool for anyone involved in web application security. It is easy to use, highly customizable, and provides valuable insights into the security posture of web servers and web applications. By using Nikto to scan for vulnerabilities, security professionals can proactively identify and remediate security issues before they can be exploited by attackers.
 
 ### Nikto Usage Example <a href="#nikto-usage-example" id="nikto-usage-example"></a>
 

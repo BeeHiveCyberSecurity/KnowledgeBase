@@ -1,4 +1,22 @@
+---
+description: >-
+  TheHarvester: automated reconnaissance tool for gathering intel on targets via
+  public/private data sources. Flexible and user-friendly.
+---
+
 # ℹ theharvester
+
+TheHarvester is a powerful security tool designed to help individuals and organizations gather valuable intelligence from a variety of sources. Whether you're a security professional, a researcher, or just someone who wants to keep an eye on potential threats, TheHarvester can help you find the information you need to stay informed and protected.
+
+At its core, TheHarvester is a reconnaissance tool that leverages a variety of public and private data sources to gather information about a specific target. This information can include email addresses, domain names, IP addresses, and other details that can be used to map out a target's online footprint and identify potential vulnerabilities.
+
+One of the key strengths of TheHarvester is its ability to automate much of the data gathering process. Using a combination of search engine queries, DNS lookups, and other techniques, TheHarvester can quickly and efficiently gather a wealth of information about a target with minimal effort on the part of the user.
+
+Another advantage of TheHarvester is its flexibility. The tool is highly customizable, allowing users to fine-tune their searches and select specific data sources to query. This can be particularly useful for researchers or security professionals who need to gather information from niche sources or who want to focus their efforts on specific areas of interest.
+
+Despite its power and flexibility, TheHarvester is also incredibly user-friendly. The tool features a simple and intuitive interface that makes it easy for even novice users to get started. And with detailed documentation and a supportive user community, help is always available for those who need it.
+
+Of course, like any security tool, TheHarvester is only as effective as the user who wields it. But with its powerful features, flexible options, and user-friendly interface, TheHarvester is a valuable addition to any security toolkit. Whether you're looking to gather intelligence on potential threats or simply keep tabs on your own online presence, TheHarvester can help you stay one step ahead of the game.
 
 ### theharvester Usage Example <a href="#theharvester-usage-example" id="theharvester-usage-example"></a>
 
