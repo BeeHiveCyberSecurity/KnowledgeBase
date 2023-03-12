@@ -37,6 +37,7 @@
   * [🇲🇭 qemu](tools/hardware-and-virtualization/qemu.md)
   * [⏭ freerdp2](tools/hardware-and-virtualization/freerdp2.md)
   * [⚙ util-linux](tools/hardware-and-virtualization/util-linux.md)
+  * [📦 llvm-defaults](tools/hardware-and-virtualization/llvm-defaults.md)
 * [☁ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
   * [🗃 sqlmap](tools/sqlmap.md)
   * [⏺ cewl](tools/database-and-cloud/cewl.md)
