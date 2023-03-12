@@ -73,6 +73,7 @@
   * [🌐 routersploit](tools/networks-and-wireless/routersploit.md)
   * [🌐 apache2](tools/networks-and-wireless/apache2.md)
   * [🌐 ettercap](tools/networks-and-wireless/ettercap.md)
+  * [🌐 bettercap](tools/networks-and-wireless/bettercap.md)
 * [🇸🇴 Social Media](tools/social-media/README.md)
   * [ℹ sherlock](tools/osint/sherlock.md)
 
