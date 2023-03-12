@@ -1,10 +1,6 @@
----
-description: >-
-  Gobuster is an open-source command-line tool used for directory and subdomain
-  enumeration by sending requests to a target and analyzing the responses.
----
-
 # 📈 gobuster
+
+### Video <a href="#video" id="video"></a>
 
 ### gobuster Usage Examples <a href="#gobuster-usage-examples" id="gobuster-usage-examples"></a>
 

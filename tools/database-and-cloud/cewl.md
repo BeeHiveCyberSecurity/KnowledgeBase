@@ -1,9 +1,3 @@
----
-description: >-
-  CEWL is a command-line tool that generates custom wordlists by spidering a
-  target website and extracting unique words and phrases from its content.
----
-
 # ⏺ cewl
 
 Scan to a depth of 2 (`-d 2`) and use a minimum word length of 5 (`-m 5`), save the words to a file (`-w docswords.txt`), targeting the given URL (`https://example.com`):

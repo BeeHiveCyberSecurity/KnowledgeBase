@@ -16,17 +16,15 @@
 
 ## ⚙ Tools
 
-* [🖲 Hardware & Virtualization](tools/hardware-and-virtualization/README.md)
-  * [🇲🇭 qemu](tools/hardware-and-virtualization/qemu.md)
-* [☁ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
+* [🖲 Hardware](tools/hardware/README.md)
+  * [🇲🇭 qemu](tools/hardware/qemu.md)
+* [☁ Database & Cloud](tools/database-and-cloud/README.md)
   * [🗃 sqlmap](tools/sqlmap.md)
   * [⏺ cewl](tools/database-and-cloud/cewl.md)
   * [📈 gobuster](tools/database-and-cloud/gobuster.md)
-  * [🧱 fwbuilder](tools/database-cloud-and-firewalls/fwbuilder.md)
 * [📰 Enumeration & Lists](tools/enumeration/README.md)
   * [📔 crunch](tools/crunch.md)
-  * [🔎 aflplusplus](tools/enumeration-and-lists/aflplusplus.md)
-  * [🔎 ffuf](tools/enumeration-and-lists/ffuf.md)
+  * [🧩 aflplusplus](tools/enumeration-and-lists/aflplusplus.md)
 * [🎩 Penetration Testing](tools/penetration-testing/README.md)
   * [🎩 beef-xss](tools/penetration-testing/beef-xss.md)
   * [🎩 wifite](tools/penetration-testing/wifite.md)
@@ -56,7 +54,6 @@
   * [🌐 netcat](tools/network/netcat.md)
   * [🌐 kismet](tools/networks-and-wireless/kismet.md)
   * [🌐 ubertooth](tools/networks-and-wireless/ubertooth.md)
-  * [🔏 libnfc](tools/networks-and-wireless/libnfc.md)
 
 ## 🖥 Operating Systems
 

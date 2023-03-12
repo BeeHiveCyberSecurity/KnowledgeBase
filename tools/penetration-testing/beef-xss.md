@@ -1,10 +1,3 @@
----
-description: >-
-  BeEF-XSS (Browser Exploitation Framework) is a penetration testing tool that
-  allows the attacker to exploit vulnerabilities in web browsers and gain
-  control over them.
----
-
 # 🎩 beef-xss
 
 ### Screenshots <a href="#screenshots" id="screenshots"></a>

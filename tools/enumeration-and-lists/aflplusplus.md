@@ -1,10 +1,4 @@
----
-description: >-
-  AFL++PlusPlus is an advanced fuzzing framework based on AFL that offers
-  additional features such as instrumentation, mutators, and more.
----
-
-# 🔎 aflplusplus
+# 🧩 aflplusplus
 
 ### Packages and Binaries:
 
