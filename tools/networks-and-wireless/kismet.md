@@ -6,6 +6,20 @@ description: >-
 
 # 🌐 kismet
 
+Kismet is a powerful security tool designed to detect, monitor and analyze wireless networks. It is an open-source tool, available on multiple platforms, including Linux, Windows, and macOS, and provides a comprehensive suite of features for wireless network security analysis.
+
+Kismet can be used to detect a wide range of wireless network protocols, including Wi-Fi, Bluetooth, ZigBee, and many others. It has a powerful packet capture engine that can capture and decode wireless network packets in real-time, allowing security professionals to identify vulnerabilities and potential attacks. Additionally, it can also identify and locate rogue access points that may be used for malicious purposes.
+
+One of the key features of Kismet is its ability to track and log wireless network activity. It can store data on all detected wireless networks, including information about the devices connected to them and the packets being transmitted. This data can be used for analysis, identifying patterns and trends, and detecting potential security threats.
+
+Kismet also provides advanced visualization tools, allowing security professionals to view wireless network activity in real-time. It includes a range of visualizations, including heat maps, graphs, and charts, which can be used to identify areas of network congestion, potential security risks, and other issues.
+
+Another important feature of Kismet is its ability to support multiple wireless network adapters simultaneously. This makes it possible to monitor and analyze multiple networks at the same time, providing a comprehensive view of wireless network activity across an organization.
+
+Kismet also includes advanced security features, such as encryption and authentication support, to help ensure the security of wireless network traffic. It can also be used to test the security of wireless networks, including testing for vulnerabilities and weaknesses in network configurations.
+
+Overall, Kismet is a powerful and flexible security tool that can provide organizations with comprehensive visibility and control over their wireless network security. Its open-source nature, combined with its broad range of features and ease of use, makes it a popular choice for security professionals and IT administrators alike.
+
 ### Screenshots <a href="#screenshots" id="screenshots"></a>
 
 ```
