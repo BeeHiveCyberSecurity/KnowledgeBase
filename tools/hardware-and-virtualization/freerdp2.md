@@ -1,3 +1,9 @@
+---
+description: >-
+  FreeRDP2 is an open-source remote desktop protocol (RDP) client library and
+  server that enables users to remotely access and control other computers.
+---
+
 # ⏭ freerdp2
 
 ### Packages and Binaries:

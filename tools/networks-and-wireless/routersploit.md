@@ -1,3 +1,9 @@
+---
+description: >-
+  RouterSploit is an open-source security tool designed to identify and exploit
+  vulnerabilities in routers and other network devices. It's written in Python.
+---
+
 # 🌐 routersploit
 
 ### RouterSploit Usage Examples <a href="#routersploit-usage-examples" id="routersploit-usage-examples"></a>
