@@ -1,3 +1,10 @@
+---
+description: >-
+  Wifite is a wireless network auditing tool that automates the process of
+  capturing wireless packets, cracking WEP and WPA/WPA2-PSK encryption keys, and
+  monitoring network activity.
+---
+
 # 🎩 wifite
 
 ### wifite Usage Example <a href="#wifite-usage-example" id="wifite-usage-example"></a>

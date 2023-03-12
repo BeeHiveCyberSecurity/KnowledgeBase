@@ -1,3 +1,10 @@
+---
+description: >-
+  BurpSuite is a web application security testing tool that enables users to
+  intercept, modify, and analyze web traffic, identify vulnerabilities, and
+  automate attacks.
+---
+
 # 🎩 burpsuite
 
 ### Screenshots <a href="#screenshots" id="screenshots"></a>

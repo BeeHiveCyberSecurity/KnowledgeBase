@@ -1,3 +1,9 @@
+---
+description: >-
+  John the Ripper, often called "john," is a popular password cracking tool that
+  uses dictionary attacks and brute-force methods to crack passwords.
+---
+
 # 🔐 john
 
 ### Mailer <a href="#mailer" id="mailer"></a>
