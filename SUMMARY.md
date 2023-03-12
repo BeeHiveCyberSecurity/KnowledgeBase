@@ -16,6 +16,8 @@
 
 ## ⚙ Tools
 
+* [🖲 Hardware](tools/hardware/README.md)
+  * [🇲🇭 qemu](tools/hardware/qemu.md)
 * [☁ Database & Cloud](tools/database-and-cloud/README.md)
   * [🗃 sqlmap](tools/sqlmap.md)
   * [⏺ cewl](tools/database-and-cloud/cewl.md)
