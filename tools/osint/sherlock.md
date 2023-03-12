@@ -1,4 +1,20 @@
+---
+description: >-
+  Sherlock is a Python-based open-source security tool that automates the
+  identification of usernames across websites and social media platforms.
+---
+
 # ℹ sherlock
+
+Sherlock is an open-source tool designed for digital forensic investigation and penetration testing. It is used to identify potential security weaknesses and vulnerabilities in web applications, networks, and online accounts. The tool was developed by Rastamouse, a security researcher, and is written in Python.
+
+The primary purpose of Sherlock is to help security analysts automate the process of searching for and identifying usernames and other sensitive information that may be exposed online. It works by using multiple APIs to search various websites and social media platforms for information related to a specific username or email address. Sherlock can be used for both offensive and defensive security purposes, allowing security analysts to identify potential attack vectors and improve the security posture of their organizations.
+
+One of the primary features of Sherlock is its ability to scan multiple websites simultaneously, which can save a considerable amount of time when conducting a comprehensive security assessment. The tool also has the ability to search for and identify usernames across multiple social media platforms, including Twitter, Instagram, and LinkedIn. This information can be invaluable for identifying potential social engineering targets or for building a comprehensive profile of a target during an investigation.
+
+One of the advantages of Sherlock is that it is highly customizable and can be easily modified to suit the specific needs of the user. The tool can be extended with custom modules, allowing security analysts to add new functionality or integrate with other security tools.
+
+Overall, Sherlock is a powerful and versatile security tool that can be used for a wide range of security purposes, from identifying potential attack vectors to conducting comprehensive security assessments. Its open-source nature and customizable design make it a popular choice among security professionals and researchers. However, it should be noted that the use of Sherlock for offensive purposes may be illegal and is not recommended without the proper legal and ethical considerations.
 
 ### Packages and Binaries:
 
