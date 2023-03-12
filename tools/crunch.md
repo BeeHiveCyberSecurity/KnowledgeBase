@@ -1,3 +1,9 @@
+---
+description: >-
+  Crunch is a command-line tool that generates custom wordlists based on
+  specified criteria such as character sets, length, and patterns.
+---
+
 # 📔 crunch
 
 ### crunch Usage Example <a href="#crunch-usage-example" id="crunch-usage-example"></a>
