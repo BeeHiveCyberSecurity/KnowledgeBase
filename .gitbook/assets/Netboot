@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/Netboot - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/Netboot" href="/community/Installation/Netboot?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FNetboot&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/Netboot?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/Netboot?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/Netboot?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/Netboot?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/Netboot">Netboot</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Netboot_Install">Netboot Install</a><ol><li>
+<a href="#Alternatives">Alternatives</a></li><li>
+<a href="#Introduction">Introduction</a></li><li>
+<a href="#The_scenario">The scenario</a></li><li>
+<a href="#Set_Up_DHCP-BOOT">Set Up DHCP-BOOT</a></li></ol></li><li>
+<a href="#Q.26A">Q&amp;A</a></li><li>
+<a href="#Note">Note</a></li><li>
+<a href="#Note-1">Note</a></li><li>
+<a href="#Note-2">Note</a></li><li>
+<a href="#DHCP_Note">DHCP Note</a></li><li>
+<a href="#Etherboot_note">Etherboot note</a></li><li>
+<a href="#Multiple_Network_Interface_Note">Multiple Network Interface Note</a></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line867">
+<h1 id="Netboot_Install">Netboot Install</h1>
+<span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line874">This HOWTO describes the steps required to start an installation of Ubuntu over the network. This is useful, for example, if you have an old machine with a non-bootable CD-ROM. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867"><strong>NOTE: Both netboot and installation from CD, of any release greater than 6.06, will fail on many SPARC machines with the message "Fast Data Access MMU miss". The netboot fails after A00000 bytes have been downloaded. The reason is, that SPARC only allocates around 4 MB for the kernel at boot time, and initrd exceeds this size.</strong> <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line867">
+<h2 id="Alternatives">Alternatives</h2>
+<span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line862">If you have a bootable optical drive and you are looking for a minimal CD image to download packages at install time, look at the <a href="/community/Installation/MinimalCD">Installation/MinimalCD</a>. <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line862">See <a href="/community/Installation/QuickNetboot">Installation/QuickNetboot</a> for alternative netboot instructions. <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line862">See <a href="/community/Installation/NetbootInstallFromInternet">Installation/NetbootInstallFromInternet</a> for another (simpler) method which requires you to already have Grub installed, but does not require you to configure a DHCP or TFTP server. <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line862">See <a class="http" href="http://maas.ubuntu.com/docs/install.html">MAAS instructions</a> to see how to set up a MAAS server which will deploy Ubuntu system through netboot. <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><p class="line867">
+<h2 id="Introduction">Introduction</h2>
+<span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><p class="line874">You must modify the host names and IP addresses in this HOWTO for your own setup. The principles described here are applicable to other DHCP and TFTP servers than those described below; using alternate server software is left as an exercise for the reader. <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line862">For instructions on how to use a windows computer as the TFTP and DHCP server, head to <a href="/community/Installation/WindowsServerNetboot">Installation/WindowsServerNetboot</a>. <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><p class="line862">This HOWTO will get you as far as running the installer; if you want to perform automated or unattended installs of Ubuntu, see <a href="/community/Installation/LocalNet">Installation/LocalNet</a>. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><p class="line867">
+<h2 id="The_scenario">The scenario</h2>
+<span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><p class="line874">One old Celeron 420Mhz with non-bootable CD-ROM, (kanga, 172.31.0.242). This is the target for installation. It has a bootable floppy disk. <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><p class="line874">A DHCP server (roo, 172.31.0.252), using dnsmasq as the DHCP server. roo has a pretty much home made Linux on it. I added tftp-hpa to it (installation of tftp on Ubuntu or Debian is explained in further detail below).  dnsmasq's tftp support is enough to netboot, but this example uses a separate tftp daemon. <span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><p class="line874">Assumption: You are behind a firewall and will not expose services used for this exercise to the world. You have a reasonably fast network connection, not 56k dial-up. <span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><p class="line867">
+<h2 id="Set_Up_DHCP-BOOT">Set Up DHCP-BOOT</h2>
+<span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><p class="line867">
+<h3 id="On_roo_.28the_DHCP_server.29:">On roo (the DHCP server):</h3>
+<span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><ul><li>In /etc/dnsmasq.conf, add the line: <span class="anchor" id="line-42"></span></li></ul><p class="line867"><span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><pre><span class="anchor" id="line-1"></span>  dhcp-boot=pxelinux.0,roo,172.31.0.252</pre><span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><p class="line874">This machine already serves an IP address to kanga via DHCP. (See "DHCP Note" below for help setting up this sort of arrangement.) <span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><ul><li>Restart dnsmasq. <span class="anchor" id="line-49"></span></li></ul><p class="line867"><span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><pre><span class="anchor" id="line-1-1"></span>  /etc/init.d/dnsmasq restart</pre><span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><p class="line867">
+<h3 id="Install_the_tftp-server">Install the tftp-server</h3>
+<span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><p class="line874">There are two different versions for the Trivial File Transfer Protocol server, the original tftpd and tftpd-hpa. For Etherboot installation (see below) tftpd will suffice, but it cannot do PXE installs due to the lack of the tsize option. Use tftpd-hpa instead. On Ubuntu or Debian (adapt for other distros or install from source): <span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><p class="line867"><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><pre><span class="anchor" id="line-1-2"></span>  apt-get install tftpd-hpa tftp-hpa xinetd</pre><span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><p class="line874">(Note: xinetd is not part of the default install) <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><p class="line867">
+<h4 id="If_you_have_an_installation_CD">If you have an installation CD</h4>
+<span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><ul><li>Insert the installation CD in the drive <span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span></li><li class="gap">Copy the netboot files into a suitable directory, e.g. /var/lib/tftpboot <span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span></li></ul><p class="line867">
+<h4 id="If_you_do_not_have_an_installation_CD">If you do not have an installation CD</h4>
+<span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><ul><li><p class="line862">Download the appropriate netboot.tar.gz file from <a class="http" href="http://cdimage.ubuntu.com/netboot/">http://cdimage.ubuntu.com/netboot/</a> <span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span></li><li class="gap">Unpack into a suitable directory, e.g. /var/lib/tftpboot <span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span></li></ul><p class="line867"><span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><pre><span class="anchor" id="line-1-3"></span>  tar -xvzf netboot.tar.gz -C /var/lib/tftpboot/
+<span class="anchor" id="line-2"></span>  chown -R nobody:nogroup /var/lib/tftpboot</pre><span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><ul><li>Enable the tftpd server. Add the following as /etc/xinetd.d/tftp. <span class="anchor" id="line-81"></span></li></ul><p class="line867"><span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><pre><span class="anchor" id="line-1-4"></span>  service tftp
+<span class="anchor" id="line-2-1"></span>  {
+<span class="anchor" id="line-3"></span>        disable                 = no
+<span class="anchor" id="line-4"></span>        socket_type             = dgram
+<span class="anchor" id="line-5"></span>        wait                    = yes
+<span class="anchor" id="line-6"></span>        user                    = root
+<span class="anchor" id="line-7"></span>        server                  = /usr/sbin/in.tftpd
+<span class="anchor" id="line-8"></span>        server_args             = -v -s /var/lib/tftpboot
+<span class="anchor" id="line-9"></span>        only_from   = 172.31.0.240/28
+<span class="anchor" id="line-10"></span>        interface   = 172.31.0.252
+<span class="anchor" id="line-11"></span>  }</pre><span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><ul><li>Restart xinetd <span class="anchor" id="line-96"></span></li></ul><p class="line867"><span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><pre><span class="anchor" id="line-1-5"></span> killall -HUP xinetd</pre><span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><p class="line867">
+<h3 id="If_your_target_PC_for_installation_can_network_boot">If your target PC for installation can network boot</h3>
+<span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><ul><li>Reboot the target PC <span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span></li><li class="gap">Interrupt the boot and enter the Bios settings screen <span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span></li><li class="gap">Choose the 'Network Boot' option <span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span></li><li class="gap">Resume booting <span class="anchor" id="line-109"></span><span class="anchor" id="line-110"></span></li><li class="gap">Marvel as the Ubuntu installer starts over the net <span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><p class="line891"><em>Warning - don't forget to reset the BIOS to 'Boot from the hard disk' next time you reboot the PC ;-)</em> <span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span></li></ul><p class="line867">
+<h3 id="If_your_target_PC_for_installation_cannot_network_boot">If your target PC for installation cannot network boot</h3>
+<span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><p class="line867">
+<h4 id="On_any_machine:">On any machine:</h4>
+<span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span><ul><li><p class="line862">Build a gPXE boot floppy, CD, or USB key.  Complete instructions are <a class="http" href="http://etherboot.org/wiki/howtos">here</a>.  gPXE evolved from Etherboot, and is maintained by the Etherboot project.  <span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span></li></ul><p class="line867">
+<h4 id="Start_the_install">Start the install</h4>
+<span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><ul><li>Boot the install target (kanga) from the gPXE boot media. <span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span></li><li class="gap">Marvel as the Ubuntu installer starts over the net. <span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span></li></ul><p class="line867">
+<h1 id="Q.26A">Q&amp;A</h1>
+<span class="anchor" id="line-129"></span><ul><li><p class="line891"><strong>Q:</strong> I've noticed you didn't add the interface MAC address. Each and every tutorial I've see stressed the importance of the MAC address to allow the net booting machine authorized on the boot server, is this redundant and can be ignored altogether? --<a class="nonexistent" href="/community/SivanGreen">SivanGreen</a> <span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span></li><li class="gap"><p class="line891"><strong>A:</strong> "It Depends"(tm)  Either way will work - each has pros and cons.  You don't need it, but that increases the risk of some other machine's system getting installed over. <span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span></li><li class="gap"><p class="line891"><strong>Q:</strong> Hmm, has someone gotten this to work? Using etherboot-5.3.12 with defaults (cd src ; make bin/via-rhine.zfd0 - the defaults include -DPXE_IMAGE and -DPXE_EXPORT ), the boot process seems to stop after loading the file from TFTP: <span class="anchor" id="line-135"></span><tt>Loading&nbsp;192.168.0.2:pxelinux.0&nbsp;..(PXE)done</tt> <span class="anchor" id="line-136"></span>Also, it may be worth mentioning that the images from <a class="http" href="http://rom-o-matic.net/">http://rom-o-matic.net/</a> (the referred-to Etherboot manual has a link to this site) don't support PXE images at all. --<a class="nonexistent" href="/community/PeterParkkali">PeterParkkali</a> <span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span></li><li class="gap"><p class="line891"><strong>A:</strong> I have had good luck with both.  I have used rom-o-matic.net for 4 or 5 nics, they do support pxe. <span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span></li><li class="gap"><p class="line891"><strong>Q:</strong> The kernel in the Breezy netboot images doesn't contain driver XXXX which I need to install with.  How can I rebuild the netboot kernel image &amp; initrd.gz to include XXXX? --<a class="nonexistent" href="/community/KeithHopkins">KeithHopkins</a> <span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span></li><li class="gap"><p class="line891"><strong>Q:</strong> If you installed netboot for a beta release, such as Feisty, do you need to update netboot again to install the official Feisty release later on?  Would the differences be limited to the operation of the netboot installation script, or would you potentially end up with a hybrid target system, such as a mixture of the beta kernel with the release userland?  --Allan <span class="anchor" id="line-143"></span><span class="anchor" id="line-144"></span></li><li class="gap"><p class="line891"><strong>A:</strong> The hybrid target system is unlikely unless the netboot image can find its matching kernel online.  If the netboot installer seeks an old kernel version which is no longer available in the repository, it will fail.  --<a class="https" href="https://wiki.ubuntu.com/RyanStonecipherFisher">Ryan Stonecipher-Fisher</a> <span class="anchor" id="line-145"></span><span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span></li></ul><p class="line867">
+<h1 id="Note">Note</h1>
+<span class="anchor" id="line-148"></span><p class="line874">For machines behind DHCP-enabled routers using the etherboot floppy method, the automatic detection of DHCP and TFTP servers may default to the router's address.  In the following workaround, the target and server computers use the IP addresses for "kanga" and "roo" from the above example, respectively.  After extracting the tarball for Etherboot, one can add the following lines to the file "Config" in the extracted "src/" directory: <span class="anchor" id="line-149"></span><span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><span class="anchor" id="line-155"></span><span class="anchor" id="line-156"></span><pre><span class="anchor" id="line-1-6"></span>CFLAGS+=    -DUSE_STATIC_BOOT_INFO
+<span class="anchor" id="line-2-2"></span>CFLAGS+=    -DSTATIC_CLIENT_IP=\"172.31.0.242\"
+<span class="anchor" id="line-3-1"></span>CFLAGS+=    -DSTATIC_SUBNET_MASK=\"255.255.255.0\"
+<span class="anchor" id="line-4-1"></span>CFLAGS+=    -DSTATIC_SERVER_IP=\"172.31.0.252\"
+<span class="anchor" id="line-5-1"></span>CFLAGS+=    -DSTATIC_GATEWAY_IP=\"172.31.0.252\"
+<span class="anchor" id="line-6-1"></span>CFLAGS+=    -DSTATIC_BOOTFILE=\"tftp://172.31.0.252/pxelinux.0\"</pre><span class="anchor" id="line-157"></span><p class="line874">Running the appropriate make command for the target machine's interface will then create a bootable floppy which only connects to the chosen server.  The DHCP server and dnsmasq are not necessary to use static IP addresses. <span class="anchor" id="line-158"></span>2006-08-08 RSF <span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-161"></span>I needed to disable the J-Micron SATA controller on Asus N4L-VM motherboard to make the network boot ROM run. <span class="anchor" id="line-162"></span><hr /><p class="line874"> <span class="anchor" id="line-163"></span>See also: <a href="/community/Installation/LocalNet">Installation/LocalNet</a> and <a class="http" href="http://wiki.heinous.org/index.php/Ubuntu_Notes">http://wiki.heinous.org/index.php/Ubuntu_Notes</a> <span class="anchor" id="line-164"></span><span class="anchor" id="line-165"></span><p class="line867">
+<h1 id="Note-1">Note</h1>
+<span class="anchor" id="line-166"></span><p class="line874">As of 12/9/2006, the heinous.org link is dead. <span class="anchor" id="line-167"></span>Also, etherboot does not support PCMCIA/PCcard.  AFAIK, laptops with only PCMCIA NICs (wired or wireless) can not be ether booted. <span class="anchor" id="line-168"></span><span class="anchor" id="line-169"></span><p class="line867">
+<h1 id="Note-2">Note</h1>
+<span class="anchor" id="line-170"></span><p class="line862">Following these instructions 11/11/07 with DHCP and TFTP from a SUSE 10 server / DELL C400 client, I needed to set filename "pxelinux.0" in the dhcpd.conf. I'm sure that for apt to work later it needs the "option domain-name-servers X.X.X.X; as well (i.e. the IP address of your DNS server / ADSL router). Don't forget <a href="/community/Installation/LocalNet">Installation/LocalNet</a>. That's the best page for this. <span class="anchor" id="line-171"></span><span class="anchor" id="line-172"></span><p class="line867">
+<h1 id="DHCP_Note">DHCP Note</h1>
+<span class="anchor" id="line-173"></span><p class="line874">I had a d-link router as my DHCP server, and had to do the following to get my linux box to be the DHCP server: 1) switched my workstation to have a static IP address (from "networking" under gnome-control-center). 2) turned off the DHCP server in my router (I assume this helps). 3) used these config lines in my /etc/dnsmasq.conf: <span class="anchor" id="line-174"></span><span class="anchor" id="line-175"></span><span class="anchor" id="line-176"></span><span class="anchor" id="line-177"></span><span class="anchor" id="line-178"></span><pre><span class="anchor" id="line-1-7"></span>  dhcp-boot=pxelinux.0,jhome,192.168.0.103
+<span class="anchor" id="line-2-3"></span>  dhcp-range=192.168.0.5,192.168.0.99,12h
+<span class="anchor" id="line-3-2"></span>  dhcp-option=3,192.168.0.1</pre><span class="anchor" id="line-179"></span><p class="line874">The IP address on the last line is that of the router (gateway).  Hope that helps. -- Jason <span class="anchor" id="line-180"></span><span class="anchor" id="line-181"></span><p class="line867">
+<h1 id="Etherboot_note">Etherboot note</h1>
+<span class="anchor" id="line-182"></span><p class="line862">It is now possible to just to create and download an etherboot floppy image from <a class="http" href="http://www.rom-o-matic.net/">http://www.rom-o-matic.net/</a> customized for your card. <span class="anchor" id="line-183"></span><span class="anchor" id="line-184"></span><p class="line867">
+<h1 id="Multiple_Network_Interface_Note">Multiple Network Interface Note</h1>
+<span class="anchor" id="line-185"></span><p class="line874">If the system has multiple network interfaces (like a laptop with both wired and wireless Ethernet) the installer may select the wrong interface for downloading installer components.  You can control it by specifying the boot parameter "netcfg/choose_interface".  For example, using the default install option and specifying eth1 would be: install netcfg/choose_interface=eth1 <span class="anchor" id="line-186"></span><span class="anchor" id="line-187"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-188"></span><a href="/community/CategoryInstallation">CategoryInstallation</a> <span class="anchor" id="line-189"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/Netboot  (last edited 2014-03-23 02:15:15 by <span title="2-launchpad-joe-philipps-us @ cpe-76-180-122-192.buffalo.res.rr.com[76.180.122.192]"><a class="interwiki" href="https://launchpad.net/~2-launchpad-joe-philipps-us" title="2-launchpad-joe-philipps-us @ cpe-76-180-122-192.buffalo.res.rr.com[76.180.122.192]">2-launchpad-joe-philipps-us</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

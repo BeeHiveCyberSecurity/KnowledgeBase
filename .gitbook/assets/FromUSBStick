@@ -1,0 +1,288 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/FromUSBStick - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/FromUSBStick" href="/community/Installation/FromUSBStick?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FFromUSBStick&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/FromUSBStick?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/FromUSBStick?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/FromUSBStick?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/FromUSBStick?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/FromUSBStick">FromUSBStick</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Outline">Outline</a></li><li>
+<a href="#Introduction">Introduction</a></li><li>
+<a href="#Prerequisites">Prerequisites</a><ol><li>
+<a href="#Dummy_headlines">Dummy headlines</a><ol><li>
+<a href="#Notes_about_speed">Notes about speed</a></li><li>
+<a href="#Notes_about_size">Notes about size</a></li><li>
+<a href="#Notes_about_bootability">Notes about bootability</a></li><li>
+<a href="#The_flash_hardware">The flash hardware</a></li></ol></li></ol></li><li>
+<a href="#Creating_a_bootable_Ubuntu_USB_flash_drive_from_Windows">Creating a bootable Ubuntu USB flash drive from Windows</a><ol><li>
+<a href="#Rufus">Rufus</a><ol><li>
+<a href="#balenaEtcher">balenaEtcher</a></li><li>
+<a href="#Pendrivelinux.27s_Universal_USB_Installer">Pendrivelinux's Universal USB Installer</a></li><li>
+<a href="#UNetbootin">UNetbootin</a></li><li>
+<a href="#Win32_Disk_Imager">Win32 Disk Imager</a></li></ol></li></ol></li><li>
+<a href="#Creating_a_bootable_Ubuntu_USB_flash_drive_from_Ubuntu">Creating a bootable Ubuntu USB flash drive from Ubuntu</a><ol><li>
+<a href="#Install_and_run_Startup_Disk_Creator_alias_usb-creator">Install and run Startup Disk Creator alias usb-creator</a><ol><li>
+<a href="#UNetbootin-1">UNetbootin</a></li><li>
+<a href="#mkusb_-_dd_image_of_iso_file_to_USB_device_safely">mkusb - dd image of iso file to USB device safely</a></li></ol></li></ol></li><li>
+<a href="#Creating_a_bootable_Ubuntu_USB_flash_drive_from_Mac_OSX">Creating a bootable Ubuntu USB flash drive from Mac OSX</a></li><li>
+<a href="#UEFI">UEFI</a><ol><li>
+<a href="#Test_if_running_in_UEFI_mode">Test if running in UEFI mode</a><ol><li>
+<a href="#Boot_and_install">Boot and install</a></li><li>
+<a href="#Stable_portable_systems_-_good_for_USB_sticks">Stable portable systems - good for USB sticks</a></li><li>
+<a href="#Creating_an_EFI-only_image">Creating an EFI-only image</a></li><li>
+<a href="#Ubuntu_single_boot_in_UEFI_mode">Ubuntu single boot in UEFI mode</a></li></ol></li></ol></li><li>
+<a href="#Alternative_methods">Alternative methods</a><ol><li>
+<a href="#A.27Do_it_yourself.27">'Do it yourself'</a><ol><li>
+<a href="#Portable_installed_system_booting_from_UEFI_and_BIOS">Portable installed system booting from UEFI and BIOS</a></li><li>
+<a href="#Multiboot_pendrives">Multiboot pendrives</a></li><li>
+<a href="#Booting_ISO_files_on_internal_drive">Booting ISO files on internal drive</a></li><li>
+<a href="#Booting_USB_drives_with_grub2_and_iso_files_.27grub-n-iso.27">Booting USB drives with grub2 and iso files 'grub-n-iso'</a></li></ol></li></ol></li><li>
+<a href="#Booting_the_Computer_from_USB">Booting the Computer from USB</a><ol><li>
+<a href="#Boot_menu">Boot menu</a></li><li>
+<a href="#Edit_the_BIOS_settings">Edit the BIOS settings</a></li><li>
+<a href="#Select_.27hard_disk.2FUSB-HDD0.27">Select 'hard disk/USB-HDD0'</a><ol><li>
+<a href="#Chainloading">Chainloading</a></li><li>
+<a href="#PLoP_Boot_Manager">PLoP Boot Manager</a></li><li>
+<a href="#Flow_chart_for_trouble-shooting">Flow chart for trouble-shooting</a></li></ol></li></ol></li><li>
+<a href="#Known_Issues">Known Issues</a></li><li>
+<a href="#Postrequisites_-_restore_the_USB_stick">Postrequisites - restore the USB stick</a><ol><li><ol><li>
+<a href="#gparted">gparted</a></li><li>
+<a href="#Disks">Disks</a></li><li>
+<a href="#mkusb">mkusb</a></li></ol></li></ol></li><li>
+<a href="#See_also">See also</a></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line867">
+<h1 id="Outline">Outline</h1>
+<span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line874">The general procedure to install Ubuntu (or Ubuntu flavour, Kubuntu, Lubuntu, Xubuntu, ...) from a USB flash drive is: <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><ul><li><p class="line862">Get the correct Ubuntu installation file, 'the iso file', <a class="https" href="https://ubuntu.com/download">via this link</a> or Ubuntu flavour <a class="http" href="http://releases.ubuntu.com/">via this link</a>. Download the iso file into your running computer (for example into the directory <strong>Downloads</strong> in the internal drive, <strong>not</strong> into the USB flash drive that you want to make into a USB boot drive). <span class="anchor" id="line-9"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/UbuntuHashes">Check with md5sum (or another checksum tool) that the download was good</a>. <span class="anchor" id="line-10"></span></li><li>Put Ubuntu onto your USB flash drive alias 'stick' alias 'pendrive' alias 'thumb'. Tools for this purpose are described in this help page. <span class="anchor" id="line-11"></span></li><li>Configure your computer to boot from USB flash drive and boot from it. <span class="anchor" id="line-12"></span></li><li><p class="line891"><a class="http" href="http://ubuntuforums.org/showthread.php?t=2230389">Try Ubuntu (Kubuntu, Lubuntu, Xubuntu, ...) before installing it.</a> <span class="anchor" id="line-13"></span></li><li>Install Ubuntu to your internal drive (hard disk drive or solid state drive or external drive). <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span></li></ul><p class="line862">See also: <strong><a class="https" href="https://help.ubuntu.com/community/Installation/FromUSBStickQuick">Installation/FromUSBStickQuick</a> for beginners starting from Windows.</strong> <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line867">
+<h1 id="Introduction">Introduction</h1>
+<span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line874">Ubuntu can be installed from a USB flash drive. This may be necessary for most new portable computers without DVD drives and is handy for others because a USB flash drive is so convenient. Also, you can configure Ubuntu on the USB flash drive to save changes you make, unlike a read-only CD/DVD disk.   <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><p class="line862">Booting from a USB flash drive created with <strong>usb-creator</strong> alias <strong>Startup Disk Creator</strong> and <strong>mkusb</strong> will behave just as if you had booted from the install CD. It will show the language selection and then the install menu, from which you can install Ubuntu onto the computer's hard drive or launch the LiveCD environment. Other utilities, e.g. <strong>UNetbootin</strong>, may create slightly different boot drives or if on UEFI might not work at all with Debian iso files <a class="https" href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=775689">due to a bug</a> <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><p class="line874">Note: This article uses the term "USB flash drive" alongside USB stick, USB drive, USB device, USB pendrive and thumb drive. <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line867">
+<h1 id="Prerequisites">Prerequisites</h1>
+<span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><p class="line874">To create a USB installation device, you will need: <span class="anchor" id="line-28"></span><ul><li><p class="line862">a <strong>4 GB USB flash device/drive/stick</strong>. If the iso file is smaller than 2 GB, it is possible to use a 2 GB USB device, at least with some of the methods. Files on this USB device will be erased, so <strong>backup the files you want to keep before making the device bootable</strong>. Some of the tools require that this USB device is properly formatted and mounted while other tools will overwrite whatever is on the target device. Please follow the instructions for each tool. <span class="anchor" id="line-29"></span></li><li><p class="line862">an <strong>Ubuntu flavour ISO file</strong> downloaded from an official web page, <a class="https" href="https://ubuntu.com/download">ubuntu.com/download</a> or <a class="http" href="http://releases.ubuntu.com">http://releases.ubuntu.com</a>, stored in your running computer (for example in the directory <strong>Downloads</strong> in the internal drive, <strong>not</strong> in the USB flash drive that you want to make into a USB boot drive). <span class="anchor" id="line-30"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/UbuntuHashes">Check with md5sum</a> (or another checksum tool) that the download was good. In Linux there is the tool 'md5sum'. In Windows you can do it with Rufus: <a class="attachment" href="/community/Installation/FromUSBStick/fromWindows?action=AttachFile&amp;do=view&amp;target=rufus-md5sum.png" title="click on the circle with a tick mark">click on the circle with a tick mark</a> (more about Rufus <a href="/community/Installation/FromUSBStick/fromWindows">here</a>.) <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span></li></ul><p class="line867">
+<h2 id="Dummy_headlines">Dummy headlines</h2>
+<span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><p class="line874">After a major remake of this help page the following headlines are kept here because they may be linked to from other web sites. Several other headlines further down in the page are also kept for this reason. <span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><p class="line867">
+<h3 id="Notes_about_speed">Notes about speed</h3>
+<span class="anchor" id="line-37"></span><p class="line867">
+<h3 id="Notes_about_size">Notes about size</h3>
+<span class="anchor" id="line-38"></span><p class="line867">
+<h3 id="Notes_about_bootability">Notes about bootability</h3>
+<span class="anchor" id="line-39"></span><p class="line867">
+<h3 id="The_flash_hardware">The flash hardware</h3>
+<span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> There is a detailed description at the sub-page <strong><a href="/community/Installation/FromUSBStick/pre">/pre</a></strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><p class="line867">
+<h1 id="Creating_a_bootable_Ubuntu_USB_flash_drive_from_Windows">Creating a bootable Ubuntu USB flash drive from Windows</h1>
+<span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><p class="line874">There are various methods available for Windows to create a bootable Ubuntu USB flash drive. <span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><p class="line867"><em><strong>NEVER</strong></em> try to use one of your hard disk drives or partitions in this process unless you really know what you are doing, as data will get erased. <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><p class="line867">
+<h2 id="Rufus">Rufus</h2>
+<span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><p class="line867"><strong>Rufus is the tool in Windows that is recommended officially by Ubuntu</strong>. A tutorial is available from <strong><a class="https" href="https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0">here</a></strong>. <span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><p class="line867"><a class="https" href="https://rufus.ie/">Download Rufus</a>. <span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><p class="line867">
+<h3 id="balenaEtcher">balenaEtcher</h3>
+<span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><p class="line867"><a class="https" href="https://www.balena.io/etcher/">Download balenaEtcher</a> <span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line867">
+<h3 id="Pendrivelinux.27s_Universal_USB_Installer">Pendrivelinux's Universal USB Installer</h3>
+<span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><p class="line867"><a class="https" href="https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/">Download Universal USB Installer</a> <span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><p class="line867">
+<h3 id="UNetbootin">UNetbootin</h3>
+<span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><p class="line867"><a class="https" href="https://unetbootin.github.io/">Download UNetbootin</a> <span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><p class="line867">
+<h3 id="Win32_Disk_Imager">Win32 Disk Imager</h3>
+<span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><p class="line867"><a class="https" href="https://win32diskimager.download/">Download Win32 Disk Imager</a> <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> There is a detailed description at <strong><a href="/community/Installation/FromUSBStick/fromWindows">/fromWindows</a></strong> including Rufus, balena Etcher, Universal USB Installer, Unetbootin and Win32 Disk Imager. </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><p class="line867">
+<h1 id="Creating_a_bootable_Ubuntu_USB_flash_drive_from_Ubuntu">Creating a bootable Ubuntu USB flash drive from Ubuntu</h1>
+<span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><p class="line867">
+<h2 id="Install_and_run_Startup_Disk_Creator_alias_usb-creator">Install and run Startup Disk Creator alias usb-creator</h2>
+<span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><ul><li><p class="line862">The <strong>Ubuntu Startup Disk Creator</strong> is dedicated to creating USB boot drives for Ubuntu and Ubuntu family flavours (Kubuntu, Lubuntu ... Xubuntu). <span class="anchor" id="line-80"></span></li><li>Use another tool (e.g. 'UNetbootin' or 'mkusb'), if you want to create a USB boot drive with another Linux distro (alias Linux operating system). <span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span></li></ul><p class="line862">You can find <strong>usb-creator-gtk</strong> by typing "Startup Disk Creator" (Ubuntu Desktop) or <strong>usb-creator-kde</strong> in K-Menu--&gt;Applications--&gt;System--&gt;Startup Disk Creator (Kubuntu). If it is not there, then you can install it using the <a href="/community/UbuntuSoftwareCenter">Ubuntu Software Center</a>. <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><ul><li>Insert and mount the USB drive.  Inserting the USB drive should auto-mount it.  <span class="anchor" id="line-85"></span></li><li>Start the Startup Disk Creator <span class="anchor" id="line-86"></span></li><li>In the top pane of the Startup Disk Creator, pick the .iso file that you downloaded. <span class="anchor" id="line-87"></span></li><li>If the .iso file isn't listed, click "Other" to locate and select the .iso file that you downloaded. <span class="anchor" id="line-88"></span></li><li>In the bottom pane of the Startup Disk Creator, pick the target device, the USB flash drive. If more than one choice, please check carefully, until you are sure that you will be writing to the correct device. <span class="anchor" id="line-89"></span></li><li>After checking that you are pointing to the correct target device, the USB flash drive, you can start the action. <span class="anchor" id="line-90"></span></li><li><p class="line862">You must enter a password because this is a risky operation. Use the password of the current user ID (the same as for login and running tasks with <tt>'sudo'</tt>. Password is not required when installing from a 'live' system (booted from a DVD disk or another USB flash drive). <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span></li></ul><p class="line862">The Startup Disk Creator <strong>clones</strong> the iso file, which means that you need neither erase nor format the target drive. It will be completely overwritten anyway by the cloning process. The Startup Disk Creator looks like this in Ubuntu 18.04 LTS: <span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><p class="line867"><strong><a class="attachment" href="/community/Installation/FromUSBStick/fromUbuntu?action=AttachFile&amp;do=view&amp;target=sdc-to-ssd-or-pendrive.pdf" title="Screenshots: Startup Disk Creator - to SSD or pendrive">Screenshots: Startup Disk Creator - to SSD or pendrive</a></strong> <span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><p class="line867"><strong>Notes</strong> <span class="anchor" id="line-98"></span><ul><li><p class="line891"><em><strong>NEVER</strong></em> try to use one of your hard disk drives or SSDs or partitions in this process unless you really know what you are doing, as data will get erased. <span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span></li><li class="gap"><p class="line862">There are <strong>bugs</strong> that affect the Ubuntu Startup Disk Creator, when you run it <strong>in old Ubuntu versions</strong> in BIOS mode and try to create USB boot drives with other versions. In the Ubuntu Startup Disk Creator version 0.3.2 in Ubuntu 16.04 LTS, these bugs are no longer a problem, so you can install any version of the Ubuntu flavours from 16.04 LTS and newer versions. <span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span></li></ul><p class="line867">
+<h3 id="UNetbootin-1">UNetbootin</h3>
+<span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><ul><li><p class="line891"><a class="https" href="https://unetbootin.github.io/">Download UNetbootin</a> <span class="anchor" id="line-105"></span></li><li>UNetbootin works in and with most Linux distros. <span class="anchor" id="line-106"></span></li><li>It is an extracting tool (not a cloning tool). <span class="anchor" id="line-107"></span></li><li>It can make a persistence file up to 4GB in size to save data and defaults. <span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span></li></ul><p class="line867">
+<h3 id="mkusb_-_dd_image_of_iso_file_to_USB_device_safely">mkusb - dd image of iso file to USB device safely</h3>
+<span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><ul><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/mkusb">Install mkusb via PPA</a> <span class="anchor" id="line-112"></span></li><li><p class="line862">If you want to <strong>clone from a general image file</strong> to a drive, you can use mkusb. It lets you clone to any drive that is not busy, also an internal drive, and there are very <strong>obvious warnings</strong> to prevent mistakes. <span class="anchor" id="line-113"></span></li><li>mkusb can also <span class="anchor" id="line-114"></span><ul><li>run in Debian and many linux distros that are similar to Ubuntu and Debian, <span class="anchor" id="line-115"></span></li><li>clone from iso files of most Linux distros to create USB boot drives, <span class="anchor" id="line-116"></span></li><li>create persistent live drives of the Ubuntu family and Debian, using all available drive space for persistence and/or data storage, <span class="anchor" id="line-117"></span></li><li>restore a USB boot drive to a standard storage device. <span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span></li></ul></li></ul><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> There is a detailed description at <strong><a href="/community/Installation/FromUSBStick/fromUbuntu">/fromUbuntu</a></strong> including the Startup Disk Creator, UNetbootin and mkusb. </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><p class="line867">
+<h1 id="Creating_a_bootable_Ubuntu_USB_flash_drive_from_Mac_OSX">Creating a bootable Ubuntu USB flash drive from Mac OSX</h1>
+<span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><p class="line862">See <a href="/community/How%20to%20install%20Ubuntu%20on%20MacBook%20using%20USB%20Stick">How to install Ubuntu on MacBook using USB flash drive</a> and <a class="http" href="http://ubuntuforums.org/showthread.php?t=2174630">this Ubuntu Forum thread by Quackers</a> <span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span><span class="anchor" id="line-127"></span><p class="line867">
+<h1 id="UEFI">UEFI</h1>
+<span class="anchor" id="line-128"></span><span class="anchor" id="line-129"></span><p class="line862">There is a good wiki page about <a class="https" href="https://help.ubuntu.com/community/UEFI">booting with UEFI</a>, and a good tutorial thread, <a class="http" href="http://ubuntuforums.org/showthread.php?t=2147295">UEFI Installing - Tips</a>. <span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span><p class="line867">
+<h2 id="Test_if_running_in_UEFI_mode">Test if running in UEFI mode</h2>
+<span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><p class="line862">You may want to test if your Ubuntu flavour is running in [U]EFI mode. An installed system and a live system too is using the directory <strong>/sys/firmware/efi</strong>, so you can run the following command line, <span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><pre><span class="anchor" id="line-1"></span>test -d /sys/firmware/efi &amp;&amp; echo efi || echo bios</pre><span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span><p class="line862">The following command line is more robust and also easier to understand, so you may prefer it (if you copy &amp; paste and are not bothered by typing a long command line), <span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span><pre><span class="anchor" id="line-1-1"></span>if test -d /sys/firmware/efi; then echo efi; else echo bios; fi</pre><span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><p class="line867">
+<h3 id="Boot_and_install">Boot and install</h3>
+<span class="anchor" id="line-144"></span><p class="line867">
+<h3 id="Stable_portable_systems_-_good_for_USB_sticks">Stable portable systems - good for USB sticks</h3>
+<span class="anchor" id="line-145"></span><p class="line867">
+<h3 id="Creating_an_EFI-only_image">Creating an EFI-only image</h3>
+<span class="anchor" id="line-146"></span><p class="line867">
+<h3 id="Ubuntu_single_boot_in_UEFI_mode">Ubuntu single boot in UEFI mode</h3>
+<span class="anchor" id="line-147"></span><span class="anchor" id="line-148"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> There are more details at the sub-page <strong><a href="/community/Installation/FromUSBStick/uefi">/uefi</a></strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-149"></span><span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><p class="line867">
+<h1 id="Alternative_methods">Alternative methods</h1>
+<span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><p class="line867">
+<h2 id="A.27Do_it_yourself.27">'Do it yourself'</h2>
+<span class="anchor" id="line-154"></span><span class="anchor" id="line-155"></span><p class="line874">When the boot structure is modified in Ubuntu or the booting software, there can be problems until the extracting tools are modified to manage the modification. It is worthwhile to find a method that is as simple as possible and to learn how to use it in order to manage the extraction also when the boot structure is modified. <span class="anchor" id="line-156"></span><span class="anchor" id="line-157"></span><ul><li>For an UEFI only boot flash drive you need no installer <span class="anchor" id="line-158"></span></li><li>Make the drive boot both in UEFI mode and BIOS mode <span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span></li></ul><p class="line862">See this link: <a class="https" href="https://help.ubuntu.com/community/Installation/iso2usb#Do_it_yourself">Installation/iso2usb#Do_it_yourself</a> <span class="anchor" id="line-161"></span><span class="anchor" id="line-162"></span><p class="line867">
+<h3 id="Portable_installed_system_booting_from_UEFI_and_BIOS">Portable installed system booting from UEFI and BIOS</h3>
+<span class="anchor" id="line-163"></span><p class="line867">
+<h3 id="Multiboot_pendrives">Multiboot pendrives</h3>
+<span class="anchor" id="line-164"></span><p class="line867">
+<h3 id="Booting_ISO_files_on_internal_drive">Booting ISO files on internal drive</h3>
+<span class="anchor" id="line-165"></span><p class="line867">
+<h3 id="Booting_USB_drives_with_grub2_and_iso_files_.27grub-n-iso.27">Booting USB drives with grub2 and iso files 'grub-n-iso'</h3>
+<span class="anchor" id="line-166"></span><span class="anchor" id="line-167"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> There are more details at the sub-page <strong><a href="/community/Installation/FromUSBStick/alt">/alt</a></strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-168"></span><span class="anchor" id="line-169"></span><span class="anchor" id="line-170"></span><p class="line867">
+<h1 id="Booting_the_Computer_from_USB">Booting the Computer from USB</h1>
+<span class="anchor" id="line-171"></span><span class="anchor" id="line-172"></span><p class="line874">Remove all unneeded USB items, but keep the network cable attached. <span class="anchor" id="line-173"></span><span class="anchor" id="line-174"></span><p class="line867">
+<h2 id="Boot_menu">Boot menu</h2>
+<span class="anchor" id="line-175"></span><span class="anchor" id="line-176"></span><p class="line874">Instead of editing BIOS settings, you can choose a boot device from the boot menu. Press the function key to enter the boot menu when your computer is booting. Typically, the boot screen displays which key you need to press. It maybe one of F12, F10, F9. <span class="anchor" id="line-177"></span><span class="anchor" id="line-178"></span><p class="line867">
+<h2 id="Edit_the_BIOS_settings">Edit the BIOS settings</h2>
+<span class="anchor" id="line-179"></span><span class="anchor" id="line-180"></span><p class="line874">Insert the bootable USB flash drive that you just created in your target computer and restart it. Most newer computers can boot from a USB flash drive. If your computer does not automatically do so, you might need to edit the BIOS settings. <span class="anchor" id="line-181"></span><span class="anchor" id="line-182"></span><p class="line862">Restart your computer, and watch for a message telling you which key, <strong>hotkey</strong> to press to enter the BIOS setup. <span class="anchor" id="line-183"></span><span class="anchor" id="line-184"></span><ul><li>It will usually be one of F1, F2, F9, F10, DEL, Enter or ESC. <span class="anchor" id="line-185"></span></li><li>The hotkey should be described in the user manual provided by the manufacturer of the computer (a printed or electronic document). <span class="anchor" id="line-186"></span></li><li><p class="line862">You can also search your hardware on <a class="http" href="http://boot-keys.org">boot-keys.org</a>. <span class="anchor" id="line-187"></span><span class="anchor" id="line-188"></span></li></ul><p class="line867"><strong>Press this hotkey continuously or tap repeatedly</strong> (different between computers) while your computer is booting to edit your BIOS settings. (On HP Mini Netbooks, the correct key is usually F9.) <span class="anchor" id="line-189"></span><span class="anchor" id="line-190"></span><p class="line867">
+<h2 id="Select_.27hard_disk.2FUSB-HDD0.27">Select 'hard disk/USB-HDD0'</h2>
+<span class="anchor" id="line-191"></span><span class="anchor" id="line-192"></span><p class="line867"><strong>Note: with some motherboards you have to select 'hard disk/USB-HDD0' to choose the USB flash disk</strong>. It may work like this because the system sees the USB drive 'a mass storage device' as a hard disk drive, and it should be at the top of the boot order list. <span class="anchor" id="line-193"></span><span class="anchor" id="line-194"></span><p class="line862">So you need to <strong>edit the Boot Order</strong>. Depending on your computer, and how your USB key was formatted, you should see an entry for "removable drive" or "USB media". Move this to the top of the list to make the computer attempt to boot from the USB device before booting from the hard disk. <span class="anchor" id="line-195"></span><span class="anchor" id="line-196"></span><p class="line867">
+<h3 id="Chainloading">Chainloading</h3>
+<span class="anchor" id="line-197"></span><p class="line867">
+<h3 id="PLoP_Boot_Manager">PLoP Boot Manager</h3>
+<span class="anchor" id="line-198"></span><span class="anchor" id="line-199"></span><ul><li style="list-style-type:none">For old computers that cannot boot from USB <span class="anchor" id="line-200"></span><span class="anchor" id="line-201"></span></li></ul><p class="line867">
+<h3 id="Flow_chart_for_trouble-shooting">Flow chart for trouble-shooting</h3>
+<span class="anchor" id="line-202"></span><span class="anchor" id="line-203"></span><ul><li style="list-style-type:none"><p class="line862">See this link: <a class="https" href="https://askubuntu.com/questions/1190764/why-doesnt-a-bootable-usb-boot/">Why Doesn't a Bootable USB Boot</a> <span class="anchor" id="line-204"></span><span class="anchor" id="line-205"></span></li></ul><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> There are more details at the sub-page <strong><a href="/community/Installation/FromUSBStick/bootUSB">/bootUSB</a></strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-206"></span><span class="anchor" id="line-207"></span><span class="anchor" id="line-208"></span><p class="line867">
+<h1 id="Known_Issues">Known Issues</h1>
+<span class="anchor" id="line-209"></span><span class="anchor" id="line-210"></span><ul><li><p class="line862">There are problems with the versions of the Startup Disk Creator alias usb-creator in versions of Ubuntu older than 16.04 LTS. There are similar problems with old versions of Unetbootin. Until these problems are solved other tools work, for example <strong>mkusb</strong> and <strong>Win32DiskImager</strong> described in the following links, <a class="https" href="https://help.ubuntu.com/community/mkusb">https://help.ubuntu.com/community/mkusb</a> and <a class="https" href="https://wiki.ubuntu.com/Win32DiskImager/iso2usb">https://wiki.ubuntu.com/Win32DiskImager/iso2usb</a> <span class="anchor" id="line-211"></span><span class="anchor" id="line-212"></span></li><li class="gap"><p class="line862">The version 0.3.2 (and newer versions) of the Startup Disk Creator alias usb-creator in Ubuntu 16.04 LTS (and newer versions) <strong>clones</strong> the iso file and creates a read-only file system. This method is very robust, but <strong>if you want to re-use the USB stick as a storage drive, you must restore it</strong>. Two methods are described in the next paragraph. <span class="anchor" id="line-213"></span><span class="anchor" id="line-214"></span></li></ul><p class="line867">
+<h1 id="Postrequisites_-_restore_the_USB_stick">Postrequisites - restore the USB stick</h1>
+<span class="anchor" id="line-215"></span><span class="anchor" id="line-216"></span><p class="line874">'Postrequisites' - after installation: how to restore the USB stick to a standard storage drive. The standard is an MSDOS partition table (MBR) and a partition with the FAT32 file system. <span class="anchor" id="line-217"></span><span class="anchor" id="line-218"></span><p class="line867">
+<h3 id="gparted">gparted</h3>
+<span class="anchor" id="line-219"></span><p class="line867">
+<h3 id="Disks">Disks</h3>
+<span class="anchor" id="line-220"></span><p class="line867">
+<h3 id="mkusb">mkusb</h3>
+<span class="anchor" id="line-221"></span><span class="anchor" id="line-222"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> There is a detailed description at the sub-page <strong><a href="/community/Installation/FromUSBStick/post">/post</a></strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-223"></span><span class="anchor" id="line-224"></span><p class="line867"><hr class="hr1" /><p class="line874"> <span class="anchor" id="line-225"></span><span class="anchor" id="line-226"></span><p class="line867">
+<h1 id="See_also">See also</h1>
+<span class="anchor" id="line-227"></span><span class="anchor" id="line-228"></span><ul><li><p class="line891"><a href="/community/Installation/FromUSBStickQuick">FromUSBStickQuick</a> for beginners starting from Windows <span class="anchor" id="line-229"></span></li><li><p class="line891"><a href="/community/USB%20Installation%20Media">USB Installation Media</a>: custom, manual, older versions, and technical instructions and troubleshooting. There are also network installation options available. <span class="anchor" id="line-230"></span></li><li><p class="line891"><a class="https" href="https://askubuntu.com/questions/1190764/why-doesnt-a-bootable-usb-boot/">Why Doesn't a Bootable USB Boot</a>: flowchart and lists of possible causes to help troubleshooting <span class="anchor" id="line-231"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/Installation/MinimalCD">MinimalCD alias mini.iso</a> <span class="anchor" id="line-232"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/Grub2/ISOBoot">booting with grub2</a> <span class="anchor" id="line-233"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/UEFI">booting with UEFI</a> <span class="anchor" id="line-234"></span></li><li><p class="line891"><a class="http" href="http://ubuntuforums.org/showthread.php?t=1958073">Ubuntu Forums tutorial "Howto make USB boot drives"</a> <span class="anchor" id="line-235"></span></li><li><p class="line891"><a class="http" href="http://ubuntuforums.org/showthread.php?t=2196858">Ubuntu Forums tutorial "Howto help USB boot drives"</a> <span class="anchor" id="line-236"></span></li><li><p class="line891"><a class="http" href="http://ubuntuforums.org/showthread.php?t=2176132">Ubuntu Forums tutorial "How to create an external USB bootable Linux hard drive (without dual-boot)"</a> <span class="anchor" id="line-237"></span></li><li><p class="line891"><a class="http" href="http://unetbootin.sourceforge.net">Unetbootin for Linux, Windows, Mac OS X</a> <span class="anchor" id="line-238"></span></li><li><p class="line891"><a class="http" href="http://zleap.net/unetbootln-usb-how_to/">Paul Sutton's Unetbootin how to</a> <span class="anchor" id="line-239"></span></li><li><p class="line891"><a class="https" href="https://rufus.akeo.ie/">Rufus - Create bootable USB drives the easy way (from Windows)</a> <span class="anchor" id="line-240"></span></li><li><p class="line891"><a class="http" href="http://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux">Pendrivelinux about Multisystem</a> <span class="anchor" id="line-241"></span></li><li><p class="line891"><a class="http" href="http://www.pendrivelinux.com/install-grub2-on-usb-from-ubuntu-linux">Pendrivelinux about grub2</a> <span class="anchor" id="line-242"></span></li><li><p class="line891"><a class="http" href="http://www.pendrivelinux.com/yumi-multiboot-usb-creator">YUMI – Multiboot USB Creator</a> <span class="anchor" id="line-243"></span></li><li><p class="line891"><a class="http" href="http://ubuntuforums.org/showthread.php?t=2130234&amp;p=12578569&amp;viewfull=1#post12578569">Choosing between Live USB and Full USB Installation</a> <span class="anchor" id="line-244"></span></li><li><p class="line891"><a class="http" href="http://ubuntuforums.org/showthread.php?t=2230389">Try Ubuntu (Kubuntu, Lubuntu, Xubuntu, ...) before installing it</a> <span class="anchor" id="line-245"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/LiveCD/Persistence">LiveCD/Persistence</a> <span class="anchor" id="line-246"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/WindowsDualBoot">Dual Boot with Windows</a> <span class="anchor" id="line-247"></span></li><li><p class="line891"><a class="http" href="http://ubuntuforums.org/showthread.php?t=2291946">Discussion about tools to create USB boot drives at the Ubuntu Forums "http://ubuntuforums.org/showthread.php?t=2291946"</a> <span class="anchor" id="line-248"></span></li></ul><p class="line867"><hr class="hr1" /><p class="line874"> <span class="anchor" id="line-249"></span><a href="/community/CategoryLive">CategoryLive</a> <a href="/community/CategoryInstallation">CategoryInstallation</a> <a href="/community/CategoryInstallation">CategoryInstallation</a> <a href="/community/CategoryInstallation">CategoryInstallation</a> <span class="anchor" id="line-250"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/FromUSBStick  (last edited 2020-01-24 09:13:40 by <span title="nio-wiklund @ c-884be055.032-76-756d6517.bbcust.telenor.se[85.224.75.136]"><a class="interwiki" href="https://launchpad.net/~nio-wiklund" title="nio-wiklund @ c-884be055.032-76-756d6517.bbcust.telenor.se[85.224.75.136]">nio-wiklund</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

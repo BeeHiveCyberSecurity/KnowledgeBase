@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/iso2usb - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/iso2usb" href="/community/Installation/iso2usb?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2Fiso2usb&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/iso2usb?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/iso2usb?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/iso2usb?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/iso2usb?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/iso2usb">iso2usb</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><div><table style="float:right;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Drives_-_mass_storage_devices">Drives - mass storage devices</a></li><li>
+<a href="#Cloning_and_extraction">Cloning and extraction</a><ol><li>
+<a href="#Cloning">Cloning</a><ol><li>
+<a href="#Cloning_tools">Cloning tools</a></li><li>
+<a href="#Cloning_Plus">Cloning Plus</a></li></ol></li><li>
+<a href="#Extraction">Extraction</a><ol><li>
+<a href="#Extracting_tools">Extracting tools</a></li></ol></li></ol></li><li>
+<a href="#Do_it_yourself">Do it yourself</a><ol><li>
+<a href="#For_an_UEFI_only_boot_flash_drive_you_need_no_installer">For an UEFI only boot flash drive you need no installer</a><ol><li>
+<a href="#Oldfred.27s_advice">Oldfred's advice</a></li></ol></li><li>
+<a href="#Make_the_drive_boot_both_in_UEFI_mode_and_BIOS_mode">Make the drive boot both in UEFI mode and BIOS mode</a><ol><li>
+<a href="#Detailed_instructions">Detailed instructions</a></li></ol></li></ol></li><li>
+<a href="#Links">Links</a></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867"><br>
+ <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line867"><span class="comment" style="display:none"> ||&lt;tablestyle="float:left; margin: 0 0 1em 1em;" style="padding:0.5em;"&gt; <a class="nonexistent" href="/community/Installation/iso2usb/artwork?action=AttachFile&amp;do=upload_form&amp;ticket=00640ddcc1.a8a406b8a63f2b1068befc9d26f58e9ff8dc2081&amp;target=mkusb128.png" title="Upload new attachment &quot;mkusb128.png&quot;"><img alt="" height="" src="/moin_static198/light/img/attachimg" title="" width="" /></a> || </span> <span class="anchor" id="line-6"></span><a href="/community/Installation">Return to the main Installation page</a> <span class="anchor" id="line-7"></span><hr class="hr1" /><p class="line874"> <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867">
+<h1 id="Drives_-_mass_storage_devices">Drives - mass storage devices</h1>
+<span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line874">This page is called 'iso2usb', but the methods described are valid for every kind of drive that is a mass storage device <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><ul><li>USB pendrive <span class="anchor" id="line-14"></span></li><li>memory card connected via USB or PCI <span class="anchor" id="line-15"></span></li><li>USB hard disk drive, HDD, and solid state drive, SSD <span class="anchor" id="line-16"></span></li><li>SATA and eSATA HDD and SSD <span class="anchor" id="line-17"></span></li><li>IDE (PATA) HDD <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span></li></ul><p class="line867">
+<h1 id="Cloning_and_extraction">Cloning and extraction</h1>
+<span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><p class="line867">
+<h2 id="Cloning">Cloning</h2>
+<span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><p class="line862">Cloning (copying each byte as it is, creating a one-to-one copy) is a very simple and reliable method to create a boot drive (live drive or install drive) from a linux hybrid iso file. All current standard Ubuntu and Ubuntu community flavour iso files are hybrid iso files, so this method works with all these files, the desktop iso files, the Ubuntu Server iso files and the Ubuntu <strong>mini.iso</strong> files. <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line874">Cloning creates a read-only ISO 9660 partition table and file system, so you cannot change anything in the drive (but you can create a new partition table with partitions and file systems). The operating system in the drive will be read-only. You can install program packages and create files, but they will 'live' in RAM and will not survive shutdown/reboot. <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><p class="line867">
+<h3 id="Cloning_tools">Cloning tools</h3>
+<span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><p class="line867"><strong>In linux:</strong> <span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><ul><li><p class="line891"><strong>Ubuntu Startup Disk Creator</strong> in Ubuntu 16.04 LTS and newer versions alias <strong>usb-creator-gtk</strong> (in older versions of Ubuntu there is a buggy extracting tool) <span class="anchor" id="line-32"></span></li><li><p class="line891"><strong>Disks</strong> alias <strong>gnome-disks</strong> <span class="anchor" id="line-33"></span></li><li><p class="line891"><strong><a class="https" href="https://help.ubuntu.com/community/mkusb">mkusb</a></strong> (install according to the link) <span class="anchor" id="line-34"></span></li><li><p class="line891"><strong>dd</strong>, very powerful but also very dangerous, deserves the nickname 'Data Destroyer'; the other tools are safer because they help you identify the target drive and double-check that it is correct. <span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span></li></ul><p class="line867"><strong>In Windows:</strong> <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><ul><li><p class="line891"><strong><a class="https" href="https://wiki.ubuntu.com/Win32DiskImager/iso2usb">Win32 Disk Imager</a></strong> (install according to the link) <span class="anchor" id="line-39"></span></li><li><p class="line891"><strong><a class="https" href="https://rufus.ie">Rufus in 'dd-mode'</a></strong> is cloning the content of the iso file to a USB pendrive. This 'dd-mode' may work, when the default extracting mode fails. <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span></li></ul><p class="line867">
+<h3 id="Cloning_Plus">Cloning Plus</h3>
+<span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line874">There is a simplified method to create persistent live systems without extraction in <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><ul><li>Ubuntu 19.10 <span class="anchor" id="line-46"></span></li><li>Debian 10 <span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span></li></ul><p class="line874">and we expect it to work also in future versions of Ubuntu and Debian. <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><ul><li>The iso file (which is a binary file) is modified to include the boot option 'persistent' for Ubuntu and 'persistence' for Debian. <span class="anchor" id="line-51"></span></li><li>This iso file is cloned to a USB pendrive or memory card. <span class="anchor" id="line-52"></span></li><li>A partition for persistence is created 'behind' the cloned data. <span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span></li></ul><p class="line862">The text mode tool <strong><a class="https" href="https://help.ubuntu.com/community/mkusb/minp">mkusb-minp</a></strong> and the GUI tool  <strong><a class="https" href="https://help.ubuntu.com/community/mkusb/plug">mkusb-plug</a></strong> can help you do it. <span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><p class="line867">
+<h2 id="Extraction">Extraction</h2>
+<span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><p class="line874">Extraction is a more complicated method, where the content of the iso file is extracted (the directories and files are copied) to a read-write file system in a drive (a mass storage device). <span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line874">It is enough to <span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><ul><li>Create an MSDOS partition table and a partition with a FAT32 file system and a boot flag. <span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span></li><li class="gap">Extract the content from the iso file to the mounted FAT32 file system to create a drive (live drive or install drive) that boots in UEFI mode. <span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span></li></ul><p class="line874">You must add a bootloader separately, if you want the drive to boot also in BIOS mode. <span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><p class="line867">
+<h3 id="Extracting_tools">Extracting tools</h3>
+<span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><ul><li><p class="line891"><strong><a class="https" href="https://unetbootin.github.io">Unetbootin</a></strong> is a well-known tool with versions for Linux, Windows and MacOS <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span></li><li class="gap"><p class="line891"><strong><a class="https" href="https://rufus.ie">Rufus</a></strong> is the officially recommended tool to install Ubuntu from Windows. The default mode is extracting the content of the iso file to a FAT32 partition. <span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span></li></ul><p class="line867">
+<h1 id="Do_it_yourself">Do it yourself</h1>
+<span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><p class="line862">When the boot structure is modified in Ubuntu or the booting software, there can be problems until the extracting tools are modified to manage the modification. It is worthwhile to find <strong>a method that is as simple as possible</strong> and to learn how to use it in order to manage the extraction also when the boot structure is modified. <span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><p class="line867">
+<h2 id="For_an_UEFI_only_boot_flash_drive_you_need_no_installer">For an UEFI only boot flash drive you need no installer</h2>
+<span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><p class="line867">
+<h3 id="Oldfred.27s_advice">Oldfred's advice</h3>
+<span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><p class="line874">Actually if you want an UEFI only boot flash drive you do not need an installer at all. <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><p class="line862">You just need to format flash drive with FAT32 and set boot flag on. Then use whatever is your favorite extraction tool like 7zip to extract &amp; copy ISO to FAT32 partition. UEFI boots from a FAT32 partition with a very long GUID (if gpt) to identify it. Gparted and some other tools use boot flag to set that GUID. A few UEFI want flash drive as gpt, most will boot with MBR as even MBR has a code for ESP - efi system partition. <span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><p class="line874">Ubuntu has built in /EFI/Boot/bootx64.efi which really is a copy of grub, for booting in UEFI mode. <span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><p class="line874">Normal installers do the format, extract, but also then install a BIOS boot loader. Ubuntu uses syslinux as BIOS boot loader but with UEFI only you do not need that. <span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><p class="line862">See more details in this link, <a class="https" href="https://ubuntuforums.org/showthread.php?t=2299040">UEFI: Interesting simple method to boot - but how does it work?</a> <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><p class="line867">
+<h2 id="Make_the_drive_boot_both_in_UEFI_mode_and_BIOS_mode">Make the drive boot both in UEFI mode and BIOS mode</h2>
+<span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><p class="line862">If your system is running in BIOS mode, you can install a grub bootloader for BIOS mode into the target drive. If your system is an installed system and running in UEFI mode, this does not work, but there is a <strong>work-around</strong>. <span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><p class="line862">You can extract/clone from a compressed image file to create the head end and a partition with the FAT32 file system and a boot flag. <strong>The grub bootloader for BIOS mode will be there already</strong>, at the head end and with the necessary files in the FAT32 partition. <span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><ul><li><p class="line862">This method works with <strong>64-bit desktop Ubuntu</strong> iso files and the community flavours of Ubuntu, (Kubuntu, Lubuntu, ... Xubuntu). <span class="anchor" id="line-99"></span></li><li><p class="line862">It works with <strong>64-bit Windows</strong> install iso files too (Windows 8-10 both in UEFI and BIOS mode, Windows 7 only in BIOS mode). <span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span></li></ul><p class="line867">
+<h3 id="Detailed_instructions">Detailed instructions</h3>
+<span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><p class="line862">Find detailed instructions in the sub-page <strong><a href="/community/Installation/iso2usb/diy">/diy</a></strong> (extraction method) <span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><p class="line862">Find detailed instructions in the sub-page <strong><a href="/community/Installation/iso2usb/isoboot">/isoboot</a></strong> (grub-n-iso method) <span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><p class="line867">
+<h1 id="Links">Links</h1>
+<span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><ul><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/Installation/FromUSBStick">help.ubuntu.com/community/Installation/FromUSBStick</a> <span class="anchor" id="line-110"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/mkusb">mkusb</a> <span class="anchor" id="line-111"></span></li><li><p class="line891"><a class="https" href="https://wiki.ubuntu.com/Win32DiskImager">Win32DiskImager</a> <span class="anchor" id="line-112"></span></li><li><p class="line891"><a class="https" href="https://rufus.akeo.ie">Rufus</a> <span class="anchor" id="line-113"></span></li><li><p class="line891"><a class="https" href="https://unetbootin.github.io">https://unetbootin.github.io</a> <span class="anchor" id="line-114"></span></li><li><p class="line891"><a class="https" href="https://ubuntuforums.org/showthread.php?t=2299040">UEFI: Interesting simple method to boot - but how does it work?</a> <span class="anchor" id="line-115"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/community/mkusb#Persistent_live_systems">Persistent live systems</a> <span class="anchor" id="line-116"></span></li><li><p class="line862">Detailed instructions for an extraction method to make a USB boot drive in the sub-page: <a href="/community/Installation/iso2usb/diy">/diy</a> <span class="anchor" id="line-117"></span></li><li><p class="line862">Detailed instructions for an iso-boot method to make a USB boot drive in the sub-page: <a href="/community/Installation/iso2usb/isoboot">/isoboot</a> <span class="anchor" id="line-118"></span></li><li><p class="line891"><a class="https" href="https://askubuntu.com/questions/1227221/simple-hand-made-persistent-usb-that-boots-either-bios-or-uefi/1227316">Alternatives to and discussion about extracted USB boot drives</a> <span class="anchor" id="line-119"></span></li></ul><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/iso2usb  (last edited 2020-09-09 08:17:26 by <span title="nio-wiklund @ c-5f4fe055.032-76-756d6517.bbcust.telenor.se[85.224.79.95]"><a class="interwiki" href="https://launchpad.net/~nio-wiklund" title="nio-wiklund @ c-5f4fe055.032-76-756d6517.bbcust.telenor.se[85.224.79.95]">nio-wiklund</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

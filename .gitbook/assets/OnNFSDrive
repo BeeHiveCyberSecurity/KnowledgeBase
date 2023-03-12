@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/OnNFSDrive - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/OnNFSDrive" href="/community/Installation/OnNFSDrive?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FOnNFSDrive&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/OnNFSDrive?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/OnNFSDrive?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/OnNFSDrive?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/OnNFSDrive?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/OnNFSDrive">OnNFSDrive</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867"><div dir="ltr" id="Tag.2FContentCleanup.content" lang="en"><span class="anchor" id="Tag.2FContentCleanup.top"></span>
+<span class="anchor" id="Tag.2FContentCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DD3F2; vertical-align: top"><p class="line862"> <strong>Content Cleanup Required</strong> <br>
+ This article should be cleaned-up to follow the content standards in the Wiki Guide. <a href="/community/Tag#ContentCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FContentCleanup.line-2"></span><span class="anchor" id="Tag.2FContentCleanup.bottom"></span></div> <span class="anchor" id="line-2"></span><div dir="ltr" id="Tag.2FStyleCleanup.content" lang="en"><span class="anchor" id="Tag.2FStyleCleanup.top"></span>
+<span class="anchor" id="Tag.2FStyleCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DF2A4; vertical-align: top"><p class="line862"> <strong>Style Cleanup Required</strong> <br>
+ This article does not follow the style standards in the Wiki Guide. <a href="/community/Tag#StyleCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FStyleCleanup.line-2"></span><span class="anchor" id="Tag.2FStyleCleanup.bottom"></span></div> <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line874">This page describes installing Ubuntu on an NFS-mounted filesystem (instead of on a local hard drive), for example so that client machines can boot the Ubuntu installation over the network using PXE. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line874">The instructions on this page are outdated and incoherent, I advise not following them unless you really know what you are doing. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line874">This configuration has these requirements: <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><ul><li>A pre-configured NFS-server. GNU/Linux on a 500MHz/512MB computer will do fine. <span class="anchor" id="line-12"></span></li><li>100Mbit/s network. The system will work very slowly with 10MBit/s. <span class="anchor" id="line-13"></span></li><li>Client with at least 256MB RAM, preferably 512MB, or a hard disk for a swap partition. <span class="anchor" id="line-14"></span></li><li>Some Linux experience and ability to compile your own kernel. <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span></li></ul><p class="line867">
+<h3 id="Set_up_the_install_directory">Set up the install directory</h3>
+<span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line874">Create a directory for Ubuntu on the NFS server. This directory will be the root for storing all files needed by the clients, eg: <span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><pre><span class="anchor" id="line-1"></span>$ sudo mkdir /ubuntu</pre><span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><p class="line867">
+<h3 id="Get_debootstrap_scripts">Get debootstrap scripts</h3>
+<span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line874">Download and install debootstrap using apt-get: <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><pre><span class="anchor" id="line-1-1"></span># apt-get install debootstrap</pre><span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><p class="line874">Alternatively, you may compile from source: <span class="anchor" id="line-31"></span><ol type="1"><li><p class="line862">Grab the latest debootstrap_*.tar.gz from <a class="http" href="http://archive.ubuntulinux.org/ubuntu/pool/main/d/debootstrap/">http://archive.ubuntulinux.org/ubuntu/pool/main/d/debootstrap/</a>  Save the archive into the /tmp directory. <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span></li><li class="gap">Uncompress and extract the archive, then cd into the newly created directory and build the program: <span class="anchor" id="line-34"></span></li></ol><p class="line867"><span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><pre><span class="anchor" id="line-1-2"></span># cd /tmp
+<span class="anchor" id="line-2"></span># tar zxvf debootstrap_0.2.39ubuntu22.tar.gz
+<span class="anchor" id="line-3"></span># cd debootstrap-0.2.39ubuntu22
+<span class="anchor" id="line-4"></span># make</pre><span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><p class="line867">
+<h3 id="Run_debootstrap">Run debootstrap</h3>
+<span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line874">Tell debootstrap to download a base system into your sub-directory using the following syntax: <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><pre><span class="anchor" id="line-1-3"></span># debootstrap --arch &lt;architecture&gt; &lt;release&gt; &lt;directory&gt; [&lt;mirror&gt;]</pre><span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><p class="line874">For the purpose of this tutorial, the command will be as follows: <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><pre><span class="anchor" id="line-1-4"></span># debootstrap --arch i386 hoary /ubuntu http://archive.ubuntu.com/ubuntu</pre><span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><p class="line874">If you compiled from source, use the following invocation: <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><p class="line867"><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><pre><span class="anchor" id="line-1-5"></span># DEBOOTSTRAP_DIR="`pwd`
+<span class="anchor" id="line-2-1"></span># ./debootstrap --arch i386 hoary /ubuntu http://archive.ubuntulinux.org/ubuntu</pre><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line874">debootstrap will now download the base system. If your network is unreliable, you may need to run debootstrap multiple times to get all the files; it resumes where it left off. <span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><p class="line874">Near the end of debootstrap's copious output, you should see "Base system installed successfully". If not, remove everything in /ubuntu apart from the lost+found directory and try again. <span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><p class="line867">
+<h3 id="Set_up_the_host_name">Set up the host name</h3>
+<span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><p class="line874">You should replace HOSTNAME in the command below with the desired name for your machine. <span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><p class="line867"><span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><pre><span class="anchor" id="line-1-6"></span># echo HOSTNAME &gt; /ubuntu/etc/hostname</pre><span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><p class="line867">
+<h3 id="Set_up_fstab">Set up fstab</h3>
+<span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><p class="line874">Create /ubuntu/etc/fstab. It should include procfs, sysfs and possibly cdrom and fd0. Root is not included. <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><p class="line874">Here is a decent fstab to get started with: <span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><p class="line867"><span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><pre><span class="anchor" id="line-1-7"></span>/proc    /proc    proc    defaults   0 0
+<span class="anchor" id="line-2-2"></span>/sys     /sys     sysfs   defaults   0 0
+<span class="anchor" id="line-3-1"></span>
+<span class="anchor" id="line-4-1"></span>/dev/fd0  /mnt/floppy auto user,noauto,sync,exec,umask=000 0 0
+<span class="anchor" id="line-5"></span>/dev/cdrom /mnt/cdrom auto user,noauto,exec,ro   0 0</pre><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><p class="line867">
+<h3 id="Enter_the_install_environment">Enter the install environment</h3>
+<span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><p class="line867"><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><pre><span class="anchor" id="line-1-8"></span># chroot /ubuntu
+<span class="anchor" id="line-2-3"></span># mount /proc</pre><span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><p class="line874">Set the root password: <span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><p class="line867"><span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><pre><span class="anchor" id="line-1-9"></span># passwd
+<span class="anchor" id="line-2-4"></span>Enter new UNIX password:
+<span class="anchor" id="line-3-2"></span>Retype new UNIX password:</pre><span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><p class="line867">
+<h3 id="Compile_kernel_for_your_system">Compile kernel for your system</h3>
+<span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><p class="line874">This step is not described fully here. I used kernel 2.6.10 with gentoo patches, just because I had it compiled for my system already. There are some important settings you have to make: <span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><ol type="1"><li>Compile your network card driver in the kernel, not as a module. <span class="anchor" id="line-107"></span></li><li><p class="line862">Enable "IP: kernel level autoconfiguration" in Device Drivers -&gt; Networking support -&gt; Networking options <span class="anchor" id="line-108"></span></li><li><p class="line862">Enable NFS in Filesystems -&gt; Network file systems: Enable "NFS File system support" and "Root file system on NFS" <span class="anchor" id="line-109"></span><span class="anchor" id="line-110"></span></li></ol><p class="line874">If you get "Warning: Unable to open initial console" on the boot and it hangs, try to also: <span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><ol type="1"><li><p class="line862">Enable "Preliminary device filesystem" in Filesystems -&gt; Pseudo filesystems <span class="anchor" id="line-113"></span></li><li>Enable "Mount devfs automatically on boot" <span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span></li></ol><p class="line867">
+<h4 id="kernel_UPDATE:_dapper_.26_later_users">kernel UPDATE: dapper &amp; later users</h4>
+<span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><p class="line874">Since dapper, it is not necessary to recompile the kernel, since initramfs is used on the initial ramdisk. Go to /etc/mkinitramfs/initramfs.conf (in the chroot) and change "BOOT=local" to "BOOT=nfs". Then install any linux-image, the initrd generated will be nfs-bootable. Alternatively, call update-initrd to regenerate initrd if you have kernel already installed. <span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span><p class="line862">Make sure to send <strong>both</strong> kernel image ("/boot/vmlinuz-VERSION") <strong>and</strong> initrd ("/boot/initrd.img-VERSION") when netbooting, in the next step.  <span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><p class="line867">
+<h4 id="Getting_out_of_chroot">Getting out of chroot</h4>
+<span class="anchor" id="line-122"></span><span class="anchor" id="line-123"></span><p class="line874">In chrooted enviroment umount /proc and then exit: <span class="anchor" id="line-124"></span><span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span><span class="anchor" id="line-127"></span><pre><span class="anchor" id="line-1-10"></span># umount /proc
+<span class="anchor" id="line-2-5"></span># exit</pre><span class="anchor" id="line-128"></span><span class="anchor" id="line-129"></span><p class="line867">
+<h3 id="Get_PXELinux.2C_dhcpd_and_tftpd">Get PXELinux, dhcpd and tftpd</h3>
+<span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span><p class="line862">See <a class="https" href="https://help.ubuntu.com/community/Installation/LocalNet">Installation/LocalNet</a> for more up-to-date details. Old info follows. <span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><p class="line874">For PXELinux, download the Netboot image from the Ubuntu archives, extract it, copy the pxelinux.0 file and the pxelinux.cfg directory to your tftpd root (mine is /ubuntu) and edit the pxelinux.cfg/default file as described as follows. <span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><p class="line874">Configure PXELinux. A decent configuration file would be like: <span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span><span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span><pre><span class="anchor" id="line-1-11"></span>TIMEOUT 50
+<span class="anchor" id="line-2-6"></span>
+<span class="anchor" id="line-3-3"></span>DEFAULT kernel-2.6.10
+<span class="anchor" id="line-4-2"></span>APPEND root=/dev/nfs nfsroot=192.168.0.150:/ubuntu ip=dhcp</pre><span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><p class="line874">You should at least replace the server address. It is the address of the NFS server. Put pxelinux.0 and kernel-2.6.10 in the tftp server root directory. Put the configuration file "default" in directory "pxelinux.cfg". <span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span><p class="line874">Configure dhcpd to provide the boot image. A decent configuration would be like: <span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><span class="anchor" id="line-148"></span><span class="anchor" id="line-149"></span><span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><span class="anchor" id="line-152"></span><pre><span class="anchor" id="line-1-12"></span> host netbooted {
+<span class="anchor" id="line-2-7"></span>  hardware ethernet 00:0C:F1:98:1B:A6;
+<span class="anchor" id="line-3-4"></span>  fixed-address 192.168.0.204;
+<span class="anchor" id="line-4-3"></span>  filename "/pxelinux.0";
+<span class="anchor" id="line-5-1"></span> }</pre><span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><p class="line874">I give a fixed address for this to set NFS exports more securely. You should replace the IP and the MAC address of the client. The MAC address can be seen with "ip addr" on computers running Linux. Restart dhcp server to apply the changes. <span class="anchor" id="line-155"></span><span class="anchor" id="line-156"></span><p class="line867">
+<h3 id="Configure_NFS_exports">Configure NFS exports</h3>
+<span class="anchor" id="line-157"></span><span class="anchor" id="line-158"></span><p class="line874">Add a suitable line in /etc/exports: <span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span><span class="anchor" id="line-161"></span><pre><span class="anchor" id="line-1-13"></span>/ubuntu       10.0.0.0/16(rw,sync,no_root_squash) 10.1.0.1/16(rw,sync,no_root_squash) 192.168.0.0/16(rw,sync,no_root_squash)</pre><span class="anchor" id="line-162"></span><span class="anchor" id="line-163"></span><p class="line874">Restart NFS-server to apply the changes. <span class="anchor" id="line-164"></span><span class="anchor" id="line-165"></span><p class="line867">
+<h3 id="Boot">Boot</h3>
+<span class="anchor" id="line-166"></span><span class="anchor" id="line-167"></span><p class="line874">Configure the client to "Boot from network". It should load PXELinux and in 5 seconds start loading Ubuntu. <span class="anchor" id="line-168"></span><span class="anchor" id="line-169"></span><p class="line867">
+<h2 id="A.28ToDo_.21.21.29_-_How_To_set_up_the_Ubuntu_Desktop_on_this_System">(ToDo !!) - How To set up the Ubuntu Desktop on this System</h2>
+<span class="anchor" id="line-170"></span><p class="line874">How to set up the above system to be exactly like a Ubuntu Desktop Installation on the Client machine, as the above only installs a similar system without the xserver/gnome/etc, and apt-get install ubuntu-desktop does not work out of the box. <span class="anchor" id="line-171"></span><span class="anchor" id="line-172"></span><p class="line874">A workaround for the time being : <span class="anchor" id="line-173"></span><ul><li>Setup NFS Server create the directory /ubuntu and export it described as above <span class="anchor" id="line-174"></span></li><li>Install Ubuntu Desktop via NetbootImage/CD on Client machine <span class="anchor" id="line-175"></span></li><li>Boot into it mount the /ubuntu directory via NFS <span class="anchor" id="line-176"></span></li><li>Get a root shell and copy the entire / to the mounted NFS directory <span class="anchor" id="line-177"></span></li><li>chroot into the NFS dir, mount proc and uninstall all linux-image-... <span class="anchor" id="line-178"></span></li><li>Edit /etc/mkinitramfs/initramfs.conf and /etc/fstab as described above <span class="anchor" id="line-179"></span></li><li>Install linux-image <span class="anchor" id="line-180"></span></li><li>Configure pxelinux <span class="anchor" id="line-181"></span></li><li>Reboot via pxe <span class="anchor" id="line-182"></span><span class="anchor" id="line-183"></span></li></ul><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-184"></span><a href="/community/CategoryInstallation">CategoryInstallation</a> <a href="/community/CategoryNetworking">CategoryNetworking</a> <span class="anchor" id="line-185"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/OnNFSDrive  (last edited 2015-10-20 23:27:21 by <span title="wtanaka @ cpe-66-91-18-153.hawaii.res.rr.com[66.91.18.153]"><a class="interwiki" href="https://launchpad.net/~wtanaka" title="wtanaka @ cpe-66-91-18-153.hawaii.res.rr.com[66.91.18.153]">wtanaka</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

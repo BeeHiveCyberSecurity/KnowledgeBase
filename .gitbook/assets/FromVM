@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/FromVM - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/FromVM" href="/community/Installation/FromVM?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FFromVM&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/FromVM?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/FromVM?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/FromVM?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/FromVM?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/FromVM">FromVM</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line874">After trying to get an installation of Xubuntu on a laptop with boot support only for a floppy and USB 1.0, I found an alternative.  I have not had a problem with UUIDs yet. <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867">
+<h1 id="What_is_needed">What is needed</h1>
+<span class="anchor" id="line-4"></span><ul><li><p class="line862">A method to hook up your disk drive to another computer (connected via USB-&gt;IDE/SATA / directly via IDE or SATA) <span class="anchor" id="line-5"></span></li><li>VMware Workstation <span class="anchor" id="line-6"></span></li><li>Ubuntu or derivative ISO or CDROM <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span></li></ul><p class="line867">
+<h1 id="Installation">Installation</h1>
+<span class="anchor" id="line-9"></span><p class="line867">
+<h2 id="Configuration_and_Setup">Configuration and Setup</h2>
+<span class="anchor" id="line-10"></span><p class="line867">
+<h3 id="Suggested_Configuration">Suggested Configuration</h3>
+<span class="anchor" id="line-11"></span><ul><li>Go to Advanced Configuration <span class="anchor" id="line-12"></span></li></ul><p class="line867">
+<h4 id="Virtual_Hardware">Virtual Hardware</h4>
+<span class="anchor" id="line-13"></span><ul><li>Name: Xubuntu Install <span class="anchor" id="line-14"></span></li><li>Guest OS: Other <span class="anchor" id="line-15"></span></li><li>Memory Size: (Half of whatever you have in your current machine, NOT the one you are building for) <span class="anchor" id="line-16"></span></li><li># of CPUs: 1 <span class="anchor" id="line-17"></span></li></ul><p class="line867">
+<h4 id="CDROM_Drives">CDROM Drives</h4>
+<span class="anchor" id="line-18"></span><ul><li>Either your CD, DVD, or ISO. <span class="anchor" id="line-19"></span></li></ul><p class="line867">
+<h4 id="Hard_Drive">Hard Drive</h4>
+<span class="anchor" id="line-20"></span><ul><li><p class="line862">Use Physical Disk (make sure you are using the extra drive, in my case "\\.\<a class="nonexistent" href="/community/PhysicalDrive1">PhysicalDrive1</a>") <span class="anchor" id="line-21"></span></li><li>Make sure you use the entire disk <span class="anchor" id="line-22"></span></li></ul><p class="line867">
+<h2 id="Actual_Installation">Actual Installation</h2>
+<span class="anchor" id="line-23"></span><ul><li>Boot the VMX in VMware <span class="anchor" id="line-24"></span></li><li>Boot by booting the DVD drive in VMware, in my case by selecting CD-ROM in the BIOS boot menu <span class="anchor" id="line-25"></span></li><li>Continue through the install <span class="anchor" id="line-26"></span></li><li>When you are done installing, after rebooting, shut down the VM and disconnect your virtual CD-ROM drive <span class="anchor" id="line-27"></span></li><li>Once your drive is the way you like it, plug your hard drive back into the original system and boot! <span class="anchor" id="line-28"></span></li></ul><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/FromVM  (last edited 2009-12-09 03:56:06 by <span title="https://login.launchpad.net/+id/GzJzB86 @ c-76-108-62-114.hsd1.fl.comcast.net[76.108.62.114]"><a class="interwiki" href="https://launchpad.net/~josheee12" title="https://login.launchpad.net/+id/GzJzB86 @ c-76-108-62-114.hsd1.fl.comcast.net[76.108.62.114]">josheee12</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

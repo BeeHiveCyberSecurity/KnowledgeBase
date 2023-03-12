@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/OnNFSDriveWithLocalBoot - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/OnNFSDriveWithLocalBoot" href="/community/Installation/OnNFSDriveWithLocalBoot?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FOnNFSDriveWithLocalBoot&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/OnNFSDriveWithLocalBoot?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/OnNFSDriveWithLocalBoot?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/OnNFSDriveWithLocalBoot?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/OnNFSDriveWithLocalBoot?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/OnNFSDriveWithLocalBoot">OnNFSDriveWithLocalBoot</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line862">This article describes how to install Feisty onto a machine that has a hard drive (Or, as I'll be doing, A <a class="nonexistent" href="/community/CompactFlash">CompactFlash</a> (CF) card) for /boot only with root being on an NFS share somewhere on the network. <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line862">First off, you'll want a MiniCD (<a href="/community/Installation/MinimalCD">Installation/MinimalCD</a>) to install the base system. The base system when installed takes up about 850MB, so make sure your drive or CF card has enough space to handle this. You may prefer to install to hard drive first and transfer /boot to CF later on. <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line874">Minimal install is pretty textbook, don't select any of the extra (BIND, LAMP, Xubuntu etc) packages yet, just get the base system installed. Note that when partitioning, you'll want to disable swap and ensure /boot has its own partition (100MB is more than enough). <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line874">Once you are booted into your minimal install, login and: <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867"><span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><pre><span class="anchor" id="line-1"></span>sudo su -
+<span class="anchor" id="line-2"></span>cd /mnt/
+<span class="anchor" id="line-3"></span>mkdir jarlsbergNFS/
+<span class="anchor" id="line-4"></span>mount -tnfs -onolock 192.168.0.15:/mnt/storage/NFS jarlsbergNFS/</pre><span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line874">You may want to install also nfs-common and smbfs packages if you have problems to mount the nfs: <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line867"><span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span><pre><span class="anchor" id="line-1-1"></span>sudo apt-get install nfs-common smbfs</pre><span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span><p class="line874">This relies on there being a working NFS server on 192.168.0.15. The /etc/exports on that machine reads: <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><p class="line867"><span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><pre><span class="anchor" id="line-1-2"></span># /etc/exports: the access control list for filesystems which may be exported
+<span class="anchor" id="line-2-1"></span>#               to NFS clients.  See unfsd(8).
+<span class="anchor" id="line-3-1"></span>/mnt/storage 192.168.0.1/24(rw,no_root_squash,async)</pre><span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><p class="line874">Now you want to copy the current (mini) install over to the NFS server: <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><pre><span class="anchor" id="line-1-3"></span>cp -ax /. jarlsbergNFS/</pre><span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><p class="line874">And make the NFS install our working directory: <span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><pre><span class="anchor" id="line-1-4"></span>cd jarlsbergNFS/</pre><span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><p class="line874">And now for some hackery. We need to add /proc and /sys to fstab if they do not exist already. Note there is no first / on /etc/fstab. We're editing the copy on the NFS server. You will also want to comment out the entries for / and swap, but leave /boot as it is. <span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><pre><span class="anchor" id="line-1-5"></span>vim etc/fstab
+<span class="anchor" id="line-2-2"></span>Add the lines:
+<span class="anchor" id="line-3-2"></span>proc    /proc    proc    defaults   0 0
+<span class="anchor" id="line-4-1"></span>sys     /sys     sysfs   defaults   0 0</pre><span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><p class="line862">There is currently a bug in <a href="/community/NetworkManager">NetworkManager</a> that means even though the machine gets an IP just fine from the kernel booting the network IF goes down and up again. This is bad, we don't want the network to go down while trying to read files over the network! <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><p class="line874">A quick hack is... <span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><pre><span class="anchor" id="line-1-6"></span>vim etc/network/interfaces
+<span class="anchor" id="line-2-3"></span>Comment out the lines for eth0 (Or whatever your ethernet card is called)</pre><span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><p class="line862">We also need to do this to stop <a href="/community/NetworkManager">NetworkManager</a> messing with the network card. Bit of a hack... <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><pre><span class="anchor" id="line-1-7"></span>vim etc/default/NetworkManager
+<span class="anchor" id="line-2-4"></span>vim etc/default/NetworkManagerDispatcher
+<span class="anchor" id="line-3-3"></span>Add a line with "exit" to both files</pre><span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><p class="line874">We now need to generate an NFS'able initramfs. (Note the first / means we're editing the local copy.) <span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><pre><span class="anchor" id="line-1-8"></span>cd /etc/initramfs-tools/
+<span class="anchor" id="line-2-5"></span>vim initramfs.conf
+<span class="anchor" id="line-3-4"></span>Edit BOOT=local to read BOOT=nfs</pre><span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><p class="line874">Before we update the init images, we should back up the current ones just so we can still get back into the local install if ever anything goes horribly wrong... <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><pre><span class="anchor" id="line-1-9"></span>cd /boot
+<span class="anchor" id="line-2-6"></span>mv initrd.img-2.6.20-16-generic initrd.img-2.6.20-16-generic-OLD</pre><span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><p class="line874">Now we want to update the initramfs image: <span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><pre><span class="anchor" id="line-1-10"></span>update-initramfs -k all -c</pre><span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><p class="line874">We (should!) have a new image called initrd.img-2.6.20-16-generic in /boot. We want this to be the NFS one. <span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><pre><span class="anchor" id="line-1-11"></span>mv initrd.img-2.6.20-16-generic initrd.img-2.6.20-16-generic-NFS
+<span class="anchor" id="line-2-7"></span>mv initrd.img-2.6.20-16-generic-OLD initrd.img-2.6.20-16-generic</pre><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><p class="line862">Now we need to edit grubs menu to make it boot from NFS rather than the local drive. You can substitute in an IP address rather than letting kernel sort the IP, but doing things by dhcp means things like nameservers will be set up for you (Provided your dhcp server is set up nicely! <img alt="Smile :-)" height="16" src="/moin_static198/light/img/icon_smile.png" title="Smile :-)" width="16" /> <span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><pre><span class="anchor" id="line-1-12"></span>vim /boot/grub/menu.lst
+<span class="anchor" id="line-2-8"></span>Add the lines:
+<span class="anchor" id="line-3-5"></span>title           Ubuntu, NFS Boot (POLARIS), kernel 2.6.20-16-generic
+<span class="anchor" id="line-4-2"></span>root            (hd0,5)
+<span class="anchor" id="line-5"></span>kernel          /vmlinuz-2.6.20-16-generic root=/dev/nfs nfsroot=192.168.0.15:/mnt/storage/NFS ip=dhcp
+<span class="anchor" id="line-6"></span>initrd          /initrd.img-2.6.20-16-generic-NFS</pre><span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><p class="line874">Now you might want to change back your initramfs.conf, just in case you want to get back to your non-NFS mini-install. <span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><pre><span class="anchor" id="line-1-13"></span>vim /etc/initramfs-tools/initramfs.conf
+<span class="anchor" id="line-2-9"></span>Change BOOT=nfs to BOOT=local</pre><span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><p class="line874">Now you should be able to reboot, select the NFS boot grub option you added to menu.lst and boot into root-over-NFS ubuntu! Note that you will only have CLI access with very limited tools. So check you are up to date...: <span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><pre><span class="anchor" id="line-1-14"></span>sudo apt-get update
+<span class="anchor" id="line-2-10"></span>sudo apt-get upgrade</pre><span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><p class="line874">And then install a flavour of ubuntu: <span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><span class="anchor" id="line-118"></span><pre><span class="anchor" id="line-1-15"></span>sudo apt-get install &lt;something&gt;
+<span class="anchor" id="line-2-11"></span>
+<span class="anchor" id="line-3-6"></span>(Alternatives...)
+<span class="anchor" id="line-4-3"></span>edubuntu-desktop - edubuntu desktop system
+<span class="anchor" id="line-5-1"></span>kubuntu-desktop - Kubuntu desktop system
+<span class="anchor" id="line-6-1"></span>ubuntu-desktop - The Ubuntu desktop system
+<span class="anchor" id="line-7"></span>xubuntu-desktop - Xubuntu desktop system</pre><span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><p class="line862">Hopefully by now you should have a working ubuntu desktop machine, with /boot on a small partition on hard drive (Or <a class="nonexistent" href="/community/CompactFlash">CompactFlash</a>!) and everything else on your NFS server. <span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><p class="line874">You may wish to add swap to the machine; I ran into the problem of not having a local swap partition and having fun getting swap-over-NFS working. What follows are some instructions for getting nbd working. nbd (Network Block Device) allows you to sort-of do block devices over ethernet :). Seeing as linux kernel doesn't allow for swap-over-NFS, this seems to be the easiest way to get root over NFS with remote swap. <span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><p class="line862">Note that this _very_ buggy and can cause a lot of problems. I'm running without swap on my box and it seems to be fine <img alt="Smile :-)" height="16" src="/moin_static198/light/img/icon_smile.png" title="Smile :-)" width="16" /> <span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span><p class="line874">On your server, you'll want to grab the nbd-server package. <span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span><span class="anchor" id="line-129"></span><pre><span class="anchor" id="line-1-16"></span>apt-get install nbd-server</pre><span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span><p class="line874">Now you'll want to make some swap space. cd to your root-over-NFS root directory and mess around a bit. <span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><pre><span class="anchor" id="line-1-17"></span>cd /mnt/jarlsbergNFS/
+<span class="anchor" id="line-2-12"></span>mkdir swap/
+<span class="anchor" id="line-3-7"></span>dd if=/dev/zero of=swap/swap count=256 bs=1024k
+<span class="anchor" id="line-4-4"></span>chmod 777 swap</pre><span class="anchor" id="line-138"></span><span class="anchor" id="line-139"></span><p class="line874">Still on the server, you'll want to initialise the nbd-server. <span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span><pre><span class="anchor" id="line-1-18"></span>nbd-server 1100 /mnt/jarlsbergNFS/swap/swap</pre><span class="anchor" id="line-143"></span><span class="anchor" id="line-144"></span><p class="line874">Now back on your client machine (Replacing the IP with that of the server) <span class="anchor" id="line-145"></span><span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><span class="anchor" id="line-148"></span><pre><span class="anchor" id="line-1-19"></span>apt-get install nbd-client
+<span class="anchor" id="line-2-13"></span>nbd-client 192.168.0.33 1100 /dev/nbd0</pre><span class="anchor" id="line-149"></span><span class="anchor" id="line-150"></span><p class="line874">And now you will want to make this block device into swap, mount it and check everything is okay: <span class="anchor" id="line-151"></span><span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><span class="anchor" id="line-155"></span><span class="anchor" id="line-156"></span><span class="anchor" id="line-157"></span><pre><span class="anchor" id="line-1-20"></span>mkswap /dev/nbd0
+<span class="anchor" id="line-2-14"></span>swapon /dev/nbd0
+<span class="anchor" id="line-3-8"></span>cat /proc/swaps
+<span class="anchor" id="line-4-5"></span>&gt;&gt;Filename                                Type            Size    Used    Priority
+<span class="anchor" id="line-5-2"></span>&gt;&gt;/dev/nbd0                               partition       262136  0       -1</pre><span class="anchor" id="line-158"></span><span class="anchor" id="line-159"></span><p class="line874">Having swap on a machine somewhere else on the network is going to get pretty slow when your machine does start to swap, so you are better off having lots and lots of RAM rather than relying on swap. <span class="anchor" id="line-160"></span><span class="anchor" id="line-161"></span><p class="line874">Done! <span class="anchor" id="line-162"></span><span class="anchor" id="line-163"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-164"></span><a href="/community/CategoryInstallation">CategoryInstallation</a> <a href="/community/CategoryNetworking">CategoryNetworking</a> <span class="anchor" id="line-165"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/OnNFSDriveWithLocalBoot  (last edited 2008-10-27 06:54:59 by <span title="https://login.launchpad.net/+id/LfJyXpA @ cpe-69-207-215-155.stny.res.rr.com[69.207.215.155]"><a class="interwiki" href="https://launchpad.net/~littlergirl" title="https://login.launchpad.net/+id/LfJyXpA @ cpe-69-207-215-155.stny.res.rr.com[69.207.215.155]">littlergirl</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

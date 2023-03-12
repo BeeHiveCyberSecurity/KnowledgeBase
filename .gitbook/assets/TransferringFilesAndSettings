@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings" href="/community/SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=SwitchingToUbuntu%2FFromWindows%2FTransferringFilesAndSettings&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings?action=print">
+<link rel="Up" href="/community/SwitchingToUbuntu/FromWindows">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings?action=info" rel="nofollow">Page History</a></li><li><a href="/community/SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/SwitchingToUbuntu">SwitchingToUbuntu</a><span class="sep">/</span><a href="/community/SwitchingToUbuntu/FromWindows">FromWindows</a></span><span class="sep">/</span><a href="/community/SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings">TransferringFilesAndSettings</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><p class="line867"><div dir="ltr" id="Tag.2FStyleCleanup.content" lang="en"><span class="anchor" id="Tag.2FStyleCleanup.top"></span>
+<span class="anchor" id="Tag.2FStyleCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DF2A4; vertical-align: top"><p class="line862"> <strong>Style Cleanup Required</strong> <br>
+ This article does not follow the style standards in the Wiki Guide. <a href="/community/Tag#StyleCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FStyleCleanup.line-2"></span><span class="anchor" id="Tag.2FStyleCleanup.bottom"></span></div> <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line867"><div dir="ltr" id="Tag.2FNeedsExpansion.content" lang="en"><span class="anchor" id="Tag.2FNeedsExpansion.top"></span>
+<span class="anchor" id="Tag.2FNeedsExpansion.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #F2F255; vertical-align: top"><p class="line862"> <strong>Needs Expansion</strong> <br>
+ This article is incomplete, and needs to be expanded. <a href="/community/Tag#NeedsExpansion">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FNeedsExpansion.line-2"></span><span class="anchor" id="Tag.2FNeedsExpansion.bottom"></span></div> <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Finding_Relevant_Settings_From_Windows">Finding Relevant Settings From Windows</a><ol><li>
+<a href="#Internet_connection_settings">Internet connection settings</a></li><li>
+<a href="#Network_settings">Network settings</a></li><li>
+<a href="#Instant_messaging_settings">Instant messaging settings</a></li><li>
+<a href="#Browser_favorites">Browser favorites</a></li><li>
+<a href="#Emails_and_mail_account_settings">Emails and mail account settings</a></li></ol></li><li>
+<a href="#A...to_Ubuntu">...to Ubuntu</a><ol><li>
+<a href="#Importing_browser_bookmarks">Importing browser bookmarks</a></li><li>
+<a href="#Importing_saved_emails">Importing saved emails</a></li></ol></li><li>
+<a href="#A...to_Kubuntu">...to Kubuntu</a><ol><li>
+<a href="#Importing_browser_bookmarks-1">Importing browser bookmarks</a></li><li>
+<a href="#Importing_saved_emails-1">Importing saved emails</a></li></ol></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><p class="line874">You can move your existing documents, bookmarks, email, music, video, and photos from Windows to Ubuntu. This document covers getting some common files and settings out of Windows, and getting those saved files working with Ubuntu. <span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line867">
+<h1 id="Finding_Relevant_Settings_From_Windows">Finding Relevant Settings From Windows</h1>
+<span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span><p class="line874">This section contains instructions on finding and saving relevant settings which you will need after making the switch to Ubuntu. <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><p class="line867">
+<h2 id="Internet_connection_settings">Internet connection settings</h2>
+<span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line874">The Internet connection settings which are relevant to you will depend on the type and supplier of your Internet connection. Your supplier will generally be able to advise you of the relevant settings if you encounter difficulties in finding them yourself. <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line867"><strong>Note</strong> - <em>If you connect to the Internet using a network or router, see the <strong>Network settings</strong> section below for instructions.</em> <span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span><p class="line867">
+<h3 id="Dial-up_Internet_connection">Dial-up Internet connection</h3>
+<span class="anchor" id="line-21"></span><p class="line874">Below is a list of common settings which you are likely to need: <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><ul><li>User name <span class="anchor" id="line-24"></span></li><li>Password <span class="anchor" id="line-25"></span></li><li>Dial-up telephone number <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span></li></ul><p class="line874">You may also require the following information: <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><ul><li>Dial-out number <span class="anchor" id="line-30"></span></li><li>Dialling type (tone or pulse) <span class="anchor" id="line-31"></span></li><li>Authentication type <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span></li></ul><p class="line867">
+<h3 id="Broadband_Internet_connection">Broadband Internet connection</h3>
+<span class="anchor" id="line-34"></span><p class="line874">Below is a list of common settings which you are likely to need: <span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><ul><li>User name <span class="anchor" id="line-37"></span></li><li>Password <span class="anchor" id="line-38"></span></li><li>Dialling telephone number <span class="anchor" id="line-39"></span></li><li>Connection type (usually PPPoE or PPPoA) <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span></li></ul><p class="line874">It is possible that you may also require the following technical information, which should be available from your Internet service provider: <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><ul><li>IP address and subnet mask <span class="anchor" id="line-44"></span></li><li>DNS server, gateway IP address or DHCP server <span class="anchor" id="line-45"></span></li><li>VPI/VCI <span class="anchor" id="line-46"></span></li><li>MTU <span class="anchor" id="line-47"></span></li><li>Encapsulation type <span class="anchor" id="line-48"></span></li><li>DHCP settings <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span></li></ul><p class="line867">
+<h3 id="Proxy_server_settings">Proxy server settings</h3>
+<span class="anchor" id="line-51"></span><p class="line874">If you connect to the Internet through a proxy server, you will need to make a note of some details of the proxy server in order to allow Ubuntu to connect to the Internet. <span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><ol type="1"><li><p class="line862">Press <strong>Start</strong> -&gt; <strong>Control Panel</strong> -&gt; <strong>Network and Internet Connections</strong> -&gt; <strong>Internet Options</strong>. <span class="anchor" id="line-54"></span></li><li><p class="line862">On the <strong>Connections</strong> tab, press <strong>LAN Settings...</strong>. <span class="anchor" id="line-55"></span></li><li><p class="line862">If the <strong>Use a proxy server for your LAN</strong> option is ticked, this means that you are connecting to the Internet through a proxy server. <span class="anchor" id="line-56"></span></li><li><p class="line862">Press <strong>Advanced...</strong> and make a note of the contents of the boxes on the screen which appears. These are your proxy settings. <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span></li></ol><p class="line867">
+<h2 id="Network_settings">Network settings</h2>
+<span class="anchor" id="line-59"></span><p class="line874">While Ubuntu is usually able to automatically detect the settings for your network, it is wise to make a note of relevant network settings in case the network you are trying to connect to cannot be handled automatically. <span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><p class="line867">
+<h3 id="Home_networks">Home networks</h3>
+<span class="anchor" id="line-62"></span><p class="line874">If you have a home network, perhaps connected using a router or switch, there are a few settings which you may need in order to connect to the network successfully. While most networks will be able to assign correct settings to Ubuntu automatically, some networks cannot. <span class="anchor" id="line-63"></span>Follow the instructions below to obtain a copy of the network settings which you may need: <span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><ol type="1"><li><p class="line862">Press <strong>Start</strong> -&gt; <strong>Run</strong>. Type <em>cmd.exe</em> into the box labelled <strong>Open:</strong> and press <strong>OK</strong>. <span class="anchor" id="line-66"></span></li><li><p class="line862">A black screen called <em>Command Prompt</em> will appear. Into the screen, type <tt>ipconfig&nbsp;/all</tt> and press <em>Return</em>. This will list a set of network settings for each of the networking devices you have installed. You may have one or several networking devices. <span class="anchor" id="line-67"></span></li><li><p class="line862">Now, type <tt>ipconfig&nbsp;/all&nbsp;&gt;&nbsp;C:\network_settings.txt</tt> and then press <em>Return</em>. This will store the settings you have just seen in the file <em>C:\network_settings.txt</em>. <span class="anchor" id="line-68"></span></li><li><p class="line862">Locate and open <em>C:\network_settings</em> in a text editing program, such as <em>Notepad</em>. Print out a copy of the file if possible. <span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span></li></ol><p class="line867">
+<h3 id="Windows_networks">Windows networks</h3>
+<span class="anchor" id="line-71"></span><p class="line874">If you connect to a Windows network, you may need some additional information in order to be able to see documents placed in network shares. If you connect to a network administered by another person, ask that person for the relevant information on connecting to the network. Otherwise, ensure that you have access to the information listed below: <span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><ul><li>Domain or workgroup name <span class="anchor" id="line-74"></span></li><li>Your username and password on the network <span class="anchor" id="line-75"></span></li><li>Active Directory master IP address (if applicable) <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span></li></ul><p class="line867">
+<h3 id="Wireless_networks">Wireless networks</h3>
+<span class="anchor" id="line-78"></span><p class="line874">There are several important pieces of information which you should have to hand if you would like to connect to a wireless network. These are listed below: <span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><ul><li>Network name (SSID) <span class="anchor" id="line-81"></span></li><li>WEP encryption key or WPA passkey <span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span></li></ul><p class="line862">There are numerous ways of discovering this information. If your wireless network is provided by a <em>wireless router</em>, you should be able to find this information from the configuration pages of the router. Consult the router manual for more information on where to find the relevant information. <span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><p class="line867">
+<h3 id="VPNs">VPNs</h3>
+<span class="anchor" id="line-86"></span><p class="line867"><em>Virtual Private Networks</em> are a type of network which allow you to connect to a remote private network using a public network such as the Internet. There are many different types of VPN, which have varying degrees of support under Ubuntu. If you must connect to a VPN, first identify the type of VPN which you are connecting to. If the VPN is supported under Ubuntu, it is possible that a document will be available from the VPN vendor's website which can help you to connect to the network. <span class="anchor" id="line-87"></span>Ensure that you have all of the VPN connection information that you think you may require. <span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><p class="line867">
+<h2 id="Instant_messaging_settings">Instant messaging settings</h2>
+<span class="anchor" id="line-90"></span><p class="line874">If you use instant messaging (chat) software, you will have set up a user account on an instant messaging network. Ubuntu has excellent support for many instant messaging networks by default, so you should still be able to use your existing account after you have switched. Please ensure that you make a note of the following information about your instant messaging account: <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><ul><li>User name <span class="anchor" id="line-93"></span></li><li>Password <span class="anchor" id="line-94"></span></li><li>Screen name or alias <span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span></li></ul><p class="line874">If possible, also make a copy of your buddy- or contact-list. <span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><p class="line867">
+<h2 id="Browser_favorites">Browser favorites</h2>
+<span class="anchor" id="line-99"></span><p class="line874">It is likely that you will have stored a collection of favorite web pages in your web browser, which you would like to continue to use in Ubuntu.  <span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><p class="line862">The following instructions are intended for users of the <em>Microsoft Internet Explorer 6</em> web browser: <span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><ol type="1"><li><p class="line862">Start <em>Internet Explorer</em>. <span class="anchor" id="line-104"></span></li><li><p class="line862">Press <strong>File</strong> -&gt; <strong>Import and Export...</strong>. <span class="anchor" id="line-105"></span></li><li><p class="line862">The <em>Import/Export Wizard</em> will start. Press <strong>Next</strong>. <span class="anchor" id="line-106"></span></li><li><p class="line862">Select <strong>Export Favorites</strong> and press <strong>Next</strong>. <span class="anchor" id="line-107"></span></li><li><p class="line862">Select the folder from which you want to export your favorites. Selecting the <strong>Favorites</strong> folder will will export all of them. Press <strong>Next</strong>. <span class="anchor" id="line-108"></span></li><li><p class="line862">Select <strong>Export to a File or Address</strong> and choose a filename. Press <strong>Next</strong>. <span class="anchor" id="line-109"></span></li><li><p class="line891"><strong>Completing the Import/Export Wizard</strong> will be displayed. Press <strong>Finish</strong>. <span class="anchor" id="line-110"></span></li><li>Your bookmarks will have been saved to the filename you specified previously. <span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span></li></ol><p class="line862">If you are using <em>Mozilla Firefox</em>: <span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><ol type="1"><li><p class="line862">Start <em>Firefox</em>. <span class="anchor" id="line-115"></span></li><li><p class="line862">Choose menu <strong>Bookmarks</strong> -&gt; <strong>Organize Bookmarks...</strong>.  (Or <strong>Manage Bookmarks...</strong> in older versions) <span class="anchor" id="line-116"></span></li><li><p class="line862">A new window opens up.  Choose menu <strong>File</strong> -&gt; <strong>Export...</strong>. <span class="anchor" id="line-117"></span></li><li><p class="line862">Choose the location and filename you'd like to save your bookmarks as and click <strong>Save</strong>. <span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span></li></ol><p class="line867">
+<h2 id="Emails_and_mail_account_settings">Emails and mail account settings</h2>
+<span class="anchor" id="line-120"></span><p class="line874">You can use the same email account in Ubuntu as you have done in Windows. If you have a Web-based email account, then you should simply be able to access it using the a web browser as you would have done in Windows. Otherwise, please note down the following information so that you can re-create your account settings on Ubuntu: <span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><ul><li>Email address <span class="anchor" id="line-123"></span></li><li>Password <span class="anchor" id="line-124"></span></li><li>POP3 or IMAP server <span class="anchor" id="line-125"></span></li><li>SMTP server <span class="anchor" id="line-126"></span></li><li>Authentication method <span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span></li></ul><p class="line874">The instructions on exporting emails and email account settings are specific to particular applications. Instructions for some popular email clients are given in the following sections; users of other applications may find instructions relevant to their mail application here, on the Ubuntu community support website. <span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><p class="line867">
+<h3 id="Microsoft_Outlook_Express">Microsoft Outlook Express</h3>
+<span class="anchor" id="line-131"></span><p class="line862">These instructions are intended for users of <em>Microsoft Outlook Express 6</em>. If you are a user of a different version of <em>Outlook Express</em>, you may find instructions specific to that version from another document here, on the Ubuntu community support website. <span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><p class="line867">
+<h4 id="Exporting_the_address_book">Exporting the address book</h4>
+<span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><ol type="1"><li><p class="line862">Open <em>Outlook Express</em> and press <strong>File</strong> -&gt; <strong>Export</strong> -&gt; <strong>Address Book...</strong> <span class="anchor" id="line-136"></span></li><li><p class="line862">The <em>Address Book Export Tool</em> will start. Select the option <strong>Text File (Comma Separated Values)</strong> and then press <strong>Export</strong>. <span class="anchor" id="line-137"></span></li><li><p class="line862">Save the file in a memorable location. Give the file a descriptive name, such as <em>mail_address_book.csv</em>, and press <strong>Next</strong>. <span class="anchor" id="line-138"></span></li><li><p class="line862">Select the details from the address book which you would like to export. If you are unsure, tick all of the options. Then, press <strong>Finish</strong>. <span class="anchor" id="line-139"></span></li><li><p class="line862">You should receive a message stating that the <strong>Address book export process has completed</strong>. Press <strong>OK</strong> and then <strong>Close</strong>. Your address book should now have been exported successfully. <span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span></li></ol><p class="line867">
+<h4 id="Exporting_mail_messages">Exporting mail messages</h4>
+<span class="anchor" id="line-142"></span><p class="line862">If you choose <a class="http" href="http://www.kubuntu.org">Kubuntu</a> as your Ubuntu flavour, all you need is to remember where <em>Outlook Express</em> stores your messages since <em>KMail</em> can import them directly from there.  You can read that information from mail folder properties window for each particular folder.  Usually all these folder files will be stored in a single file folder; you may choose to back them up or to access them directly from Kubuntu. <span class="anchor" id="line-143"></span><span class="anchor" id="line-144"></span><p class="line862">Otherwise, because <em>Microsoft Outlook Express</em> is unable to export its mail messages to an intermediate format, you must install another piece of software in order to export your email. <span class="anchor" id="line-145"></span>Please see <em>Preparing email for export using Mozilla Thunderbird</em> (below) for instructions on importing your email into the <em>Mozilla Thunderbird</em> application, which will allow the exporting of your messages. <span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><p class="line867">
+<h3 id="Microsoft_Office_Outlook">Microsoft Office Outlook</h3>
+<span class="anchor" id="line-148"></span><p class="line862">These instructions are intended for users of <em>Microsoft Office Outlook 2003</em>. If you are a user of a different version of <em>Outlook</em>, you may find instructions specific to that version on the wiki. <span class="anchor" id="line-149"></span><span class="anchor" id="line-150"></span><p class="line867">
+<h4 id="Exporting_all_Outlook_data">Exporting all Outlook data</h4>
+<span class="anchor" id="line-151"></span><p class="line867"><strong>Caution</strong> - <em>This method may be unreliable and should be used for backup purposes only.</em> <span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><ol type="1"><li><p class="line862">Open <em>Outlook</em> and press <strong>Tools</strong> -&gt; <strong>Options...</strong> <span class="anchor" id="line-154"></span></li><li><p class="line862">Select the <strong>Mail Setup</strong> tab and press <strong>Data Files...</strong> <span class="anchor" id="line-155"></span></li><li><p class="line862">A screen called <strong>Outlook Data Files</strong> will be displayed. Select the first file in the list, make a note of its name, and press <strong>Open Folder...</strong> <span class="anchor" id="line-156"></span></li><li><p class="line862">A folder will open. Find the file you just selected. If you have difficultly finding the file, it should be of type <em>Office Data File</em> or have the file extension <em>.pst</em>. <span class="anchor" id="line-157"></span></li><li>Copy the file into the location you are using to store your exported settings. <span class="anchor" id="line-158"></span></li><li><p class="line862">Repeat this process for all of the files which were listed on the <strong>Outlook Data Files</strong> screen. <span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span></li></ol><p class="line867">
+<h4 id="Exporting_your_contacts">Exporting your contacts</h4>
+<span class="anchor" id="line-161"></span><span class="anchor" id="line-162"></span><ol type="1"><li><p class="line862">Open <em>Outlook</em> and press <strong>File</strong> -&gt; <strong>Import and Export...</strong> <span class="anchor" id="line-163"></span></li><li><p class="line862">The <em>Import and Export Wizard</em> will start. Select the option <strong>Export to a file</strong> and then press <strong>Next</strong>. <span class="anchor" id="line-164"></span></li><li><p class="line862">Select <strong>Comma Separated Values (DOS)</strong> and press <strong>Next</strong> <span class="anchor" id="line-165"></span></li><li><p class="line862">Select the <strong>Contacts</strong> folder and press <strong>Next</strong>. Then, choose where to save the file and press <strong>Next</strong>. <span class="anchor" id="line-166"></span></li><li><p class="line862">A screen listing <strong>Actions to be performed</strong> will be shown. Press <strong>Finish</strong> to export your contacts to the location you selected in the previous step. <span class="anchor" id="line-167"></span><span class="anchor" id="line-168"></span></li></ol><p class="line867">
+<h4 id="Exporting_your_calendar">Exporting your calendar</h4>
+<span class="anchor" id="line-169"></span><span class="anchor" id="line-170"></span><ol type="1"><li><p class="line862">Open <em>Outlook</em> and press <strong>File</strong> -&gt; <strong>Import and Export...</strong> <span class="anchor" id="line-171"></span></li><li><p class="line862">The <em>Import and Export Wizard</em> will start. Select the option <strong>Export to a file</strong> and then press <strong>Next</strong>. <span class="anchor" id="line-172"></span></li><li><p class="line862">Select <strong>Comma Separated Values (DOS)</strong> and press <strong>Next</strong> <span class="anchor" id="line-173"></span></li><li><p class="line862">Select the <strong>Calendars</strong> folder and press <strong>Next</strong>. Then, choose where to save the file and press <strong>Next</strong>. <span class="anchor" id="line-174"></span></li><li><p class="line862">A screen listing <strong>Actions to be performed</strong> will be shown. Press <strong>Finish</strong> to export your contacts to the location you selected in the previous step. <span class="anchor" id="line-175"></span><span class="anchor" id="line-176"></span></li></ol><p class="line867">
+<h4 id="Exporting_mail_messages-1">Exporting mail messages</h4>
+<span class="anchor" id="line-177"></span><p class="line862">Because <em>Microsoft Outlook</em> is unable to fully export its mail messages to a usable intermediate format, you must install another piece of software in order to export your email. <span class="anchor" id="line-178"></span><span class="anchor" id="line-179"></span><p class="line862">Please see below for instructions on importing your email into the <em>Mozilla Thunderbird</em> application, which will allow the exporting of your messages. <span class="anchor" id="line-180"></span><span class="anchor" id="line-181"></span><p class="line867">
+<h3 id="Preparing_email_for_export_using_Mozilla_Thunderbird">Preparing email for export using Mozilla Thunderbird</h3>
+<span class="anchor" id="line-182"></span><p class="line862">Because some mail clients (such as <em>Microsoft Outlook</em> and <em>Microsoft Outlook Express</em>) do not store their mail messages in a standard format, an additional piece of software must be used to convert the mail before export. <em>Mozilla Thunderbird</em> is a free, open-source application which is able to do this. <span class="anchor" id="line-183"></span>The following instructions explain how to obtain Thunderbird and then use it to prepare mail messages for export: <span class="anchor" id="line-184"></span><span class="anchor" id="line-185"></span><ol type="1"><li><p class="line862">Open a web browser and navigate to the <a class="http" href="http://www.mozilla.com/thunderbird/">Mozilla Thunderbird website</a>. Follow the link to download <em>Mozilla Thunderbird</em>. <span class="anchor" id="line-186"></span></li><li>Once the download has completed, run the installer package. Follow the instructions to install Thunderbird. <span class="anchor" id="line-187"></span></li><li><p class="line862">Once the installer has completed, start <em>Mozilla Thunderbird</em>. You should be greeted with the <em>Import Wizard</em>. Follow the instructions to import all settings - this should import your mail and some other data. <span class="anchor" id="line-188"></span></li><li><p class="line862">If the <em>Import Wizard</em> does not appear, press <strong>Tools</strong> -&gt; <strong>Import...</strong> and choose the <strong>Mail</strong> option. Follow the instructions to import your mail. <span class="anchor" id="line-189"></span><span class="anchor" id="line-190"></span></li></ol><p class="line874">Once all of your mail has been imported, you must now make a copy of it for exporting. Please see below for instructions on how to do this. <span class="anchor" id="line-191"></span><span class="anchor" id="line-192"></span><p class="line867">
+<h3 id="Exporting_email_messages_from_Mozilla_Thunderbird">Exporting email messages from Mozilla Thunderbird</h3>
+<span class="anchor" id="line-193"></span><p class="line862">These instructions are intended for users of <em>Mozilla Thunderbird</em> and users of <em>Outlook</em> and <em>Outlook Express</em> who imported their mail into Thunderbird (see above). <span class="anchor" id="line-194"></span><span class="anchor" id="line-195"></span><ol type="1"><li><p class="line862">Press <strong>Start</strong> -&gt; <strong>Run</strong>, type <em>%<a class="nonexistent" href="/community/AppData">AppData</a>%\Thunderbird\Profiles\</em> into the box provided, and then press <strong>OK</strong>. A folder will open. <span class="anchor" id="line-196"></span></li><li><p class="line862">In the newly-opened folder, you should find another folder with a name made up mostly of random characters, for example <em>fyhsxlr3.default</em>. Open this folder. <span class="anchor" id="line-197"></span></li><li><p class="line862">In this folder, locate a folder named <em>Mail</em> or <em><a class="nonexistent" href="/community/ImapMail">ImapMail</a></em>. Select this folder and copy it to a safe location. <span class="anchor" id="line-198"></span></li><li><p class="line862">When you switch to Ubuntu, make a back-up copy of the folder you just made a copy of. This folder contains all of your mail folders from Thunderbird, in the <em>mbox</em> format. <span class="anchor" id="line-199"></span><span class="anchor" id="line-200"></span></li></ol><p class="line867">
+<h1 id="A...to_Ubuntu">...to Ubuntu</h1>
+<span class="anchor" id="line-201"></span><span class="anchor" id="line-202"></span><p class="line874">This section contains instructions on how to import data from Windows into Ubuntu applications. <span class="anchor" id="line-203"></span><span class="anchor" id="line-204"></span><p class="line867"><em>Some less-commonly-used applications listed here currently lack instructions. Please contribute!</em> <span class="anchor" id="line-205"></span><span class="anchor" id="line-206"></span><p class="line867">
+<h2 id="Importing_browser_bookmarks">Importing browser bookmarks</h2>
+<span class="anchor" id="line-207"></span><span class="anchor" id="line-208"></span><p class="line862">This section provides instructions on importing your <em>Internet Explorer</em> or <em>Firefox</em> browser bookmarks/favorites into common Ubuntu (GNOME) web browsers. <span class="anchor" id="line-209"></span><span class="anchor" id="line-210"></span><p class="line867">
+<h3 id="Firefox_Web_Browser">Firefox Web Browser</h3>
+<span class="anchor" id="line-211"></span><span class="anchor" id="line-212"></span><ol type="1"><li><p class="line862">Start <em>Firefox Web Browser</em>. <span class="anchor" id="line-213"></span></li><li><p class="line862">Select <strong>Bookmarks</strong> -&gt; <strong>Organize Bookmarks...</strong> to launch Firefox's Bookmark Manager. <span class="anchor" id="line-214"></span></li><li><p class="line862">From within the Bookmark Manager, select <strong>File</strong> -&gt; <strong>Import...</strong> and choose the <strong>From File</strong> option, then press <strong>Next</strong>. <span class="anchor" id="line-215"></span></li><li><p class="line862">Select the file which you originally exported from <em>Internet Explorer</em> or <em>Firefox</em> in Windows (see the section <em>Browser favorites</em>, above). <span class="anchor" id="line-216"></span></li><li><p class="line862">Press <strong>OK</strong> . Your bookmarks will be imported into Firefox. <span class="anchor" id="line-217"></span><span class="anchor" id="line-218"></span></li></ol><p class="line867">
+<h3 id="Epiphany_Web_Browser">Epiphany Web Browser</h3>
+<span class="anchor" id="line-219"></span><span class="anchor" id="line-220"></span><p class="line867"><strong>Note</strong> - Due to a problem with Epiphany's import mechanism, you must first follow the instructions to import your bookmarks into Firefox (above). The following instructions assume that you have done so. <span class="anchor" id="line-221"></span><span class="anchor" id="line-222"></span><ol type="1"><li><p class="line862">Start <em>Epiphany Web Browser</em>. <span class="anchor" id="line-223"></span></li><li><p class="line862">Press <strong>Bookmarks</strong> -&gt; <strong>Edit Bookmarks</strong> <span class="anchor" id="line-224"></span></li><li><p class="line862">The <em>Bookmarks</em> screen appears. Press <strong>File</strong> -&gt; <strong>Import Bookmarks...</strong> <span class="anchor" id="line-225"></span></li><li><p class="line862">The <em>Import Bookmarks</em> screen appears. Select <em>Firefox</em> from the list provided and press <strong>Import</strong> <span class="anchor" id="line-226"></span></li><li>All of the bookmarks from Firefox will be imported, including those which you imported from Windows earlier. <span class="anchor" id="line-227"></span><span class="anchor" id="line-228"></span></li></ol><p class="line867">
+<h3 id="Mozilla_Browser">Mozilla Browser</h3>
+<span class="anchor" id="line-229"></span><span class="anchor" id="line-230"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-231"></span><span class="anchor" id="line-232"></span><p class="line867">
+<h3 id="Galeon_Web_Browser">Galeon Web Browser</h3>
+<span class="anchor" id="line-233"></span><span class="anchor" id="line-234"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-235"></span><span class="anchor" id="line-236"></span><p class="line867">
+<h3 id="Kazehakase">Kazehakase</h3>
+<span class="anchor" id="line-237"></span><span class="anchor" id="line-238"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-239"></span><span class="anchor" id="line-240"></span><p class="line867">
+<h3 id="Dillo">Dillo</h3>
+<span class="anchor" id="line-241"></span><span class="anchor" id="line-242"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-243"></span><span class="anchor" id="line-244"></span><p class="line867">
+<h2 id="Importing_saved_emails">Importing saved emails</h2>
+<span class="anchor" id="line-245"></span><p class="line862">This section contains instructions on importing emails into several commonly-used email clients. For all applications, it is assumed that you followed the instructions given above, in the section <em>Exporting mail messages</em>, to export your emails from Windows. <span class="anchor" id="line-246"></span><span class="anchor" id="line-247"></span><p class="line867">
+<h3 id="Evolution_Mail">Evolution Mail</h3>
+<span class="anchor" id="line-248"></span><span class="anchor" id="line-249"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-250"></span><span class="anchor" id="line-251"></span><p class="line867">
+<h3 id="Mozilla_Thunderbird">Mozilla Thunderbird</h3>
+<span class="anchor" id="line-252"></span><span class="anchor" id="line-253"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-254"></span><span class="anchor" id="line-255"></span><p class="line867">
+<h3 id="Sylpheed_and_SylpheedClaws">Sylpheed and SylpheedClaws</h3>
+<span class="anchor" id="line-256"></span><span class="anchor" id="line-257"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-258"></span><span class="anchor" id="line-259"></span><p class="line867">
+<h3 id="Balsa_Mail_Client">Balsa Mail Client</h3>
+<span class="anchor" id="line-260"></span><span class="anchor" id="line-261"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-262"></span><span class="anchor" id="line-263"></span><p class="line867">
+<h3 id="Pronto">Pronto</h3>
+<span class="anchor" id="line-264"></span><span class="anchor" id="line-265"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-266"></span><span class="anchor" id="line-267"></span><p class="line867">
+<h1 id="A...to_Kubuntu">...to Kubuntu</h1>
+<span class="anchor" id="line-268"></span><span class="anchor" id="line-269"></span><p class="line874">This section contains instructions on how to import data from Windows into commonly-used Kubuntu (KDE) applications <span class="anchor" id="line-270"></span><span class="anchor" id="line-271"></span><p class="line867">
+<h2 id="Importing_browser_bookmarks-1">Importing browser bookmarks</h2>
+<span class="anchor" id="line-272"></span><p class="line862">This section provides instructions on importing your <em>Internet Explorer</em> browser bookmarks/favorites into KDE-based web browsers.  <span class="anchor" id="line-273"></span><span class="anchor" id="line-274"></span><p class="line867">
+<h3 id="Konqueror_Web_Browser">Konqueror Web Browser</h3>
+<span class="anchor" id="line-275"></span><span class="anchor" id="line-276"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-277"></span><span class="anchor" id="line-278"></span><p class="line867">
+<h2 id="Importing_saved_emails-1">Importing saved emails</h2>
+<span class="anchor" id="line-279"></span><p class="line862">This section provides instructions on importing your emails into various KDE-based email clients. It is assumed that you followed the instructions given above, in the section <em>Exporting mail messages</em>, to export your emails from Windows. Users of <em>Mozilla Thunderbird</em> can find instructions in the <em>...to Ubuntu</em> section of this document. <span class="anchor" id="line-280"></span><span class="anchor" id="line-281"></span><p class="line867">
+<h3 id="KMail_and_Kontact">KMail and Kontact</h3>
+<span class="anchor" id="line-282"></span><span class="anchor" id="line-283"></span><p class="line867"><em>To write...</em> <span class="anchor" id="line-284"></span><span class="anchor" id="line-285"></span><p class="line867"><hr class="hr1" /><p class="line874"> <span class="anchor" id="line-286"></span><em>Document under construction</em> <span class="anchor" id="line-287"></span>The plan is to make the information on this page part of either the Ubuntu Desktop Guide or a standalone Migration Guide, managed by the Ubuntu Documentation Team either way. <span class="anchor" id="line-288"></span><span class="anchor" id="line-289"></span><p class="line862">Much of the scope of this document is fulfilled by the <em>Switching from Windows guide</em>, which is not yet available as of Edgy Eft (6.10) release. <span class="anchor" id="line-290"></span><span class="anchor" id="line-291"></span><p class="line867">
+<h4 id="Related_Links:">Related Links:</h4>
+<span class="anchor" id="line-292"></span><ul><li><p class="line891"><a class="nonexistent" href="/community/UbuntuDownUnder/BOFs/MigratingToUbuntu">Migrating To Ubuntu BOF</a> <span class="anchor" id="line-293"></span></li><li><p class="line891"><a class="http" href="http://openmoveover.sourceforge.net/">Open MoveOver</a> (only the Linux part has been open-sourced, which is too bad) <span class="anchor" id="line-294"></span></li><li><p class="line891"><a class="http" href="http://pcmech.com/show/os/917/">PcMechs Windows --&gt; Ubuntu guide</a> <span class="anchor" id="line-295"></span></li></ul><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings  (last edited 2009-08-04 01:22:42 by <span title="https://login.launchpad.net/+id/Drs3PmW @ 18925050207.user.veloxzone.com.br[189.25.50.207]"><a class="interwiki" href="https://launchpad.net/~pedro3005" title="https://login.launchpad.net/+id/Drs3PmW @ 18925050207.user.veloxzone.com.br[189.25.50.207]">pedro3005</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

@@ -60,6 +60,14 @@
 
 ## 🖥 Operating Systems
 
+* [🐧 Ubuntu](operating-systems/ubuntu/README.md)
+  * [Installation](operating-systems/ubuntu/installation/README.md)
+    * [Switching](operating-systems/ubuntu/installation/switching/README.md)
+      * [From Windows](operating-systems/ubuntu/installation/switching/from-windows.md)
+      * [From macOS](operating-systems/ubuntu/installation/switching/from-macos.md)
+      * [From a different Linux](operating-systems/ubuntu/installation/switching/from-a-different-linux.md)
+    * [Applications](operating-systems/ubuntu/installation/applications.md)
+    * [Ubuntu PreInstalled](operating-systems/ubuntu/installation/ubuntu-preinstalled.md)
 * [🐧 Linux Mint](operating-systems/linux-mint/README.md)
   * [Installation Guide](operating-systems/linux-mint/installation-guide/README.md)
     * [Verify your ISO image](operating-systems/linux-mint/installation-guide/verify-your-iso-image.md)

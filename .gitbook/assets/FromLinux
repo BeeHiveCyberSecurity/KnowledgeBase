@@ -1,0 +1,279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/FromLinux - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/FromLinux" href="/community/Installation/FromLinux?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FFromLinux&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/FromLinux?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/FromLinux?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/FromLinux?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/FromLinux?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/FromLinux">FromLinux</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><div><table style="float:right;  font-size:0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Live_Ubuntu_Desktop_from_Hard_Drive">Live Ubuntu Desktop from Hard Drive</a><ol><li>
+<a href="#Step_1.2C_Partition">Step 1, Partition</a></li><li>
+<a href="#Step_2.2C_Copy">Step 2, Copy</a></li><li>
+<a href="#Step_3.2C_Grub">Step 3, Grub</a></li><li>
+<a href="#Step_4.2C_Reboot">Step 4, Reboot</a></li><li>
+<a href="#Step_5.2C_Grub_.28again.29">Step 5, Grub (again)</a></li><li>
+<a href="#Older_Versions_of_Ubuntu">Older Versions of Ubuntu</a></li></ol></li><li>
+<a href="#Debootstrap">Debootstrap</a></li><li>
+<a href="#Alternate_CD">Alternate CD</a><ol><li>
+<a href="#Procedure_1">Procedure 1</a></li><li>
+<a href="#Procedure_2">Procedure 2</a></li></ol></li><li>
+<a href="#Alternate_CD_Alternate_Method">Alternate CD Alternate Method</a></li><li>
+<a href="#Troubleshooting">Troubleshooting</a></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line874">If you already have Ubuntu installed, it is easy to upgrade using the Update Manager. However, this is not always safe, and it will overwrite your old system. <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line862">If upgrading is not an option (you are running a different Linux distro than Ubuntu, or your system is several versions old), or you wish to keep your old system, you should use the <a class="http" href="http://www.ubuntu.com/download/desktop">live Ubuntu Desktop installer</a> or Debootstrap. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line874">The Ubuntu Desktop installer is usually run on a DVD or a bootable USB stick.  However, if you already run Linux, using a DVD or USB is not necessary. You may run the Ubuntu Desktop installer directly from your hard drive, or use Debootstrap. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867"><strong>Note:</strong> These are advanced installation techniques and are not recommended for new users. If you are uncomfortable with the command line terminal, you should create a <a class="http" href="http://www.ubuntu.com/download/desktop">live Ubuntu Desktop DVD or USB</a>. <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line874">Running the Ubuntu Desktop installer from your hard drive requires an extra partition.  Debootstrap installs Ubuntu directly, without using the guiding Ubuntu Desktop installer.  Debootstrap does not require a DVD, USB, Ubuntu Desktop ISO, or an extra installer partition. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line867">
+<h1 id="Live_Ubuntu_Desktop_from_Hard_Drive">Live Ubuntu Desktop from Hard Drive</h1>
+<span class="anchor" id="line-14"></span><p class="line862">The Ubuntu Desktop installer is distributed as a <tt>.iso</tt> file - <a class="http" href="http://www.ubuntu.com/download/desktop">get it here</a>.  If you don't want to download an ISO, use Debootstrap.  If your ISO has "alternate" in its name, you are using an alternate installation image and should see the next section. <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line867"><strong>Note:</strong> You will need blank hard drive space to create new partitions. If your current system partition(s) take up all available space, you must create a <a class="http" href="http://www.ubuntu.com/download/desktop">live DVD or live USB</a>. <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line867">
+<h2 id="Step_1.2C_Partition">Step 1, Partition</h2>
+<span class="anchor" id="line-19"></span><p class="line862">Create a new <tt>ext4</tt> partition for the installer, using gparted. The partition must be a little larger than the install image (for example, if <tt>du&nbsp;-h&nbsp;disk-image.iso</tt> returns 1.1GB, make the partition 1.2GB). Remember the name of the new partition (for example, /dev/sda3). <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><p class="line867">
+<h2 id="Step_2.2C_Copy">Step 2, Copy</h2>
+<span class="anchor" id="line-22"></span><p class="line874">Copy Ubuntu Desktop installer contents over to the new partition using the commands <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><p class="line867"><span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><pre><span class="anchor" id="line-1"></span> mkdir /tmp/install_cd
+<span class="anchor" id="line-2"></span> mkdir /tmp/installer
+<span class="anchor" id="line-3"></span>
+<span class="anchor" id="line-4"></span> sudo mount disk-image.iso -o loop /tmp/install_cd
+<span class="anchor" id="line-5"></span> sudo mount /dev/sda3 /tmp/installer
+<span class="anchor" id="line-6"></span>
+<span class="anchor" id="line-7"></span> sudo rsync -a /tmp/install_cd/. /tmp/installer
+<span class="anchor" id="line-8"></span>
+<span class="anchor" id="line-9"></span> sudo umount /tmp/install_cd
+<span class="anchor" id="line-10"></span> sudo umount /tmp/installer</pre><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><p class="line862">Replace <tt>disk-image.iso</tt> with the path to your disk image and <tt>/dev/sda3</tt> with the new partition. <span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><p class="line867">
+<h2 id="Step_3.2C_Grub">Step 3, Grub</h2>
+<span class="anchor" id="line-40"></span><p class="line862">Configure grub2. Edit the file <tt>/etc/grub.d/40_custom</tt> and add the lines <span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><p class="line867"><span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><pre><span class="anchor" id="line-1-1"></span>menuentry "Ubuntu Ver??? Installer" {
+<span class="anchor" id="line-2-1"></span>        set root=(hd0,3)
+<span class="anchor" id="line-3-1"></span>        linux /casper/vmlinuz.efi boot=casper ignore_uuid
+<span class="anchor" id="line-4-1"></span>        initrd /casper/initrd.lz
+<span class="anchor" id="line-5-1"></span>}</pre><span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><p class="line862">Replace <tt>Ver???</tt> with the version number and <tt>(hd0,3)</tt> with the new partition (for example, <tt>/dev/sda3</tt> becomes <tt>(hd0,3)</tt> because Grub 2 counts drives from 0, but partitions from 1). <span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><p class="line862">Then run <tt>update-grub</tt> to rebuild the grub configuration. <span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><p class="line867">
+<h2 id="Step_4.2C_Reboot">Step 4, Reboot</h2>
+<span class="anchor" id="line-55"></span><p class="line874">Reboot, and choose "installer" from the grub boot menu, and continue as if you were installing from CD. Be sure to set the root partition to another new partition, different from the installer; do not overwrite the whole drive. <span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><p class="line867">
+<h2 id="Step_5.2C_Grub_.28again.29">Step 5, Grub (again)</h2>
+<span class="anchor" id="line-58"></span><p class="line874">The installer may not add an entry in Grub for the new version of Ubuntu. You will have to do this manually. <span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line867">
+<h2 id="Older_Versions_of_Ubuntu">Older Versions of Ubuntu</h2>
+<span class="anchor" id="line-61"></span><p class="line862">Older verions of Ubuntu may use <tt>/casper/vmlinuz</tt> instead of <tt>/casper/vmlinuz.efi</tt> <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><p class="line862">For even older versions of Ubuntu with grub1, change the grub configuration file (typically <tt>/etc/grub.conf</tt> or <tt>/boot/grub/menu.lst</tt>) to boot from the new partition by adding the lines <span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><p class="line867"><span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><pre><span class="anchor" id="line-1-2"></span>title           installer
+<span class="anchor" id="line-2-2"></span>root            (hd0,0)
+<span class="anchor" id="line-3-2"></span>kernel          /casper/vmlinuz boot=casper root=/dev/ram ramdisk_size=1048576 rw
+<span class="anchor" id="line-4-2"></span>initrd          /casper/initrd.gz</pre><span class="anchor" id="line-72"></span><p class="line862">The first line after the title tells grub which partition contains the installer. <tt>hd0</tt> stands for "first hard disk," and the 0 following it standards for first partition. You will need to change this if your installer partition is different from <tt>/dev/sda1</tt>. <tt>sdaN</tt> becomes <tt>(hd0,&nbsp;N-1)</tt>, <tt>sdbN</tt> becomes <tt>(hd1,N-1)</tt> and so on. As you can see, grub starts counting from 0, which can be confusing. <span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><p class="line874">If you are trying to use Hard Disk installation with Ubuntu 9.10 chances are initrd.gz is renamed as initrd.lz now. So rename accordingly in menu.lst. <span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><p class="line867"><strong>Note</strong> (old, for grub1) You do not need to modify the grub config of the existing linux system, if you feel uncomfortable modifying an otherwise fine running system. Instead, you may create a new <tt>menu.lst</tt> file on the new partition, preferably in directory <tt>/boot/grub/</tt>. Then, reboot, and when the (old) grub menu appears, press 'c' to get the grub command line. Then, type: <tt>configfile&nbsp;(hd0,1)/boot/grub/menu.lst</tt> to switch over to your new grub menu. Tip: use the tab-key halfway typing to have grub help you complete the command, or grub commands such as <tt>search</tt> or <tt>help</tt>. <span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><p class="line867"><strong>Note:</strong> if you unpacked the livecd on the same disk where you want to install Ubuntu, you may run into <a class="https" href="https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/288675">LP#288675</a>, and be unable to select a partition. The workaround by Nick Spencer ("sudo umount -l -r -f /dev/sda3 or sudo umount -l -r -f /cdrom (where sda3 was the device mounted as cdrom)") is a rather terrible hack, but usable as a workaround. <span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><p class="line867"><strong>Note2:</strong> Instead of using 'workaround', an alternative is to modify the file /etc/mtab by erasing the line that specifies the partition where the cdrom is mounted. This way the kernel thinks that the /cdrom is not mounted and will not show the advice when installing ubuntu. I think this procedure is less dangerous than the one in the previous note. <span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><p class="line867"><strong>Note3:</strong> Instead of the above 'workarounds', you may simply use the boot option <tt>live-media=/dev/sdb1</tt> or <tt>LIVEMEDIA=/dev/sdb1</tt>, referring to the USB device holding the ISO. This would be the "bootable usb", even if your pc has a "buggy BIOS" and cannot boot from USB. The running kernel <em>can</em> access the USB device. This boot option is documented in <a class="http" href="http://manpages.ubuntu.com/manpages/karmic/man7/casper7.html">http://manpages.ubuntu.com/manpages/karmic/man7/casper7.html</a>, but unfortunately not supported by Ubuntu 11.10. Use the patch I filed as bug fix in <a class="https" href="https://bugs.launchpad.net/ubuntu/+source/casper/+bug/423616">https://bugs.launchpad.net/ubuntu/+source/casper/+bug/423616</a> while this is not yet put back in the ISO. Warning: this implies building a new initrd.gz which is not very trivial, although this forum has a good manual.  <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><p class="line867">
+<h1 id="Debootstrap">Debootstrap</h1>
+<span class="anchor" id="line-85"></span><p class="line874">You can install Ubuntu directly from Linux using debootstrap. Debootstrap installs some essential packages in a directory for use with chroot. Note that the essential packages does not in itself make the system bootable. It just installs what you need to chroot to that directory and use apt-get to install other packages which make Ubuntu usable. <span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><p class="line867"><strong>Step 1.</strong> First check that you have debootstrap installed. <span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><pre><span class="anchor" id="line-1-3"></span>sudo apt-get install debootstrap</pre><span class="anchor" id="line-91"></span><p class="line862">(NOTE: if you want to install a newer release than your current system, you normally need to install the backported debootstrap version, see: <a class="https" href="https://help.ubuntu.com/community/UbuntuBackports">UbuntuBackports</a>) <span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><p class="line867"><strong>Step 2.</strong> Partition device and make a filesystem. <span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><p class="line874">We will assume /dev/sda is the storage device for your fresh install. <span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><p class="line874">Remove former partitions and create the new one. <span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span><span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span><span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span><span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span><span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><span class="anchor" id="line-148"></span><span class="anchor" id="line-149"></span><span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><span class="anchor" id="line-155"></span><span class="anchor" id="line-156"></span><pre><span class="anchor" id="line-1-4"></span>sudo fdisk /dev/sda
+<span class="anchor" id="line-2-3"></span>
+<span class="anchor" id="line-3-3"></span>WARNING: DOS-compatible mode is deprecated. It's strongly recommended to
+<span class="anchor" id="line-4-3"></span>         switch off the mode (command 'c') and change display units to
+<span class="anchor" id="line-5-2"></span>         sectors (command 'u').
+<span class="anchor" id="line-6-1"></span>
+<span class="anchor" id="line-7-1"></span>Command (m for help): p
+<span class="anchor" id="line-8-1"></span>
+<span class="anchor" id="line-9-1"></span>Disk /dev/sda: 250.0 GB, 250000000000 bytes
+<span class="anchor" id="line-10-1"></span>255 heads, 63 sectors/track, 30394 cylinders
+<span class="anchor" id="line-11"></span>Units = cylinders of 16065 * 512 = 8225280 bytes
+<span class="anchor" id="line-12"></span>Sector size (logical/physical): 512 bytes / 512 bytes
+<span class="anchor" id="line-13"></span>I/O size (minimum/optimal): 512 bytes / 512 bytes
+<span class="anchor" id="line-14"></span>Disk identifier: 0x00031196
+<span class="anchor" id="line-15"></span>
+<span class="anchor" id="line-16"></span>   Device Boot      Start         End      Blocks   Id  System
+<span class="anchor" id="line-17"></span>/dev/sda1   *           1        2550    20482843+  83  Linux
+<span class="anchor" id="line-18"></span>/dev/sda2            2551       30394   223656930   8e  Linux LVM
+<span class="anchor" id="line-19"></span>
+<span class="anchor" id="line-20"></span>Command (m for help): d
+<span class="anchor" id="line-21"></span>Partition number (1-4): 1
+<span class="anchor" id="line-22"></span>
+<span class="anchor" id="line-23"></span>Command (m for help): d
+<span class="anchor" id="line-24"></span>Selected partition 2
+<span class="anchor" id="line-25"></span>
+<span class="anchor" id="line-26"></span>Command (m for help): n
+<span class="anchor" id="line-27"></span>Command action
+<span class="anchor" id="line-28"></span>   e   extended
+<span class="anchor" id="line-29"></span>   p   primary partition (1-4)
+<span class="anchor" id="line-30"></span>p
+<span class="anchor" id="line-31"></span>Partition number (1-4): 1
+<span class="anchor" id="line-32"></span>First cylinder (1-30394, default 1): 
+<span class="anchor" id="line-33"></span>Using default value 1
+<span class="anchor" id="line-34"></span>Last cylinder, +cylinders or +size{K,M,G} (1-30394, default 30394): 
+<span class="anchor" id="line-35"></span>Using default value 30394
+<span class="anchor" id="line-36"></span>
+<span class="anchor" id="line-37"></span>Command (m for help): p
+<span class="anchor" id="line-38"></span>
+<span class="anchor" id="line-39"></span>Disk /dev/sda: 250.0 GB, 250000000000 bytes
+<span class="anchor" id="line-40"></span>255 heads, 63 sectors/track, 30394 cylinders
+<span class="anchor" id="line-41"></span>Units = cylinders of 16065 * 512 = 8225280 bytes
+<span class="anchor" id="line-42"></span>Sector size (logical/physical): 512 bytes / 512 bytes
+<span class="anchor" id="line-43"></span>I/O size (minimum/optimal): 512 bytes / 512 bytes
+<span class="anchor" id="line-44"></span>Disk identifier: 0x00031196
+<span class="anchor" id="line-45"></span>
+<span class="anchor" id="line-46"></span>   Device Boot      Start         End      Blocks   Id  System
+<span class="anchor" id="line-47"></span>/dev/sda1               1       30394   244139773+  83  Linux
+<span class="anchor" id="line-48"></span>
+<span class="anchor" id="line-49"></span>Command (m for help): w
+<span class="anchor" id="line-50"></span>The partition table has been altered!
+<span class="anchor" id="line-51"></span>
+<span class="anchor" id="line-52"></span>Calling ioctl() to re-read partition table.
+<span class="anchor" id="line-53"></span>
+<span class="anchor" id="line-54"></span>WARNING: Re-reading the partition table failed with error 16: Device or resource busy.
+<span class="anchor" id="line-55"></span>The kernel still uses the old table. The new table will be used at
+<span class="anchor" id="line-56"></span>the next reboot or after you run partprobe(8) or kpartx(8)
+<span class="anchor" id="line-57"></span>Syncing disks.</pre><span class="anchor" id="line-157"></span><p class="line874">Make the filesystem <span class="anchor" id="line-158"></span><span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span><pre><span class="anchor" id="line-1-5"></span>sudo mkfs.ext4 /dev/sda1</pre><span class="anchor" id="line-161"></span><span class="anchor" id="line-162"></span><p class="line867"><strong>Step 3.</strong> Mount that new partition. <span class="anchor" id="line-163"></span><span class="anchor" id="line-164"></span><span class="anchor" id="line-165"></span><span class="anchor" id="line-166"></span><pre><span class="anchor" id="line-1-6"></span>sudo mkdir /mnt/installer
+<span class="anchor" id="line-2-4"></span>sudo mount /dev/sda1 /mnt/installer</pre><span class="anchor" id="line-167"></span><span class="anchor" id="line-168"></span><p class="line867"><strong>Step 4.</strong> Download and install base system packages. <span class="anchor" id="line-169"></span><span class="anchor" id="line-170"></span><span class="anchor" id="line-171"></span><pre><span class="anchor" id="line-1-7"></span>sudo debootstrap lucid /mnt/installer</pre><span class="anchor" id="line-172"></span><span class="anchor" id="line-173"></span><p class="line867"><strong>Step 5.</strong> Copy files to the new install to keep your repositories <span class="anchor" id="line-174"></span><span class="anchor" id="line-175"></span><span class="anchor" id="line-176"></span><pre><span class="anchor" id="line-1-8"></span>sudo cp /etc/apt/sources.list /mnt/installer/etc/apt/</pre><span class="anchor" id="line-177"></span><span class="anchor" id="line-178"></span><p class="line867"><strong>Step 6.</strong> Chroot to your new install. <span class="anchor" id="line-179"></span><span class="anchor" id="line-180"></span><span class="anchor" id="line-181"></span><span class="anchor" id="line-182"></span><span class="anchor" id="line-183"></span><span class="anchor" id="line-184"></span><span class="anchor" id="line-185"></span><pre><span class="anchor" id="line-1-9"></span>sudo mount --bind /dev /mnt/installer/dev
+<span class="anchor" id="line-2-5"></span>sudo mount --bind /dev/pts /mnt/installer/dev/pts
+<span class="anchor" id="line-3-4"></span>sudo mount -t proc proc /mnt/installer/proc
+<span class="anchor" id="line-4-4"></span>sudo mount -t sysfs sys /mnt/installer/sys
+<span class="anchor" id="line-5-3"></span>sudo chroot /mnt/installer</pre><span class="anchor" id="line-186"></span><span class="anchor" id="line-187"></span><p class="line867"><strong>Step 7.</strong> Locale and language settings <span class="anchor" id="line-188"></span>To make dpkg run without warning you need to set this settings first <span class="anchor" id="line-189"></span><span class="anchor" id="line-190"></span><span class="anchor" id="line-191"></span><span class="anchor" id="line-192"></span><span class="anchor" id="line-193"></span><span class="anchor" id="line-194"></span><span class="anchor" id="line-195"></span><span class="anchor" id="line-196"></span><span class="anchor" id="line-197"></span><pre><span class="anchor" id="line-1-10"></span>cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+<span class="anchor" id="line-2-6"></span>echo 'LANG="pt_BR.UTF-8' &gt;  /etc/default/locale
+<span class="anchor" id="line-3-5"></span>echo 'LANG="pt_BR:pt:us' &gt;&gt; /etc/default/locale
+<span class="anchor" id="line-4-5"></span>echo 'America/Sao_Paulo' &gt; /etc/timezone
+<span class="anchor" id="line-5-4"></span>locale-gen pt_BR.UTF-8
+<span class="anchor" id="line-6-2"></span>dpkg-reconfigure -f non-interactive tzdata
+<span class="anchor" id="line-7-2"></span>## All this inside chroot!</pre><span class="anchor" id="line-198"></span><span class="anchor" id="line-199"></span><span class="anchor" id="line-200"></span><p class="line867"><strong>Step 8.</strong> Upgrade the new install. <span class="anchor" id="line-201"></span>Install your local "language-pack-en-base". <span class="anchor" id="line-202"></span><span class="anchor" id="line-203"></span><span class="anchor" id="line-204"></span><span class="anchor" id="line-205"></span><span class="anchor" id="line-206"></span><pre><span class="anchor" id="line-1-11"></span>apt-get update
+<span class="anchor" id="line-2-7"></span>apt-get install language-pack-en-base
+<span class="anchor" id="line-3-6"></span>apt-get upgrade</pre><span class="anchor" id="line-207"></span><span class="anchor" id="line-208"></span><p class="line874">If you are using Software RAID and/or LVM, you should install these packages before installing a kernel: <span class="anchor" id="line-209"></span><span class="anchor" id="line-210"></span><span class="anchor" id="line-211"></span><pre><span class="anchor" id="line-1-12"></span>apt-get install mdadm lvm2</pre><span class="anchor" id="line-212"></span><span class="anchor" id="line-213"></span><span class="anchor" id="line-214"></span><p class="line867"><strong>Step 9.</strong> Install Grub and Linux Kernel. <span class="anchor" id="line-215"></span><span class="anchor" id="line-216"></span><span class="anchor" id="line-217"></span><pre><span class="anchor" id="line-1-13"></span>apt-get install grub-pc linux-image</pre><span class="anchor" id="line-218"></span><span class="anchor" id="line-219"></span><p class="line867"><strong>Step 10.</strong> Add user and/or set root password. <span class="anchor" id="line-220"></span><span class="anchor" id="line-221"></span><p class="line874">To add a user and set a password for that user. <span class="anchor" id="line-222"></span><span class="anchor" id="line-223"></span><span class="anchor" id="line-224"></span><pre><span class="anchor" id="line-1-14"></span>adduser &lt;username&gt;</pre><span class="anchor" id="line-225"></span><span class="anchor" id="line-226"></span><p class="line874">You may also want to add your user to the sudo group so that user can run programs as root. <span class="anchor" id="line-227"></span><span class="anchor" id="line-228"></span><span class="anchor" id="line-229"></span><pre><span class="anchor" id="line-1-15"></span>gpasswd -a &lt;username&gt; sudo</pre><span class="anchor" id="line-230"></span><span class="anchor" id="line-231"></span><p class="line874">To set a root password: <span class="anchor" id="line-232"></span><span class="anchor" id="line-233"></span><p class="line874">(NOTE: You must at least set a root password if you aren't adding a user) <span class="anchor" id="line-234"></span><span class="anchor" id="line-235"></span><span class="anchor" id="line-236"></span><pre><span class="anchor" id="line-1-16"></span>passwd</pre><span class="anchor" id="line-237"></span><span class="anchor" id="line-238"></span><p class="line867"><strong>Step 11.</strong> Create fstab. <span class="anchor" id="line-239"></span>A simple example of fstab is <span class="anchor" id="line-240"></span><span class="anchor" id="line-241"></span><span class="anchor" id="line-242"></span><span class="anchor" id="line-243"></span><pre><span class="anchor" id="line-1-17"></span>echo "/dev/sda1 / ext4  errors=remount-ro 0 1" &gt;&gt; /etc/fstab
+<span class="anchor" id="line-2-8"></span>## Inside chroot!</pre><span class="anchor" id="line-244"></span><span class="anchor" id="line-245"></span><span class="anchor" id="line-246"></span><span class="anchor" id="line-247"></span><p class="line874">It should now be safe to reboot; you may want the next few things. <span class="anchor" id="line-248"></span><span class="anchor" id="line-249"></span><p class="line867"><strong>Step 12.</strong> If you want to access it with ssh after reboot. <span class="anchor" id="line-250"></span><span class="anchor" id="line-251"></span><p class="line874">Use vi or install nano to edit /etc/hostname. <span class="anchor" id="line-252"></span><span class="anchor" id="line-253"></span><p class="line874">Remove any text in this file and add the hostname you would like. <span class="anchor" id="line-254"></span><span class="anchor" id="line-255"></span><span class="anchor" id="line-256"></span><pre><span class="anchor" id="line-1-18"></span>vi /etc/hostname</pre><span class="anchor" id="line-257"></span><p class="line874">edit /etc/network/interfaces <span class="anchor" id="line-258"></span><span class="anchor" id="line-259"></span><span class="anchor" id="line-260"></span><pre><span class="anchor" id="line-1-19"></span>vi /etc/network/interfaces</pre><span class="anchor" id="line-261"></span><p class="line874">Add these lines to /etc/network/interfaces.  This will start eth0 at boot and request an IPv4 address with dhclient. <span class="anchor" id="line-262"></span><span class="anchor" id="line-263"></span><span class="anchor" id="line-264"></span><span class="anchor" id="line-265"></span><pre><span class="anchor" id="line-1-20"></span>auto eth0
+<span class="anchor" id="line-2-9"></span>iface eth0 inet dhcp</pre><span class="anchor" id="line-266"></span><p class="line874">Next you need to install ssh <span class="anchor" id="line-267"></span><span class="anchor" id="line-268"></span><span class="anchor" id="line-269"></span><pre><span class="anchor" id="line-1-21"></span>apt-get install openssh-server</pre><span class="anchor" id="line-270"></span><p class="line862">Your computer should be safe to reboot now.  If you want the Ubuntu Gnome desktop, continue with <strong>Step 13.</strong> <span class="anchor" id="line-271"></span><span class="anchor" id="line-272"></span><p class="line867"><strong>Step 14.</strong> Install ubuntu-desktop. <span class="anchor" id="line-273"></span><span class="anchor" id="line-274"></span><span class="anchor" id="line-275"></span><pre><span class="anchor" id="line-1-22"></span>apt-get install ubuntu-desktop ubuntu-standard</pre><span class="anchor" id="line-276"></span><span class="anchor" id="line-277"></span><p class="line867"><strong><a class="nonexistent" href="/community/ToDo">ToDo</a>:</strong> <span class="anchor" id="line-278"></span><span class="anchor" id="line-279"></span><span class="anchor" id="line-280"></span><span class="anchor" id="line-281"></span><span class="anchor" id="line-282"></span><span class="anchor" id="line-283"></span><span class="anchor" id="line-284"></span><span class="anchor" id="line-285"></span><pre><span class="anchor" id="line-1-23"></span>mkswap /dev/sdbXy
+<span class="anchor" id="line-2-10"></span>? edit /etc/hosts
+<span class="anchor" id="line-3-7"></span>? edit default language
+<span class="anchor" id="line-4-6"></span>? edit /etc/environment
+<span class="anchor" id="line-5-5"></span>? edit autologin
+<span class="anchor" id="line-6-3"></span>? edit /etc/lightdm/lightdm.conf</pre><span class="anchor" id="line-286"></span><span class="anchor" id="line-287"></span><p class="line867"><strong>Step 15.</strong> Reboot and keep those fingers crossed. <span class="anchor" id="line-288"></span><span class="anchor" id="line-289"></span><span class="anchor" id="line-290"></span><p class="line867">
+<h1 id="Alternate_CD">Alternate CD</h1>
+<span class="anchor" id="line-291"></span><p class="line874">As of December 29th 2007, the instructions above do not apply to the alternate CD provided for Ubuntu 7.10 (Gutsy Gibbon). Significant changes are required.  Procedure 1 below has been used successfully with Gutsy (Ubuntu 7.10) and Procedure 2 with Hardy (Ubuntu 8.04). <span class="anchor" id="line-292"></span><span class="anchor" id="line-293"></span><p class="line862">Before going any further please note that the alternate CD contains documentation which can help with fixing problems or adapting solutions to your own situation.  The documentation is located in <tt>doc/install/manual/</tt> on the alternate CD.  Please refer to that documentation as needed. <span class="anchor" id="line-294"></span><span class="anchor" id="line-295"></span><p class="line874">Note that Procedure 2 is potentially less disruptive because it does not call for a new partition. <span class="anchor" id="line-296"></span><span class="anchor" id="line-297"></span><p class="line862">For a simpler installation method which generally does not require re-partitioning, and downloads the packages at install time rather than requiring an ISO, see <a href="/community/Installation/NetbootInstallFromInternet">Installation/NetbootInstallFromInternet</a>. <span class="anchor" id="line-298"></span><span class="anchor" id="line-299"></span><p class="line867">
+<h2 id="Procedure_1">Procedure 1</h2>
+<span class="anchor" id="line-300"></span><p class="line874">I used the following procedure for Gutsy.  It can also be used for Hardy. <span class="anchor" id="line-301"></span><span class="anchor" id="line-302"></span><p class="line867"><strong>Step 1.</strong> Use gparted to create a new primary partition and format it to <tt>ext3</tt>. You need slightly more than 700MB of free space on it. 750MB should be sufficient. Let's say the name of the partition is <tt>/dev/sda1</tt>. If your new ubuntu install is going to coexist with your old system, you might find it convenient to create space for your new system as well at this point using gparted. <span class="anchor" id="line-303"></span><span class="anchor" id="line-304"></span><p class="line867"><strong>Step 2.</strong> Copy your alternate ISO to the root of the partition you created in step 1.  You need to copy <strong>the ISO itself</strong> rather than the contents of the ISO. <span class="anchor" id="line-305"></span><span class="anchor" id="line-306"></span><p class="line867"><strong>Step 3.</strong>  Grab the initrd.gz and vmlinuz files found in the following sub-directory of a Ubuntu mirror: <span class="anchor" id="line-307"></span><span class="anchor" id="line-308"></span><p class="line867"><span class="anchor" id="line-309"></span><span class="anchor" id="line-310"></span><pre><span class="anchor" id="line-1-24"></span>dists/gutsy/main/installer-i386/current/images/hd-media/</pre><span class="anchor" id="line-311"></span><span class="anchor" id="line-312"></span><p class="line874">For example in the UK the files may be found at <span class="anchor" id="line-313"></span><a class="http" href="http://gb.archive.ubuntu.com/ubuntu/dists/gutsy/main/installer-i386/current/images/hd-media/">http://gb.archive.ubuntu.com/ubuntu/dists/gutsy/main/installer-i386/current/images/hd-media/</a> <span class="anchor" id="line-314"></span><span class="anchor" id="line-315"></span><p class="line874">Put these files in your newly created partition.  They can be in the root of the partition or in a sub-directory. <span class="anchor" id="line-316"></span><span class="anchor" id="line-317"></span><p class="line867"><strong>Step 4.</strong> Edit your grub configuration file (typically <tt>/etc/grub.conf</tt> or <tt>/boot/grub/menu.lst</tt>) to boot from the new partition by adding the lines: <span class="anchor" id="line-318"></span><span class="anchor" id="line-319"></span><p class="line867"><span class="anchor" id="line-320"></span><span class="anchor" id="line-321"></span><span class="anchor" id="line-322"></span><span class="anchor" id="line-323"></span><span class="anchor" id="line-324"></span><pre><span class="anchor" id="line-1-25"></span>title           installer
+<span class="anchor" id="line-2-11"></span>root            (hd0,0)
+<span class="anchor" id="line-3-8"></span>kernel          /install/vmlinuz root=/dev/ram ramdisk_size=1048576 rw
+<span class="anchor" id="line-4-7"></span>initrd          /install/initrd.gz</pre><span class="anchor" id="line-325"></span><span class="anchor" id="line-326"></span><p class="line867"><span class="anchor" id="altproc1step4"></span>If you use LILO, see the official documentation on the alternate CD for how to configure LILO.  Or you can adapt the lines above for LILO if you know Grub and LILO well. <span class="anchor" id="line-327"></span><span class="anchor" id="line-328"></span><p class="line862">The first line after the title tells grub which partition contains the installer. <tt>hd0</tt> stands for "first hard disk," and the 0 following it standards for first partition. You will need to change this if your installer partition is different from <tt>/dev/sda1</tt>. <tt>sdaN</tt> becomes <tt>(hd0,&nbsp;N-1)</tt>, <tt>sdbN</tt> becomes <tt>(hd1,N-1)</tt> and so on. As you can see, grub starts counting from 0, which can be confusing.  The paths for the kernel and the initrd were set to start with <tt>/install/</tt> in my setup but you could put those files in the root of the install partition and have them be <tt>/vmlinuz</tt> and <tt>/initrd.gz</tt> if you so wish. <span class="anchor" id="line-329"></span><span class="anchor" id="line-330"></span><p class="line862">As specified in the above, the installer will run without a preseed file.  The preseed tells the installer what kind of system you are trying to install and it automatically selects some options for you during installation.  For instance, using the <tt>ubuntu.seed</tt> file tells the installer that you want to install a full "desktop" system, with Gnome and everything.  If you do not select a preseed file, it is unclear what the installer thinks.  In my (<a class="https" href="https://wiki.ubuntu.com/LouisDominiqueDubeau">LouisDominiqueDubeau</a>) experience, it installs some sort of CLI or server form of Ubuntu.  This is not disastrous but it may not be what you want.  In Hardy in particular, running the installer without a seed results in LILO installed as the boot loader rather than Grub.  Ugly...  So it is better to select a seed.  Adding the parameter <tt>file=/cdrom/preseed/ubuntu.seed</tt> to the <tt>kernel</tt> line above should take care of the problem.  If installing Kubuntu, select <tt>kubuntu.seed</tt> instead.  Adapt to other situations as needed. <span class="anchor" id="line-331"></span><span class="anchor" id="line-332"></span><p class="line867"><strong>Step 5.</strong> Reboot, and choose "installer" from the grub boot menu, and continue as normal. <span class="anchor" id="line-333"></span><span class="anchor" id="line-334"></span><p class="line867">
+<h2 id="Procedure_2">Procedure 2</h2>
+<span class="anchor" id="line-335"></span><p class="line874">In this procedure you do not create a new partition to hold the installer.  This procedure was used for Hardy.  It may be adaptable for Gutsy. <span class="anchor" id="line-336"></span><span class="anchor" id="line-337"></span><p class="line867"><strong>Step 1.</strong> Copy your alternate ISO to the root of <strong>any partition</strong> that the installer can mount. You need to copy <strong>the ISO</strong> itself rather than the contents of the ISO. The important part here is that you must find a partition that the installer can mount, as it will search during the install procedure. If you use the traditional partitioning system used by DOS since ages immemorial, then any filesystem supported by Ubuntu should work. In particular ext2/ext3/ntfs/fat/vfat should all work. If you use LVM, things are trickier. As of April 26th 2008, the installer is unable to find an ISO stored on a partition managed in LVM. The installer <strong>can</strong> install Ubuntu in an LVM partition but in the stage at which it looks for the ISO it has not yet loaded the LVM modules so it cannot <strong>find the ISO</strong> if it is on an LVM partition. An enterprising person should be able to work around that problem but by default the installer won't find the ISO if it is on an LVM partition. If you have Windows installed, then the Windows partition, which normally is not managed by LVM (because I don't think Windows supports LVM), can hold the ISO. <span class="anchor" id="line-338"></span><span class="anchor" id="line-339"></span><p class="line867"><strong>Step 2.</strong>  Grab the initrd.gz and vmlinuz files found in the following subdirectory of a Ubuntu mirror: <span class="anchor" id="line-340"></span><span class="anchor" id="line-341"></span><p class="line867"><span class="anchor" id="line-342"></span><span class="anchor" id="line-343"></span><pre><span class="anchor" id="line-1-26"></span>dists/hardy/main/installer-i386/current/images/hd-media/</pre><span class="anchor" id="line-344"></span><span class="anchor" id="line-345"></span><p class="line874">For example in the UK the files may be found at <span class="anchor" id="line-346"></span><a class="http" href="http://gb.archive.ubuntu.com/ubuntu/dists/hardy/main/installer-i386/current/images/hd-media/">http://gb.archive.ubuntu.com/ubuntu/dists/hardy/main/installer-i386/current/images/hd-media/</a> <span class="anchor" id="line-347"></span><span class="anchor" id="line-348"></span><p class="line862">You will want to put these files in your normal <tt>/boot/</tt> directory.  It may be a good idea to create a subdirectory like <tt>newinstall</tt>, <tt>hardy-install</tt>, or something similar. <span class="anchor" id="line-349"></span><span class="anchor" id="line-350"></span><p class="line867"><strong>Step 3.</strong> Read the information at <a href="/community/Installation/FromLinux#altproc1step4">step 4 of procedure 1</a> above and then come back here: the information there will tell you what hd0,0 means and will inform you about seeds, etc.  Edit your grub configuration file (typically <tt>/etc/grub.conf</tt> or <tt>/boot/grub/menu.lst</tt>) to boot from the new partition by adding the lines: <span class="anchor" id="line-351"></span><span class="anchor" id="line-352"></span><p class="line867"><span class="anchor" id="line-353"></span><span class="anchor" id="line-354"></span><span class="anchor" id="line-355"></span><span class="anchor" id="line-356"></span><span class="anchor" id="line-357"></span><pre><span class="anchor" id="line-1-27"></span>title installer
+<span class="anchor" id="line-2-12"></span>root (hd0,0)
+<span class="anchor" id="line-3-9"></span>kernel /boot/newinstall/vmlinuz
+<span class="anchor" id="line-4-8"></span>initrd /boot/newinstall/initrd.gz</pre><span class="anchor" id="line-358"></span><span class="anchor" id="line-359"></span><p class="line874">If you want a preseed file, change the kernel line to: <span class="anchor" id="line-360"></span><span class="anchor" id="line-361"></span><p class="line867"><span class="anchor" id="line-362"></span><span class="anchor" id="line-363"></span><pre><span class="anchor" id="line-1-28"></span>kernel (hd0,0)/newinstall/vmlinuz file=/cdrom/preseed/ubuntu.seed</pre><span class="anchor" id="line-364"></span><span class="anchor" id="line-365"></span><p class="line874">Note that some users report working installs with grub without seeds and/or seeds not working with this method. Adapt as needed to your situation. <span class="anchor" id="line-366"></span><span class="anchor" id="line-367"></span><p class="line867"><strong>Step 4.</strong> Reboot, and choose "installer" from the grub boot menu, and continue the installation as normal. <span class="anchor" id="line-368"></span><span class="anchor" id="line-369"></span><p class="line867">
+<h1 id="Alternate_CD_Alternate_Method">Alternate CD Alternate Method</h1>
+<span class="anchor" id="line-370"></span><span class="anchor" id="line-371"></span><p class="line874">I have a machine without a CD-ROM drive but with a network connection, and I struggled with these instructions for many days. Finally, I stumbled upon some straightforward solutions which appear to work for me. <span class="anchor" id="line-372"></span><span class="anchor" id="line-373"></span><p class="line874">1. Obtain Alternate CD. (This method may work for other CDs, I have not tried) <span class="anchor" id="line-374"></span><span class="anchor" id="line-375"></span><p class="line874">2. Mount at a temporary location, as described previously. <span class="anchor" id="line-376"></span><span class="anchor" id="line-377"></span><p class="line874">3. Copy vmlinuz and initrd.gz from mounted installation media to normal location on current linux root (the one to be replaced) <span class="anchor" id="line-378"></span><span class="anchor" id="line-379"></span><p class="line874">4. Unmount CDROM image. <span class="anchor" id="line-380"></span><span class="anchor" id="line-381"></span><p class="line862">5. Copy image as is to selected partition, i.e. <tt>cat&nbsp;"image"&nbsp;&gt;&nbsp;/dev/hdXX</tt> <span class="anchor" id="line-382"></span><span class="anchor" id="line-383"></span><p class="line874">6. Configure grub or LILO as above <span class="anchor" id="line-384"></span><span class="anchor" id="line-385"></span><p class="line874">7. Reboot. <span class="anchor" id="line-386"></span><span class="anchor" id="line-387"></span><p class="line874">8. When choosing CD-ROM drive, choose manually, do not install a driver, for the device enter the partition to which you copied the image. <span class="anchor" id="line-388"></span><span class="anchor" id="line-389"></span><p class="line874">9. Continue installation as normal. <span class="anchor" id="line-390"></span><span class="anchor" id="line-391"></span><p class="line874">So far so good! I'll let you know if it breaks later :P <span class="anchor" id="line-392"></span><span class="anchor" id="line-393"></span><span class="anchor" id="line-394"></span><p class="line867">
+<h1 id="Troubleshooting">Troubleshooting</h1>
+<span class="anchor" id="line-395"></span><ul><li>If you are having issues installing grub, and dpkg-reconfigure grub-pc does not give you a chance to select the device you want to install grub to, make sure you have mounted /dev in your chroot. Review step 6. <span class="anchor" id="line-396"></span><span class="anchor" id="line-397"></span></li></ul><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-398"></span><a href="/community/CategoryInstallation">CategoryInstallation</a> <span class="anchor" id="line-399"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/FromLinux  (last edited 2020-06-23 22:49:53 by <span title="jamiesonc @ 097-087-003-099.res.spectrum.com[97.87.3.99]"><a class="interwiki" href="https://launchpad.net/~jamiesonc" title="jamiesonc @ 097-087-003-099.res.spectrum.com[97.87.3.99]">jamiesonc</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

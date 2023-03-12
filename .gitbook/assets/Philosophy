@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>SwitchingToUbuntu/FromWindows/Philosophy - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: SwitchingToUbuntu/FromWindows/Philosophy" href="/community/SwitchingToUbuntu/FromWindows/Philosophy?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=SwitchingToUbuntu%2FFromWindows%2FPhilosophy&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/SwitchingToUbuntu/FromWindows/Philosophy?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/SwitchingToUbuntu/FromWindows/Philosophy?action=print">
+<link rel="Up" href="/community/SwitchingToUbuntu/FromWindows">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/SwitchingToUbuntu/FromWindows/Philosophy?action=info" rel="nofollow">Page History</a></li><li><a href="/community/SwitchingToUbuntu/FromWindows/Philosophy?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/SwitchingToUbuntu">SwitchingToUbuntu</a><span class="sep">/</span><a href="/community/SwitchingToUbuntu/FromWindows">FromWindows</a></span><span class="sep">/</span><a href="/community/SwitchingToUbuntu/FromWindows/Philosophy">Philosophy</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h1 id="Introduction">Introduction</h1>
+<span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 1em 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Introduction">Introduction</a></li><li>
+<a href="#Linux_has_a_long.2C_smooth_learning_curve">Linux has a long, smooth learning curve</a><ol><li>
+<a href="#Less_distinction_between_safe_and_dangerous_areas">Less distinction between safe and dangerous areas</a></li><li>
+<a href="#More_social_mobility">More social mobility</a></li></ol></li><li>
+<a href="#Linux_has_a_different_heritage">Linux has a different heritage</a><ol><li>
+<a href="#Multiple_users_by_default">Multiple users by default</a></li><li>
+<a href="#No_C:_drive">No C: drive</a></li></ol></li><li>
+<a href="#Linux_believes_in_creative_destruction">Linux believes in creative destruction</a><ol><li>
+<a href="#Distributions_manage_the_complexity">Distributions manage the complexity</a></li></ol></li><li>
+<a href="#Linux_is_about_freedom_of_choice">Linux is about freedom of choice</a><ol><li>
+<a href="#Linux_never_has_one_of_anything">Linux never has one of anything</a></li><li>
+<a href="#The_opposite_is_always_true">The opposite is always true</a></li></ol></li><li>
+<a href="#Conclusion">Conclusion</a></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line874">Windows and Linux are each at the heart of different communities with different opinions about the way the world works.  To use Linux, you need to know a bit about those differences. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line874">This guide will show how subtly different behaviours in Linux and Windows have evolved from radically different philosophies about the place that computers should occupy in the world. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867"><br style="clear: both"> <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line867">
+<h1 id="Linux_has_a_long.2C_smooth_learning_curve">Linux has a long, smooth learning curve</h1>
+<span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><div><table style="width: 100%"><tbody><tr>  <td style="background-color: #f7f7ff;  padding: 2em;  padding-top: 1em"><p class="line891"><span style="font-size: 200%">&ldquo;</span>I cannot teach anybody anything, I can only make them think.<span style="font-size: 200%">&rdquo;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Socrates</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line862">Windows programs generally recognise two types of problems: those that they were specifically designed to handle (which they make unbeatably easy), and everything else (which they make unbearably difficult).  Most Windows users find everything very intuitive except &ldquo;that incomprehensible geeky stuff&rdquo;, which usually means the contents of the Windows folder, the registry, or DLLs. <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line874">Linux users often find themselves learning bits here and there, but rarely hit a wall of incomprehensible geekiness.  This can be harder at first (where Windows wouldn't make you learn), but it pays off in the long-run (where Windows wouldn't teach you the skills). <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line862">For example, Windows encourages you to discount its text-based interface (<a class="interwiki" href="http://en.wikipedia.org/wiki/Command_Prompt_%28Windows%29" title="WikiPedia">cmd.exe</a>) as incomprehensible geeky stuff, whereas Linux encourages you to learn its text-based interface (the <a href="/community/UsingTheTerminal">terminal</a>) one step at a time.  You start by copying and pasting terminal commands, then as the months go by, you start to understand what different commands do.  People that keep learning can eventually build whole programs out of terminal commands. <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><p class="line874">Some of the most important implications of the long, smooth learning curve are: <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><p class="line867">
+<h2 id="Less_distinction_between_safe_and_dangerous_areas">Less distinction between safe and dangerous areas</h2>
+<span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line874">Windows makes it fairly easy to tell when you're getting into an area that's off-limits: you find yourself editing registry settings or looking at a folder full of DLLs. <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><p class="line862">Linux tries not to make anywhere off-limits.  Instead, there are safe areas (like <tt class="backtick">/home</tt>), danger areas (like <tt class="backtick">/sys</tt>), caution areas (like <tt class="backtick">/etc</tt>), curiousity areas (like <tt class="backtick">/var/log</tt>), extreme danger areas (like <tt class="backtick">/dev</tt>), and everything in-between.  A good rule of thumb is that areas are about as dangerous as the jobs they do.  For example, the <tt class="backtick">/boot</tt> folder contains boot-up information - pretty dangerous.  On the other hand, the <tt class="backtick">/media</tt> folder contains things like CD-ROMs - pretty safe. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><p class="line867">
+<h2 id="More_social_mobility">More social mobility</h2>
+<span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><p class="line874">Windows' learning curve has created a strict caste system - users are expected to give up when they hit a wall, developers are supposed to attend the seminar or read the book.  Linux's learning curve has created a more egalitarian system - everyone is supposed to follow the learning curve as far as they can, and no further. <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><p class="line862">The <a class="http" href="http://www.ubuntuforums.org">Ubuntu forums</a> are a great example of this.  Suggestions on the forums come from people that are neither &ldquo;users&rdquo; nor &ldquo;developers&rdquo; in the traditional sense, but more like self-appointed mechanics.  They're generally people that have taught themselves how to fix their computer when it goes wrong, but don't know all the software maintenance tricks that a real programmer would know. <span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><p class="line867">
+<h1 id="Linux_has_a_different_heritage">Linux has a different heritage</h1>
+<span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><div><table style="width: 100%"><tbody><tr>  <td style="background-color: #f7f7ff;  padding: 2em;  padding-top: 1em"><p class="line891"><span style="font-size: 200%">&ldquo;</span>By nature, men are nearly alike; by practice, they get to be wide apart.<span style="font-size: 200%">&rdquo;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Confucius</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><p class="line874">Like people, operating systems owe as much to their heritage as their current environment. <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><p class="line862">Linux is the youngest child of a family dating back minicomputers from 1969, Windows' family tree dates back to microcomputers from 1980.  Windows and Linux are both filled with little anachronisms, and over time you just stop noticing them.  Just like you got used to Windows' anachronisms, you'll get used to Linux ideas from the 60's (the filesystem), 70's (the terminal), 80's (configuration files), and 90's (&ldquo;man&rdquo; pages).  Some of the more important anachronisms are: <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line867">
+<h2 id="Multiple_users_by_default">Multiple users by default</h2>
+<span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><p class="line862">Minicomputers in 1969 usually had lots of non-administrative users, because they were so expensive that you could only afford one between a large company.  Microcomputers in 1980 were some of the first computers cheap and small enough to have a single user-administrator, hence the name &ldquo;PC&rdquo; - &ldquo;Personal Computer&rdquo;. <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><p class="line862">Linux's ancient ancestors had to protect users from each other, whereas Windows' ancient ancestors didn't even have to protect users from themselves.  Linux has gradually adapted to cope with the personal computer, just as Windows has gradually adapted to cope with people running <tt class="backtick">definitely-not-a-virus.scr</tt>.  The process is still ongoing though - Windows has only recently started asking for a password to modify <tt class="backtick">c:\Program&nbsp;Files\</tt>, whereas Linux has always required a password for its equivalent <tt class="backtick">/usr</tt>. <span class="anchor" id="line-48"></span><span class="anchor" id="line-49"></span><p class="line867">
+<h2 id="No_C:_drive">No C: drive</h2>
+<span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><p class="line862">Microcomputers in 1980 had very, very limited resources.  Most computers had a floppy disk drive or two, but hard disks were extremely rare.  Because floppy disks were only big enough to hold a handful of files, Microsoft's first operating system didn't bother with folders - if you wanted to group files together, you just put them on a different disk.  So Microsoft used a simple system for naming your disks: your first floppy disk was called <tt class="backtick">A</tt>, your second floppy disk was called <tt class="backtick">B</tt>, and if you were lucky enough to own a hard disk, it was called <tt class="backtick">C</tt>.  Floppy disks gradually became obsolete, so now your first disk drive is called <tt class="backtick">C</tt>. <span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><p class="line862">Minicomputers in 1969 were also very limited, but needed to be more malleable.  If a company's computer ran out of space, the company would have to spend $5,500 buying an 80lb tape drive with about 270KB more storage.  Linux's ancestors had a single filesystem with actual drives put wherever they were needed, so when the accounting department used up all the space on the company computer, engineers could call the new drive <tt class="backtick">/home/acct</tt>, and pretend it was a normal home directory.  Storage devices gradually became small enough to hold in your hand, and spacious enough not to need clever tricks, so now your USB memory stick is called <tt class="backtick">/media/disk</tt>. <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><p class="line867">
+<h1 id="Linux_believes_in_creative_destruction">Linux believes in creative destruction</h1>
+<span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><div><table style="width: 100%"><tbody><tr>  <td style="background-color: #f7f7ff;  padding: 2em;  padding-top: 1em"><p class="line891"><span style="font-size: 200%">&ldquo;</span>Economic progress, in capitalist society, means turmoil.<span style="font-size: 200%">&rdquo;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Joseph A. Schumpeter</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><p class="line862">Most Microsoft products try to follow a simple rule: if something works in version N of a Microsoft product, it should work the same in all versions greater than N.  This gives Windows a great deal of <em>stability</em>, but can also lead to <em>stagnation</em>.  For example, many features in Excel 2007 were designed to work exactly the same way they worked in 1987.  That means that you can open a 20-year-old financial report, and be confident that the formulas were calculated the same way they were when the report was created.  But it also means that the formulas in this years' financial report use calculations with bugs that have been known for over 20 years. <span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><p class="line874">Most Linux programs also try to follow a simple rule: if something is standing in the way of progress, it gets run over.  This makes Linux stronger in the long-term, but causes more turbulence in the short-term.  For example, many programs for viewing analogue television have been completely replaced with the move to digital, because the digital TV experience is different enough to warrant a new approach. <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><p class="line874">The most important thing to remember about Linux development is: <span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><p class="line867">
+<h2 id="Distributions_manage_the_complexity">Distributions manage the complexity</h2>
+<span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><p class="line874">Because Windows remains very constant over time, it's common to install software from all over the web.  Because Linux is quite fluid over time, programs on websites will often require features that were removed from Ubuntu last year, or won't be included until next year.  Needless to say, this goes double for device drivers. <span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><p class="line874">Linux distributions like Ubuntu add some stability to your experience, by providing a collection of programs that are all guaranteed to work properly together. <span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><p class="line867">
+<h1 id="Linux_is_about_freedom_of_choice">Linux is about freedom of choice</h1>
+<span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><div><table style="width: 100%"><tbody><tr>  <td style="background-color: #f7f7ff;  padding: 2em;  padding-top: 1em"><p class="line891"><span style="font-size: 200%">&ldquo;</span>Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.<span style="font-size: 200%">&rdquo;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Jean-Paul Sartre</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><p class="line862">There's no central authority dictating what Linux should be - users are given total freedom of choice over how their computer behaves.  This compares to Microsoft's philosophy of freedom <strong>from</strong> choice - users are required to make the minimum number of choices necessary to get their work done. <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><p class="line862">For example, there's only one Windows, but there are many Linuxes.  If you choose to use Linux, you have to decide between <a class="http" href="http://www.ubuntu.com/">Ubuntu</a>, <a class="http" href="http://www.debian.org/">Debian</a>, <a class="http" href="http://www.redhat.com">RedHat</a>, <a class="http" href="http://www.suse.com">SUSE</a>, and many other minor distributions.  Each of these choices represents a different community, with different values and a different take on what &ldquo;Linux&rdquo; really is.  And even within Ubuntu, you have to decide between <a class="http" href="http://www.ubuntu.com/">Ubuntu</a>, <a class="http" href="http://www.kubuntu.org/">Kubuntu</a>, and <a class="http" href="http://www.xubuntu.org/">Xubuntu</a>. <span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><p class="line867">
+<h2 id="Linux_never_has_one_of_anything">Linux never has one of anything</h2>
+<span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><p class="line862">If you can find one of something in Linux, you can usually find more.  If you don't like your <a class="http" href="http://gnome-look.org/">desktop theme</a>, <a class="http" href="http://www.koffice.org/">office</a> <a class="http" href="http://live.gnome.org/GnomeOffice">suite</a>, or <a class="http" href="http://live.gnome.org/Empathy">instant</a> <a class="http" href="http://kopete.kde.org/">messaging</a> <a class="http" href="http://pidgin.im/">application</a>, then you can tune your system exactly how you like it. <span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><p class="line867">
+<h2 id="The_opposite_is_always_true">The opposite is always true</h2>
+<span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><p class="line862">For everything you've just read, there's a part of Linux that made the opposite choice.  OpenOffice decided not to have a learning curve, GNOME has a similar heritage to Windows, and Firefox tries very hard to make sure pages written in 1995 look like they did in 1995. <span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><p class="line867">
+<h1 id="Conclusion">Conclusion</h1>
+<span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><div><table style="width: 100%"><tbody><tr>  <td style="background-color: #f7f7ff;  padding: 2em;  padding-top: 1em"><p class="line891"><span style="font-size: 200%">&ldquo;</span>You have your way. I have my way. As for the right way, the correct way, and the only way, it does not exist.<span style="font-size: 200%">&rdquo;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Friedrich Nietzsche</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><p class="line874">Linux isn't just Windows with funny colours, and Windows isn't a poor man's Linux.  Both represent decades of hard work by people with different opinions about the world, and both need to be treated differently if you want to get the most out of them. <span class="anchor" id="line-92"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">SwitchingToUbuntu/FromWindows/Philosophy  (last edited 2010-09-12 06:01:46 by <span title="https://login.launchpad.net/+id/hJKcApF @ d75-154-185-167.bchsia.telus.net[75.154.185.167]"><a class="interwiki" href="https://launchpad.net/~kalos-dev" title="https://login.launchpad.net/+id/hJKcApF @ d75-154-185-167.bchsia.telus.net[75.154.185.167]">kalos-dev</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

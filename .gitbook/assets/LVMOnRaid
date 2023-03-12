@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/LVMOnRaid - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/LVMOnRaid" href="/community/Installation/LVMOnRaid?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FLVMOnRaid&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/LVMOnRaid?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/LVMOnRaid?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/LVMOnRaid?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/LVMOnRaid?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/LVMOnRaid">LVMOnRaid</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867"><div dir="ltr" id="Tag.2FContentCleanup.content" lang="en"><span class="anchor" id="Tag.2FContentCleanup.top"></span>
+<span class="anchor" id="Tag.2FContentCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DD3F2; vertical-align: top"><p class="line862"> <strong>Content Cleanup Required</strong> <br>
+ This article should be cleaned-up to follow the content standards in the Wiki Guide. <a href="/community/Tag#ContentCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FContentCleanup.line-2"></span><span class="anchor" id="Tag.2FContentCleanup.bottom"></span></div> <span class="anchor" id="line-2"></span><div dir="ltr" id="Tag.2FStyleCleanup.content" lang="en"><span class="anchor" id="Tag.2FStyleCleanup.top"></span>
+<span class="anchor" id="Tag.2FStyleCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DF2A4; vertical-align: top"><p class="line862"> <strong>Style Cleanup Required</strong> <br>
+ This article does not follow the style standards in the Wiki Guide. <a href="/community/Tag#StyleCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FStyleCleanup.line-2"></span><span class="anchor" id="Tag.2FStyleCleanup.bottom"></span></div> <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line874">In order to perform this install you will need the Alternate ISO image and have to use the text based installer.  Updates are here to support an intial install to a new RAID and onto an existing RAID. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line867">
+<h2 id="For_a_New_Installation">For a New Installation</h2>
+<span class="anchor" id="line-8"></span><p class="line874">See below for an existing RAID install - Process is pretty similiar. (Was a 5.x process) <span class="anchor" id="line-9"></span>This was done on 6.x <span class="anchor" id="line-10"></span>I'm doing this from memory but it should be pretty close. <span class="anchor" id="line-11"></span>This was a really simple process on 6.x <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line867">
+<h2 id="Expectations">Expectations</h2>
+<span class="anchor" id="line-14"></span><ul><li>You know how to partition and setup your drives - This won't prescribe a drive setup, but covers some necessities. <span class="anchor" id="line-15"></span></li><li>You have burned a copy of the Alternate ISO and are using the text based installer. <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span></li></ul><p class="line867">
+<h2 id="Drive_Setup">Drive Setup</h2>
+<span class="anchor" id="line-18"></span><ul><li>In my example I have 4 drives and a CDROM, no Floppy. <span class="anchor" id="line-19"></span></li><li>I used one drive /boot and /Swap with 50Meg for /boot and 1gig-50Meg for /Swap (Better performance with Swap seperate) <span class="anchor" id="line-20"></span></li><li>You can create Primary partitions on your drives of equal size to make them ready for the RAID setup.  Leverage excess space as you think is acceptable or just leave as wasted. <span class="anchor" id="line-21"></span></li><li>I'm using Raid 5 on 3 Drives intended to mount as /root <span class="anchor" id="line-22"></span></li><li>My drives were ~10Gig so some space was wasted. <span class="anchor" id="line-23"></span></li><li>With a typical setup - some drives are master and some are slave - it doesn't matter at this point in terms of will it work. <span class="anchor" id="line-24"></span></li><li>I booted to the live CD and partitioned my drives before the install in the GUI with GParted.  I recommend this for the first time installers.   <span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span></li></ul><p class="line867">
+<h2 id="Install">Install</h2>
+<span class="anchor" id="line-27"></span><ul><li>Boot from the Ubuntu alternate ISO 6.x <span class="anchor" id="line-28"></span></li><li>Follow the directions to drive setup and choose manual partition <span class="anchor" id="line-29"></span></li><li>Setup /boot and /Swap in the manual setup - mark /boot as bootable.  I formatted as ext2 <span class="anchor" id="line-30"></span></li><li>Choose configure RAID option <span class="anchor" id="line-31"></span></li><li>Tell it how many disks you have and then select them from the menu. <span class="anchor" id="line-32"></span></li><li><p class="line862">The RAID (Md0) is now in the list =&gt; open it. <span class="anchor" id="line-33"></span></li><li>Set MD0 as / for the root and ext3 files - say yes to format it. <span class="anchor" id="line-34"></span></li><li>Select finish  <span class="anchor" id="line-35"></span></li><li>should continue just like a normal setup.  Really nice. <span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span></li></ul><p class="line874">++ Ubuntu 5.10 ++ <span class="anchor" id="line-40"></span>Installing onto a Software RAID array, and using LVM for all of your volumes (including root and boot) is well supported in <strong>Ubuntu 5.10</strong> (Breezy Badger). You will be able to do almost everything you need to do directly from the Ubuntu installer. This page will describe how to do this, aswell as any gotcha's you might run into. Also included is a section on how to migrate a machine from a different linux distro that is running Software RAID. <span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><p class="line862">If you are doing this on a previous Ubuntu release, this is much more difficult. These directions <a href="/community/Installation/RAID1">Installation/RAID1</a> may help. <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><p class="line867">
+<h2 id="Expectations.2FCaveats">Expectations/Caveats</h2>
+<span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><ul><li>All partitions will be on the raid array <span class="anchor" id="line-47"></span></li><li>All partitions will be LVM volumes <span class="anchor" id="line-48"></span></li><li>Swap will be on LVM/RAID <span class="anchor" id="line-49"></span><ul><li>This is probably a small performance penalty during swapouts <span class="anchor" id="line-50"></span></li><li>If swap wasn't on RAID however, a single drive failure could cause the system to go down <span class="anchor" id="line-51"></span></li></ul></li><li>Root/Boot will be on LVM/RAID <span class="anchor" id="line-52"></span><ul><li>No need to manually synchronize your root partitions between your RAID-1 drives <span class="anchor" id="line-53"></span></li></ul></li><li>In the case of a drive failure while the system is powered down, you will be able to boot off either drive (assuming your bios can boot off of either drive) <span class="anchor" id="line-54"></span></li><li>GRUB will not work, LILO is the only viable bootloader (at this time) <span class="anchor" id="line-55"></span></li><li><p class="line891"><strong>IMPORTANT</strong> - If you load the EVMSGUI or EVMSN, it will get confused and think it's found an LVM partition on <tt class="backtick">/dev/hdX</tt>, but a few bytes offset.  You do not have an LVM partition on your block devices, you have it on <tt class="backtick">/dev/md0</tt>.  You need to configure EVMS so that this doesn't happen. <span class="anchor" id="line-56"></span></li><li>This guide has only been tested on an i686 install <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span></li></ul><p class="line867">
+<h2 id="Installing_over_an_Existing_RAID_Array">Installing over an Existing RAID Array</h2>
+<span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line862">This is what I actually did, while writing these directions.  Obviously I expect my directions to work from a scatch install, but that's not what I actually did.  I was upgrading from a Debian Woody,  RAID-1 (two drives mirror), EVMS for volume control, that had root/boot and swap on non-RAID.  I decided that I didn't want to 'upgrade' my debian install to ubuntu, I wanted to destroy it and rebuild it.  However, I didn't want to risk loosing all of my data.  I decided what I wanted to do was yank one of the drives from the array, and keep it in reserve.  I would do a full install on the first drive, once I confirmed everything was working, I would reattach the drive kept in reserve, copy my drive to the first one, then add the reserve drive to the RAID-1 array.  If I had wanted to use my old EVMS volumes and partitions, I believe I could have, however I wanted to get root/boot + swap onto RAID and LVM.  I have embedded the directions on how to install over an existing RAID array into the main directions, the directions associated with this type of upgrade are marked with a <img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> icon.  Although these directions should allow you to not need to backup your data, if you care about your data at all, you will have a second backup available if something goes wrong. <span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><p class="line867">
+<h2 id="Installation">Installation</h2>
+<span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><p class="line862">These directions can be easily tweaked for any RAID level.  I'll explain as if you're doing RAID-1.  If you're doing something else, you're probably smart enough to tweak the directions yourself.  Any directions marked with <img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> are for the Existing RAID array upgrade.  You need to ignore these if you are doing a fresh install. <span class="anchor" id="line-65"></span><ul><li>Install both drives into the machine <span class="anchor" id="line-66"></span><ul><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Actually, disconnect one of the drives from the machine.  You should pull the drive that is second in the bootup process.  This will mean you don't have to wait for the entire drive to sync before you can boot later on in the process.  You will proceed with the full install on one drive, then insert the second drive later.  This allows you to always revert to your old mirror if you have to (assuming your old stuff worked!) <span class="anchor" id="line-67"></span></li></ul></li><li>Boot off of the Ubuntu installation CD <span class="anchor" id="line-68"></span><ul><li>Server or desktop install is fine, choose as appropriate <span class="anchor" id="line-69"></span></li></ul></li><li><p class="line862">When it prompts you to format the drive, or manually partition, <em>choose manually partition</em> <span class="anchor" id="line-70"></span></li><li>Delete any and all existing partitions on both drives <span class="anchor" id="line-71"></span><ul><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> You only have one drive installed, so just clear out this drive.  You'll do the other one later <span class="anchor" id="line-72"></span></li></ul></li><li>Create a new primary partition.  Use the entire disk.  Make it a RAID partition. <span class="anchor" id="line-73"></span><ul><li>Mark it as bootable <span class="anchor" id="line-74"></span></li></ul></li><li>Choose the Configure RAID option <span class="anchor" id="line-75"></span><ul><li>It'll probably ask you to write your partition table.  Go ahead <span class="anchor" id="line-76"></span></li></ul></li><li>Create your MD device, choose your raid level, and tell it how many disks you have <span class="anchor" id="line-77"></span><ul><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Configure as RAID-1.   When asked how many disks you have, tell it two, even though your second disk is sitting on your desk.  Your raid array will be degraded (since it's missing the disk sitting on your desk) <span class="anchor" id="line-78"></span></li></ul></li><li>Add devices to the MD device as appropriate <span class="anchor" id="line-79"></span></li><li>Select Finish in the Configure RAID screen <span class="anchor" id="line-80"></span></li><li>Set the partition of your raid device as a physical volume for LVM <span class="anchor" id="line-81"></span></li><li>Choose Configure LVM <span class="anchor" id="line-82"></span><ul><li>At this point I got an error from the installer.  Something like error informing kernel - invalid argument for /dev/md/0p1.   <span class="anchor" id="line-83"></span></li><li>I rebooted to let everything get synced to disk, and tried again.  Same error.  I just ignored it.  Everything was okay.  I don't know if the reboot was necessary.  Probably not. <span class="anchor" id="line-84"></span></li><li>Create your volume group (I used vg1) <span class="anchor" id="line-85"></span><ul><li>Use /dev/md0 as the PV <span class="anchor" id="line-86"></span></li></ul></li><li>Create your LVs <span class="anchor" id="line-87"></span><ul><li>I don't make a partition for boot, I just put it on root.  (Since there's no need for a separate boot) <span class="anchor" id="line-88"></span></li></ul></li><li>Don't forget swap <span class="anchor" id="line-89"></span></li><li>Select Finish in the Configure LVM screen <span class="anchor" id="line-90"></span></li></ul></li><li>Configure your partitions.  Make ext3 file systems on each of the volumes, and mount them in appropriate places (root, usr, var, home, swap) <span class="anchor" id="line-91"></span></li><li>Write partitions (ignore the kernel error) <span class="anchor" id="line-92"></span></li><li>The installation could continue normally, and everything should work just dandy. <span class="anchor" id="line-93"></span></li><li>The installer will automatically use lilo for you instead of grub <span class="anchor" id="line-94"></span></li><li>You are now complete, you should test your RAID array for durability (EG: disconnect drives, make sure you can boot off both drives) before you trust it <span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span></li><li class="gap"><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> You are not done yet. <span class="anchor" id="line-97"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Once you've finished your install, get your system all working and ready to copy in your old data <span class="anchor" id="line-98"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Hook up your old RAID-1 drive, and boot off of an ubuntu live CD. <span class="anchor" id="line-99"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> <strong>IMPORTANT</strong> - you <em>must</em> boot from a live CD.  Do not boot your system with both drives hooked up, this may result in data loss.   <span class="anchor" id="line-100"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Once booted on the live CD, you should mount your new logical volumes, and mount your old logical volumes. <span class="anchor" id="line-101"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Copy data from your old LVs to your new LVs as appropriate <span class="anchor" id="line-102"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Continue with these directions only when you are prepared and ready to destroy your old disk <span class="anchor" id="line-103"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> fdisk your old drive, delete all partitions (<tt class="backtick">fdisk&nbsp;/dev/hde</tt>) <span class="anchor" id="line-104"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Create a single primary partition, using the whole disk, mark it as typeID <tt class="backtick">FD</tt> (Linux raid auto) <span class="anchor" id="line-105"></span></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> write the partition table <span class="anchor" id="line-106"></span><ul><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Most likely it'll tell you to reboot.  Reboot, and boot off of the live CD again <span class="anchor" id="line-107"></span></li></ul></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Add the new drive to the RAID array <span class="anchor" id="line-108"></span><ul><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> <tt class="backtick">mdadm&nbsp;/dev/md0&nbsp;--add&nbsp;/dev/hde1</tt> (or whatever your block device+partition is) <span class="anchor" id="line-109"></span></li></ul></li><li><p class="line891"><img alt="(i)" height="16" src="/moin_static198/light/img/icon-info.png" title="(i)" width="16" /> Your devices will start resyncing immediately.  If you yanked the second drive in the bootup process, feel free to reboot anytime and boot up regularly, since it'll boot off of the working drive first. <span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span></li></ul><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-112"></span><a href="/community/CategoryInstallation">CategoryInstallation</a> <span class="anchor" id="line-113"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/LVMOnRaid  (last edited 2009-07-13 14:23:39 by <span title="https://login.launchpad.net/+id/f3GTPAd @ 66.76.88.231[66.76.88.231]"><a class="interwiki" href="https://launchpad.net/~kmitch87" title="https://login.launchpad.net/+id/f3GTPAd @ 66.76.88.231[66.76.88.231]">kmitch87</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

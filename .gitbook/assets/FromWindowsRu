@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>SwitchingToUbuntu/FromWindowsRu - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: SwitchingToUbuntu/FromWindowsRu" href="/community/SwitchingToUbuntu/FromWindowsRu?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=SwitchingToUbuntu%2FFromWindowsRu&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/SwitchingToUbuntu/FromWindowsRu?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/SwitchingToUbuntu/FromWindowsRu?action=print">
+<link rel="Up" href="/community/SwitchingToUbuntu">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/SwitchingToUbuntu/FromWindowsRu?action=info" rel="nofollow">Page History</a></li><li><a href="/community/SwitchingToUbuntu/FromWindowsRu?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/SwitchingToUbuntu">SwitchingToUbuntu</a></span><span class="sep">/</span><a href="/community/SwitchingToUbuntu/FromWindowsRu">FromWindowsRu</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 1em 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#A.2BBCMEQQRCBDAEPQQ.2BBDIEOgQw_.2BBD8EQAQ.2BBDMEQAQwBDwEPA-">Установка программ</a><ol><li>
+<a href="#A.2BBCQEMAQ5BEAEMgQ.2BBDsESw_.2BBDg_.2BBDAEPQRCBDgEMgQ4BEAEQwRBBD0ESwQ1_.2BBD8EQAQ.2BBDMEQAQwBDwEPARL-">Файрволы и антивирусные программы</a></li><li>
+<a href="#A.2BBCIENQRABDwEOAQ9BDAEOw-">Терминал</a></li><li>
+<a href="#A.2BBBwENQQ9BDUENAQ2BDUEQA_.2BBDcEMAQ0BDAERw-">Менеджер задач</a></li></ol></li><li>
+<a href="#A.2BBBMENAQ1_.2BBEUEQAQwBD0EOARCBEw_.2BBDIEMARIBDg_.2BBEQEMAQ5BDsESw-">Где хранить ваши файлы</a><ol><li>
+<a href="#A.2BBBEENQQ3BD4EPwQwBEEEPQQ.2BBDU_.2BBD4EQgQ6BDsETgRHBDUEPQQ4BDU_.2BBDQEOARBBDoEPgQy-">Безопасное отключение дисков</a></li></ol></li><li>
+<a href="#A.2BBCEEPAQ.2BBEIEQAQ4BEIENQ_.2BBEIEMAQ6BDYENQ-">Смотрите также</a></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line862">В этой статье обсуждается практические различия между Windows и Ubuntu.  Смотрите также <a href="/community/SwitchingToUbuntu">Руководство по переходу с других систем</a>, <a class="https" href="https://help.ubuntu.com/9.04/switching/index.html">Официальное руководство</a>, и <a href="/community/SwitchingToUbuntu/FromWindows/Philosophy">Философия Ubuntu против Windows. Руководство</a>. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867"><span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line867">
+<h1 id="A.2BBCMEQQRCBDAEPQQ.2BBDIEOgQw_.2BBD8EQAQ.2BBDMEQAQwBDwEPA-">Установка программ</h1>
+<span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line862">В Windows программы идут в <tt class="backtick">.exe</tt> файлах, которые вы обычно получаете из интернета или магазина. Программы в Ubuntu идут в <em>пакетах</em>, которые устанавливаются и обновляются с помощью централизованной системы,чем-то вроде более мощной версии <em>Обновления Windows</em> и <em>Установки и Удаления Программ</em> в Windows. <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line862">Для просмотра инструкций по установке новых программ смотрите <a href="/community/InstallingSoftware">Руководство по установке программного обеспечения</a>.  Пакеты приложений обычно находятся в меню <strong>Приложения</strong>, конфигурационные инструменты обычно находятся в меню <strong>Параметры</strong> или <strong>Администрирование</strong>. <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line874">Так же как программы, разработанные для Windows работают только в Windows, приложения для Ubuntu должны быть разработаны специально для Linux.  Большинство программного обеспечения для Linux бесплатно доступно в Интернете.  Следующие страницы содержат небольшой набор популярных приложений, бесплатно доступных для Ubuntu: <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line867"><div dir="ltr" id="SwitchingToUbuntu.2FPopularPrograms.content" lang="en"><span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.top"></span>
+<span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-1"></span><span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-2"></span><span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-3"></span><ul><li><p class="line891"><a href="/community/Games">Games</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-4"></span></li><li><p class="line891"><a href="/community/MultimediaApplications">Audio and Video applications</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-5"></span></li><li><p class="line891"><a href="/community/GraphicsApplications">Graphics</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-6"></span></li><li><p class="line891"><a href="/community/OfficeApplications">Office productivity software</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-7"></span></li><li><p class="line891"><a href="/community/Programming">Software Development</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-8"></span></li><li><p class="line891"><a href="/community/UbuntuScience">Scientific Applications</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-9"></span></li><li><p class="line891"><a href="/community/FreeSoftwareAlternatives">Free Software Alternatives</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-10"></span></li><li><p class="line891"><a href="/community/WindowsApplicationsEquivalents">Windows Applications Equivalents</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-11"></span></li><li><p class="line891"><a href="/community/OSXApplicationsEquivalents">Mac OS X Applications Equivalents</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-12"></span></li><li><p class="line891"><a href="/community/SoftwareFromOtherOperatingSystems">Software from Other Operating Systems</a> <span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.line-13"></span></li></ul><span class="anchor" id="SwitchingToUbuntu.2FPopularPrograms.bottom"></span></div> <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><p class="line867">
+<h2 id="A.2BBCQEMAQ5BEAEMgQ.2BBDsESw_.2BBDg_.2BBDAEPQRCBDgEMgQ4BEAEQwRBBD0ESwQ1_.2BBD8EQAQ.2BBDMEQAQwBDwEPARL-">Файрволы и антивирусные программы</h2>
+<span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><p class="line862">Главный Файрвол для Ubuntu называется <em>gufw</em> (<a class="apt" href="apt:gufw">кликните сюда, чтобы установить gufw</a>). На сегодняшний день не существует ни одного вируса для Linux, поэтому Ubuntu не имеет антивирусного программного обеспечения. <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line867">
+<h2 id="A.2BBCIENQRABDwEOAQ9BDAEOw-">Терминал</h2>
+<span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><p class="line862">Linux содержит текстовый интерфейс <tt class="backtick">cmd.exe</tt>, называемый <em>терминал</em>. Множетсво руководств Linux просят вас запускать команды в терминале, доступ к которому можно получить в <em>Приложения &gt; Стандартные &gt; Терминал</em>.  Для более подробной информации смотрите <a href="/community/UsingTheTerminal">Работа с терминалом</a>. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><p class="line867">
+<h2 id="A.2BBBwENQQ9BDUENAQ2BDUEQA_.2BBDcEMAQ0BDAERw-">Менеджер задач</h2>
+<span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><p class="line867"><em>Системный монитор</em> в Ubuntu - это близкий аналог Менеджера задач в Windows.  Он доступен в <em>Система &gt; Администрирование &gt; Системный монитор</em>. <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><p class="line867">
+<h1 id="A.2BBBMENAQ1_.2BBEUEQAQwBD0EOARCBEw_.2BBDIEMARIBDg_.2BBEQEMAQ5BDsESw-">Где хранить ваши файлы</h1>
+<span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><p class="line862">В Linux не используются буквы для дисков, т.е. в нем нет диска <tt class="backtick">C:</tt> и нет диска <tt class="backtick">D:</tt>.  Постепенно вы изучите файловую систему Linux, но для начала, вот самые важные места: <span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><dl><dt>/home/&lt;Ваше имя пользователя&gt;</dt><dd><p class="line862">Это ваша <em>домашняя папка</em>, которая в некоторой степени является аналогом папки <em>Мои документы</em> в Windows.  Вы можете попасть в нее кликнув <strong>Переход</strong> &gt; <strong>Домашняя папка</strong>. <span class="anchor" id="line-38"></span></dd><dt>/home</dt><dd><p class="line862">Эта папка содержит домашние папки всех пользователей и очень близка к папке <em>Documents and Settings</em> в Windows.<br>
+Нужно запомнить одну вещь про эту папку - несмотря на название, <strong>это не <em>ваша</em> домашняя папка</strong>.  Если кто-то говорит вам перейти в вашу домашнюю папку, то он имеет в виду <em>/home/&lt;Ваше имя пользователя&gt;</em>. <span class="anchor" id="line-39"></span></dd><dt>/media</dt><dd><p class="line862">Эта папка содержит CD-ROMы, карты памяти, и другие съемные носители информации.<br>
+Некоторые диски могут появляться в меню <strong>Переход</strong> или на вашем рабочем столе. <span class="anchor" id="line-40"></span></dd><dt>/tmp</dt><dd>Эта папка содержит временные файлы, и очищается при перезагрузке. <span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span></dd></dl><p class="line867">
+<h2 id="A.2BBBEENQQ3BD4EPwQwBEEEPQQ.2BBDU_.2BBD4EQgQ6BDsETgRHBDUEPQQ4BDU_.2BBDQEOARBBDoEPgQy-">Безопасное отключение дисков</h2>
+<span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><p class="line862">После того, как вы закончили работу со съемным диском, кликните правой кнопкой мыши на иконке диска на рабочем столе и выберите <strong>Отсоединить том</strong> или <strong>Извлечь</strong>, в зависимости от типа носителя. <span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><p class="line867">
+<h1 id="A.2BBCEEPAQ.2BBEIEQAQ4BEIENQ_.2BBEIEMAQ6BDYENQ-">Смотрите также</h1>
+<span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><ul><li><p class="line891"><a href="/community/SwitchingToUbuntu">Руководство по переходу с других систем</a> <span class="anchor" id="line-49"></span></li><li><p class="line891"><a class="https" href="https://help.ubuntu.com/9.04/switching/index.html">Официальное руководство</a> <span class="anchor" id="line-50"></span></li><li><p class="line891"><a href="/community/SwitchingToUbuntu/FromWindows/Philosophy">Философия Ubuntu против Windows. Руководство</a> <span class="anchor" id="line-51"></span></li><li><p class="line891"><a href="/community/SwitchingToUbuntu/FromWindows/TransferringFilesAndSettings">Перенос файлов и параметров</a> <span class="anchor" id="line-52"></span></li><li><p class="line891"><a class="http" href="http://sourceforge.net/projects/ext2fsd">Ext2fsd</a> дает вам возможность видеть Linux жесткие диски из под Windows <a class="http" href="http://sourceforge.net/tracker/?func=detail&amp;aid=2720943&amp;group_id=43775&amp;atid=437371">(требуется поддержка EXT4, пока в разработке)</a> <span class="anchor" id="line-53"></span></li><li><p class="line891"><a href="/community/SettingUpSamba">Настройка Ubuntu для работы в комплексе с сетью Windows</a> <span class="anchor" id="line-54"></span></li><li><p class="line891"><a href="/community/SwitchingToUbuntu/FromWindows/Configuring">Делаем Ubuntu похожим на Windows</a> <span class="anchor" id="line-55"></span></li></ul><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">SwitchingToUbuntu/FromWindowsRu  (last edited 2010-05-30 20:46:37 by <span title="https://login.launchpad.net/+id/YsMRJDs @ 93-81-6-215.broadband.corbina.ru[93.81.6.215]"><a class="interwiki" href="https://launchpad.net/~a-avdoshin" title="https://login.launchpad.net/+id/YsMRJDs @ 93-81-6-215.broadband.corbina.ru[93.81.6.215]">a-avdoshin</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

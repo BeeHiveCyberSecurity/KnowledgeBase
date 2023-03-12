@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/FromUSBStickQuick - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/FromUSBStickQuick" href="/community/Installation/FromUSBStickQuick?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FFromUSBStickQuick&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/FromUSBStickQuick?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/FromUSBStickQuick?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Appendix" title="Fig02.png" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=Fig02.png">
+<link rel="Appendix" title="Fig02a.png" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=Fig02a.png">
+<link rel="Appendix" title="Fig03.png" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=Fig03.png">
+<link rel="Appendix" title="Fig04.png" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=Fig04.png">
+<link rel="Appendix" title="FigA.png" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=FigA.png">
+<link rel="Appendix" title="ubuntu-installer-partitioning-page.png" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=ubuntu-installer-partitioning-page.png">
+<link rel="Appendix" title="usbinstaller.png" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=usbinstaller.png">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/FromUSBStickQuick?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/FromUSBStickQuick?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/FromUSBStickQuick">FromUSBStickQuick</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h1 id="Quick_Guide:_Installing_Ubuntu_from_a_USB_memory_stick">Quick Guide: Installing Ubuntu from a USB memory stick</h1>
+<span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Quick_Guide:_Installing_Ubuntu_from_a_USB_memory_stick">Quick Guide: Installing Ubuntu from a USB memory stick</a></li><li>
+<a href="#What_do_I_need_to_get_started.3F">What do I need to get started?</a></li><li>
+<a href="#Get_a_copy_of_the_Ubuntu_installer">Get a copy of the Ubuntu installer</a></li><li>
+<a href="#Put_the_installer_on_a_memory_stick">Put the installer on a memory stick</a></li><li>
+<a href="#Start_the_Ubuntu_installer">Start the Ubuntu installer</a></li><li>
+<a href="#Install_Ubuntu">Install Ubuntu</a></li><li>
+<a href="#What_next.3F">What next?</a></li><li>
+<a href="#What_if_things_go_wrong.3F">What if things go wrong?</a></li><li>
+<a href="#References_and_further_help">References and further help</a></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line874">This guide will help you install Ubuntu on your computer by using a USB memory stick. USB memory sticks are sometimes known as flash drives, memory pens or USB Mass Storage devices. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line874">Installing from a memory stick is useful if you have a computer without a CD drive (such as a netbook), or prefer the convenience of a memory stick. Alternative methods are available. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line874">It should take around 30 minutes to complete this process, plus the time it takes to download the 700MB installer file. Downloading from a torrent is by far the fastest way of getting it. <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line867">
+<h2 id="This_guide_will_assume_that_you_are_running_Windows">This guide will assume that you are running Windows</h2>
+<span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line862">This guide will assume that you are running Windows. More comprehensive documentation which covers other operating systems is available at <a href="/community/Installation/FromUSBStick">Installation/FromUSBStick</a>. <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line867">
+<h1 id="What_do_I_need_to_get_started.3F">What do I need to get started?</h1>
+<span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line874">To install Ubuntu from a USB memory stick you need: <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><ul><li>A memory stick with a capacity of at least 2GB. It will be formatted (erased) during this process, so copy any files that you want to keep to another location. They will all be permanently deleted from the memory stick. <span class="anchor" id="line-20"></span></li><li>A computer that can boot (start-up) from a USB memory stick. Many older computers can't boot from USB – check the boot options in your BIOS (see Start the Ubuntu installer) to see if yours can. <span class="anchor" id="line-21"></span></li><li>A computer with <span class="anchor" id="line-22"></span><ul><li>at least 384MB of system memory (RAM) for Lubuntu Alternate 32-bit. Other flavours of Ubuntu need at least 1 GB RAM, standard Ubuntu and Kubuntu need 2 GB RAM to work well. <span class="anchor" id="line-23"></span></li><li>6GB of available hard disk space and <span class="anchor" id="line-24"></span></li><li>a 700MHz or faster x86 processor for Lubuntu. Other flavours of Ubuntu need a more powerful processor, at least a Pentium 4 or similar processor (made around 2004 or later). Most Intel and AMD processors are x86 processors. 32-bit and 64-bit processors are supported. <span class="anchor" id="line-25"></span></li></ul></li><li>standard Ubuntu wants 3-d graphics processing which means at least a core 2 duo processor or similar processor and/or a decent graphics card. <span class="anchor" id="line-26"></span></li><li>A working Internet connection. <span class="anchor" id="line-27"></span></li><li><p class="line891"><strong>At least Windows recovery disks, and backup of all important personal data files</strong>. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span></li></ul><p class="line867">
+<h1 id="Get_a_copy_of_the_Ubuntu_installer">Get a copy of the Ubuntu installer</h1>
+<span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><p class="line874">You need a copy of the Ubuntu installer CD image (.iso) so that you can put it on a memory stick. <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><ol type="1"><li><p class="line862">Go to <a class="http" href="http://www.ubuntu.com/getubuntu/download">www.ubuntu.com/getubuntu/download</a>. <span class="anchor" id="line-34"></span></li><li><p class="line862">The version <strong>16.04.1 LTS</strong> of standard Ubuntu or one of the community flavours (Kubuntu, Lubuntu ... Xubuntu) is a good choice. <span class="anchor" id="line-35"></span></li><li><p class="line862">Choose your country (or one nearby) from the <em>Download location</em> drop-down list. <span class="anchor" id="line-36"></span></li><li><p class="line862">Click <strong>Begin</strong> download to download the .iso image file needed to install Ubuntu. This will be about 700MB in size. <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span></li></ol><p class="line862">You can choose other options, like a 64-bit CD image or a <a href="/community/BitTorrent">BitTorrent</a> download, by clicking Alternative download options. <span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><p class="line867">
+<h1 id="Put_the_installer_on_a_memory_stick">Put the installer on a memory stick</h1>
+<span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><p class="line874">You need to download a program that can properly put the installer onto a memory stick. You can't just copy the .iso file onto the memory stick. <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><ul><li><p class="line891"><strong>Extract</strong> the iso file <span class="anchor" id="line-45"></span><ul><li>Plug-in your USB memory stick. <span class="anchor" id="line-46"></span></li><li><p class="line862">Go to <a class="https" href="https://rufus.akeo.ie/">https://rufus.akeo.ie/</a> and download the <strong>Rufus USB installer</strong>. Put it on your Desktop or somewhere convenient. <span class="anchor" id="line-47"></span></li><li><p class="line862">See the detailed instructions at the Rufus website or at <a class="https" href="https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows">https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows</a> <span class="anchor" id="line-48"></span><span class="anchor" id="line-49"></span></li></ul></li><li class="gap"><p class="line862">Alternative: <strong>Clone</strong> the iso file with <strong>Win32 Disk Imager</strong> according to <a class="https" href="https://wiki.ubuntu.com/Win32DiskImager/iso2usb">https://wiki.ubuntu.com/Win32DiskImager/iso2usb</a> <span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span></li></ul><p class="line867">
+<h1 id="Start_the_Ubuntu_installer">Start the Ubuntu installer</h1>
+<span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><p class="line874">To start your computer from a memory stick, you might need to change the order of boot devices: <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><a class="attachment" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=Fig02a.png" title="{{attachment:Fig02a.png|Figure 1 - The Ubuntu boot screen|width=300}}"><img alt="Figure 1 - The Ubuntu boot screen" class="attachment" src="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=get&amp;target=Fig02a.png" title="Figure 1 - The Ubuntu boot screen" width="300" /></a><br>
+<strong>Figure 1</strong> - The Ubuntu boot screen</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><ol type="1"><li>Plug-in the memory stick and restart your computer. <span class="anchor" id="line-58"></span><ul><li>BIOS mode: You should see a purple Ubuntu boot screen with white icons at the bottom (Figure 1).  <span class="anchor" id="line-59"></span></li><li>UEFI mode: You should see a black screen with a GNU GRUB menu. <span class="anchor" id="line-60"></span></li><li>If your computer boots back into Windows, it is not yet set-up to boot from USB, so continue following these steps. Otherwise your computer has successfully booted from the memory stick. Skip to the Install Ubuntu section. <span class="anchor" id="line-61"></span></li></ul></li><li><p class="line862">If your computer boots back into Windows, restart the computer again. As soon as the first text appears on the screen, press the button to enter your BIOS/system setup. There should be a message telling you how to do this. You normally need to press one of the following keys: <tt>F1</tt>, <tt>F2</tt>, <tt>Del</tt>, <tt>Esc</tt>, <tt>F10</tt>, <tt>F11</tt>, or <tt>F12</tt>. <span class="anchor" id="line-62"></span></li><li>A BIOS screen should appear. Find the option to change the Boot Order and change the first item in the boot order list to be USB Disk, or similar. <span class="anchor" id="line-63"></span><ul><li>The USB Disk option may have a different name on your computer, for example: Removable Drive; USB-HDD; USB Mass Storage; or USB. <span class="anchor" id="line-64"></span></li><li><p class="line862">If there is no option to boot from USB Disk, your computer may not be able to boot from USB. See the <a class="nonexistent" href="/community/Pendrive%20Linux%20website">http://www.pendrivelinux.com/testing-your-system-for-usb-boot-compatibility/</a> for a tool to test if your computer can boot from USB. <span class="anchor" id="line-65"></span></li></ul></li><li>After you have changed the boot order, save your changes and restart the computer. It should now start from the memory stick. <span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span></li></ol><p class="line867">
+<h1 id="Install_Ubuntu">Install Ubuntu</h1>
+<span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><p class="line874">If you have successfully booted from your memory stick, you should now be looking at a menu with purple  background in BIOS mode or black background in UEFI mode. To start the Ubuntu installer: <span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><ol type="1"><li>In BIOS mode: Wait a few seconds and Ubuntu will start loading. Otherwise, you can press a key and a boot menu with more options will appear. <span class="anchor" id="line-72"></span><ul><li style="list-style-type:none"><p class="line862">Press the <tt>F5</tt> key to access universal access options like the screen reader and magnifier. <span class="anchor" id="line-73"></span></li></ul></li><li><p class="line862">After a few second or a minute or two (depending on your hardware), an <em>Install</em> window will appear. Select your language from the list to the left of the screen and select <span class="anchor" id="line-74"></span><ul><li><p class="line891"><strong>Try Ubuntu </strong>or <span class="anchor" id="line-75"></span></li><li><p class="line891"><strong>Install Ubuntu</strong> <span class="anchor" id="line-76"></span></li></ul><p class="line891"><a class="http" href="http://ubuntuforums.org/showthread.php?t=2230389">Try Ubuntu (Kubuntu, Lubuntu, Xubuntu, ...) before installing it</a> unless there is not enough RAM (to try Ubuntu). <span class="anchor" id="line-77"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><a class="attachment" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=ubuntu-installer-partitioning-page.png" title="{{attachment:ubuntu-installer-partitioning-page.png|Figure 2 - The partitioning screen|width=300}}"><img alt="Figure 2 - The partitioning screen" class="attachment" src="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=get&amp;target=ubuntu-installer-partitioning-page.png" title="Figure 2 - The partitioning screen" width="300" /></a><br>
+<strong>Figure 2</strong> - The partitioning screen</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-78"></span></li><li>Follow the instructions on the screen to select your country, timezone and keyboard layout. <span class="anchor" id="line-79"></span></li><li><p class="line862">When you get to the <em>Partitioning</em> screen (<a class="attachment" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=ubuntu-installer-partitioning-page.png" title="Figure 2, full size">Figure 2, full size</a>), choose one of the following options to determine how to put Ubuntu on your hard disk: <span class="anchor" id="line-80"></span><ul><li><p class="line862">If you want to keep Windows installed and choose whether to start Windows or Ubuntu each time you start the computer, choose <em>Install Ubuntu alongside Windows</em>. This is called a <em>dual-boot</em> setup. Use the slider in the next window to choose how to share disk space between Windows and Ubuntu (Ubuntu should have at least 8 GB of space. It works better with 16 GB or more, which should be possible in a not too old computer). <span class="anchor" id="line-81"></span></li><li><p class="line862">If you want to remove Windows and replace it with Ubuntu, choose <em>Erase disk and install Ubuntu</em>. All of the files on the disk will be deleted before Ubuntu is put on it, so make sure you have backup copies of anything you wanted to keep. <span class="anchor" id="line-82"></span></li><li><p class="line862">For more complicated disk layouts, choose <em>Something Else</em>. You can manually add, modify and delete disk partitions using this option. <span class="anchor" id="line-83"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><a class="attachment" href="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=view&amp;target=Fig04.png" title="{{attachment:Fig04.png|Figure 3 - Partitioning warning message|width=300}}"><img alt="Figure 3 - Partitioning warning message" class="attachment" src="/community/Installation/FromUSBStickQuick?action=AttachFile&amp;do=get&amp;target=Fig04.png" title="Figure 3 - Partitioning warning message" width="300" /></a><br>
+<strong>Figure 3</strong> - Partitioning warning message</td>
+</tr>
+</tbody></table></div></li></ul></li><li><p class="line862">When you click <strong>Forward</strong>, you may receive a message saying that the changes will be applied (Figure 3). This normally happens if you resized a partition. If you click <strong>Continue</strong>, your hard disk will be changed permanently and you won't be able to go back. Make sure you're happy with any changes that you made. <span class="anchor" id="line-85"></span></li><li>Follow the rest of the instructions to choose a username and password and migrate files and settings from Windows. <span class="anchor" id="line-86"></span></li><li><p class="line862">Click <strong>Install</strong>. The installation will begin, and should take 10-20 minutes to complete. When it is finished, choose to restart the computer and then remove your memory stick. Ubuntu should start to load. <span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span></li></ol><p class="line867">
+<h1 id="What_next.3F">What next?</h1>
+<span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><p class="line874">You should now be able to log in to Ubuntu and start using it. Here are some tips to help you get started: <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><ul><li><p class="line862">Click the <em>Applications</em> menu at the top of the screen to start a program. <span class="anchor" id="line-93"></span></li><li>Click the Network Manager icon (near to the speaker icon) at the top right of the screen to connect to the Internet. <span class="anchor" id="line-94"></span></li><li><p class="line862">Use the <em>System</em> menu to change settings. <span class="anchor" id="line-95"></span></li><li><p class="line862">You can find help by clicking <strong>System -&gt; Help and Support</strong>. <span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span></li></ul><p class="line867">
+<h1 id="What_if_things_go_wrong.3F">What if things go wrong?</h1>
+<span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><p class="line867">
+<h2 id="I_can.27t_boot_from_USB_even_though_I_have_USB_Disk_.28or_similar.29_as_the_first_option_in_my_boot_list">I can't boot from USB even though I have USB Disk (or similar) as the first option in my boot list</h2>
+<span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><p class="line874">Sometimes the memory stick will not be recognized when you boot. Leave it plugged in for 30 seconds or so, then restart with it left plugged-in. Or, unplug the memory stick, restart the computer and then plug it in as soon as anything appears on the screen (i.e. as early in the boot process as possible). <span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><p class="line874">Also, some BIOS options could interfere with USB booting. Go into the BIOS and try enabling or disabling options like Fast Boot, USB keyboard support and USB 2.0 support. Finally, make sure you haven't selected a USB-FDD or USB-ZIP boot option. These will not work. <span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><p class="line867">
+<h2 id="Is_it_safer_to_resize_my_partition_in_Windows.3F">Is it safer to resize my partition in Windows?</h2>
+<span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><p class="line862">Some people experience problems when booting into Windows, after they have resized the Windows partition using the Ubuntu installer. See <a href="/community/HowtoResizeWindowsPartitions">HowtoResizeWindowsPartitions</a> for a guide on an alternative method of resizing a Windows partition which is less likely to cause problems. <span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><p class="line867">
+<h1 id="References_and_further_help">References and further help</h1>
+<span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><ul><li><p class="line891"><a href="/community/Installation/FromUSBStick">Installation/FromUSBStick</a> <span class="anchor" id="line-112"></span></li><li><p class="line891"><a class="http" href="http://www.ubuntu.com/getubuntu/download">http://www.ubuntu.com/getubuntu/download</a> <span class="anchor" id="line-113"></span></li><li><p class="line891"><a class="http" href="http://www.pendrivelinux.com/downloads/Universal-USB-Installer">http://www.pendrivelinux.com/downloads/Universal-USB-Installer</a> <span class="anchor" id="line-114"></span></li><li><p class="line891"><a class="http" href="http://www.pendrivelinux.com/testing-your-system-for-usb-boot-compatibility/">http://www.pendrivelinux.com/testing-your-system-for-usb-boot-compatibility/</a> <span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span></li></ul><p class="line862">For further help, see <a class="http" href="http://www.ubuntu.com/support">http://www.ubuntu.com/support</a>. <span class="anchor" id="line-117"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/FromUSBStickQuick  (last edited 2017-02-04 14:16:21 by <span title="ister-kokos @ h196n2.lunet.ias.bredband.telia.com[195.198.241.196]"><a class="interwiki" href="https://launchpad.net/~ister-kokos" title="ister-kokos @ h196n2.lunet.ias.bredband.telia.com[195.198.241.196]">ister-kokos</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

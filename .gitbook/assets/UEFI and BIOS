@@ -1,0 +1,251 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/UEFI-and-BIOS - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/UEFI-and-BIOS" href="/community/Installation/UEFI-and-BIOS?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FUEFI-and-BIOS&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/UEFI-and-BIOS?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/UEFI-and-BIOS?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Appendix" title="19-dus-lxde_16.04-UEFI-n-BIOS_2016-12-12_running-in-BIOS.png" href="/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=19-dus-lxde_16.04-UEFI-n-BIOS_2016-12-12_running-in-BIOS.png">
+<link rel="Appendix" title="20-dus-lxde_16.04-UEFI-n-BIOS_2016-12-12_running-in-UEFI.png" href="/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=20-dus-lxde_16.04-UEFI-n-BIOS_2016-12-12_running-in-UEFI.png">
+<link rel="Appendix" title="25-dd_unb_ubuntu-20.04_15GB_2020-06-26.png" href="/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=25-dd_unb_ubuntu-20.04_15GB_2020-06-26.png">
+<link rel="Appendix" title="GrowIt.pdf" href="/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=GrowIt.pdf">
+<link rel="Appendix" title="dd_dus-lxde_16.04-UEFI-n-BIOS_2016-12-12_intel-4-pendrive-7.8GB.img.xz.torrent" href="/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=dd_dus-lxde_16.04-UEFI-n-BIOS_2016-12-12_intel-4-pendrive-7.8GB.img.xz.torrent">
+<link rel="Appendix" title="dd_text_16.04-UEFI-n-BIOS_2017-01-15_intel-4-pendrive-7.8GB.img.xz.torrent" href="/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=dd_text_16.04-UEFI-n-BIOS_2017-01-15_intel-4-pendrive-7.8GB.img.xz.torrent">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/UEFI-and-BIOS?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/UEFI-and-BIOS?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/UEFI-and-BIOS">UEFI-and-BIOS</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Official_Ubuntu_Server_tarball_boots_in_UEFI_and_BIOS_mode">Official Ubuntu Server tarball boots in UEFI and BIOS mode</a></li><li>
+<a href="#Preparation">Preparation</a></li><li>
+<a href="#Original_attempt">Original attempt</a><ol><li>
+<a href="#Not_stable_enough_to_survive_certain_updates">Not stable enough to survive certain updates</a></li></ol></li><li>
+<a href="#Stable_alternatives">Stable alternatives</a><ol><li>
+<a href="#Detailed_instructions">Detailed instructions</a></li></ol></li><li>
+<a href="#Installation_from_a_compressed_image_file">Installation from a compressed image file</a><ol><li>
+<a href="#Compressed_image_file">Compressed image file</a></li><li>
+<a href="#User_and_password">User and password</a></li><li>
+<a href="#in_Linux">in Linux</a></li><li>
+<a href="#in_Windows">in Windows</a></li><li>
+<a href="#gpt-fix">gpt-fix</a></li><li>
+<a href="#Final_system_tweaks">Final system tweaks</a></li></ol></li><li>
+<a href="#Links">Links</a></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867">
+<h1 id="Official_Ubuntu_Server_tarball_boots_in_UEFI_and_BIOS_mode">Official Ubuntu Server tarball boots in UEFI and BIOS mode</h1>
+<span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> <strong>News about Ubuntu Server tarball</strong>: In Kinetic Kudu, to be released as 22.10, and newer releases <strong><a class="https" href="https://ubuntuforums.org/showthread.php?t=2474692">Ubuntu Server is distributed as a tarball</a></strong>, a compressed tarfile. When extracted to a drive, it is an installed system that can boot PC computers both in UEFI mode and BIOS mode. This is great, because it makes it very easy to make portable servers as well as desktops with Ubuntu Desktop, Ubuntu community flavours (by installing the meta-package <tt>ubuntu-desktop</tt> or <tt>lubuntu-desktop</tt> ...). </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line874">Get the Ubuntu Server tarball via <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867"><a class="http" href="http://cdimage.ubuntu.com/ubuntu-server/daily-preinstalled/pending/">http://cdimage.ubuntu.com/ubuntu-server/daily-preinstalled/pending/</a> <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line862">When downloaded (and checked with sha256sum) you can flash it to an internal or external drive with <a class="https" href="https://help.ubuntu.com/community/mkusb">mkusb-dus</a> <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><pre><span class="anchor" id="line-1"></span>dus kinetic-preinstalled-server-amd64.img.xz
+<span class="anchor" id="line-2"></span>dus lunar-preinstalled-server-amd64.img.xz
+<span class="anchor" id="line-3"></span>...</pre><span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line874">Get the jammy version, 22.04.x LTS, via <span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span><p class="line867"><a class="http" href="http://cdimage.ubuntu.com/ubuntu-server/jammy/daily-preinstalled/current/">http://cdimage.ubuntu.com/ubuntu-server/jammy/daily-preinstalled/current/</a> <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span><p class="line862">When downloaded (and checked with sha256sum) you can flash it to an internal or external drive with <a class="https" href="https://help.ubuntu.com/community/mkusb">mkusb-dus</a> <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><p class="line867"><span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><pre><span class="anchor" id="line-1-1"></span>dus jammy-preinstalled-server-amd64.img.xz</pre><span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><p class="line874">When you have installed these systems from a compressed image file, and you reboot, you log in with the following user and password: <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><p class="line862">user: <strong>ubuntu</strong> <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><p class="line862">password: <strong>ubuntu</strong> (and you are prompted to change it directly after the first login)  <span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> end of news about Ubuntu Server tarball </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><p class="line867">
+<h1 id="Preparation">Preparation</h1>
+<span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><p class="line874">It might help to prepare by reading the following link <span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><p class="line867"><a class="https" href="https://help.ubuntu.com/community/Installation/FromUSBStick">https://help.ubuntu.com/community/Installation/FromUSBStick</a> <span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><p class="line874">The following link gives more background information about partitioning <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><p class="line867"><a class="https" href="https://help.ubuntu.com/community/DiskSpace">https://help.ubuntu.com/community/DiskSpace</a>  <span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><p class="line867">
+<h1 id="Original_attempt">Original attempt</h1>
+<span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><p class="line867"><a href="/community/Installation/UEFI-and-BIOS/original-attempt">/original-attempt</a> <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><p class="line867">
+<h2 id="Not_stable_enough_to_survive_certain_updates">Not stable enough to survive certain updates</h2>
+<span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><p class="line862">I expected that it could be installed into a USB pendrive as a good alternative to a persistent live system, possible to update and upgrade without limits. But unfortunately a current update involving a new kernel and updating grub will make it fail to boot. So <strong>this system is not stable enough to survive certain updates</strong>. It is good only as an illustration of a method to make a bootable drive in UEFI as well as BIOS mode. <span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><p class="line867">
+<h1 id="Stable_alternatives">Stable alternatives</h1>
+<span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><p class="line862">If you want a stable portable system, that boots in UEFI mode as well as BIOS/CSM mode, and in 64-bit as well as 32-bit computers, you can try <a class="https" href="https://ubuntuforums.org/showthread.php?t=2259682">One pendrive for all PC (Intel/AMD) computers</a>. If you want a pendrive with a live <strong>and</strong> an installed system, you can try <a class="https" href="https://ubuntuforums.org/showthread.php?t=2213631&amp;p=13262506#post13262506">A new and so far successful attempt to create a stable portable system, that works in UEFI and BIOS mode</a>. <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><p class="line867">
+<h2 id="Detailed_instructions">Detailed instructions</h2>
+<span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line867">
+<h3 id="Stable_alternative_1">Stable alternative 1</h3>
+<span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><p class="line874">There are links to instructions how to make an installed system (typically in a USB pendrive) that works with UEFI and BIOS, and is small enough to work in an undersized 16 GB pendrive. This system is created from Ubuntu 16.04 LTS 'Xenial' amd64 ('gamma' because it is beyond beta), and was simplified compared to the previous methods to make a stable installed system for UEFI and BIOS mode. <span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> <strong>See this link to the sub-page</strong>: <strong><a href="/community/Installation/UEFI-and-BIOS/stable-alternative">/stable-alternative</a></strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><p class="line874">This link shows the post in an Ubuntu Forums tutorial, where the method was published: <span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><p class="line867"><a class="https" href="https://ubuntuforums.org/showthread.php?t=2213631&amp;page=4&amp;p=13468260#post13468260">Another new, simpler and so far successful attempt to create a stable portable system, that works in UEFI and BIOS mode</a> <span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><p class="line874">with a description how to make it 'from scratch' plus a link to uploaded compressed image files plus a small script to fix the GPT after cloning. <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><p class="line867">
+<h3 id="Stable_alternative_2">Stable alternative 2</h3>
+<span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><p class="line874">The following link describes a new alternative with Lubuntu 18.04.1 LTS <span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><ul><li>live <span class="anchor" id="line-77"></span></li><li>persistent live <span class="anchor" id="line-78"></span></li><li>installed system <span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span></li></ul><p class="line867"><strong>See this link to the sub-page</strong>: <a href="/community/Installation/UEFI-and-BIOS/stable-alternative-18.04.1">/stable-alternative-18.04.1</a> <span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><p class="line867">
+<h1 id="Installation_from_a_compressed_image_file">Installation from a compressed image file</h1>
+<span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><p class="line874">There is an easy way for you to get an installed Ubuntu system, that boots both in UEFI and BIOS mode, and you can use it in several cases. However, <span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><ul><li>if you want to learn how to do it, or <span class="anchor" id="line-87"></span></li><li>if you want to be sure of the content (and don't rely on me), or <span class="anchor" id="line-88"></span></li><li>if you want hibernation, or <span class="anchor" id="line-89"></span></li><li>if you want an encrypted disk (LVM with LUKS encryption), <span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span></li></ul><p class="line874">then you must do it yourself. (In the encrypted disk case, you must create the passphrase yourself during the installation.) <span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><p class="line867">
+<h2 id="Compressed_image_file">Compressed image file</h2>
+<span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><p class="line862">It is straight-forward to install from a compressed image file using <a class="https" href="https://help.ubuntu.com/community/mkusb">mkusb or mkusb-nox</a>. Some tools may not work with compressed images of such large files. I tried in Lubuntu Xenial 32-bit daily to <strong>restore disk image</strong> with <strong>gnome-disks</strong> alias <strong>Disks</strong>, but it considered the size to be 3.5 GB, when it was 12 GB, so the image was truncated, <a class="https" href="https://bugs.launchpad.net/ubuntu/+source/gnome-disk-utility/+bug/1571255">Bug #1571255</a> <span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><p class="line862">After this cloning operation you should run <a href="/community/Installation/UEFI-and-BIOS#gpt-fix">gpt-fix</a> in order to match the gpt data to the current drive size. <span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><p class="line862">Description of the <strong>short-cut to make an installed system</strong> (typically in a USB pendrive) that works with UEFI and BIOS from a compressed image file: <span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><p class="line867">
+<h3 id="Download_source_1">Download source 1</h3>
+<span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><p class="line874">Download the following compressed image files from <span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><p class="line867"><strong><a class="https" href="https://phillw.net/isos/linux-tools/uefi-n-bios">https://phillw.net/isos/linux-tools/uefi-n-bios</a></strong> <span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><p class="line862">where you also find a gpg-signed file with md5sums, <strong>md5sum.txt.asc</strong>. <span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><p class="line862">Remember to check with <strong>md5sum</strong>, that the download of the compressed image file was successful. <span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><div><table><tbody><tr>  <td style="background-color: #EEEEEE"><p class="line862"> <strong>dd_lubuntu-18.04.1-desktop-amd64-persistent-n-installed_15GB.img.xz</strong> persistent-live &amp; installed for 16 GB pendrives</td>
+</tr>
+<tr>  <td style="background-color: #EEEEEE"><span class="anchor" id="line-112"></span><p class="line862"> <strong>dd_unb_ubuntu-20.04_15GB_2020-06-26.img.xz</strong> Ubuntu 20.04 LTS <strong>installed</strong> for drive size &gt;= 16 GB; See also <a class="https" href="https://phillw.net/isos/linux-tools/uefi-n-bios/GrowIt.pdf">GrowIt.pdf</a> </td>
+</tr>
+<tr>  <td style="background-color: #CCFF99"><span class="anchor" id="line-113"></span><p class="line862"> <strong>dd_unb_ubuntu-20.04_15GB_2020-09-06.img.xz</strong> Ubuntu 20.04 LTS installed, works also with <strong>secure boot</strong> using a fix for the boothole bug; Drive size &gt;= 16 GB; No proposed repository so slower and more stable updates. </td>
+</tr>
+<tr>  <td style="background-color: #CCFF99"><span class="anchor" id="line-114"></span><p class="line862"> <strong>dd_unb_ubuntu-20.04_15GB_2020-09-07_with-proposed.img.xz</strong> Ubuntu 20.04 LTS installed, works also with <strong>secure boot</strong> using a fix for the boothole bug; Drive size &gt;= 16 GB; See also <a class="https" href="https://phillw.net/isos/linux-tools/uefi-n-bios/GrowIt.pdf">GrowIt.pdf</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><p class="line867">
+<h3 id="Download_source_2">Download source 2</h3>
+<span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span><p class="line874">Download the following compressed image files from <span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><p class="line867"><a class="https" href="https://drive.google.com/drive/folders/0BzX-18u3W1sQUXI2YV95dHJxVlE?resourcekey=0-AgT9pCQwv_m3K6D9Jvf9eQ&amp;usp=sharing">https://drive.google.com/drive/folders/0BzX-18u3W1sQUXI2YV95dHJxVlE?resourcekey=0-AgT9pCQwv_m3K6D9Jvf9eQ&amp;usp=sharing</a> <span class="anchor" id="line-122"></span><span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><div><table><tbody><tr>  <td style="background-color: #EEEEEE"><p class="line862"> <strong>dd_Ubuntu_16.04.1_2017-01-17_UEFI-n-BIOS-12GB.img.xz</strong> version for solid state and hard disk drives </td>
+</tr>
+<tr>  <td style="background-color: #EEEEEE"><span class="anchor" id="line-125"></span><p class="line862"> <strong>dd_dus-lxde_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz</strong> light-weight desktop version with mkusb-dus </td>
+</tr>
+<tr>  <td style="background-color: #EEEEEE"><span class="anchor" id="line-126"></span><p class="line862"> <strong>dd_text_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz</strong> mini system with a text user interface </td>
+</tr>
+<tr>  <td style="background-color: #EEEEEE"><span class="anchor" id="line-127"></span><p class="line862"> <strong>dd_lubuntu-18.04.1-desktop-amd64-persistent-n-installed_15GB.img.xz</strong> persistent-live &amp; installed for 16 GB pendrives </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-128"></span><span class="anchor" id="line-129"></span><p class="line874">md5sums: <span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span><pre><span class="anchor" id="line-1-2"></span>bac77b006baccb3d21923e3753f17641  dd_Ubuntu_16.04.1_2017-01-17_UEFI-n-BIOS-12GB.img.xz
+<span class="anchor" id="line-2-1"></span>c28619e78910e3c1f1e499a0af20598b  dd_dus-lxde_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz
+<span class="anchor" id="line-3-1"></span>df970651be45d985c8c9579eed84719f  dd_text_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz
+<span class="anchor" id="line-4"></span>a22b641ac2708df917452a14930994be  dd_lubuntu-18.04.1-desktop-amd64-persistent-n-installed_15GB.img.xz
+<span class="anchor" id="line-5"></span>7475bb74f56ccb74b5377f82f476a0dd  dd_unb_ubuntu-20.04_15GB_2020-06-26.img.xz
+<span class="anchor" id="line-6"></span>89b3cd5206a1ce0e6b569cf276e04d7f  dd_unb_ubuntu-20.04_15GB_2020-09-06.img.xz
+<span class="anchor" id="line-7"></span>ac00ae810b120d7b7dfca4d995593fbf  dd_unb_ubuntu-20.04_15GB_2020-09-07_with-proposed.img.xz</pre><span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span><p class="line867">
+<h3 id="Screenshot_of_.27Ubuntu_20.04_LTS_-_installed.27">Screenshot of 'Ubuntu 20.04 LTS - installed'</h3>
+<span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span><p class="line867"><img alt="25-dd_unb_ubuntu-20.04_15GB_2020-06-26.png" class="attachment" src="/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=get&amp;target=25-dd_unb_ubuntu-20.04_15GB_2020-06-26.png" title="25-dd_unb_ubuntu-20.04_15GB_2020-06-26.png" /> <span class="anchor" id="line-143"></span><span class="anchor" id="line-144"></span><p class="line867">
+<h2 id="User_and_password">User and password</h2>
+<span class="anchor" id="line-145"></span><span class="anchor" id="line-146"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> user: guru         </td>
+</tr>
+<tr>  <td style="background-color: #CCFF99"><span class="anchor" id="line-147"></span><p class="line862"> password: changeme </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-148"></span><span class="anchor" id="line-149"></span><p class="line867">
+<h2 id="in_Linux">in Linux</h2>
+<span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><p class="line874">The target drive will be overwritten. Double-check which is the target drive, the drive you want to install into! <span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><p class="line862">Use <strong>mkusb</strong> to install the system from the compressed image file. <span class="anchor" id="line-154"></span><span class="anchor" id="line-155"></span><p class="line862">See <a class="https" href="https://help.ubuntu.com/community/mkusb">https://help.ubuntu.com/community/mkusb</a> <span class="anchor" id="line-156"></span><span class="anchor" id="line-157"></span><p class="line867">
+<h3 id="gpt_fix_in_mkusb">gpt_fix in mkusb</h3>
+<span class="anchor" id="line-158"></span><span class="anchor" id="line-159"></span><p class="line862">The GUID partition table, GPT, is fixed automatically, if you use <strong>mkusb 10.6.6</strong> or a newer version to install from these compressed image files. The functions <strong>gpt_zap</strong> and <strong>gpt_fix</strong> are built into mkusb. <span class="anchor" id="line-160"></span><span class="anchor" id="line-161"></span><p class="line862">If you use other tools, you need <strong>gpt-fix</strong> or to fix the GPT manually with <strong>gdisk</strong>. If this does not work, you probably need a bigger target drive (big enough to store all the partitions in the original source drive). <span class="anchor" id="line-162"></span><span class="anchor" id="line-163"></span><p class="line867">
+<h2 id="in_Windows">in Windows</h2>
+<span class="anchor" id="line-164"></span><span class="anchor" id="line-165"></span><p class="line867">
+<h3 id="Rufus">Rufus</h3>
+<span class="anchor" id="line-166"></span><span class="anchor" id="line-167"></span><ul><li>We assume that you have downloaded a compressed image file according to the instructions above. <span class="anchor" id="line-168"></span></li><li><p class="line862">Check that you have the current version of <a class="https" href="https://rufus.ie">Rufus</a>. <span class="anchor" id="line-169"></span></li><li><p class="line862">Check that you have a tool that can extract the content from the compressed image file, and that can cooperate with Rufus, for example <a class="https" href="https://www.7-zip.org">7-zip</a>. <span class="anchor" id="line-170"></span></li><li>Run Rufus, and it can manage the whole process of extraction and cloning from the compressed image file to a USB pendrive. <span class="anchor" id="line-171"></span></li><li><p class="line862">When you try to boot from the operating system in the target drive, there might be problems due to different size of the original drive size and the target drive size. This can be fixed in Ubuntu (and other Linux distros) by <strong>gdisk</strong> and often also by <strong>gpt-fix</strong> or <strong>gparted</strong>, if the target drive is big enough to store all the partitions in the original source drive. Otherwise you need a bigger target drive. <span class="anchor" id="line-172"></span><span class="anchor" id="line-173"></span></li></ul><p class="line867">
+<h3 id="Stepwise_instructions">Stepwise instructions</h3>
+<span class="anchor" id="line-174"></span><span class="anchor" id="line-175"></span><p class="line874">Check the download and clone the image in Windows according to the following page <span class="anchor" id="line-176"></span><span class="anchor" id="line-177"></span><p class="line867"><a class="https" href="https://wiki.ubuntu.com/Win32DiskImager/compressed-image_2_USB-or-SD">Win32DiskImager/compressed-image_2_USB-or-SD</a> <span class="anchor" id="line-178"></span><span class="anchor" id="line-179"></span><p class="line874">or according to this summary: <span class="anchor" id="line-180"></span><span class="anchor" id="line-181"></span><p class="line874">Download the following help programs  <span class="anchor" id="line-182"></span><span class="anchor" id="line-183"></span><p class="line867"><a class="http" href="http://www.md5summer.org">http://www.md5summer.org</a> <span class="anchor" id="line-184"></span><span class="anchor" id="line-185"></span><p class="line867"><a class="https" href="https://www.7-zip.org">https://www.7-zip.org</a> <span class="anchor" id="line-186"></span><span class="anchor" id="line-187"></span><p class="line867"><a class="https" href="https://sourceforge.net/projects/win32diskimager">https://sourceforge.net/projects/win32diskimager</a> <span class="anchor" id="line-188"></span><span class="anchor" id="line-189"></span><p class="line862">First check that the download was successful with <strong>md5summer</strong> according to the file <strong>md5sums.txt.asc</strong>.  <span class="anchor" id="line-190"></span><span class="anchor" id="line-191"></span><p class="line862">Next extract the image file with <strong>7-zip</strong> (It is also possible with <strong>winzip</strong>) <span class="anchor" id="line-192"></span><span class="anchor" id="line-193"></span><p class="line862">from <strong>dd_Ubuntu_16.04-gamma-UEFI-n-BIOS-4-pendrive-12GB.img.xz</strong> <span class="anchor" id="line-194"></span><span class="anchor" id="line-195"></span><p class="line862">to <strong>dd_Ubuntu_16.04-gamma-UEFI-n-BIOS-4-pendrive-12GB.img</strong> <span class="anchor" id="line-196"></span><span class="anchor" id="line-197"></span><p class="line874">The target drive will be overwritten. Double-check which is the target drive, the drive you want to install into! <span class="anchor" id="line-198"></span><span class="anchor" id="line-199"></span><p class="line862">Then <strong>write</strong> the extracted image file (without the ending gz) with <strong>win32diskimager</strong>  <span class="anchor" id="line-200"></span><span class="anchor" id="line-201"></span><p class="line862">Win32diskimager looks for <strong>img</strong> files. <span class="anchor" id="line-202"></span><span class="anchor" id="line-203"></span><p class="line867">
+<h2 id="gpt-fix">gpt-fix</h2>
+<span class="anchor" id="line-204"></span><span class="anchor" id="line-205"></span><p class="line862">After this cloning operation you should run <strong>gpt-fix</strong> in order to match the gpt data to the current drive size (unless you are using mkusb version 10.6.6 or newer versions of mkusb). <span class="anchor" id="line-206"></span><span class="anchor" id="line-207"></span><p class="line862">See more details at <a href="/community/Installation/UEFI-and-BIOS/stable-alternative#gpt-fix">/stable-alternative#gpt-fix</a> <span class="anchor" id="line-208"></span><span class="anchor" id="line-209"></span><p class="line867">
+<h2 id="Final_system_tweaks">Final system tweaks</h2>
+<span class="anchor" id="line-210"></span><span class="anchor" id="line-211"></span><p class="line867">
+<h3 id="Decrease_wear_for_a_pendrive">Decrease wear for a pendrive</h3>
+<span class="anchor" id="line-212"></span><span class="anchor" id="line-213"></span><p class="line867"><strong>Add the mount option noatime in /etc/fstab</strong> <span class="anchor" id="line-214"></span><span class="anchor" id="line-215"></span><span class="anchor" id="line-216"></span><span class="anchor" id="line-217"></span><pre><span class="anchor" id="line-1-3"></span># / was on /dev/sdb3 during installation
+<span class="anchor" id="line-2-2"></span>UUID=4c518694-d97c-4910-bb7b-eeb6a6b73874  /  ext4  noatime,errors=remount-ro 0  1</pre><span class="anchor" id="line-218"></span><span class="anchor" id="line-219"></span><p class="line862">Do not copy this line. Use your own data, only add <strong>noatime,</strong> <span class="anchor" id="line-220"></span><span class="anchor" id="line-221"></span><p class="line867"><strong>Turn off journaling</strong> <span class="anchor" id="line-222"></span><span class="anchor" id="line-223"></span><span class="anchor" id="line-224"></span><pre><span class="anchor" id="line-1-4"></span>sudo tune2fs -O ^has_journal /dev/sdxy</pre><span class="anchor" id="line-225"></span><p class="line874">where x is the drive letter and y is the partition number of the root partition, for example /dev/sda3. <span class="anchor" id="line-226"></span><span class="anchor" id="line-227"></span><p class="line867"><strong>Maybe remove swap</strong> <span class="anchor" id="line-228"></span><span class="anchor" id="line-229"></span><p class="line862">It is also possible to remove the swap partition and the swap entry in <strong>/etc/fstab</strong> in order to avoid wear due to swapping. <span class="anchor" id="line-230"></span><span class="anchor" id="line-231"></span><span class="anchor" id="line-232"></span><p class="line867">
+<h3 id="Move_swap_and_grow_root_partitions">Move swap and grow root partitions</h3>
+<span class="anchor" id="line-233"></span><span class="anchor" id="line-234"></span><p class="line874">Move the swap partition and grow the root partition to use the whole <span class="anchor" id="line-235"></span>drive. See this link <span class="anchor" id="line-236"></span><span class="anchor" id="line-237"></span><p class="line867"><a class="https" href="https://phillw.net/isos/linux-tools/uefi-n-bios/GrowIt.pdf">https://phillw.net/isos/linux-tools/uefi-n-bios/GrowIt.pdf</a> <span class="anchor" id="line-238"></span><span class="anchor" id="line-239"></span><p class="line862">Alternate link: <a class="attachment" href="/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=GrowIt.pdf" title="">GrowIt.pdf</a> <span class="anchor" id="line-240"></span><span class="anchor" id="line-241"></span><p class="line867">
+<h3 id="Login_and_password">Login and password</h3>
+<span class="anchor" id="line-242"></span><span class="anchor" id="line-243"></span><p class="line862">When you have installed these systems from a compressed image file, and you reboot, you <strong>log in with the following user and password</strong> <span class="anchor" id="line-244"></span><span class="anchor" id="line-245"></span><div><table><tbody><tr>  <td style="background-color: #CCFF99"><p class="line862"> user: guru         </td>
+</tr>
+<tr>  <td style="background-color: #CCFF99"><span class="anchor" id="line-246"></span><p class="line862"> password: changeme </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-247"></span><span class="anchor" id="line-248"></span><p class="line874">It is a good idea to change the password. <span class="anchor" id="line-249"></span><hr class="hr1" /><p class="line874"> <span class="anchor" id="line-250"></span><span class="anchor" id="line-251"></span><p class="line867">
+<h1 id="Links">Links</h1>
+<span class="anchor" id="line-252"></span><span class="anchor" id="line-253"></span><p class="line862">If you want a stable portable system, that boots in UEFI mode as well as BIOS/CSM mode, and in 64-bit as well as 32-bit computers, you can try <a class="https" href="https://ubuntuforums.org/showthread.php?t=2259682">One pendrive for all PC (Intel/AMD) computers</a>. If you want a pendrive with a live <strong>and</strong> an installed system, you can try <a class="https" href="https://ubuntuforums.org/showthread.php?t=2213631&amp;p=13262506#post13262506">A new and so far successful attempt to create a stable portable system, that works in UEFI and BIOS mode</a> <span class="anchor" id="line-254"></span><span class="anchor" id="line-255"></span><p class="line862">It might be a good idea to try various systems and methods before deciding what to install. <a class="https" href="https://ubuntuforums.org/showthread.php?t=2230389">Try Ubuntu (Kubuntu, Lubuntu, Xubuntu, ...) before installing it</a> <span class="anchor" id="line-256"></span><span class="anchor" id="line-257"></span><p class="line874">The following links contain general information <span class="anchor" id="line-258"></span><span class="anchor" id="line-259"></span><p class="line867"><a class="https" href="https://help.ubuntu.com/community/Installation/FromUSBStick">https://help.ubuntu.com/community/Installation/FromUSBStick</a> <span class="anchor" id="line-260"></span><span class="anchor" id="line-261"></span><p class="line867"><a class="https" href="https://help.ubuntu.com/community/DiskSpace">https://help.ubuntu.com/community/DiskSpace</a>  <span class="anchor" id="line-262"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/UEFI-and-BIOS  (last edited 2023-02-04 18:22:13 by <span title="nio-wiklund @ c-af49e055.032-76-756d6517.bbcust.telenor.se[85.224.73.175]"><a class="interwiki" href="https://launchpad.net/~nio-wiklund" title="nio-wiklund @ c-af49e055.032-76-756d6517.bbcust.telenor.se[85.224.73.175]">nio-wiklund</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

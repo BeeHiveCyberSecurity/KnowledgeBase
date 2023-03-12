@@ -1,0 +1,352 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/LocalNet - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/LocalNet" href="/community/Installation/LocalNet?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FLocalNet&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/LocalNet?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/LocalNet?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/LocalNet?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/LocalNet?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/LocalNet">LocalNet</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867"><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line867"><span class="anchor" id="line-6"></span><div><table style="float:right;  font-size: 0.9em;  width:40%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Overview">Overview</a></li><li>
+<a href="#Preparing_for_Network_booting">Preparing for Network booting</a><ol><li>
+<a href="#Set_up_the_servers">Set up the servers</a></li></ol></li><li>
+<a href="#Desktop_Installation">Desktop Installation</a><ol><li>
+<a href="#From_internet_mirrors">From internet mirrors</a></li><li>
+<a href="#From_a_local_server">From a local server</a></li><li>
+<a href="#Alternate_installation">Alternate installation</a></li><li>
+<a href="#A_variation:_Booting_the_.22Live_CD.22_image">A variation: Booting the "Live CD" image</a></li></ol></li><li>
+<a href="#Basic:_Hands-On_Interactive_Network_Server_Edition_Install">Basic: Hands-On Interactive Network Server Edition Install</a></li><li>
+<a href="#Advanced:_Hands-Off.2C_Preseeded_Network_Server_Install">Advanced: Hands-Off, Preseeded Network Server Install</a></li><li>
+<a href="#Advanced:_Network_install_using_apt-mirror">Advanced: Network install using apt-mirror</a></li><li>
+<a href="#Related_Links">Related Links</a><ol><li>
+<a href="#Pile_of_PXE_related_links">Pile of PXE related links</a></li><li>
+<a href="#PPC_Mac_related_links">PPC Mac related links</a></li></ol></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><p class="line867">
+<h1 id="Overview">Overview</h1>
+<span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line874">This installation method utilizes DHCP/BOOTP, TFTP, and FTP/HTTP to obtain the installation sources.  The installer itself is made up of a Linux kernel and an initrd.  These files are transferred via the DHCP/TFTP boot process. <span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span><p class="line874">The remainder of the installation sources can be transferred via FTP or HTTP.  If the target machine has internet access these sources could be pulled directly from an Ubuntu mirror.  Alternatively, you could download one of the installation ISO's, loop-back mount them, and serve them with a local HTTP/FTP server. <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line867">
+<h1 id="Preparing_for_Network_booting">Preparing for Network booting</h1>
+<span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line874">The following describes how you can install Ubuntu onto a client machine, using just its network card to boot an Ubuntu installation image which will install Ubuntu. <span class="anchor" id="line-18"></span>The way this works, in summary is: you set up and configure bootp, tftp, dhcp, and internet gateway services. Your client machine will <span class="anchor" id="line-19"></span><ol type="0"><li>'netboot' via its network adapter, using pxe/bootp protocol, <span class="anchor" id="line-20"></span></li><li>get passed a kernel and installer via tftp. It will boot into that kernel, which will run an installation of Ubuntu onto your client machine. <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span></li></ol><p class="line874">Most of the packages installed come from latest versions from the Ubuntu repositories on the internet. <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><p class="line867">
+<h2 id="Set_up_the_servers">Set up the servers</h2>
+<span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><p class="line874">Ensure that you have a bootp server, a tftp (eg tftp-hpa) server, and access to your router/gateway. <span class="anchor" id="line-27"></span><ol type="0"><li>Configure the router and its dhcp server. Get the mac address of the new machine you will be installing ubuntu onto (the 'client machine' ). It is easiest if you decide on a fixed ip address for the client machine and set it into the router, as a fixed ip address, eg 192.168.1.42. Note also the gateway address of the router. <span class="anchor" id="line-28"></span></li><li>Configure a bootp service on a linux host. The same ip address as above needs to be assigned by the bootp service to the client machine. <span class="anchor" id="line-29"></span><ol type="0"><li><p class="line891"><a href="/community/InstallingSoftware">Install</a> bootp. <span class="anchor" id="line-30"></span></li><li><p class="line862">Edit /etc/bootptab. Here is an example.<span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><pre><span class="anchor" id="line-1"></span>client:\
+<span class="anchor" id="line-2"></span>ha="00:00:39:2B:54:B5":\
+<span class="anchor" id="line-3"></span>ip=192.168.1.42:\
+<span class="anchor" id="line-4"></span>gw=192.168.1.1:\
+<span class="anchor" id="line-5"></span>sm=255.255.255.0:\
+<span class="anchor" id="line-6"></span>td=/: hd=/: bf=pxelinux.0</pre><span class="anchor" id="line-37"></span><ul><li>ha = the mac address of the client machine (set this to its value) <span class="anchor" id="line-38"></span></li><li>ip = the ip address assigned in the router to the client machine <span class="anchor" id="line-39"></span></li><li>gw = the address of the router <span class="anchor" id="line-40"></span></li><li>sm = the subnet mask for your lan <span class="anchor" id="line-41"></span></li><li>td = the directory on the tfptboot server where the pxe files reside, relative to the tftpboot server's root. <span class="anchor" id="line-42"></span></li><li>hd = a further path which ends at either the pxe boot file or a link to it. (this is probably ok as is) <span class="anchor" id="line-43"></span></li><li>bf = the pxe boot file (this is probably ok as is) <span class="anchor" id="line-44"></span></li></ul><p class="line862">For further help: <tt>man&nbsp;bootpd;&nbsp;man&nbsp;bootptab</tt> and also found in the etc/bootptab file itself as comments. <span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><p class="line862">If you don't know the hardware address, or which ip address the dhcp server of the router will assign, start the client machine. Make sure its bios is set to boot first from its network adapter. You should then be able to get the hardware mac address as it attempts to boot via the network adapter. Update <tt>/etc/bootptab</tt> on the bootp server with the client's mac address and the ip address for it as set in the dhcp server (eg in the router), then restart bootpd. <span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span></li></ol></li><li class="gap"><p class="line862">Start bootp: Here is a wrapper to start and stop bootpd from the command line.<span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><pre><span class="anchor" id="line-1-1"></span>vDaemon=bootpd
+<span class="anchor" id="line-2-1"></span>vCd=/var/lib/tftpboot
+<span class="anchor" id="line-3-1"></span>
+<span class="anchor" id="line-4-1"></span>Start () {
+<span class="anchor" id="line-5-1"></span>    echo -n "Starting $vDaemon: default current directory is at $vCd ... :"
+<span class="anchor" id="line-6-1"></span>    /usr/sbin/$vDaemon -d 4 -c $vCd &gt;/tmp/$vDaemon.log 2&gt;/tmp/$vDaemon.err &amp;
+<span class="anchor" id="line-7"></span>    sleep 1
+<span class="anchor" id="line-8"></span>    Status
+<span class="anchor" id="line-9"></span>}
+<span class="anchor" id="line-10"></span>
+<span class="anchor" id="line-11"></span>Stop () {
+<span class="anchor" id="line-12"></span>        echo "Stopping $vDaemon ..."
+<span class="anchor" id="line-13"></span>    kill `pidof $vDaemon`
+<span class="anchor" id="line-14"></span>}
+<span class="anchor" id="line-15"></span>
+<span class="anchor" id="line-16"></span>Reload () {
+<span class="anchor" id="line-17"></span>    if [ "`pidof $vDaemon`" ] ; then
+<span class="anchor" id="line-18"></span>        echo "Reloading config file for $vDaemon ..."
+<span class="anchor" id="line-19"></span>        kill -HUP "`pidof $vDaemon`"
+<span class="anchor" id="line-20"></span>    fi
+<span class="anchor" id="line-21"></span>    Status
+<span class="anchor" id="line-22"></span>}
+<span class="anchor" id="line-23"></span>
+<span class="anchor" id="line-24"></span>Status () {
+<span class="anchor" id="line-25"></span>    vPid="`pidof $vDaemon`"
+<span class="anchor" id="line-26"></span>    if [ "$vPid" ] ; then
+<span class="anchor" id="line-27"></span>        echo "$vDaemon running, pid=$vPid"
+<span class="anchor" id="line-28"></span>    else
+<span class="anchor" id="line-29"></span>        echo "$vDaemon not running"
+<span class="anchor" id="line-30"></span>    fi
+<span class="anchor" id="line-31"></span>}
+<span class="anchor" id="line-32"></span>
+<span class="anchor" id="line-33"></span>case "$1" in
+<span class="anchor" id="line-34"></span>    start)      Start ;;
+<span class="anchor" id="line-35"></span>    stop)       Stop ;;
+<span class="anchor" id="line-36"></span>    reload) Reload ;;
+<span class="anchor" id="line-37"></span>    restart) Stop ; sleep 2; Start ;;
+<span class="anchor" id="line-38"></span>    status) Status ;;
+<span class="anchor" id="line-39"></span>    ""|*) echo `basename $0` parameter: start stop status reload or restart ;;
+<span class="anchor" id="line-40"></span>esac</pre><span class="anchor" id="line-91"></span><ul><li style="list-style-type:none"><p class="line891"><a class="https" href="https://help.ubuntu.com/11.04/installation-guide/i386/install-tftp.html">Preparing Files for TFTP Net Booting, Section "Setting up BOOTP server"</a> has more info on bootp, including instructions for starting bootp using the inetd alternative. <span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span></li></ul></li><li class="gap">Configure the tftp server: <span class="anchor" id="line-94"></span><ol type="0"><li><p class="line891"><a href="/community/InstallingSoftware">Install</a> tftpd-hpa. Its config in /etc/default/tftpd-hpa should be <span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><pre><span class="anchor" id="line-1-2"></span>RUN_DAEMON="yes"
+<span class="anchor" id="line-2-2"></span>OPTIONS="-l -s /var/lib/tftpboot"</pre> The -s parameter is your tftp server file root.<span class="anchor" id="line-97"></span></li><li><p class="line862">Download the netboot installer tarfile from the Ubuntu Archives (<a class="http" href="http://archive.ubuntu.com/ubuntu/dists/karmic/main/installer-i386/current/images/netboot/netboot.tar.gz">karmic</a>, <a class="http" href="http://archive.ubuntu.com/ubuntu/dists/jaunty/main/installer-i386/current/images/netboot/netboot.tar.gz">jaunty</a>), and extract its contents into the tftpboot server file root as per above. <span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><ul><li style="list-style-type:none"><p class="line862">(More background info is at <a class="https" href="https://help.ubuntu.com/11.04/installation-guide/i386/install-tftp.html">Preparing Files for TFTP Net Booting</a>). <span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span></li></ul></li></ol></li></ol><p class="line867">
+<h1 id="Desktop_Installation">Desktop Installation</h1>
+<span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><p class="line867">
+<h2 id="From_internet_mirrors">From internet mirrors</h2>
+<span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><p class="line874">Net-boot your client machine. The tftpboot server passes the client machine the install kernel and initrd, which presents a screen/menu with different installation options. Hit [Enter] to start a standard desktop installation. <span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><p class="line874">When the installation asks to select a mirror, choose one and the installation will proceed as if there is a CD in the drive. <span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><p class="line867">
+<h2 id="From_a_local_server">From a local server</h2>
+<span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><p class="line874">If installing over the internet is not an option you can also install from a local server. One can loop-back mount the installation sources from the .ISO file.  Based on the speed of your LAN, installing systems via this method can be considerably faster than using spinning media. <span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span><p class="line874">For a desktop installation, obtain one of the desktop ISO's.  For example: <span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><pre><span class="anchor" id="line-1-3"></span># wget http://old-releases.ubuntu.com/releases/9.10/ubuntu-9.10-desktop-amd64.iso</pre><span class="anchor" id="line-117"></span><span class="anchor" id="line-118"></span><p class="line874">When the download has completed, loopback mount the ISO: <span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><pre><span class="anchor" id="line-1-4"></span># mkdir /mnt/ubuntu
+<span class="anchor" id="line-2-3"></span># mount -o loop ubuntu-9.10-desktop-amd64.iso /mnt/ubuntu</pre><span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><p class="line874">Expose your installation media via your HTTP server.  If you are running Apache, the default configuration should be generous enough to allow you to use a symbolic link: <span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span><span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span><pre><span class="anchor" id="line-1-5"></span># cd /var/www/html
+<span class="anchor" id="line-2-4"></span># sudo ln -s /mnt/ubuntu ubuntu</pre><span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><p class="line862">Test that your installation directory is accessible by pointing a browser at:  For example, if Apache was running on the machine 192.168.1.50, then point Chrome to '<a class="http" href="http://192.168.1.50/ubuntu">http://192.168.1.50/ubuntu</a>'  <span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><p class="line874">Network boot the target machine, proceed to the mirrors dialog.  When asked to select a mirror, go to the top of the list and select "Enter Manually".   <span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span><p class="line874">Enter the IP address of the HTTP server which is sourcing your installation packages (you can use a hostname if your LAN's domain name resolution is configured properly).   <span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><p class="line874">At the next screen, it'll ask for a path.  Enter /ubuntu. <span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span><p class="line874">From here on, the installation is the same as using the internet mirrors. <span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span><p class="line867">
+<h2 id="Alternate_installation">Alternate installation</h2>
+<span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span><p class="line874">If you're installing to a "headless" machine, or a machine that only has a serial connection, the "desktop" installation media will not work.  You will, instead, need the "alternate" media for your installation. <span class="anchor" id="line-143"></span><span class="anchor" id="line-144"></span><p class="line874">Modify your pxelinux.cfg/default so that the kernel uses ttyS0 for the console: <span class="anchor" id="line-145"></span><span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><span class="anchor" id="line-148"></span><span class="anchor" id="line-149"></span><pre><span class="anchor" id="line-1-6"></span>LABEL alt
+<span class="anchor" id="line-2-5"></span>kernel ubuntu-alt/linux
+<span class="anchor" id="line-3-2"></span>append initrd=ubuntu-alt/initrd.gz console=ttyS0,115200n8 quiet --</pre><span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><p class="line874">After downloading the "alternate" media: <span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><pre><span class="anchor" id="line-1-7"></span># wget http://old-releases.ubuntu.com/releases/9.10/ubuntu-9.10-alternate-amd64.iso</pre><span class="anchor" id="line-155"></span><span class="anchor" id="line-156"></span><p class="line874">Follow the "local server" instructions substituting the "alternate" media for "desktop" media. <span class="anchor" id="line-157"></span><span class="anchor" id="line-158"></span><span class="anchor" id="line-159"></span><p class="line867">
+<h2 id="A_variation:_Booting_the_.22Live_CD.22_image">A variation: Booting the "Live CD" image</h2>
+<span class="anchor" id="line-160"></span><span class="anchor" id="line-161"></span><p class="line874">You can also employ a variation of the above to instead boot into the Desktop Edition Live CD image instead of the installer. To do this, here are the key steps: <span class="anchor" id="line-162"></span><ol type="0"><li><p class="line862">Download the Desktop CD iso (eg /8.10/ubuntu-8.10-desktop-i386.iso from a mirror at <a class="http" href="http://www.ubuntu.com/getubuntu/downloadmirrors">http://www.ubuntu.com/getubuntu/downloadmirrors</a>). Extract its contents including the hidden .disk directory, or mount the iso file, to the tftp root area. This needs to be reachable via nfs export; eg on the nfs host (192.168.1.10 as per the example below). If you 'nfs-export' /, ie the nfs server's entire file system,  you will not have a problem <img alt="Smile :-)" height="16" src="/moin_static198/light/img/icon_smile.png" title="Smile :-)" width="16" /> (Alternatively, you could also use an ftp or http server, as further described in the next section.) <span class="anchor" id="line-163"></span></li><li><p class="line862">Add a stanza of the following 3 lines into the ubuntu-installer/i386/pxelinux.cfg/default file <span class="anchor" id="line-164"></span><span class="anchor" id="line-165"></span><span class="anchor" id="line-166"></span><pre><span class="anchor" id="line-1-8"></span>LABEL live
+<span class="anchor" id="line-2-6"></span>kernel ubuntu-desktop/casper/vmlinuz
+<span class="anchor" id="line-3-3"></span>append initrd=ubuntu-desktop/casper/initrd.gz boot=casper netboot=nfs nfsroot=192.168.0.10:/mnt/u01/tftpboot/ubuntu-desktop -- </pre><span class="anchor" id="line-167"></span></li><li><p class="line862">Add a line into the ubuntu-installer/i386/boot-screens/f3.txt menu file to record your selection, so you can remember the extra option <em>live</em>. <span class="anchor" id="line-168"></span></li></ol><p class="line874">Your client machine can now boot the "Live CD" Ubuntu instead of the alternate CD installer, and you will get the Live Ubuntu desktop. You can then install Ubuntu via the "Install" icon on the desktop if you wish. <span class="anchor" id="line-169"></span><span class="anchor" id="line-170"></span><ul><li><p class="line862">With Gutsy or Hardy, you might find the bootup stops just after this line appears. <tt>"squashfs:&nbsp;version&nbsp;3.2-UBUNTU&nbsp;(2007/07/26)&nbsp;Phillip&nbsp;Lougher"</tt> In this case, try hitting Alt-Enter, and the boot-up should continue, giving you the Ubuntu desktop. <span class="anchor" id="line-171"></span></li><li><p class="line862">Up until late July 2008 for Hardy or earlier, if you fail to copy the hidden directory .disk, the install will stop at 82%, filling up the squash filesystem. After then it should abort cleanly. See this <a class="https" href="https://bugs.launchpad.net/ubuntu/+source/casper/+bug/245519">bug report on Launchpad</a> for details. <span class="anchor" id="line-172"></span><span class="anchor" id="line-173"></span><span class="anchor" id="line-174"></span></li></ul><p class="line867">
+<h1 id="Basic:_Hands-On_Interactive_Network_Server_Edition_Install">Basic: Hands-On Interactive Network Server Edition Install</h1>
+<span class="anchor" id="line-175"></span><span class="anchor" id="line-176"></span><p class="line874">Another description of installing an Ubuntu distro from over your network, as if you had booted and installed it from the Ubuntu installation CD. This is almost a rewrite of the above, except its using a DHCP server on a Linux machine.  <span class="anchor" id="line-177"></span><span class="anchor" id="line-178"></span><p class="line874">Services needed, on a server (or servers) : <span class="anchor" id="line-179"></span><ol type="0"><li>dhcp or bootp: to provide netboot server support, <span class="anchor" id="line-180"></span></li><li>tftp: to feed the first boot image to the netboot client machine, when requested by the netboot server, <span class="anchor" id="line-181"></span></li><li>http, ftp or nfs: to supply the Ubuntu distro to the client machine during the installation process. <span class="anchor" id="line-182"></span></li><li>The client machine must be able to boot from its network card, else from a diskette that you built to 'netboot'. <span class="anchor" id="line-183"></span><span class="anchor" id="line-184"></span></li></ol><p class="line874">This page focuses on the combination of dhcp, tftp, and http. In the examples below 'myserver' is the server for these 3 services. (Each of these can be run on a separate server if desired.) <span class="anchor" id="line-185"></span><span class="anchor" id="line-186"></span><ol start="1" type="0"><li><p class="line862">Install and configure the dhcp server. Eg to install:<span class="anchor" id="line-187"></span><pre><span class="anchor" id="line-1-9"></span>root@myserver:~ # apt-get install dhcp3-server</pre><span class="anchor" id="line-188"></span><p class="line862">Configure the dhcp server to tell the clients what to boot.  I added a default host name, you don't need it but it comes in handy for other things.<span class="anchor" id="line-189"></span><span class="anchor" id="line-190"></span><span class="anchor" id="line-191"></span><span class="anchor" id="line-192"></span><span class="anchor" id="line-193"></span><span class="anchor" id="line-194"></span><span class="anchor" id="line-195"></span><span class="anchor" id="line-196"></span><span class="anchor" id="line-197"></span><span class="anchor" id="line-198"></span><span class="anchor" id="line-199"></span><pre><span class="anchor" id="line-1-10"></span>root@myserver:~ # cat /etc/dhcp3/dhcpd.conf
+<span class="anchor" id="line-2-7"></span>subnet 192.168.1.0  netmask 255.255.255.0 {
+<span class="anchor" id="line-3-4"></span>        range 192.168.1.10 192.168.1.254;
+<span class="anchor" id="line-4-2"></span>         }
+<span class="anchor" id="line-5-2"></span># put your DNS IP's here:
+<span class="anchor" id="line-6-2"></span>option domain-name-servers 192.168.1.7, 68.87.66.196 ;
+<span class="anchor" id="line-7-1"></span>filename="ubuntu/feisty/alternate/install/netboot/pxelinux.0";
+<span class="anchor" id="line-8-1"></span>
+<span class="anchor" id="line-9-1"></span>root@myserver:~ # /etc/init.d/dhcp3-server restart
+<span class="anchor" id="line-10-1"></span>Stopping DHCP server: dhcpd3.
+<span class="anchor" id="line-11-1"></span>Starting DHCP server: dhcpd3.</pre> <span class="anchor" id="line-200"></span></li><li><p class="line862">Install and configure the Trivial File Transfer Protocol server. The tftpd-hpa package is recommended. Install it. It is enabled via /etc/default/tftpd-hpa.<span class="anchor" id="line-201"></span><span class="anchor" id="line-202"></span><pre><span class="anchor" id="line-1-11"></span>RUN_DAEMON="yes"
+<span class="anchor" id="line-2-8"></span>OPTIONS="-l -s /var/lib/tftpboot"</pre> Also note its base directory. The default setting is shown above.<span class="anchor" id="line-203"></span><span class="anchor" id="line-204"></span><p class="line862">Mount the CD (media or image) under the tftpboot base directory found above,eg <span class="anchor" id="line-205"></span><pre><span class="anchor" id="line-1-12"></span>root@myserver:/var/lib/tftpboot/ubuntu/feisty$ mount -o loop feisty-alternate-i386.iso alternate/ </pre> or, you can instead copy the contents of the CD into that location, instead of leaving the ISO mounted.<span class="anchor" id="line-206"></span><span class="anchor" id="line-207"></span></li></ol><p class="line862">See <a class="https" href="https://help.ubuntu.com/11.04/installation-guide/i386/install-tftp.html">Preparing Files for TFTP Net Booting</a>  <span class="anchor" id="line-208"></span>for detailed information. <span class="anchor" id="line-209"></span><span class="anchor" id="line-210"></span><ol type="0"><li><p class="line862">Install and configure Apache, eg:<span class="anchor" id="line-211"></span><pre><span class="anchor" id="line-1-13"></span>root@myserver:~ # apt-get install apache2</pre><span class="anchor" id="line-212"></span><span class="anchor" id="line-213"></span><p class="line862">Make a symlink from apache's doc Root to the CD<span class="anchor" id="line-214"></span><pre><span class="anchor" id="line-1-14"></span>root@myserver:/var/www # ln -s /var/lib/tftpboot/ubuntu/</pre> Or copy the /ubuntu directory from the CD into here.<span class="anchor" id="line-215"></span><span class="anchor" id="line-216"></span>To use a pure ftp server like the vs-ftp server instead of Apache, install the ftp server, and configure it for anonymous ftp access. Then copy the /ubuntu directory from the CD into the anonymous ftp home. With vs-ftpd, this is set to /home/ftp. (Check /etc/passwd to confirm the anonymous ftp home.) Next test that anonymous ftp works and finds the installation stuff. eg via 'ftp localhost' on that machine. The install needs to be done in 'expert' mode, so you can select the ftp protocol instead of the default 'http'. <span class="anchor" id="line-217"></span></li><li>Boot up the client machine, set its bios to net boot and you should get the Ubuntu screen and Boot: prompt. Yippee! <span class="anchor" id="line-218"></span></li></ol><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-219"></span><span class="anchor" id="line-220"></span><p class="line867">
+<h1 id="Advanced:_Hands-Off.2C_Preseeded_Network_Server_Install">Advanced: Hands-Off, Preseeded Network Server Install</h1>
+<span class="anchor" id="line-221"></span><span class="anchor" id="line-222"></span><p class="line874">The above is for an interactive install, just as if you booted from CD. The following addresses preseeding, which enables a Hands Off Install where all the questions have been answered and fed to the installer. In addition, the following does not pull anything from the Internet. <span class="anchor" id="line-223"></span><span class="anchor" id="line-224"></span><p class="line862">A handful of preseed options need to be passed via kernel options.  The kernel only supports 255 chars, so things are cramped.  To accommodate this, I dumped some of the paths and made symlinks.  That gave me just enough space for now. Note that the path/name of the kernel gets appended, so even trimming that helped.<span class="anchor" id="line-225"></span><span class="anchor" id="line-226"></span><pre><span class="anchor" id="line-1-15"></span>root@sahara:/var/lib/tftpboot # ln -s ubuntu-installer/i386/initrd.gz
+<span class="anchor" id="line-2-9"></span>root@sahara:/var/lib/tftpboot # ln -s ubuntu-installer/i386/linux</pre><span class="anchor" id="line-227"></span><span class="anchor" id="line-228"></span><p class="line874">/var/lib/tftpboot/pxelinux.cfg/default <span class="anchor" id="line-229"></span><span class="anchor" id="line-230"></span><span class="anchor" id="line-231"></span><span class="anchor" id="line-232"></span><span class="anchor" id="line-233"></span><span class="anchor" id="line-234"></span><span class="anchor" id="line-235"></span><span class="anchor" id="line-236"></span><span class="anchor" id="line-237"></span><span class="anchor" id="line-238"></span><span class="anchor" id="line-239"></span><span class="anchor" id="line-240"></span><span class="anchor" id="line-241"></span><span class="anchor" id="line-242"></span><span class="anchor" id="line-243"></span><span class="anchor" id="line-244"></span><span class="anchor" id="line-245"></span><span class="anchor" id="line-246"></span><span class="anchor" id="line-247"></span><span class="anchor" id="line-248"></span><span class="anchor" id="line-249"></span><span class="anchor" id="line-250"></span><span class="anchor" id="line-251"></span><span class="anchor" id="line-252"></span><span class="anchor" id="line-253"></span><span class="anchor" id="line-254"></span><span class="anchor" id="line-255"></span><span class="anchor" id="line-256"></span><span class="anchor" id="line-257"></span><span class="anchor" id="line-258"></span><span class="anchor" id="line-259"></span><span class="anchor" id="line-260"></span><span class="anchor" id="line-261"></span><span class="anchor" id="line-262"></span><span class="anchor" id="line-263"></span><pre><span class="anchor" id="line-1-16"></span># pxelinux.cfg/default
+<span class="anchor" id="line-2-10"></span>
+<span class="anchor" id="line-3-5"></span># display ubuntu-installer/i386/boot-screens/syslinux.txt
+<span class="anchor" id="line-4-3"></span>
+<span class="anchor" id="line-5-3"></span>default menu
+<span class="anchor" id="line-6-3"></span>prompt 1
+<span class="anchor" id="line-7-2"></span>timeout 150
+<span class="anchor" id="line-8-2"></span>ontimeout boothd
+<span class="anchor" id="line-9-2"></span>
+<span class="anchor" id="line-10-2"></span>label menu
+<span class="anchor" id="line-11-2"></span># makes a menu out of this file, allows editing the options on the client
+<span class="anchor" id="line-12-1"></span>        kernel menu.c32
+<span class="anchor" id="line-13-1"></span>
+<span class="anchor" id="line-14-1"></span>label boothd
+<span class="anchor" id="line-15-1"></span>        # boot from the first HD
+<span class="anchor" id="line-16-1"></span>        # (this is what happens if nothing is pressed for 15 seconds)
+<span class="anchor" id="line-17-1"></span>        localboot 0
+<span class="anchor" id="line-18-1"></span>
+<span class="anchor" id="line-19-1"></span>label ubuntu-feisty-normal
+<span class="anchor" id="line-20-1"></span># ubuntu installer
+<span class="anchor" id="line-21-1"></span>        kernel ubuntu-feisty/linux
+<span class="anchor" id="line-22-1"></span>        append vga=normal initrd=ubuntu-feisty/initrd.gz ramdisk_size=14984 root=/dev/rd/0 rw  --
+<span class="anchor" id="line-23-1"></span>
+<span class="anchor" id="line-24-1"></span>label ubuntu-feisty-hands-off
+<span class="anchor" id="line-25-1"></span># ubuntu installer
+<span class="anchor" id="line-26-1"></span># The 'kernel' and 'initrd' paths must identify files under tftpboot.
+<span class="anchor" id="line-27-1"></span># For example, on my system I have /var/lib/tftpboot/ubuntu-feisty/linux and /var/lib/tftpboot/ubuntu-feisty/initrd.gz.
+<span class="anchor" id="line-28-1"></span>        kernel ubuntu-feisty/linux
+<span class="anchor" id="line-29-1"></span>        append initrd=ubuntu-feisty/initrd.gz ramdisk_size=14984 root=/dev/rd/0 rw preseed/locale=en_US kbd-chooser/method=us netcfg/wireless_wep= netcfg/choose_interface=eth0 netcfg/get_hostname= preseed/url=http://192.168.1.7/preseed-feisty.cfg vga=6 --
+<span class="anchor" id="line-30-1"></span>
+<span class="anchor" id="line-31-1"></span>label ubuntu-gutsy-hands-off
+<span class="anchor" id="line-32-1"></span># For gutsy the preseeds on the command line are slightly different.
+<span class="anchor" id="line-33-1"></span>        kernel ubuntu-gutsy/net-linux
+<span class="anchor" id="line-34-1"></span>        append initrd=ubuntu-gutsy/net-initrd.gz auto url=http://server/u710a/preseed/web-server.preseed locale=en_US.UTF-8 debian-installer/keymap=us netcfg/get_hostname= vga=0x317 --</pre><span class="anchor" id="line-264"></span><p class="line874">netcfg/get_hostname= Is blank so that it will pick up the host-name supplied by the DHCP server. <span class="anchor" id="line-265"></span><span class="anchor" id="line-266"></span><p class="line874">netcfg/choose_interface=eth0 - You may wish to specify eth1 or wlan0 for laptops if you want it to setup the wifi card, not the wired port. <span class="anchor" id="line-267"></span><span class="anchor" id="line-268"></span><p class="line862">Note for client-specific PXE configurations: The DHCP server can't pass it this can be done in PXE boot. Pretending that the MAC address of your wireless card is 12 : CD : 56 : AB : 78 : EF you can specify a custom pxelinux.cfg/01-12-dc-56-ab-78-ef (lowercase) file instead of default. If you are using static dhcp, you can also use the IP address in hex for a per-machine or per-subnet or per-network configuration. See <a class="http" href="http://syslinux.zytor.com/pxe.php#config">http://syslinux.zytor.com/pxe.php#config</a> for more information. Basically, say you have three wireless cards where the IP in hex translated to caf12d5e, caf12d6b, caf124ea, you could specify pxelinux.cfg/caf12d and pxelinux.cfg/caf12. The first two would match to the first config file and the third would match to the second config file. <span class="anchor" id="line-269"></span><span class="anchor" id="line-270"></span><p class="line862">See <a class="http" href="http://www.debian.org/releases/etch/example-preseed.txt">http://www.debian.org/releases/etch/example-preseed.txt</a> for an example preseed file, and be sure to note the debconf-get-selections example commands. <span class="anchor" id="line-271"></span>Here are the important changes for using the copy of the install CD on your server instead of the Internet repositories during the install:<span class="anchor" id="line-272"></span><span class="anchor" id="line-273"></span><span class="anchor" id="line-274"></span><span class="anchor" id="line-275"></span><span class="anchor" id="line-276"></span><span class="anchor" id="line-277"></span><span class="anchor" id="line-278"></span><span class="anchor" id="line-279"></span><span class="anchor" id="line-280"></span><span class="anchor" id="line-281"></span><span class="anchor" id="line-282"></span><span class="anchor" id="line-283"></span><span class="anchor" id="line-284"></span><span class="anchor" id="line-285"></span><span class="anchor" id="line-286"></span><pre><span class="anchor" id="line-1-17"></span># Choose software to install:
+<span class="anchor" id="line-2-11"></span>tasksel tasksel/first   multiselect     ubuntu-desktop
+<span class="anchor" id="line-3-6"></span># Installation source
+<span class="anchor" id="line-4-4"></span># Note the value of mirror/country "enter information manually" This is an actual choice in the mirror menu. Choosing this allows us to enter our local repository information.
+<span class="anchor" id="line-5-4"></span>d-i     mirror/country          string enter information manually
+<span class="anchor" id="line-6-4"></span># hostname This is whatever HTTP server you have set up.
+<span class="anchor" id="line-7-3"></span>d-i     mirror/http/hostname    string sahara
+<span class="anchor" id="line-8-3"></span># This is the /ubuntu directory from the install CD copied (or linked) under the webroot of your HTTP server
+<span class="anchor" id="line-9-3"></span>d-i     mirror/http/directory   string /ubuntu 
+<span class="anchor" id="line-10-3"></span># Name your ubuntu version here
+<span class="anchor" id="line-11-3"></span>d-i     mirror/suite            string feisty
+<span class="anchor" id="line-12-2"></span># d-i   mirror/suite            string gutsy
+<span class="anchor" id="line-13-2"></span># no proxy
+<span class="anchor" id="line-14-2"></span>d-i     mirror/http/proxy       string </pre><p class="line874"> <span class="anchor" id="line-287"></span>If you want to use the first disk of your system "d-i partman-auto/disk string /dev/discs/disc0/disc" (because its a devfs-path, the installer use udev) wont work for you. As described in <a class="http" href="http://ubuntuforums.org/showthread.php?t=434405">http://ubuntuforums.org/showthread.php?t=434405</a> "d-i partman-auto/disk string ?da" works well! More information about the partman-auto/expert_recipe seed that allows setting the partitions can be found at <a class="http" href="http://d-i.alioth.debian.org/svn/debian-installer/installer/doc/devel/partman-auto-recipe.txt">http://d-i.alioth.debian.org/svn/debian-installer/installer/doc/devel/partman-auto-recipe.txt</a> <span class="anchor" id="line-288"></span><span class="anchor" id="line-289"></span><p class="line874">If you get questions popping up, you can find the corresponding seed name by looking in the /var/lib/cdebconf directory in the installer. Open vty2 and activate the shell. File template.dat contains all questions and the corresponding seed value. If you answered any questions manually, you can find the seed value in questions.dat <span class="anchor" id="line-290"></span><span class="anchor" id="line-291"></span><span class="anchor" id="line-292"></span><p class="line862">Here is my current dhcpd.conf <span class="anchor" id="line-293"></span><span class="anchor" id="line-294"></span><span class="anchor" id="line-295"></span><span class="anchor" id="line-296"></span><span class="anchor" id="line-297"></span><span class="anchor" id="line-298"></span><span class="anchor" id="line-299"></span><span class="anchor" id="line-300"></span><span class="anchor" id="line-301"></span><span class="anchor" id="line-302"></span><span class="anchor" id="line-303"></span><span class="anchor" id="line-304"></span><span class="anchor" id="line-305"></span><span class="anchor" id="line-306"></span><span class="anchor" id="line-307"></span><span class="anchor" id="line-308"></span><span class="anchor" id="line-309"></span><span class="anchor" id="line-310"></span><span class="anchor" id="line-311"></span><span class="anchor" id="line-312"></span><span class="anchor" id="line-313"></span><span class="anchor" id="line-314"></span><span class="anchor" id="line-315"></span><span class="anchor" id="line-316"></span><span class="anchor" id="line-317"></span><span class="anchor" id="line-318"></span><span class="anchor" id="line-319"></span><span class="anchor" id="line-320"></span><span class="anchor" id="line-321"></span><span class="anchor" id="line-322"></span><span class="anchor" id="line-323"></span><span class="anchor" id="line-324"></span><span class="anchor" id="line-325"></span><span class="anchor" id="line-326"></span><span class="anchor" id="line-327"></span><span class="anchor" id="line-328"></span><span class="anchor" id="line-329"></span><span class="anchor" id="line-330"></span><span class="anchor" id="line-331"></span><span class="anchor" id="line-332"></span><span class="anchor" id="line-333"></span><span class="anchor" id="line-334"></span><span class="anchor" id="line-335"></span><span class="anchor" id="line-336"></span><span class="anchor" id="line-337"></span><span class="anchor" id="line-338"></span><span class="anchor" id="line-339"></span><span class="anchor" id="line-340"></span><span class="anchor" id="line-341"></span><span class="anchor" id="line-342"></span><span class="anchor" id="line-343"></span><span class="anchor" id="line-344"></span><span class="anchor" id="line-345"></span><span class="anchor" id="line-346"></span><span class="anchor" id="line-347"></span><span class="anchor" id="line-348"></span><pre><span class="anchor" id="line-1-18"></span>ping-check = 1;
+<span class="anchor" id="line-2-12"></span>log-facility local7;
+<span class="anchor" id="line-3-7"></span>
+<span class="anchor" id="line-4-5"></span>option domain-name "sahara.net";
+<span class="anchor" id="line-5-5"></span>option time-servers  192.168.1.1;
+<span class="anchor" id="line-6-5"></span>option broadcast-address 192.168.1.255;
+<span class="anchor" id="line-7-4"></span>
+<span class="anchor" id="line-8-4"></span>option domain-name-servers 63.240.76.4, 204.127.198.4;
+<span class="anchor" id="line-9-4"></span>option routers  192.168.1.1;
+<span class="anchor" id="line-10-4"></span>
+<span class="anchor" id="line-11-4"></span>subnet 192.168.1.0  netmask 255.255.255.0 {
+<span class="anchor" id="line-12-3"></span>        range 192.168.1.10 192.168.1.254;
+<span class="anchor" id="line-13-3"></span>         }
+<span class="anchor" id="line-14-3"></span>
+<span class="anchor" id="line-15-2"></span># Hoary test boxes
+<span class="anchor" id="line-16-2"></span>group {
+<span class="anchor" id="line-17-2"></span>        filename="pxelinux.0" ;
+<span class="anchor" id="line-18-2"></span>
+<span class="anchor" id="line-19-2"></span>        # You need a next-server option if TFTP and DHCPd aren't on the same system.
+<span class="anchor" id="line-20-2"></span>        next-server sahara;
+<span class="anchor" id="line-21-2"></span>        
+<span class="anchor" id="line-22-2"></span>        # 192.168.1.2 does not exist on my lan.
+<span class="anchor" id="line-23-2"></span>        # I am setting it like this to make sure the box doesn't find
+<span class="anchor" id="line-24-2"></span>        # a repo on the net to pull sources from.
+<span class="anchor" id="line-25-2"></span>        # It would be good I can figure out how to i
+<span class="anchor" id="line-26-2"></span>        #  limit these setting to the install phase 
+<span class="anchor" id="line-27-2"></span>        #  (including the 2nd part after the reboot )
+<span class="anchor" id="line-28-2"></span>        
+<span class="anchor" id="line-29-2"></span>        option domain-name-servers 192.168.1.2 ;
+<span class="anchor" id="line-30-2"></span>        option routers 192.168.1.2 ;
+<span class="anchor" id="line-31-2"></span>
+<span class="anchor" id="line-32-2"></span>        host dwl650p { 
+<span class="anchor" id="line-33-2"></span>                hardware ethernet 00:05:5d:5a:81:f0 ; 
+<span class="anchor" id="line-34-2"></span>                option host-name "dwl650p" ; }
+<span class="anchor" id="line-35-1"></span>        
+<span class="anchor" id="line-36-1"></span>        # tsp2 6100 - a=wired, b=wifi
+<span class="anchor" id="line-37-1"></span>        host tsp2a { 
+<span class="anchor" id="line-38-1"></span>                hardware ethernet 00:00:39:fa:ff:f3 ;
+<span class="anchor" id="line-39-1"></span>                option host-name "tsp2a" ; }
+<span class="anchor" id="line-40-1"></span>        
+<span class="anchor" id="line-41"></span>        host tsp2b { 
+<span class="anchor" id="line-42"></span>                hardware ethernet 00:02:2d:b0:c8:6c ;
+<span class="anchor" id="line-43"></span>                option host-name "tsp2b" ; }
+<span class="anchor" id="line-44"></span>
+<span class="anchor" id="line-45"></span>        host tsp1 { 
+<span class="anchor" id="line-46"></span>                hardware ethernet 00:00:39:88:31:a6 ; 
+<span class="anchor" id="line-47"></span>                option host-name "tsp1" ; }
+<span class="anchor" id="line-48"></span>
+<span class="anchor" id="line-49"></span>        host e400 { 
+<span class="anchor" id="line-50"></span>
+<span class="anchor" id="line-51"></span>                hardware ethernet 00:60:08:b0:62:0d ; 
+<span class="anchor" id="line-52"></span>                # fixed-address 192.168.1.181 ;
+<span class="anchor" id="line-53"></span>                option host-name "e400" ; }
+<span class="anchor" id="line-54"></span>
+<span class="anchor" id="line-55"></span>       }</pre><span class="anchor" id="line-349"></span><span class="anchor" id="line-350"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-351"></span>If your box doesn't have the option to boot from lan (like one of mine) you can make a boot disk that will do that part. <span class="anchor" id="line-352"></span><span class="anchor" id="line-353"></span><ul><li><p class="line891"><a class="http" href="http://etherboot.sourceforge.net/">http://etherboot.sourceforge.net/</a> <span class="anchor" id="line-354"></span></li><li><p class="line891"><a class="http" href="http://rom-o-matic.net/">http://rom-o-matic.net/</a> <span class="anchor" id="line-355"></span><span class="anchor" id="line-356"></span></li></ul><p class="line874">I am pleased to say that I was able to read, download, build, run, make the floppy in under 30 min.   <span class="anchor" id="line-357"></span><span class="anchor" id="line-358"></span><p class="line874">"Etherboot does not (yet) offer support for PCMCIA cards." so the older laptops will have to wait.   <span class="anchor" id="line-359"></span><hr /><p class="line874"> <span class="anchor" id="line-360"></span><span class="anchor" id="line-361"></span><p class="line867">
+<h1 id="Advanced:_Network_install_using_apt-mirror">Advanced: Network install using apt-mirror</h1>
+<span class="anchor" id="line-362"></span><span class="anchor" id="line-363"></span><p class="line874">apt-mirror is a Perl script for maintaining a mirror of the Debian or Ubuntu installation sets.  It is often set up as a cron job to download updates to the mirror automatically.  Updates are downloaded incrementally using parallel threads.  Contents of the mirror are typically served via a web server to the local network.   <span class="anchor" id="line-364"></span><span class="anchor" id="line-365"></span><p class="line862">apt-mirror can be installed on most Unix machine from the tarball.  On Debian or Ubuntu, the apt-mirror package can usually be installed by apt-get with the appropriate addition to sources.list.  See the <a class="http" href="http://apt-mirror.sourceforge.net/">apt-mirror project home page</a> for details.   <span class="anchor" id="line-366"></span><span class="anchor" id="line-367"></span><p class="line862">For basic instructions pertaining to Ubuntu, see <a class="http" href="http://www.howtoforge.com/local_debian_ubuntu_mirror">How To Create A Local Debian/Ubuntu Mirror With apt-mirror</a>.  Some modifications are required to the mirror configuration to work in conjunction with netboot.  Netboot requires debian-installer.  The following snippet from an example configuration is reported to work:    <span class="anchor" id="line-368"></span><span class="anchor" id="line-369"></span><p class="line867"><span class="anchor" id="line-370"></span><span class="anchor" id="line-371"></span><span class="anchor" id="line-372"></span><span class="anchor" id="line-373"></span><span class="anchor" id="line-374"></span><span class="anchor" id="line-375"></span><pre><span class="anchor" id="line-1-19"></span>deb http://mirrors.kernel.org/ubuntu intrepid main main/debian-installer restricted restricted/debian-installer
+<span class="anchor" id="line-2-13"></span>deb http://mirrors.kernel.org/ubuntu intrepid-updates main restricted
+<span class="anchor" id="line-3-8"></span>deb http://mirrors.kernel.org/ubuntu intrepid-security main restricted
+<span class="anchor" id="line-4-6"></span>
+<span class="anchor" id="line-5-6"></span>clean http://mirrors.kernel.org/ubuntu</pre><span class="anchor" id="line-376"></span><span class="anchor" id="line-377"></span><p class="line874">You will need to modify your apt-mirror configuration file accordingly.  Often this file is located at /etc/apt/mirrors.list.  Note that not everyone chooses to mirror the security files unless the mirror updates regularly.   <span class="anchor" id="line-378"></span><span class="anchor" id="line-379"></span><p class="line874">If your mirror is configured to support netboot, the following directories should be present:   <span class="anchor" id="line-380"></span><span class="anchor" id="line-381"></span><span class="anchor" id="line-382"></span><span class="anchor" id="line-383"></span><pre><span class="anchor" id="line-1-20"></span> /ubuntu/dists/intrepid/restricted/debian-installer/
+<span class="anchor" id="line-2-14"></span> /ubuntu/dists/intrepid/main/debian-installer/</pre><span class="anchor" id="line-384"></span><span class="anchor" id="line-385"></span><p class="line874">If these portions of the file tree are not present on your mirror, the Intrepid netboot installer displays a generic error screen beginning with the text "The installer failed to download a file from the mirror."  <span class="anchor" id="line-386"></span><span class="anchor" id="line-387"></span><p class="line867"><em>Surprisingly, my netboot installation of the Feisty server release set did not install openssh-server by default.  After all this work setting up netboot, it was back to the console again for a couple of minutes.</em> <span class="anchor" id="line-388"></span><span class="anchor" id="line-389"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-390"></span>
+<h1 id="Related_Links">Related Links</h1>
+<span class="anchor" id="line-391"></span><span class="anchor" id="line-392"></span><p class="line867">
+<h2 id="Pile_of_PXE_related_links">Pile of PXE related links</h2>
+<span class="anchor" id="line-393"></span><span class="anchor" id="line-394"></span><ul><li><p class="line891"><a class="http" href="http://freshmeat.net/projects/syslinux/">http://freshmeat.net/projects/syslinux/</a> <span class="anchor" id="line-395"></span></li><li><p class="line891"><a class="http" href="http://syslinux.zytor.com/memdisk.php">http://syslinux.zytor.com/memdisk.php</a> <span class="anchor" id="line-396"></span></li><li><p class="line891"><a class="http" href="http://support.3com.com/infodeli/tools/nic/mba.htm">http://support.3com.com/infodeli/tools/nic/mba.htm</a> New Universal NDIS Driver for DOS <span class="anchor" id="line-397"></span></li><li><p class="line891"><a class="http" href="http://www.qualystem.com/en/dualboot.html">http://www.qualystem.com/en/dualboot.html</a> <span class="anchor" id="line-398"></span></li><li><p class="line891"><a class="http" href="http://unattended.sourceforge.net/step-by-step.php">http://unattended.sourceforge.net/step-by-step.php</a> <span class="anchor" id="line-399"></span></li><li><p class="line891"><a class="http" href="http://unattended.sourceforge.net/advanced.php#pxe">http://unattended.sourceforge.net/advanced.php#pxe</a> <span class="anchor" id="line-400"></span></li><li><p class="line891"><a class="http" href="http://syslinux.zytor.com/archives/2003-June/002185.html">http://syslinux.zytor.com/archives/2003-June/002185.html</a> <span class="anchor" id="line-401"></span></li><li><p class="line891"><a class="http" href="http://www.intel.com/design/network/drivers/int21143.htm">http://www.intel.com/design/network/drivers/int21143.htm</a> <span class="anchor" id="line-402"></span></li><li><p class="line891"><a class="http" href="http://www.tux.org/pub/distributions/tinylinux/tomsrtbt/">http://www.tux.org/pub/distributions/tinylinux/tomsrtbt/</a> <span class="anchor" id="line-403"></span></li><li><p class="line891"><a class="http" href="http://www.winimage.com/winimage.htm">http://www.winimage.com/winimage.htm</a> <span class="anchor" id="line-404"></span></li><li><p class="line891"><a class="http" href="http://www.weird-solutions.com/docs/pxe_booting.pdf">http://www.weird-solutions.com/docs/pxe_booting.pdf</a> <span class="anchor" id="line-405"></span></li><li><p class="line891"><a class="http" href="http://www.weird-­solutions.com/bin/util/tftp_root.zip">http://www.weird-­solutions.com/bin/util/tftp_root.zip</a> <span class="anchor" id="line-406"></span></li><li><p class="line891"><a class="http" href="http://etherboot.sourceforge.net">http://etherboot.sourceforge.net</a> <span class="anchor" id="line-407"></span></li><li><p class="line891"><a class="http" href="http://marc.herbert.free.fr/linux/win2linstall.html">http://marc.herbert.free.fr/linux/win2linstall.html</a> Install GNU/Linux without any CD, floppy, USB-key, nor any other removable media. <span class="anchor" id="line-408"></span></li><li><p class="line891"><a class="http" href="http://osdev.berlios.de/netboot.html">http://osdev.berlios.de/netboot.html</a> - Network-booting Your Operating System - the part I like: "...loads the GRUB, the second-stage loader, off the server."  <span class="anchor" id="line-409"></span><span class="anchor" id="line-410"></span></li></ul><p class="line867">
+<h2 id="PPC_Mac_related_links">PPC Mac related links</h2>
+<span class="anchor" id="line-411"></span><span class="anchor" id="line-412"></span><ul><li><p class="line891"><a class="http" href="http://www.macgeekery.com/hacks/how_to_install_debian_via_network_boot_from_a_mac">http://www.macgeekery.com/hacks/how_to_install_debian_via_network_boot_from_a_mac</a> <span class="anchor" id="line-413"></span></li><li><p class="line891"><a class="http" href="http://davespicks.com/writing/programming/mackeys.html#boot">http://davespicks.com/writing/programming/mackeys.html#boot</a> <span class="anchor" id="line-414"></span></li><li><p class="line891"><a href="/community/SmartBootManager">SmartBootManager</a> <span class="anchor" id="line-415"></span><span class="anchor" id="line-416"></span></li></ul><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-417"></span><a href="/community/CategoryInstallation">CategoryInstallation</a> <span class="anchor" id="line-418"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/LocalNet  (last edited 2011-10-03 20:08:53 by <span title="guntbert @ chello084115174066.graz.surfer.at[84.115.174.66]"><a class="interwiki" href="https://launchpad.net/~guntbert" title="guntbert @ chello084115174066.graz.surfer.at[84.115.174.66]">guntbert</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

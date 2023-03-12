@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/FromWindows - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/FromWindows" href="/community/Installation/FromWindows?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FFromWindows&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/FromWindows?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/FromWindows?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/FromWindows?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/FromWindows?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/FromWindows">FromWindows</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867"><div dir="ltr" id="Tag.2FStyleCleanup.content" lang="en"><span class="anchor" id="Tag.2FStyleCleanup.top"></span>
+<span class="anchor" id="Tag.2FStyleCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DF2A4; vertical-align: top"><p class="line862"> <strong>Style Cleanup Required</strong> <br>
+ This article does not follow the style standards in the Wiki Guide. <a href="/community/Tag#StyleCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FStyleCleanup.line-2"></span><span class="anchor" id="Tag.2FStyleCleanup.bottom"></span></div> <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><div><table style="float:right;  font-size: 0.9em;  width:50%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Automatic_process">Automatic process</a></li><li>
+<a href="#Manual_process">Manual process</a><ol><li>
+<a href="#The_netboot_approach">The netboot approach</a><ol><li>
+<a href="#Windows_95.2F98.2FME_.28using_Loadlin.29">Windows 95/98/ME (using Loadlin)</a></li><li>
+<a href="#Windows_NT.2F2000.2FXP_.28using_Grub.29">Windows NT/2000/XP (using Grub)</a></li></ol></li><li>
+<a href="#The_CD_approach">The CD approach</a></li><li>
+<a href="#The_CD_image_approach">The CD image approach</a></li></ol></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line867"><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line867"><span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867">
+<h1 id="Automatic_process">Automatic process</h1>
+<span class="anchor" id="line-10"></span><ul><li><p class="line862">UNetbootin is an installer that can do the following automatically. It is available for download at <a class="http" href="http://unetbootin.sourceforge.net/">http://unetbootin.sourceforge.net/</a>. <span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span></li><li class="gap"><p class="line862">Instlux is an installer that does all of the following for you, however it only supports older versions of Ubuntu. You can download it from <a class="http" href="http://www.sourceforge.net/projects/instlux">http://www.sourceforge.net/projects/instlux</a>. <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span></li><li class="gap"><p class="line891"><a href="/community/Wubi">Wubi</a> is an installer that uses a process similar to what described in this page, but the installation takes place within a file inside Windows, and hence, differently from the other approaches, it does not require to modify the <a class="nonexistent" href="/community/partition">partition</a>s. In any case, if you later want install it to a dedicated partition, you can do it. See  <a class="https" href="https://wiki.ubuntu.com/WubiGuide">https://wiki.ubuntu.com/WubiGuide</a>. <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span></li></ul><p class="line867">
+<h1 id="Manual_process">Manual process</h1>
+<span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line867">
+<h2 id="The_netboot_approach">The netboot approach</h2>
+<span class="anchor" id="line-19"></span><p class="line874">This page will guide you through obtaining the files necessary to boot the Ubuntu installation from a FAT or NTFS partition, thus allowing you to install Ubuntu without any sort of removeable media.  This guide assumes that you are running either some  NT-based Windows(NT, 2000, XP) or Windows 9x (95, 98, ME). <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><ul><li><p class="line862">Create a directory called <tt>boot</tt> in the root directory of the first primary partition of your hard drive (usually drive c:\, which it will be referred to as from now on). <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span></li><li class="gap"><p class="line862">Download linux and initrd.gz from <a class="http" href="http://archive.ubuntu.com/ubuntu/dists/gutsy/main/installer-i386/current/images/netboot/ubuntu-installer/i386/">http://archive.ubuntu.com/ubuntu/dists/gutsy/main/installer-i386/current/images/netboot/ubuntu-installer/i386/</a> and save them to <tt>boot</tt>. <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span></li></ul><p class="line874">The following steps depend on which version of Windows you are using: <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><p class="line867">
+<h3 id="Windows_95.2F98.2FME_.28using_Loadlin.29">Windows 95/98/ME (using Loadlin)</h3>
+<span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><ul><li><p class="line862">Download loadlin.exe.gz from <a class="https" href="https://passechambre.appspot.com/show/indexothers.html">https://passechambre.appspot.com/show/indexothers.html</a> and unpack it to <tt>boot</tt> (If your default compression/archive program doesn't like *.tar.gz files, try 7-Zip from <a class="http" href="http://www.7-zip.org">http://www.7-zip.org</a>) <span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span></li><li class="gap"><p class="line862">Choose <em>Reboot in MS-DOS mode</em> in the shutdown menu <strong>or</strong> <em>press F8</em> (<em>Ctrl</em> for Win98/ME) during boot and choose <em>command prompt only</em> in order to start Windows in DOS mode <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span></li><li class="gap">Get into the boot directory and run loadlin: <span class="anchor" id="line-34"></span></li></ul><p class="line867"><span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><pre><span class="anchor" id="line-1"></span>cd c:\boot
+<span class="anchor" id="line-2"></span>loadlin linux initrd=initrd.gz vga=normal ramdisk_size=14972 root=/dev/rd/0 rw --</pre><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><p class="line862">Now you should have a network installation going <img alt="Smile :)" height="16" src="/moin_static198/light/img/icon_smile.png" title="Smile :)" width="16" /> <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><p class="line867"><em>Note: On some computers the installer has problems with the video card and you may get a "melting screen". I replaced vga=normal with vga=771 and it worked on my laptop Stjepan Stamenkovic</em> <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line867">
+<h3 id="Windows_NT.2F2000.2FXP_.28using_Grub.29">Windows NT/2000/XP (using Grub)</h3>
+<span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><ul><li><p class="line862">Download <a class="https" href="https://passechambre.appspot.com/get/grubfordos041pre22.tar.gz">https://passechambre.appspot.com/get/grubfordos041pre22.tar.gz</a> <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span></li><li class="gap"><p class="line862">Extract <tt>grldr</tt> from the archive to <tt>c:\</tt>. <span class="anchor" id="line-48"></span><span class="anchor" id="line-49"></span></li><li class="gap"><p class="line862">Create a new folder in c:\boot\ called <tt>grub</tt>. <span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span></li><li class="gap"><p class="line862">Extract <tt>menu.lst</tt> (Should be in the /boot/grub folder of the archive) to <tt>c:\boot\grub</tt> The rest of the files in the archive are unnecessary.  (If your default compression/archive program doesn't like *.tar.gz files, try 7-Zip from <a class="http" href="http://www.7-zip.org">http://www.7-zip.org</a> or TUGzip from <a class="http" href="http://www.tugzip.com">http://www.tugzip.com</a>.) <span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span></li><li class="gap"><p class="line862">Append <tt>c:\grldr="Install&nbsp;Ubuntu"</tt> to <tt>c:\boot.ini</tt>. <span class="anchor" id="line-54"></span></li></ul><p class="line867"><span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><pre><span class="anchor" id="line-1-1"></span>To view and edit the Boot.ini file on WindowsXP:
+<span class="anchor" id="line-2-1"></span> 1. Right-click on My Computer, and then click Properties.
+<span class="anchor" id="line-3"></span> 2. On the Advanced tab, click Settings under Startup and Recovery.
+<span class="anchor" id="line-4"></span> 3. Under System Startup, click Edit.</pre><span class="anchor" id="line-60"></span><p class="line867"><em>Note: Eventhough c:\boot.ini is not shown by the explorer, this file exists and can be also opened in the notepad. Just write the path c:\Boot.ini at the open dialog.</em> <span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><ul><li><p class="line862">Open <tt>menu.lst</tt> in a text editor and paste the following text in the file: <span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><pre><span class="anchor" id="line-1-2"></span>title Install Ubuntu
+<span class="anchor" id="line-2-2"></span>kernel   (hd0,0)/boot/linux vga=normal ramdisk_size=14972 root=/dev/rd/0 rw --
+<span class="anchor" id="line-3-1"></span>initrd   (hd0,0)/boot/initrd.gz</pre><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span></li><li class="gap"><p class="line862">Save <tt>menu.lst</tt>, reboot, and select "Install Ubuntu" in the windows OS chooser then in GRUB.  You now have a network installation of Ubuntu going. <span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span></li></ul><p class="line862">This procedure should be possible using a disk image, but it may be necessary to use a different kernel and pass some special argument in <tt>menu.lst</tt> to tell it to boot from the CD image (Has been achieved using Knoppix). <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><p class="line862">It would be nice if someone could automate this process.  <a class="nonexistent" href="/community/InstallationUbuntuFromWindows">InstallationUbuntuFromWindows</a> outlines how such an installation system might work. <span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><p class="line867">
+<h2 id="The_CD_approach">The CD approach</h2>
+<span class="anchor" id="line-75"></span><p class="line874">This approach is documented in the Installation notes, however it seemed appropiate to put a reference to it here. <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><p class="line867"><strong>Note: This method only works with the Alternate Ubuntu install CD.</strong> <span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><p class="line874">If you can't boot from the CD-ROM directly it is possible to use the above approach to boot the kernel from the HDD and have the installation follow through on the CD-ROM. <span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><ul><li><p class="line862">Create a directory called <tt>ubuntu</tt> in the root directory of the first primary partition of your hard drive (usually drive c:\, which it will be referred to as from now on). <span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span></li><li class="gap"><p class="line862">Download the ALTERNATE ubuntu-installer CD from <a class="http" href="http://www.ubuntulinux.org/download/">http://www.ubuntulinux.org/download/</a> and burn the CD, then copy the contents of the CD to <tt>ubuntu</tt>. <span class="anchor" id="line-84"></span></li></ul><p class="line867"><em>Note: If you can't/don't want to burn a cd you can also mount the iso with a program like Daemon Tools or Alcohol 120% or simply open the iso file using 7-Zip</em> <span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><ul><li><p class="line862">Download <a class="https" href="https://passechambre.appspot.com/get/grubfordos041pre22.tar.gz">https://passechambre.appspot.com/get/grubfordos041pre22.tar.gz</a> <span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span></li><li class="gap"><p class="line862">Extract <tt>grldr</tt> from the archive to <tt>c:\grldr</tt>.  The rest of the files in the archive are unnecessary.  (If your default compression/archive program doesn't like *.tar.gz files, try 7-Zip from <a class="http" href="http://www.7-zip.org">http://www.7-zip.org</a>.) <span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span></li><li class="gap"><p class="line862">Append <tt>c:\grldr="Install&nbsp;Ubuntu"</tt> to <tt>c:\boot.ini</tt>. <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span></li></ul><p class="line867"><span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><pre><span class="anchor" id="line-1-3"></span>To view and edit the Boot.ini file on WindowsXP:
+<span class="anchor" id="line-2-3"></span>1. Right-click on My Computer, and then click Properties.
+<span class="anchor" id="line-3-2"></span>2. On the Advanced tab, click Settings under Startup and Recovery.
+<span class="anchor" id="line-4-1"></span>3. Under System Startup, click Edit.</pre><span class="anchor" id="line-98"></span><p class="line867"><em>Note: Eventhough c:\boot.ini is not shown by the explorer, this file exists and can be also opened in the notepad. Just write the path c:\Boot.ini at the open dialog.</em> <span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><ul><li><p class="line862">Create a new text file called <tt>menu.lst</tt> and save it to the first primary partition of your hard drive. <span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span></li><li class="gap"><p class="line862">Open <tt>menu.lst</tt> in a text editor and paste the following text in the file: <span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><pre><span class="anchor" id="line-1-4"></span>title Install Ubuntu
+<span class="anchor" id="line-2-4"></span>kernel   (hd0,0)/ubuntu/install/vmlinuz root=/dev/ram0 devfs=mount,dall ramdisk_size=17000
+<span class="anchor" id="line-3-3"></span>initrd   (hd0,0)/ubuntu/install/initrd.gz</pre><span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span></li><li class="gap"><p class="line862">Save <tt>menu.lst</tt>, reboot with the Ubuntu installer CD in the drive, and select "Install Ubuntu" twice.  You now have a CD installation of Ubuntu going. <span class="anchor" id="line-109"></span><span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span></li></ul><p class="line867">
+<h2 id="The_CD_image_approach">The CD image approach</h2>
+<span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span><p class="line867"><strong>Note: This method only works with the Alternate Ubuntu install CD.</strong> <span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><p class="line874">If for some reason you can not (do not want to) write the CD it is possible to use the ISO image to do the installation from hard disk. <span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><ul><li><p class="line862">Create a directory called <tt>ubuntu</tt> in the root directory of the first primary partition of your hard drive (usually drive c:\, which it will be referred to as from now on). <span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span></li><li class="gap"><p class="line862">Download vmlinuz and initrd.gz from <a class="http" href="http://archive.ubuntu.com/ubuntu/dists/precise/main/installer-i386/current/images/hd-media/">http://archive.ubuntu.com/ubuntu/dists/precise/main/installer-i386/current/images/hd-media/</a> and save them to ubuntu directory <span class="anchor" id="line-120"></span></li><li><p class="line862">Download the ALTERNATE ubuntu-installer CD from <a class="http" href="http://www.ubuntulinux.org/download/">http://www.ubuntulinux.org/download/</a> and save the .iso file in the root directory of first partition of your hard drive . <span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span></li><li class="gap"><p class="line862">Download Grub For Dos from <a class="http" href="http://sarovar.org/download.php/1138/grub_for_dos-0.4.2.zip">http://sarovar.org/download.php/1138/grub_for_dos-0.4.2.zip</a> <span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span></li><li class="gap"><p class="line862">Extract <tt>grldr</tt> from the archive to <tt>c:\grldr</tt>.  The rest of the files in the archive are unnecessary. <span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span></li><li class="gap"><p class="line862">Append <tt>c:\grldr="Install&nbsp;Ubuntu"</tt> to <tt>c:\boot.ini</tt>. <span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span></li></ul><p class="line867"><span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><pre><span class="anchor" id="line-1-5"></span>To view and edit the Boot.ini file on WindowsXP:
+<span class="anchor" id="line-2-5"></span>1. Right-click on My Computer, and then click Properties.
+<span class="anchor" id="line-3-4"></span>2. On the Advanced tab, click Settings under Startup and Recovery.
+<span class="anchor" id="line-4-2"></span>3. Under System Startup, click Edit.</pre><span class="anchor" id="line-134"></span><p class="line867"><em>Note: Eventhough C:\boot.ini is not shown (by default) by Windows Explorer, this file exists and can be also opened in the notepad. Just write the path C:\boot.ini at the open dialog.</em> <span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><ul><li><p class="line862">Create a new text file called <tt>menu.lst</tt> and save it to the first primary partition of your hard drive. <span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span></li><li class="gap"><p class="line862">Open <tt>menu.lst</tt> in a text editor and paste the following text in the file: <span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><pre><span class="anchor" id="line-1-6"></span>title Install Ubuntu
+<span class="anchor" id="line-2-6"></span>find --set-root /ubuntu/initrd.gz
+<span class="anchor" id="line-3-5"></span>kernel /ubuntu/vmlinuz root=/dev/ram0 ramdisk_size=128000
+<span class="anchor" id="line-4-3"></span>initrd /ubuntu/initrd.gz</pre><span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span></li><li class="gap"><p class="line862">Save <tt>menu.lst</tt>, reboot, select "Install Ubuntu" twice. You now have a CD image installation of Ubuntu going. <span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span></li></ul><p class="line862">If you are installing onto the disk that is hosting the installer, and during partitioning the installer says that the kernel cannot read the new partition table, and that you should reboot your system, don't.  The partitioner has already flagged the new Linux partition as the boot partition, so the system will be unbootable.  If you're dealing with a system with no floppy or CD drive, you will be stuck.  Instead, use Alt-F2, Enter to open a console and use <tt>cfdisk</tt> to set the boot partition back to the partition which hosts the installer, then go back to the installer using Alt-F1, &lt;Go Back&gt; as many times as needed to get to the menu, then select "Abort Installation" to reboot. <span class="anchor" id="line-148"></span><span class="anchor" id="line-149"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-150"></span>This page is an adaptation of <a class="http" href="http://marc.herbert.free.fr/linux/win2linstall.html">Marc Herbert's how-to</a>.<br>
+ <span class="anchor" id="line-151"></span>Related projects: <a class="https" href="https://wiki.ubuntu.com/install.exe">https://wiki.ubuntu.com/install.exe</a> <span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><p class="line867"><a href="/community/CategoryInstallation">CategoryInstallation</a> <a href="/community/CategorySystem">CategorySystem</a> <span class="anchor" id="line-154"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/FromWindows  (last edited 2014-07-03 06:57:04 by <span title="yousef-el-sayed @ host-41.46.175.203.tedata.net[41.46.175.203]"><a class="interwiki" href="https://launchpad.net/~yousef-el-sayed" title="yousef-el-sayed @ host-41.46.175.203.tedata.net[41.46.175.203]">yousef-el-sayed</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/NetbootInstallFromInternet - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/NetbootInstallFromInternet" href="/community/Installation/NetbootInstallFromInternet?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FNetbootInstallFromInternet&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/NetbootInstallFromInternet?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/NetbootInstallFromInternet?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/NetbootInstallFromInternet?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/NetbootInstallFromInternet?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/NetbootInstallFromInternet">NetbootInstallFromInternet</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line874">This HOWTO describes one way to do a Netboot install of Ubuntu by booting from files on a hard disk. This installation method does not require burning a CD (or using any other external media, like a USB key), and it does not require you to configure a server on your LAN for PXE booting. <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line862">You need to have <tt>grub</tt> or <tt>grub2</tt> already installed and bootable in order to use this method. It is therefore suitable for installing Ubuntu over an existing GNU/Linux installation. <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line867">
+<h2 id="Alternatives">Alternatives</h2>
+<span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line862">If the computer you are installing on does not have network connectivity during installation, consider using the <a href="/community/Installation/FromLinux">Installation/FromLinux</a> method, which involves retrieving packages from an ISO instead of from the Internet at installation time. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867">
+<h2 id="Instructions">Instructions</h2>
+<span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line874">If the computer you wish to boot is not the same as the one you have grub installed on, then make a disk have a single megabyte free space (for the boot loader) followed by a small partition (to store the appropriate ramdisk image and kernel on). Mount this disk in the computer with grub, then (at least for older hardware and) do <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line867"><span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><pre><span class="anchor" id="line-1"></span> sudo apt-get install grub-pc-bin</pre><span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line874">and then; use <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line867"><span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><pre><span class="anchor" id="line-1-1"></span> grub-install --target=i386-pc --boot-directory=/mnt/diskname/boot/ /dev/sdX</pre><span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><p class="line874">to get it onto the disk you created. <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><p class="line862">1. Download the appropriate <strong>initrd.gz</strong> and <strong>linux</strong> files for your architecture and distribution from <span class="anchor" id="line-27"></span><ul><li><p class="line891"><a class="http" href="http://cdimage.ubuntu.com/netboot/">http://cdimage.ubuntu.com/netboot/</a> <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span></li></ul><p class="line862">2. Or from <a class="http" href="http://archive.ubuntu.com/ubuntu/dists/raring/main/installer-i386/current/images/netboot/">archive.ubuntu.com/</a> in case you're looking for the development version. <span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><p class="line862">Save them somewhere that grub can read from. Inside <tt>/boot</tt> is a fine place. (These files are quite small, under 10MB for either architecture.) <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><p class="line862">3. Reboot your computer and press ESC if necessary to enter the grub menu (press Shift if you use <tt>grub2</tt>). Now we will get grub to boot from the files you just downloaded. <span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><p class="line862">Press <strong>c</strong> to get a grub command prompt. Type each of the following lines: <span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><ol type="1"><li><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><pre><span class="anchor" id="line-1-2"></span>root=(hd0,1)</pre><span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><p class="line862">Replace the root partition with the drive and partition on which your <tt>/boot</tt> is located. You can look at and copy the <tt>root</tt> line of any existing boot menu entry if you are at all unsure what this is, or you can try tab-completing after <tt>root&nbsp;(</tt> or <tt>root&nbsp;(hd0,</tt>. <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span></li><li class="gap"><span class="anchor" id="line-45"></span>In Grub2, the default for Ubuntu 10.04 LTS and onwards <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><pre><span class="anchor" id="line-1-3"></span>linux /boot/path/to/linux</pre><span class="anchor" id="line-49"></span><p class="line891"><strong>Or</strong> in older versions of Ubuntu or where you have replaced it with Grub 0.97 (or there-abouts) <span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><pre><span class="anchor" id="line-1-4"></span>kernel /boot/path/to/linux</pre><span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span></li><li class="gap"><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><pre><span class="anchor" id="line-1-5"></span>initrd /boot/path/to/initrd.gz</pre><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line862">Replace these paths with the actual paths where you saved the files. If you saved them directly in /boot, the paths will be simply <strong>kernel /boot/linux</strong> and <strong>initrd /boot/initrd.gz</strong>. <span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span></li><li class="gap"><span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><pre><span class="anchor" id="line-1-6"></span>boot</pre><span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span>Your system should now boot into the Ubuntu installer. Follow the instructions from there. <span class="anchor" id="line-68"></span></li></ol><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/NetbootInstallFromInternet  (last edited 2016-08-29 07:50:59 by <span title="pelle-quicknet @ 185.82.186.15[185.82.186.15]"><a class="interwiki" href="https://launchpad.net/~pelle-quicknet" title="pelle-quicknet @ 185.82.186.15[185.82.186.15]">pelle-quicknet</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

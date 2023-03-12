@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/FromHardDriveWithFloppies - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/FromHardDriveWithFloppies" href="/community/Installation/FromHardDriveWithFloppies?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FFromHardDriveWithFloppies&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/FromHardDriveWithFloppies?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/FromHardDriveWithFloppies?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/FromHardDriveWithFloppies?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/FromHardDriveWithFloppies?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/FromHardDriveWithFloppies">FromHardDriveWithFloppies</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867"><div dir="ltr" id="Tag.2FUnsupported.content" lang="en"><span class="anchor" id="Tag.2FUnsupported.top"></span>
+<span class="anchor" id="Tag.2FUnsupported.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #F29DD3; vertical-align: top"><p class="line862"> <strong>Unsupported Version</strong> <br>
+ This article applies to an unsupported version of Ubuntu. <a href="/community/Tag#Unsupported">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FUnsupported.line-2"></span><span class="anchor" id="Tag.2FUnsupported.bottom"></span></div> <span class="anchor" id="line-2"></span><div dir="ltr" id="Tag.2FContentCleanup.content" lang="en"><span class="anchor" id="Tag.2FContentCleanup.top"></span>
+<span class="anchor" id="Tag.2FContentCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DD3F2; vertical-align: top"><p class="line862"> <strong>Content Cleanup Required</strong> <br>
+ This article should be cleaned-up to follow the content standards in the Wiki Guide. <a href="/community/Tag#ContentCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FContentCleanup.line-2"></span><span class="anchor" id="Tag.2FContentCleanup.bottom"></span></div> <span class="anchor" id="line-3"></span><div dir="ltr" id="Tag.2FStyleCleanup.content" lang="en"><span class="anchor" id="Tag.2FStyleCleanup.top"></span>
+<span class="anchor" id="Tag.2FStyleCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DF2A4; vertical-align: top"><p class="line862"> <strong>Style Cleanup Required</strong> <br>
+ This article does not follow the style standards in the Wiki Guide. <a href="/community/Tag#StyleCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FStyleCleanup.line-2"></span><span class="anchor" id="Tag.2FStyleCleanup.bottom"></span></div> <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line867"><strong>This explains how to get Ubuntu 5.10 (Breezy Badger) installed onto a computer without the use of a CD drive or Network connection.</strong> <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><p class="line867">
+<h1 id="Requirements">Requirements</h1>
+<span class="anchor" id="line-9"></span><ol type="1"><li><p class="line862">floppy drive in the new computer and 3 (possibly 2) 3.5 inch floppy disks<br>
+ <span class="anchor" id="line-10"></span></li><li><p class="line862">a way to transfer the Ubuntu iso to the new harddrive (such as a flash drive or USB hard drive) - note: if you have a good network connection, consider <a class="https" href="https://help.ubuntu.com/community/Installation/MinimalCD">using a mini-ISO</a> which takes under 10MB instead of ~700MB.<br>
+ <span class="anchor" id="line-11"></span></li><li>another computer with a network connection, a floppy drive, and usb. <span class="anchor" id="line-12"></span></li></ol><p class="line867">
+<h1 id="Obtain_the_Software">Obtain the Software</h1>
+<span class="anchor" id="line-13"></span><p class="line874">On your networked computer: <span class="anchor" id="line-14"></span><ul><li><p class="line862">you'll need a floppy-based bootable linux disribution.  <a class="http" href="http://www.toms.net/rb">TomsRtBt</a> will be used in this example. <span class="anchor" id="line-15"></span></li><li><p class="line862">You will also need to download an ubuntu iso for your architecture.  See <a href="/community/GettingUbuntu">GettingUbuntu</a> for more help. <span class="anchor" id="line-16"></span></li><li><p class="line862">Grub must be installed on a computer with a floppy drive. See <a class="nonexistent" href="/community/phbc50/howtos/how-to%20reinstall%20grub">phbc50/howtos/how-to reinstall grub</a> for one possible way to obtain Grub. <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span></li></ul><p class="line867">
+<h1 id="Setting_up_for_Pre-Installation">Setting up for Pre-Installation</h1>
+<span class="anchor" id="line-19"></span><p class="line874">At least two floppies will need to be created for this installation <span class="anchor" id="line-20"></span><ol type="1"><li><p class="line862">In the <a class="http" href="http://www.toms.net/rb/tomsrtbt.FAQ">TomsRtBt FAQ</a>, sections 4 and 5 explain how to install to a floppy from either *nix or Windows compatible environments, respectively. <span class="anchor" id="line-21"></span></li><li><p class="line862">If you intend to use <a class="nonexistent" href="/community/TomsRtBt">TomsRtBt</a> with a USB device to transfer the iso, you will need to copy the <a class="http" href="http://www.tux.org/pub/distributions/tinylinux/tomsrtbt/add-ons/kernel/usb/usb-uhci.o.bz2">usb-uhci</a>, <a class="http" href="http://www.tux.org/pub/distributions/tinylinux/tomsrtbt/add-ons/kernel/usb/usb-storage.o.bz2">usb-storage</a> and <a class="http" href="http://www.tux.org/pub/distributions/tinylinux/tomsrtbt/add-ons/kernel/usb/usbcore.o.bz2">usbcore</a> modules to the second floppy (<a class="http" href="http://public.www.planetmirror.com/pub/tomsrtbt/add-ons/kernel/usb">alternate download</a>) <span class="anchor" id="line-22"></span></li><li><p class="line862">from the computer with Grub installed, you need to create a Grub boot floppy.  See <a href="/community/GrubHowto/BootFloppy">GrubHowto/BootFloppy</a> for instructions <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span></li></ol><p class="line867">
+<h1 id="Pre-Installation">Pre-Installation</h1>
+<span class="anchor" id="line-25"></span><p class="line867">
+<h2 id="Transfering_the_iso">Transfering the iso</h2>
+<span class="anchor" id="line-26"></span><p class="line862">The goal of this step is to move a ~650MB iso from one computer to another without the use of a CD or Network.  Using a USB Hard Drive or large flash drive, this is accomplished rather easily by simply <strong>plugging it in</strong> and mounting it if necessary, <strong>and copying the image to the temporary media</strong>.  Other options may include: <span class="anchor" id="line-27"></span><ul><li>Splitting the iso into smaller chunks that can be transferred over individually via a smaller usb flash drive <span class="anchor" id="line-28"></span></li><li>Removing the destination hard drive, placing it another computer to copy the image over directly. <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span></li></ul><p class="line867">
+<h2 id="Setting_up_the_Destination_Drive">Setting up the Destination Drive</h2>
+<span class="anchor" id="line-31"></span><p class="line867"><em><strong>CAUTION!  This will erase all the information currently stored on your harddrive</strong></em><br>
+ <span class="anchor" id="line-32"></span>If you are unfamiliar with partitioning a harddrive using fdisk or cfdisk, see <a class="http" href="http://64.233.179.104/search?q=cache:9B6ZqPdf4z4J:www.tldp.org/HOWTO/Partition/partition-5.html+%22partitioning+with+fdisk%22&amp;hl=en&amp;gl=us&amp;ct=clnk&amp;cd=1">Partitioning with Fdisk</a> from google cache. <span class="anchor" id="line-33"></span><ol type="1"><li><p class="line862">Boot from <a class="nonexistent" href="/community/TomsRtBt">TomsRtBt</a> in the destination computer <span class="anchor" id="line-34"></span></li><li><p class="line862">use fdisk or cfdisk (tomsrtbt doesn't seem to have cfdisk...) to partition the harddrive however you wish, making sure to have, at the very least, one <strong>700MB</strong> dummy partition (can be reused later) and a root partition to install ubuntu on. Must also format the new root partition, use mke2fs from TomsRtBT, choose type 83. <span class="anchor" id="line-35"></span></li><li>Load the usb modules from the secondary floppy, usbcore first, using the command "insmod" <span class="anchor" id="line-36"></span></li><li>Plug in the usb drive.  make a new folder to hold the mounted volume and mount your usb device there <span class="anchor" id="line-37"></span></li></ol><p class="line867"><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><pre><span class="anchor" id="line-1"></span>mkdir /mnt/usb
+<span class="anchor" id="line-2"></span>mount /dev/sdaX /mnt/usb</pre><span class="anchor" id="line-41"></span><p class="line867"><small><em>where /dev/sdaX is the device name assigned to the USB drive you plugged in</em></small> <span class="anchor" id="line-42"></span><ol start="5" type="1"><li>Create an exact copy of the iso to the dummy partiton setup in step 2 (Note that this is not the file ubuntu.iso sitting in a formated dummy partition, the iso _is_ the partition. When you get to the last step of this howto, "In the device prompt, provide the device name for the dummy partition, such as /dev/hdaX." you _can't_ enter /dev/hdaX/ubuntu.iso. Can you even acheive this particular dd functionality on a Windows box?) <span class="anchor" id="line-43"></span></li></ol><p class="line867"><span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><pre><span class="anchor" id="line-1-1"></span>dd if=/mnt/usb/ubuntu.iso of=/dev/hdaX</pre><span class="anchor" id="line-46"></span><p class="line867"><small><em>where /dev/hdaX is the 700MB dummy partition</em></small> <span class="anchor" id="line-47"></span><ol start="6" type="1"><li>mount the iso and the root partition and copy two boot files from the iso to the root partition <span class="anchor" id="line-48"></span></li></ol><p class="line867"><span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><pre><span class="anchor" id="line-1-2"></span>cd /mnt
+<span class="anchor" id="line-2-1"></span>mkdir hda1 iso
+<span class="anchor" id="line-3"></span>mount /dev/hda1 hda1
+<span class="anchor" id="line-4"></span>mount -t iso9660 -o loop /dev/hdaX iso
+<span class="anchor" id="line-5"></span>cd /mnt/iso/install
+<span class="anchor" id="line-6"></span>cp vmlinuz initrd.gz /mnt/hda1</pre><span class="anchor" id="line-56"></span><p class="line867"><small><em>where /dev/hda1 is the root partition</em></small> <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><p class="line867">
+<h2 id="Booting_into_the_Installation">Booting into the Installation</h2>
+<span class="anchor" id="line-59"></span><ol type="1"><li>Insert the Grub boot disk and reboot / turn on the computer <span class="anchor" id="line-60"></span></li><li>at the grub boot menu, there are 4 commands you must use to boot: root, kernel, initrd, and boot <span class="anchor" id="line-61"></span></li><li>use the root command to set the device to boot from, which is in this case, the root partition of your harddrive.  This example uses /dev/hda1, which equates to (hd0,0) <span class="anchor" id="line-62"></span></li><li>kernel is used to choose the kernel and pass preferences.  You can look at the "isolinux/isolinux.cfg" file on the cd or iso to look at boot commands and their "ubuntu boot label" equivalents.  This command is typed in on a single line and ends with "--".  This example chooses a default ubuntu installation. (Note that this line may wrap on the screen, on a printout, and when typed.) <span class="anchor" id="line-63"></span></li><li>initrd: ??? <span class="anchor" id="line-64"></span></li><li>boot: launches into the boot process <span class="anchor" id="line-65"></span></li></ol><p class="line867"><span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><pre><span class="anchor" id="line-1-3"></span>root (hd0,0)
+<span class="anchor" id="line-2-2"></span>kernel /vmlinuz append vga=normal initrd=/initrd.gz ramdisk_size=16384 root=/dev/rd/0 rw --
+<span class="anchor" id="line-3-1"></span>initrd /initrd.gz
+<span class="anchor" id="line-4-1"></span>boot</pre><span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><p class="line862">Optionally use <strong>DEBCONF_PRIORITY=low</strong> to make the install process the equivalent of "expert" mode install. The resulting kernel line would be: <span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><pre><span class="anchor" id="line-1-4"></span>kernel /vmlinuz append vga=normal DEBCONF_PRIORITY=low initrd=/initrd.gz ramdisk_size=16384 root=/dev/rd/0 rw --</pre><span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><p class="line867">
+<h2 id="Installation">Installation</h2>
+<span class="anchor" id="line-78"></span><p class="line874">Follow the installation steps as you would any other install, until it comes to choosing a CD to install from.  In the case where you have no CDrom drive: <span class="anchor" id="line-79"></span><ul><li><p class="line862">you will be prompted with an option to load modules from a disk.  <strong>Say NO</strong> to this option. <span class="anchor" id="line-80"></span></li><li><p class="line862">You will be presented with a second screen to select another device.  <strong>Say YES</strong> <span class="anchor" id="line-81"></span></li><li><p class="line862">Choose <strong>none</strong> for the driver <span class="anchor" id="line-82"></span></li><li><p class="line862">In the device prompt, provide the device name for the dummy partition, such as <strong>/dev/hdaX</strong>.<br>
+ <span class="anchor" id="line-83"></span></li></ul><p class="line874">The installation should continue on as usual. <span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><p class="line867">
+<h2 id="Notes">Notes</h2>
+<span class="anchor" id="line-86"></span><p class="line874">cloakable - this needs updating for using with 6.06 and later. Method fails with Ubuntu 6.06. (And, for some reason, on 5.10 too. Bad grub options?) <span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><p class="line874">I found that this doesn't work quite right (installing Gutsy Server) and that if I did: <span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><pre><span class="anchor" id="line-1-5"></span>mv /dev/scd0 /dev/scd1
+<span class="anchor" id="line-2-3"></span>ln /dev/sda2 /dev/scd0</pre><span class="anchor" id="line-93"></span><p class="line874">then automatically detecting the CD works perfectly.  /dev/scd0 is my CD drive (which can't read rewritable CDs) and /dev/sda2 is the partition that we dd'ed the iso image to in step 5. Note that your drives may be hda0, hda1, hda2, hdc, etc.  Also, I found that in booting into the installation, just <span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><pre><span class="anchor" id="line-1-6"></span>root (hd0,1)
+<span class="anchor" id="line-2-4"></span>kernel /vmlinuz
+<span class="anchor" id="line-3-2"></span>initrd /initrd.gz
+<span class="anchor" id="line-4-2"></span>boot</pre><span class="anchor" id="line-100"></span><p class="line874">worked fine. <span class="anchor" id="line-101"></span><hr /><p class="line874"> <span class="anchor" id="line-102"></span><a href="/community/CategoryHardware">CategoryHardware</a> <span class="anchor" id="line-103"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/FromHardDriveWithFloppies  (last edited 2009-07-13 14:15:44 by <span title="https://login.launchpad.net/+id/f3GTPAd @ 66.76.88.231[66.76.88.231]"><a class="interwiki" href="https://launchpad.net/~kmitch87" title="https://login.launchpad.net/+id/f3GTPAd @ 66.76.88.231[66.76.88.231]">kmitch87</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+

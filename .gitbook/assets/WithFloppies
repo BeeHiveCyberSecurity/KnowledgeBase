@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Installation/WithFloppies - Community Help Wiki</title>
+<script type="text/javascript" src="/moin_static198/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static198/light/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static198/light/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static198/light/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static198/light/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Community Help Wiki: Installation/WithFloppies" href="/community/Installation/WithFloppies?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=Installation%2FWithFloppies&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/community/CommunityHelpWiki">
+<link rel="Alternate" title="Wiki Markup" href="/community/Installation/WithFloppies?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/community/Installation/WithFloppies?action=print">
+<link rel="Up" href="/community/Installation">
+<link rel="Search" href="/community/FindPage">
+<link rel="Index" href="/community/TitleIndex">
+<link rel="Glossary" href="/community/WordIndex">
+<link rel="Help" href="/community/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+
+    <div id="leftbanner">
+    </div>
+    <div id="rightbanner">
+    </div>
+    <div id="container">
+        <div id="container-inner">
+	    <div id="mothership">
+		<ul>
+	            <li><a href="https://partners.ubuntu.com">Partners</a> </li>
+        	    <li><a href="https://www.ubuntu.com/support/community-support">Support</a></li>
+        	    <li><a href="https://community.ubuntu.com">Community</a></li>
+        	    <li><a href="https://www.ubuntu.com">Ubuntu.com</a></li>
+	        </ul>
+	    </div>
+            <div id="header">
+                <h1 id="ubuntu-header"><a href="https://help.ubuntu.com/">Ubuntu Documentation</a></h1>
+                <ul id="main-menu">
+                    <li><a href="https://help.ubuntu.com/">Official Documentation</a></li>
+                    <li><a class="main-menu-item current" href="https://help.ubuntu.com/community/CommunityHelpWiki">Community Help Wiki</a></li>
+                    <li><a href="https://community.ubuntu.com/t/contribute/26">Contribute</a></li>
+                </ul>
+            </div>
+            <div id="menu-search">
+                <div id="subheader"> 
+                    <div class="subheader-menu"> 
+                        <div id="second-nav">
+<ul id="username"><li><a class="nbinfo" href="/community/Installation/WithFloppies?action=info" rel="nofollow">Page History</a></li><li><a href="/community/Installation/WithFloppies?action=login&amp;login=1" id="login" rel="nofollow">Login to edit</a></li></ul>
+ </div> 
+    <div id="user-info"> 
+    </div>
+ 
+
+                            
+                        </div> 
+                    </div> 
+
+
+                    <div id="search-box">
+
+<noscript>
+ <form action="http://www.google.com/cse" id="cse-search-box">
+   <div>
+     <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" size="21" />
+     <input type="submit" name="sa" value="Search" />
+   </div>
+ </form>
+</noscript>
+
+<script>
+ document.write('<form action="https://help.ubuntu.com/search.html" id="cse-search-box">');
+ document.write('  <div>');
+ document.write('    <input type="hidden" name="cof" value="FORID:9" />');
+ document.write('    <input type="hidden" name="cx" value="003883529982892832976:e2vwumte3fq" />');
+ document.write('    <input type="hidden" name="ie" value="UTF-8" />');
+ document.write('    <input type="text" name="q" size="21" />');
+ document.write('    <input type="submit" name="sa" value="Search" />');
+ document.write('  </div>');
+ document.write('</form>');
+</script>
+
+
+                    </div>
+                </div>
+                <div id="title"><h1>
+<span id="pagelocation"><span class="pagepath"><a href="/community/Installation">Installation</a></span><span class="sep">/</span><a href="/community/Installation/WithFloppies">WithFloppies</a></span>
+</h1>
+                </div>
+            <div id="cwt-nav3">
+
+ <hr class="clear" />
+            </div>
+                <div id="cwt-content" class="clearfix content-area">
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867"><div dir="ltr" id="Tag.2FContentCleanup.content" lang="en"><span class="anchor" id="Tag.2FContentCleanup.top"></span>
+<span class="anchor" id="Tag.2FContentCleanup.line-1"></span><div><table style="width: 80%;  margin: 0.5em auto;"><tbody><tr>  <td style="border: none;  padding: 1em 0.5em 0 0.9em;  border-top-left-radius: 1em;  border-bottom-left-radius: 1em; ; text-align: center; width: 8%; background-color: #eeeeee"><p class="line862"> <img alt="Tag/tag.png" class="attachment" src="/community/Tag?action=AttachFile&amp;do=get&amp;target=tag.png" title="Tag/tag.png" /> </td>
+  <td style="padding: 0.8em 1em 0.2em 1em;  border: none;  border-top-right-radius: 1em;  border-bottom-right-radius: 1em; ; background-color: #9DD3F2; vertical-align: top"><p class="line862"> <strong>Content Cleanup Required</strong> <br>
+ This article should be cleaned-up to follow the content standards in the Wiki Guide. <a href="/community/Tag#ContentCleanup">More info...</a> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="Tag.2FContentCleanup.line-2"></span><span class="anchor" id="Tag.2FContentCleanup.bottom"></span></div> <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><div><table style="float:right;  font-size: 0.9em;  width:30%;  background:#F1F1ED;  margin: 0 0 1em 1em;"><tbody><tr>  <td style="padding:0.5em;"><p class="line891"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Before_you_start">Before you start</a></li><li>
+<a href="#getting_ready">getting ready</a></li><li>
+<a href="#Getting_debootstrap">Getting debootstrap</a></li><li>
+<a href="#configuring_the_basics">configuring the basics</a></li><li>
+<a href="#setting_up_the_ubuntu_system">setting up the ubuntu system</a></li><li>
+<a href="#Finishing_up_.28important.29">Finishing up (important)</a></li></ol></li></ol></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line862">A much easier way of installing with floppies can be found at <a href="/community/SmartBootManager">SmartBootManager</a>. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line862">This should be considered an alternative to the <a class="nonexistent" href="/community/Installation/FromKnoppix">Installation/FromKnoppix</a>.   <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line874">The idea is to install on a system with no (working) CD-ROM drive, but a system that does <span class="anchor" id="line-10"></span>have a floppy drive.  You'll need a network connection for it, too. <span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span><p class="line874">OVERVIEW <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><p class="line874">The plan is to: <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><ol type="1"><li>Boot from Debian Sarge install floppies <span class="anchor" id="line-17"></span></li><li>Get far enough to have network access <span class="anchor" id="line-18"></span></li><li>Use the Debian Sarge installer to partition the hard drive <span class="anchor" id="line-19"></span></li><li>Use debootstrap from Ubuntu to put Ubuntu there instead <span class="anchor" id="line-20"></span><ol type="1"><li><p class="line862">Grab the latest debootstrap_*.tar.gz from  <a class="http" href="http://archive.ubuntu.com/ubuntu/pool/main/d/debootstrap/">http://archive.ubuntu.com/ubuntu/pool/main/d/debootstrap/</a> and tar -zxvf debootstrap_*.tar.gz and follow directions to make and install the application.  The pre-packaged deb binary will probably not work with dpkg -i because the Debian boot floppy may not meet Ubuntu's dependencies.  See "Getting debootstrap" below. <span class="anchor" id="line-21"></span></li></ol></li><li>Reboot, crossing some fingers. <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span></li></ol><p class="line874">STEP 1: Prepare the Sarge installer <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><p class="line862">You can download the floppy images from one of the sites below:<br>
+ <span class="anchor" id="line-27"></span><a class="http" href="http://ftp.egr.msu.edu/debian/dists/etch/main/installer-i386/current/images/floppy/">http://ftp.egr.msu.edu/debian/dists/etch/main/installer-i386/current/images/floppy/</a> <br>
+ <span class="anchor" id="line-28"></span><a class="http" href="http://ftp.nl.debian.org/debian/dists/etch/main/installer-i386/current/images/floppy/">http://ftp.nl.debian.org/debian/dists/etch/main/installer-i386/current/images/floppy/</a> <br>
+ <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><p class="line874">These are the files you need: <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><p class="line874">* boot.img <span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><p class="line874">* root.img <span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><p class="line874">* net-drivers.img <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><p class="line874">Put them on floppies: <span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><p class="line867"><span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><pre><span class="anchor" id="line-1"></span>    dd if=/path/to/floppy/images/boot.img of=/dev/fd0</pre><span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><p class="line874">STEP 2: Start the Sarge installer <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-48"></span><span class="anchor" id="line-49"></span><p class="line874">ANOTHER WAY TO DO IT <span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><p class="line874">... would be to make boot floppies for Knoppix. <span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><p class="line874">This works only if you have a CD-ROM but you can't boot on it (old BIOS, non bootable SCSI adapter). <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><ul><li>Boot knoppix on another computer. <span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span></li><li class="gap"><p class="line862">K Menu --&gt; KNOPPIX --&gt; Utilities --&gt; Create bootfloppies for KNOPPIX. <span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span></li></ul><p class="line874">Then put the first floppy in the computer to install, KNOPPIX CD-ROM in the player, <span class="anchor" id="line-60"></span>start the computer, put the second floppy when asked and you will be in KDE. Then follow  <span class="anchor" id="line-61"></span><a class="nonexistent" href="/community/Installation/FromKnoppix">Installation/FromKnoppix</a> <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><p class="line874">A BETTER, SIMPLER WAY TO DO IT <span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><p class="line862">... would be using a Smart Boot Manager floppy to boot the system.  For more information take a look at the [<a href="/community/SmartBootManager">SmartBootManager</a>] <span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><p class="line867"><hr class="hr6" /><p class="line874"> <span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><p class="line862">Q &amp; A <span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><p class="line874">Would be a bit rude of me to modify someone elses nicely built wiki page, but heres something that came to my attention: <span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><p class="line874">"4. Use debootstrap from Ubuntu to put Ubuntu there instead" <span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><p class="line874">Ok, I've created the Debian Sarge installer floppies and booted, created partitions etc.  But exactly -how- would I "Use debootstrap from Ubuntu to put Ubuntu there instead"?   <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><ul><li style="list-style-type:none"><p class="line862">Grab the latest debootstrap_*.tar.gz from  <a class="http" href="http://archive.ubuntu.com/ubuntu/pool/main/d/debootstrap/">http://archive.ubuntu.com/ubuntu/pool/main/d/debootstrap/</a> and tar -zxvf debootstrap_*.tar.gz and follow directions to make and install the application.  The pre-packaged deb binary will probably not work with Debian because of the Ubuntu dependencies.  Anybody try this? <span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span></li></ul><p class="line862">I don't know much about this but I have ideas: see <a class="nonexistent" href="/community/Installation/FromKnoppix">Installation/FromKnoppix</a> or even better <a class="http" href="http://archive.ubuntulinux.org/ubuntu/dists/warty/main/installer-i386/current/doc/manual/en/apcs03.html">http://archive.ubuntulinux.org/ubuntu/dists/warty/main/installer-i386/current/doc/manual/en/apcs03.html</a> <span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><p class="line867">
+<h2 id="Before_you_start">Before you start</h2>
+<span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><p class="line862">I have used the Debian GNU/Linux floppies to install the system I'm currently typing from. Sidenote: working with floppies almost always means one of them is broken and you might want to keep a backup computer with rawwrite/ dd ready. I took notes of what I did, but I might have made mistakes writing things down. This worked for *me* on a i386 laptop without a cdrom. My editor of choice was vim, you can replace those commands with nano or some other available editor).  I used <a class="http" href="http://archive.ubuntulinux.org/ubuntu/dists/warty/main/installer-i386/current/doc/manual/en/apcs03.html">http://archive.ubuntulinux.org/ubuntu/dists/warty/main/installer-i386/current/doc/manual/en/apcs03.html</a> <span class="anchor" id="line-89"></span><ul><li style="list-style-type:none"><p class="line862">and <a class="http" href="http://www.debian.org/releases/stable/i386/ch-preparing.en.html">http://www.debian.org/releases/stable/i386/ch-preparing.en.html</a> (paragraph 3.7) as my guides.  <span class="anchor" id="line-90"></span></li></ul><p class="line874">be warned: I am absolutely no expert and some steps may be either way off, plain wrong or much more complicated than needed. <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><p class="line867">
+<h2 id="getting_ready">getting ready</h2>
+<span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><p class="line862">I used the boot.img, root.img and net-drivers.img files from Debian GNU/Linux Sarge. Be advised! Internet access is badly needed every step of the way. I got the floppies from: <a class="http" href="http://ftp.debian.org/debian/dists/sarge/main/installer-i386/current/images/floppy">http://ftp.debian.org/debian/dists/sarge/main/installer-i386/current/images/floppy</a>.   <span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><p class="line874">To create the boot, root and driver floppies, I used dd (windows users should use rawrite, explained in great detail in many places on the internet). <span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><p class="line874">I put in the boot disk, made sure my networkcable was connected and at the  <span class="anchor" id="line-99"></span><tt>"Enter&nbsp;to&nbsp;&nbsp;boot:"</tt> prompt, typed: <span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><pre><span class="anchor" id="line-1-1"></span>"Enter to  boot:expert &lt;Enter&gt;</pre><span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span></li></ul><p class="line874">The "expert" setting gave the amount of control over the installation-process I needed. Next I was asked for the root disk and prompted for a language and a location. A correct language/location safed some time downloading. Then, when asked for it, I loaded the net-drivers from the floppy.  <span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><p class="line874">keyboard layout and detecting network hardware came next. pressing Enter a few times was my solution. My network is configured with DHCP. If yours is not, you probably know what to fill in. (ps, I always have to run "network autoconfiguration" twice).  <span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><p class="line862">It asked for a hostname, I went with the default: debian (you can change this later), next the domain name: (you decide, I did &lt;Enter&gt;) <span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><p class="line874">Currently, this is the only way to get a working mirror: <span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span><p class="line874">First, choose to setup a mirror. Go to the top of the list, and select manually set up a mirror. Opt for http, and for the address, type in snapshot.debian.org. For the directory, type in archive/debian/20070101T000000Z. Then choose stable from the list of distros. This will get you setup to use sarge. <span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><p class="line874">I didn't bother with the extra installer components and chose to continue. Next, I let debian detect my computers hardware. I again ignored the prompting about modules and declined to be asked for module parameters.  <span class="anchor" id="line-116"></span>Then, I partitioned the disk, a simple task with guided partitioning. I chose to erase the entire disk and put everything in one partition. The end result (using Default options): <span class="anchor" id="line-117"></span><span class="anchor" id="line-118"></span><p class="line867"><span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><pre><span class="anchor" id="line-1-2"></span>#1 primary      9.6 GB ext3     /
+<span class="anchor" id="line-2"></span>#5 logical      444.1 MB        swap swap</pre><span class="anchor" id="line-122"></span><span class="anchor" id="line-123"></span><p class="line874">If I were not running in expert mode, the installer would now go and install the base system. This is where the document about debian on an existing unix/linux system and the ubuntu from floppy installation start to merge.  <span class="anchor" id="line-124"></span><span class="anchor" id="line-125"></span><p class="line874">To get to a real console (the "exit to shell from the debian GNU/Linux installation menu has problems with vim) type:  <span class="anchor" id="line-126"></span><span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span><pre><span class="anchor" id="line-1-3"></span>Alt+F2</pre><span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><p class="line862">A <tt>df&nbsp;-h&nbsp;</tt> told me the harddisk was at: /dev/ide/host0/bus0/target0/lun0/part1, and mounted on /target. /target sounded like a good place to put ubuntu into. <span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><p class="line867">
+<h2 id="Getting_debootstrap">Getting debootstrap</h2>
+<span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span><p class="line867"><span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span><span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><pre><span class="anchor" id="line-1-4"></span>mkdir work
+<span class="anchor" id="line-2-1"></span>cd work
+<span class="anchor" id="line-3"></span>wget http://ftp.bit.nl/ubuntu/pool/main/d/debootstrap/debootstrap_0.2.45ubuntu36_i386.deb
+<span class="anchor" id="line-4"></span>(a full list of ARCHIVE mirrors is available at: http://ubuntulinux.org/wiki/Archive). 
+<span class="anchor" id="line-5"></span>ar -x debootstrap_0.2.45ubuntu36_i386.deb
+<span class="anchor" id="line-6"></span>cd /
+<span class="anchor" id="line-7"></span>zcat &lt; /work/data.tar.gz | tar xv
+<span class="anchor" id="line-8"></span>/usr/sbin/debootstrap --arch i386 hoary /target http://ftp.bit.nl/ubuntu/</pre><span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span><p class="line874">This retrieves and validates the files into /target, then it starts to install them.  <span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><p class="line867">
+<h2 id="configuring_the_basics">configuring the basics</h2>
+<span class="anchor" id="line-148"></span><span class="anchor" id="line-149"></span><p class="line867"><span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><span class="anchor" id="line-152"></span><pre><span class="anchor" id="line-1-5"></span>chroot /target /bin/bash
+<span class="anchor" id="line-2-2"></span>mount -t proc proc /proc</pre><p class="line874"> <span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><p class="line862">(Mounting the /proc is VERY IMPORTANT. Trust me, I had a fubar-ed installation (well, three) because I failed to do this correctly. mounting the sys as suggested in the guides wouldn't work and didn't matter). I did not have to edit the <tt>/etc/fstab</tt> file. It looked correct already.  <span class="anchor" id="line-155"></span>(I edited the /etc/network/interfaces, because it had no local loopback, for starters): <span class="anchor" id="line-156"></span><span class="anchor" id="line-157"></span><span class="anchor" id="line-158"></span><span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span><span class="anchor" id="line-161"></span><span class="anchor" id="line-162"></span><span class="anchor" id="line-163"></span><span class="anchor" id="line-164"></span><pre><span class="anchor" id="line-1-6"></span>vim /etc/network/interfaces
+<span class="anchor" id="line-2-3"></span>
+<span class="anchor" id="line-3-1"></span>auto lo
+<span class="anchor" id="line-4-1"></span>iface lo inet loopback
+<span class="anchor" id="line-5-1"></span>
+<span class="anchor" id="line-6-1"></span>auto eth0
+<span class="anchor" id="line-7-1"></span>iface eth0 inet dhcp</pre><span class="anchor" id="line-165"></span><span class="anchor" id="line-166"></span><p class="line862">my <tt>/etc/resolv.conf</tt> looked correct (nameserver: 10.0.0.2). <span class="anchor" id="line-167"></span><span class="anchor" id="line-168"></span><p class="line874">In honour of the floppy install, I chose "debian" as my hostname: <span class="anchor" id="line-169"></span><span class="anchor" id="line-170"></span><span class="anchor" id="line-171"></span><pre><span class="anchor" id="line-1-7"></span>echo debian &gt; /etc/hostname</pre><span class="anchor" id="line-172"></span><span class="anchor" id="line-173"></span><p class="line867"><hr /><p class="line874">Nota Bene: <span class="anchor" id="line-174"></span>I forgot this, but editing <tt>/etc/hosts</tt> at this point might be a good idea... (yet by mistake I proved that it works by doing this afterwards, see the Post Scriptum for more). I added the following, simply by looking at the /etc/hosts from a working ubuntu hoary install: <span class="anchor" id="line-175"></span><span class="anchor" id="line-176"></span><p class="line867"><span class="anchor" id="line-177"></span><span class="anchor" id="line-178"></span><span class="anchor" id="line-179"></span><span class="anchor" id="line-180"></span><pre><span class="anchor" id="line-1-8"></span>vim /etc/hosts
+<span class="anchor" id="line-2-4"></span>
+<span class="anchor" id="line-3-2"></span>127.0.0.1       localhost.localdomain   locahost        debian</pre><span class="anchor" id="line-181"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-182"></span>
+<h2 id="setting_up_the_ubuntu_system">setting up the ubuntu system</h2>
+<span class="anchor" id="line-183"></span><span class="anchor" id="line-184"></span><p class="line867"><span class="anchor" id="line-185"></span><span class="anchor" id="line-186"></span><pre><span class="anchor" id="line-1-9"></span>base-config new</pre><span class="anchor" id="line-187"></span><p class="line874">It prompted me for some things: <span class="anchor" id="line-188"></span>I added a user, I chose http for mirror-type, Netherlands for a country, <span class="anchor" id="line-189"></span><span class="anchor" id="line-190"></span><p class="line874">And then off it went, retrieving, verifying, selecting, unpacking and setting up. Powernowd (?) gave errors, because I used the incorrect kernel (~gosh~). Did not seem to matter though. I initially got some errors about my fonts, but they seemed to solve themselves. Registering documentation took forever, so don't be alarmed.  <span class="anchor" id="line-191"></span><span class="anchor" id="line-192"></span><p class="line867">
+<h2 id="Finishing_up_.28important.29">Finishing up (important)</h2>
+<span class="anchor" id="line-193"></span><span class="anchor" id="line-194"></span><p class="line874">Language settings might be a good idea: <span class="anchor" id="line-195"></span><span class="anchor" id="line-196"></span><span class="anchor" id="line-197"></span><pre><span class="anchor" id="line-1-10"></span>dpkg-reconfigure locales </pre><span class="anchor" id="line-198"></span><span class="anchor" id="line-199"></span><p class="line874">This way of installing doesn't come with a kernel, so I needed one: <span class="anchor" id="line-200"></span><span class="anchor" id="line-201"></span><p class="line867"><span class="anchor" id="line-202"></span><span class="anchor" id="line-203"></span><span class="anchor" id="line-204"></span><pre><span class="anchor" id="line-1-11"></span>apt-cache search linux-image
+<span class="anchor" id="line-2-5"></span>apt-get install linux-image-2.6.10-5-686</pre><span class="anchor" id="line-205"></span><span class="anchor" id="line-206"></span><p class="line874">The "do you want to stop now" prompt when installing the kernel should be answered with "no". The suggested link from initrd.img sounded like a good idea to me: "Y".  <span class="anchor" id="line-207"></span><span class="anchor" id="line-208"></span><p class="line874">Next, I really needed a bootloader: <span class="anchor" id="line-209"></span><span class="anchor" id="line-210"></span><p class="line867"><span class="anchor" id="line-211"></span><span class="anchor" id="line-212"></span><span class="anchor" id="line-213"></span><span class="anchor" id="line-214"></span><span class="anchor" id="line-215"></span><pre><span class="anchor" id="line-1-12"></span>apt-get install grub
+<span class="anchor" id="line-2-6"></span>grub-install /dev/hda
+<span class="anchor" id="line-3-3"></span>update-grub
+<span class="anchor" id="line-4-2"></span>would you like menu.lst generated? "Y"</pre><span class="anchor" id="line-216"></span><span class="anchor" id="line-217"></span><p class="line874">All seemed well, so it was time for a reboot: <span class="anchor" id="line-218"></span><span class="anchor" id="line-219"></span><p class="line867"><span class="anchor" id="line-220"></span><span class="anchor" id="line-221"></span><pre><span class="anchor" id="line-1-13"></span>ctrl+d (get out of the chroot)
+<span class="anchor" id="line-2-7"></span>reboot</pre><span class="anchor" id="line-222"></span><span class="anchor" id="line-223"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-224"></span>Post Scriptum: <span class="anchor" id="line-225"></span><span class="anchor" id="line-226"></span><p class="line874">It worked, although as I stated above, one last thing needed to be done. A hostname line in /etc/hosts, to be exact. I forgot this and as a result my USB mouse, network interface, and gdm login failed. So, after I tried to fix it with a reboot yet again (and I arrived at the graphical login): <span class="anchor" id="line-227"></span><span class="anchor" id="line-228"></span><p class="line867"><span class="anchor" id="line-229"></span><span class="anchor" id="line-230"></span><span class="anchor" id="line-231"></span><span class="anchor" id="line-232"></span><span class="anchor" id="line-233"></span><span class="anchor" id="line-234"></span><span class="anchor" id="line-235"></span><span class="anchor" id="line-236"></span><span class="anchor" id="line-237"></span><span class="anchor" id="line-238"></span><span class="anchor" id="line-239"></span><pre><span class="anchor" id="line-1-14"></span>Ctrl+alt+F1, 
+<span class="anchor" id="line-2-8"></span>username
+<span class="anchor" id="line-3-4"></span>password
+<span class="anchor" id="line-4-3"></span>sudo -s 
+<span class="anchor" id="line-5-2"></span>(I got an error about gethostname() or something alike. No, really!?)
+<span class="anchor" id="line-6-2"></span>password
+<span class="anchor" id="line-7-2"></span>vim /etc/hosts
+<span class="anchor" id="line-8-1"></span>(I added the following, taken from a working ubuntu hoary install:)
+<span class="anchor" id="line-9"></span>
+<span class="anchor" id="line-10"></span>127.0.0.1       localhost.localdomain   locahost        debian</pre><span class="anchor" id="line-240"></span><p class="line874">Then, I did the windows thingy yet again: reboot. <span class="anchor" id="line-241"></span><hr /><p class="line874"> <span class="anchor" id="line-242"></span><span class="anchor" id="line-243"></span><p class="line874">This ended all of my problems. I am finishing this document from a working ubuntu desktop! <span class="anchor" id="line-244"></span><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+</div>
+
+
+            </div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Installation/WithFloppies  (last edited 2013-01-19 05:16:41 by <span title="tgp1994 @ 99-48-201-54.lightspeed.gdrpmi.sbcglobal.net[99.48.201.54]"><a class="interwiki" href="https://launchpad.net/~tgp1994" title="tgp1994 @ 99-48-201-54.lightspeed.gdrpmi.sbcglobal.net[99.48.201.54]">tgp1994</a></span>)</p>
+
+</div>
+            
+            <div id="footer">
+		<p>
+		The material on this wiki is available under a free license, see <a href="https://help.ubuntu.com/community/
+		License">Copyright / License</a> for details<br /><b>You</b> can contribute to this wiki, see 
+		<a href="https://help.ubuntu.com/community/WikiGuide">Wiki Guide</a> for details
+		</p>
+            </div>
+
+        </div></body>
+</html>
+
