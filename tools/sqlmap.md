@@ -1,3 +1,10 @@
+---
+description: >-
+  SQLMap is a free and open-source penetration testing tool that automates the
+  process of detecting and exploiting SQL injection vulnerabilities in web
+  applications.
+---
+
 # 🗃 sqlmap
 
 ### sqlmap Usage Example <a href="#sqlmap-usage-example" id="sqlmap-usage-example"></a>
