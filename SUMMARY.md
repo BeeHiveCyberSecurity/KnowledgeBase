@@ -86,6 +86,7 @@
   * [🌐 apache2](tools/networks-and-wireless/apache2.md)
   * [🌐 ettercap](tools/networks-and-wireless/ettercap.md)
   * [🌐 bettercap](tools/networks-and-wireless/bettercap.md)
+  * [🌐 bettercap-ui](tools/networks-and-wireless/bettercap-ui.md)
   * [🌐 freeradius](tools/networks-and-wireless/freeradius.md)
   * [🌐 bind9](tools/networks-and-wireless/bind9.md)
   * [🌐 samba](tools/networks-and-wireless/samba.md)
