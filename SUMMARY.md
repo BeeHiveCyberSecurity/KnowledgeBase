@@ -85,6 +85,7 @@
   * [🌐 ettercap](tools/networks-and-wireless/ettercap.md)
   * [🌐 bettercap](tools/networks-and-wireless/bettercap.md)
   * [🌐 freeradius](tools/networks-and-wireless/freeradius.md)
+  * [🌐 bind9](tools/networks-and-wireless/bind9.md)
 * [🇸🇴 Social Media](tools/social-media/README.md)
   * [ℹ sherlock](tools/osint/sherlock.md)
 * [🧩 Miscellaneous](tools/miscellaneous/README.md)
