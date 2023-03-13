@@ -35,6 +35,7 @@
   * [💾 afflib](tools/digital-forensics/afflib.md)
 * [🇧🇼 Reverse Engineering](tools/reverse-engineering/README.md)
   * [📎 radare2](tools/reverse-engineering/radare2.md)
+  * [🐛 gdb](tools/reverse-engineering/gdb.md)
 * [🖲 Hardware & Virtualization](tools/hardware-and-virtualization/README.md)
   * [🇲🇭 qemu](tools/hardware-and-virtualization/qemu.md)
   * [⏭ freerdp2](tools/hardware-and-virtualization/freerdp2.md)
