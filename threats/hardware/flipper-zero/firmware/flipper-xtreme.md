@@ -1,3 +1,9 @@
+---
+description: >-
+  An authentic community-created firmware with risque features, occasionally
+  explicit content, and some not-so-legal features. Use at own liability.
+---
+
 # 🐬 flipper-xtreme
 
 ### Feature-rich, stable, customizable
