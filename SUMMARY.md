@@ -26,6 +26,7 @@
   * [📳 Push Polling](threats/disinformation/push-polling.md)
   * [👨 "Joe Jobs"](threats/disinformation/joe-jobs.md)
   * [🚩 False Flags](threats/disinformation/false-flags.md)
+  * [👿 Deep Fakes](threats/disinformation/deep-fakes.md)
 
 ## ⚙ Tools
 
@@ -94,6 +95,7 @@
   * [🌐 bind9](tools/networks-and-wireless/bind9.md)
   * [🌐 samba](tools/networks-and-wireless/samba.md)
   * [🌐 net-snmp](tools/networks-and-wireless/net-snmp.md)
+  * [Kali Linux Tools](tools/networks-and-wireless/kali-linux-tools.md)
 * [🇸🇴 Social Media](tools/social-media/README.md)
   * [ℹ sherlock](tools/osint/sherlock.md)
 * [🧩 Miscellaneous](tools/miscellaneous/README.md)
