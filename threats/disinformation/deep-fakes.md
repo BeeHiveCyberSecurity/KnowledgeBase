@@ -1,3 +1,10 @@
+---
+description: >-
+  Deep fakes are manipulated videos/images using AI. Used maliciously for
+  political manipulation, fraud, misinformation. Legal/ethical concerns arise,
+  measures needed to prevent harm.
+---
+
 # 👿 Deep Fakes
 
 ## Technical Summary
