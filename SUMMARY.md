@@ -75,6 +75,7 @@
   * [ℹ dirb](tools/osint/dirb.md)
   * [ℹ nikto](tools/osint/nikto.md)
   * [ℹ legion](tools/penetration-testing/legion.md)
+  * [🕸 spiderfoot](tools/surface-intelligence/spiderfoot.md)
 * [🌐 Networks & Wireless](tools/network/README.md)
   * [🌐 nmap](tools/nmap.md)
   * [🌐 impacket-scripts](tools/impacket-scripts.md)
