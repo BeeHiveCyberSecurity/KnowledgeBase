@@ -16,7 +16,7 @@
 * [🖥 Hardware](threats/hardware.md)
   * [🇷🇺 Flipper Zero](threats/hardware/flipper-zero/README.md)
     * [Firmware](threats/hardware/flipper-zero/firmware/README.md)
-      * [🐬 flipperzero](threats/hardware/flipper-zero/firmware/flipperzero/README.md)
+      * [🐬 flipperzero](threats/hardware/flipper-zero/firmware/flipperzero.md)
         * [Getting Started](threats/hardware/flipper-zero/firmware/flipperzero/getting-started.md)
       * [🐬 flipper-xtreme](threats/hardware/flipper-zero/firmware/flipper-xtreme/README.md)
         * [Wiki](threats/hardware/flipper-zero/firmware/flipper-xtreme/wiki/README.md)

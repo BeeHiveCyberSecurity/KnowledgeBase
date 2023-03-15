@@ -18,6 +18,8 @@ description: >-
 
 • Submit a pull request with an improvement to the documentation or code
 
+<figure><img src="https://i.imgur.com/aXlkRnp.png" alt=""><figcaption><p>Select "Edit on GitHub" to be taken to the repository to compose and push a PR</p></figcaption></figure>
+
 • Create an issue to report a bug or request a new feature
 
 • Join the discussion and share your own insights and experiences
