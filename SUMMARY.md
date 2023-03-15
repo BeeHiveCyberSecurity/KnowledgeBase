@@ -360,3 +360,5 @@
     * [Viacom International, Inc v YouTube, Inc](law-policy-and-ethics/dmca/notable-cases/viacom-international-inc-v-youtube-inc.md)
     * [Capitol Records, Inc. v. Thomas-Rasset](law-policy-and-ethics/dmca/notable-cases/capitol-records-inc.-v.-thomas-rasset.md)
     * [Perfect 10, Inc. v. Amazon.com](law-policy-and-ethics/dmca/notable-cases/perfect-10-inc.-v.-amazon.com.md)
+    * [Recording Industry Association of America (RIAA) v. Diamond Multimedia Systems, Inc.](law-policy-and-ethics/dmca/notable-cases/recording-industry-association-of-america-riaa-v.-diamond-multimedia-systems-inc..md)
+    * [A\&M Records, Inc. v. Napster, Inc.](law-policy-and-ethics/dmca/notable-cases/a-and-m-records-inc.-v.-napster-inc..md)
