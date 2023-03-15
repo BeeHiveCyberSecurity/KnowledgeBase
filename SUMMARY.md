@@ -376,3 +376,4 @@
     * [A\&M Records, Inc. v. Napster, Inc.](law-policy-and-ethics/dmca/notable-cases/a-and-m-records-inc.-v.-napster-inc..md)
     * [BMG Music v. Gonzalez](law-policy-and-ethics/dmca/notable-cases/bmg-music-v.-gonzalez.md)
     * [Sony Computer Entertainment America (SCEA) v. Connectix Corp.](law-policy-and-ethics/dmca/notable-cases/sony-computer-entertainment-america-scea-v.-connectix-corp..md)
+    * [Columbia Pictures Industries, Inc. v. Fung](law-policy-and-ethics/dmca/notable-cases/columbia-pictures-industries-inc.-v.-fung.md)
