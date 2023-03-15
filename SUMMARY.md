@@ -73,6 +73,7 @@
   * [💾 lvm2](tools/hardware-and-virtualization/lvm2.md)
 * [🔏 VPN Providers](tools/vpn-providers/README.md)
   * [ProtonVPN](tools/vpn-providers/protonvpn.md)
+  * [NordVPN](tools/vpn-providers/nordvpn.md)
 * [☁ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
   * [🗃 sqlmap](tools/sqlmap.md)
   * [⏺ cewl](tools/database-and-cloud/cewl.md)
