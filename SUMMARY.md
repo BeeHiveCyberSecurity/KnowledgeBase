@@ -387,3 +387,4 @@
     * [Cartoon Network LP v. CSC Holdings, Inc.](law-policy-and-ethics/dmca/notable-cases/cartoon-network-lp-v.-csc-holdings-inc..md)
     * [Metro-Goldwyn-Mayer Studios Inc. v. Grokster, Ltd.](law-policy-and-ethics/dmca/notable-cases/metro-goldwyn-mayer-studios-inc.-v.-grokster-ltd..md)
     * [Viacom International Inc. v. Google Inc.](law-policy-and-ethics/dmca/notable-cases/viacom-international-inc.-v.-google-inc..md)
+    * [Tiffany (NJ) Inc. v. eBay Inc.](law-policy-and-ethics/dmca/notable-cases/tiffany-nj-inc.-v.-ebay-inc..md)
