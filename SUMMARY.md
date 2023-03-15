@@ -76,6 +76,7 @@
   * [NordVPN](tools/vpn-providers/nordvpn.md)
   * [ExpressVPN](tools/vpn-providers/expressvpn.md)
   * [Surfshark](tools/vpn-providers/surfshark.md)
+  * [CyberGhost](tools/vpn-providers/cyberghost.md)
 * [☁ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
   * [🗃 sqlmap](tools/sqlmap.md)
   * [⏺ cewl](tools/database-and-cloud/cewl.md)
