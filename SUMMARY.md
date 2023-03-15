@@ -357,3 +357,4 @@
 * [⚖ DMCA](law-policy-and-ethics/dmca.md)
   * [Notable Cases](law-policy-and-ethics/dmca/notable-cases/README.md)
     * [MGM Studios Inc. v. Grokster, Ltd.](law-policy-and-ethics/dmca/notable-cases/mgm-studios-inc.-v.-grokster-ltd..md)
+    * [Viacom International, Inc v YouTube, Inc](law-policy-and-ethics/dmca/notable-cases/viacom-international-inc-v-youtube-inc.md)
