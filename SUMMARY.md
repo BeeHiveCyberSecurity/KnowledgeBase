@@ -389,3 +389,4 @@
     * [Viacom International Inc. v. Google Inc.](law-policy-and-ethics/dmca/notable-cases/viacom-international-inc.-v.-google-inc..md)
     * [Tiffany (NJ) Inc. v. eBay Inc.](law-policy-and-ethics/dmca/notable-cases/tiffany-nj-inc.-v.-ebay-inc..md)
     * [Perfect 10, Inc. v. Visa International Service Association](law-policy-and-ethics/dmca/notable-cases/perfect-10-inc.-v.-visa-international-service-association.md)
+    * [Universal City Studios Productions LLLP v. Reimerdes](law-policy-and-ethics/dmca/notable-cases/universal-city-studios-productions-lllp-v.-reimerdes.md)
