@@ -354,5 +354,6 @@
 ## 🛡 Law, Policy, and Ethics
 
 * [⚖ Fair Use](law-policy-and-ethics/fair-use.md)
-* [⚖ DMCA](law-policy-and-ethics/dmca/README.md)
-  * [Notable Cases](law-policy-and-ethics/dmca/notable-cases.md)
+* [⚖ DMCA](law-policy-and-ethics/dmca.md)
+  * [Notable Cases](law-policy-and-ethics/dmca/notable-cases/README.md)
+    * [MGM Studios Inc. v. Grokster, Ltd.](law-policy-and-ethics/dmca/notable-cases/mgm-studios-inc.-v.-grokster-ltd..md)
