@@ -7,13 +7,12 @@ description: >-
 
 # 👋 Welcome!
 
-### Here's what you'll find in this repository:
+### Here's what you'll find in this hub:
 
-• Detailed documentation and tutorials on various software, hardware, operating systems, and more
-
-• Sample code and projects that demonstrate practical applications of the information provided
-
-• Discussions and issues where community members can ask questions and share their own experiences
+* Detailed documentation and tutorials on various software, hardware, operating systems, and more
+* Sample code and projects that demonstrate practical applications of the information provided
+* Discussions and issues where community members can ask questions and share their own experiences
+* Historical documentation on operating systems, legacy programs, laws, important court cases, and more.
 
 ### We welcome contributions from everyone, whether you're a beginner or an expert. Here are a few ways you can get involved:
 
@@ -22,6 +21,10 @@ description: >-
 • Create an issue to report a bug or request a new feature
 
 • Join the discussion and share your own insights and experiences
+
+
+
+#### While this site contains information about subjects such as DMCA, Copyright and Trademark Law, and other points of legal reference, this resource should not be considered as legal advice. Every situation that becomes a legal matter is unique in its own regard, and generalized writings should only be referred to for education on matter, not action or demand. If you believe based on information you find here that you have had your applicable Rights infringed, we suggest you seek private legal counsel.&#x20;
 
 #### To contribute, please read our guidelines and follow our code of conduct.
 
