@@ -374,3 +374,5 @@
     * [Perfect 10, Inc. v. Amazon.com](law-policy-and-ethics/dmca/notable-cases/perfect-10-inc.-v.-amazon.com.md)
     * [Recording Industry Association of America (RIAA) v. Diamond Multimedia Systems, Inc.](law-policy-and-ethics/dmca/notable-cases/recording-industry-association-of-america-riaa-v.-diamond-multimedia-systems-inc..md)
     * [A\&M Records, Inc. v. Napster, Inc.](law-policy-and-ethics/dmca/notable-cases/a-and-m-records-inc.-v.-napster-inc..md)
+    * [BMG Music v. Gonzalez](law-policy-and-ethics/dmca/notable-cases/bmg-music-v.-gonzalez.md)
+    * [Sony Computer Entertainment America (SCEA) v. Connectix Corp.](law-policy-and-ethics/dmca/notable-cases/sony-computer-entertainment-america-scea-v.-connectix-corp..md)
