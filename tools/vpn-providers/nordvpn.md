@@ -6,6 +6,10 @@ description: >-
 
 # NordVPN
 
+{% hint style="info" %}
+We **moderately** recommend this service
+{% endhint %}
+
 NordVPN is a Virtual Private Network (VPN) service provider that offers its users a secure and private online browsing experience. NordVPN is a popular choice for those looking to protect their privacy and security online, and it has received positive reviews from users and experts alike.
 
 NordVPN was founded in 2012 by four childhood friends from Estonia. The company is headquartered in Panama, which is a privacy-friendly country that does not have data retention laws. NordVPN has grown to become one of the largest VPN providers in the world, with more than 14 million users worldwide.
