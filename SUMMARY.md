@@ -369,7 +369,7 @@
 
 * [⚖ Fair Use](law-policy-and-ethics/fair-use.md)
 * [⚖ DMCA](law-policy-and-ethics/dmca.md)
-  * [Notable Cases](law-policy-and-ethics/dmca/notable-cases/README.md)
+  * [🗄 Notable Cases](law-policy-and-ethics/dmca/notable-cases/README.md)
     * [MGM Studios Inc. v. Grokster, Ltd.](law-policy-and-ethics/dmca/notable-cases/mgm-studios-inc.-v.-grokster-ltd..md)
     * [Viacom International, Inc v YouTube, Inc](law-policy-and-ethics/dmca/notable-cases/viacom-international-inc-v-youtube-inc.md)
     * [Capitol Records, Inc. v. Thomas-Rasset](law-policy-and-ethics/dmca/notable-cases/capitol-records-inc.-v.-thomas-rasset.md)
@@ -384,3 +384,4 @@
     * [Universal Music Group v. Veoh Networks, Inc.](law-policy-and-ethics/dmca/notable-cases/universal-music-group-v.-veoh-networks-inc..md)
     * [Universal Music Group v. MySpace, Inc.](law-policy-and-ethics/dmca/notable-cases/universal-music-group-v.-myspace-inc..md)
     * [UMG Recordings, Inc. v. MP3.com, Inc.](law-policy-and-ethics/dmca/notable-cases/umg-recordings-inc.-v.-mp3.com-inc..md)
+    * [Cartoon Network LP v. CSC Holdings, Inc.](law-policy-and-ethics/dmca/notable-cases/cartoon-network-lp-v.-csc-holdings-inc..md)
