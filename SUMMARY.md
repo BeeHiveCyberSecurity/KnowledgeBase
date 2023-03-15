@@ -392,3 +392,4 @@
     * [Universal City Studios Productions LLLP v. Reimerdes](law-policy-and-ethics/dmca/notable-cases/universal-city-studios-productions-lllp-v.-reimerdes.md)
     * [Recording Industry Association of America (RIAA) v. Lime Group LLC](law-policy-and-ethics/dmca/notable-cases/recording-industry-association-of-america-riaa-v.-lime-group-llc.md)
     * [Sony BMG Music Entertainment v. Tenenbaum](law-policy-and-ethics/dmca/notable-cases/sony-bmg-music-entertainment-v.-tenenbaum.md)
+    * [Viacom International Inc. v. Time Warner Cable Inc.](law-policy-and-ethics/dmca/notable-cases/viacom-international-inc.-v.-time-warner-cable-inc..md)
