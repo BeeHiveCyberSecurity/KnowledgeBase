@@ -379,3 +379,4 @@
     * [Columbia Pictures Industries, Inc. v. Fung](law-policy-and-ethics/dmca/notable-cases/columbia-pictures-industries-inc.-v.-fung.md)
     * [Warner Bros. Entertainment Inc. v. RDR Books](law-policy-and-ethics/dmca/notable-cases/warner-bros.-entertainment-inc.-v.-rdr-books.md)
     * [BMG Music v. John Doe](law-policy-and-ethics/dmca/notable-cases/bmg-music-v.-john-doe.md)
+    * [Universal Music Group v. Veoh Networks, Inc.](law-policy-and-ethics/dmca/notable-cases/universal-music-group-v.-veoh-networks-inc..md)
