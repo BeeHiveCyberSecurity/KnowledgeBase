@@ -399,3 +399,4 @@
     * [Ticketmaster Corp. v. Tickets.com, Inc.](law-policy-and-ethics/dmca/notable-cases/ticketmaster-corp.-v.-tickets.com-inc..md)
     * [Authors Guild, Inc. v. Google, Inc.](law-policy-and-ethics/dmca/notable-cases/authors-guild-inc.-v.-google-inc..md)
     * [Perfect 10, Inc. v. Cybernet Ventures, Inc.](law-policy-and-ethics/dmca/notable-cases/perfect-10-inc.-v.-cybernet-ventures-inc..md)
+    * [Tiffany (NJ) Inc. v. Ningbo Beyond Home Textile Co., Ltd.](law-policy-and-ethics/dmca/notable-cases/tiffany-nj-inc.-v.-ningbo-beyond-home-textile-co.-ltd..md)
