@@ -396,3 +396,4 @@
     * [UMG Recordings, Inc. v. Shelter Capital Partners LLC](law-policy-and-ethics/dmca/notable-cases/umg-recordings-inc.-v.-shelter-capital-partners-llc.md)
     * [Sony Computer Entertainment America Inc. v. Bleem LLC](law-policy-and-ethics/dmca/notable-cases/sony-computer-entertainment-america-inc.-v.-bleem-llc.md)
     * [Universal City Studios, Inc. v. Corley](law-policy-and-ethics/dmca/notable-cases/universal-city-studios-inc.-v.-corley.md)
+    * [Ticketmaster Corp. v. Tickets.com, Inc.](law-policy-and-ethics/dmca/notable-cases/ticketmaster-corp.-v.-tickets.com-inc..md)
