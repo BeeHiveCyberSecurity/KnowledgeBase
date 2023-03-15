@@ -6,7 +6,20 @@ description: >-
 
 # ProtonVPN
 
-ProtonVPN is a virtual private network (VPN) service provider that was launched in 2017 by Proton Technologies AG, a Swiss-based company that also operates the popular ProtonMail encrypted email service. ProtonVPN is designed to provide users with a high level of privacy and security when they are browsing the internet or accessing online services. In this documentation, we will provide an overview of ProtonVPN, its features, and how to use it.
+{% hint style="success" %}
+We **highly recommend** this service.
+{% endhint %}
+
+ProtonVPN is a virtual private network (VPN) service provider that was launched in 2017 by Proton Technologies AG, a **Swiss-based** company that also operates the popular ProtonMail encrypted email service. ProtonVPN is designed to provide users with a high level of privacy and security when they are browsing the internet or accessing online services. In this documentation, we will provide an overview of ProtonVPN, its features, and how to use it.
+
+First, understand Switzerland is a popular location for VPN services to locate servers for a few reasons:
+
+* Strong privacy laws: Switzerland has strong privacy laws that protect users' online privacy and data. The Swiss Federal Data Protection Act (DPA) and the Swiss Federal Data Protection Ordinance (DPO) ensure that Swiss citizens' personal data is protected, and these laws are often seen as some of the strongest in the world.
+* No mandatory data retention: Switzerland does not have mandatory data retention laws, which means that VPN providers are not required to keep logs of their users' online activity. This is important for users who are looking for a VPN service that does not log their data, as it means that Swiss VPN servers are less likely to have data logs that could be accessed by governments or law enforcement agencies.
+* Neutral location: Switzerland is a politically neutral country and is not part of the European Union, which means that it is not subject to EU data retention laws or other restrictions. This makes it an attractive location for VPN providers who want to offer their services globally without being tied to specific data retention or privacy laws.
+* Advanced infrastructure: Switzerland has a highly advanced telecommunications infrastructure, which means that VPN providers can offer fast and reliable connections to their users.
+
+Overall, the combination of strong privacy laws, no mandatory data retention, a neutral location, and advanced infrastructure make Switzerland a popular location for VPN providers to use servers. While not all ProtonVPN servers route thru Switzerland, Proton offers both Swiss servers, AND Swiss-backed "Secure Core" mode.
 
 ## Features of ProtonVPN:
 
