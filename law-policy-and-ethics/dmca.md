@@ -10,19 +10,19 @@ The Digital Millennium Copyright Act (DMCA) is a United States copyright law tha
 
 The DMCA provides several key provisions for copyright owners, Internet service providers (ISPs), and users of copyrighted material. These include:
 
-## Safe Harbor provisions
+## Safe Harbor Provisions
 
-ISPs are shielded from liability for copyright infringement if they follow specific rules and procedures for responding to infringement claims. These procedures include taking down infringing material in response to a takedown notice from a copyright owner, and providing a mechanism for users to challenge the takedown notice.
+ISPs are shielded from liability for copyright and trademark infringement if they follow specific rules and procedures for responding to infringement claims. These procedures include taking down infringing material in response to a takedown notice from a copyright owner and providing a mechanism for users to challenge the takedown notice.
 
-## Anti-circumvention provisions:&#x20;
+## Anti-Circumvention Provisions
 
 The DMCA also prohibits the circumvention of technological measures that protect copyrighted works, such as encryption or digital rights management (DRM) systems. It is illegal to sell or distribute tools or services that are designed to circumvent these measures.
 
-## Notice-and-takedown procedures:&#x20;
+## Notice-and-Takedown Procedures
 
 Copyright owners can send a takedown notice to an ISP if they believe their copyrighted material is being infringed upon. The ISP is then required to remove the infringing material, or risk losing the safe harbor protection.
 
-## Reverse engineering exception:&#x20;
+## Reverse Engineering Exceptions&#x20;
 
 The DMCA contains a limited exception for reverse engineering of software for the purpose of interoperability with other software.
 
