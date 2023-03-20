@@ -4,5 +4,5 @@ description: >-
   relevant to DMCA as it exists today in the modern standard.
 ---
 
-# Notable Cases
+# 🗄 Notable Cases
 
