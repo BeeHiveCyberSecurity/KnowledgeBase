@@ -5,5 +5,5 @@ description: >-
   or system shutdown.
 ---
 
-# 👩💻 Software
+# 💿 Software
 

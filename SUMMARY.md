@@ -9,7 +9,7 @@
 
 ## 📛 Threats
 
-* [👩💻 👩💻 Software](threats/software/README.md)
+* [💿 Software](threats/software/README.md)
   * [Malware](threats/software/malware.md)
   * [Ransomware](threats/software/ransomware.md)
   * [Macros](threats/software/macros.md)
@@ -64,7 +64,7 @@
   * [📻 hackrf](tools/radio-frequency-and-subghz/hackrf.md)
 * [👁 Digital Forensics](tools/digital-forensics/README.md)
   * [💾 afflib](tools/digital-forensics/afflib.md)
-* [🇧🇼 🇧🇼 Reverse Engineering](tools/reverse-engineering/README.md)
+* [⏪ Reverse Engineering](tools/reverse-engineering/README.md)
   * [📎 radare2](tools/reverse-engineering/radare2.md)
   * [🐛 gdb](tools/reverse-engineering/gdb.md)
   * [🗄 binwalk](tools/reverse-engineering/binwalk.md)
