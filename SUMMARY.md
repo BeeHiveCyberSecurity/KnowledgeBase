@@ -390,6 +390,25 @@
   * [Lua Modules](operating-systems/netbsd/lua-modules.md)
   * [Devices and Drivers](operating-systems/netbsd/devices-and-drivers.md)
 
+## 🗒 Working Notes
+
+* [Application Security Testing](working-notes/application-security-testing/README.md)
+  * [Threat Modeling](working-notes/application-security-testing/threat-modeling.md)
+  * [Static Code Analysis](working-notes/application-security-testing/static-code-analysis.md)
+  * [Bug Bounty](working-notes/application-security-testing/bug-bounty.md)
+  * [Targeted Test Cases](working-notes/application-security-testing/targeted-test-cases.md)
+  * [Reporting](working-notes/application-security-testing/reporting.md)
+* [Command Injection Testing](working-notes/command-injection-testing.md)
+* [SSH & SSL](working-notes/ssh-and-ssl.md)
+* [DNS](working-notes/dns.md)
+* [JSON](working-notes/json.md)
+* [WireShark filters](working-notes/wireshark-filters.md)
+* [Python](working-notes/python.md)
+* [PowerShell](working-notes/powershell.md)
+* [Splunk Queries](working-notes/splunk-queries.md)
+* [Basic Linux for CTFs](working-notes/basic-linux-for-ctfs.md)
+* [Golang](working-notes/golang.md)
+
 ## 🛡 Law, Policy, and Ethics
 
 * [⚖ Fair Use](law-policy-and-ethics/fair-use.md)
