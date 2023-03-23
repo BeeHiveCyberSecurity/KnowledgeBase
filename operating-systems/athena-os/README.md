@@ -32,7 +32,7 @@ Athena **optimizes the disk space consumption** by retrieving the tools you need
 
 ### Performance
 
-Athena is based on [Arch Linux](arch-linux/), so it is configured to load the **bare minimum** for its purpose. No useless services, no useless modules consuming your resources.
+Athena is based on [Arch Linux](../arch-linux/), so it is configured to load the **bare minimum** for its purpose. No useless services, no useless modules consuming your resources.
 
 ### Flexibility
 
@@ -40,12 +40,12 @@ Thanks to its' Arch-infused codebase, Athena is **flexible** and can easily evol
 
 ## Contents
 
-* [🎉 Introduction](athena-os.md#intro)
-* [⚓ System Requirements](athena-os.md#requirement)
-* [🎁 Installation](athena-os.md#install)
-* [📐 Configuration](athena-os.md#config)
-* [🔥 Resources](athena-os.md#res)
-* [📷 Screenshots](athena-os.md#shots)
+* [🎉 Introduction](./#intro)
+* [⚓ System Requirements](./#requirement)
+* [🎁 Installation](./#install)
+* [📐 Configuration](./#config)
+* [🔥 Resources](./#res)
+* [📷 Screenshots](./#shots)
 
 ## 🎉 Introduction
 
