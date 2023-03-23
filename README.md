@@ -38,7 +38,7 @@ Thank you for your interest in this repository. We're excited to see what you'll
 
 We'd like to thank the following contributors specifically for their excellent contributions...
 
-*
+* The AthenaOS team, for the contribution of repository support +more
 *
 *
 *
