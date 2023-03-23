@@ -75,28 +75,18 @@ nmap --proxies http://127.0.0.1:8080 SERVER\_IP -pPORT -Pn -sC
 | `sqlmap -u "http://www.example.com/?id=1" --file-write "shell.php" --file-dest "/var/www/html/shell.php"`                 | Writing a file                                              |
 | `sqlmap -u "http://www.example.com/?id=1" --os-shell`                                                                     | Spawning an OS shell                                        |
 
-1.  1\.
 
-    Set manual upstream proxy (Burp/ZAP)
-2.  2\.
 
-    Save first successful request as new collection
-3.  3\.
-
-    Highlight base URL and right-click "set as variable" and select collection scope
-4.  4\.
-
-    Set other common URLs for testing as different variables
-5.  5\.
-
-    Verify new variables by hovering over Collection>"more actions" dropdown menu> Variables tab
-6.  1\.
-
-    Name and Save new request to corresponding collection
+1. Set manual upstream proxy (Burp/ZAP)
+2. Save first successful request as new collection
+3. Highlight base URL and right-click "set as variable", then select collection scope
+4. Set other common URLs for testing as different variables
+5. Verify new variables by hovering over Collection > "More Actions" Dropdown Menu > Variables Tab
+6. Name and save new request to corresponding collection
 
 (Optional) Modify key and value pair `{{baseURL}}?key=value`
 
-#### Application Security Assessments <a href="#application-security-assessments" id="application-security-assessments"></a>
+## Application Security Assessments <a href="#application-security-assessments" id="application-security-assessments"></a>
 
 ### WEB APPLICATION PENTESTING CHECKLIST <a href="#web-application-pentesting-checklist" id="web-application-pentesting-checklist"></a>
 
@@ -112,7 +102,7 @@ Nongreedy match `.*?website.com$`
 
 * [ ] Find the type of Web Server
 * [ ] Find the version details of the Web Server
-  * View Wappylyzer, Whatruns, Server Reponses
+  * [ ] View Wappylyzer, Whatruns, Server Reponses
 * [ ] View the Sitemap.xml file
 * [ ] View the Security.txt file
 
@@ -128,9 +118,8 @@ Nongreedy match `.*?website.com$`
 * [ ] Identify what the methods used are?
 * [ ] Identify where the methods used are?
 * [ ] Identify the Injection point
-*
-[ ]   * `feroxbuster -H "User-Agent: PENTEST" -w fzf-wordlists -u http://site/`
-  * `feroxbuster -H "User-Agent: PENTEST" -w $WORDLIST -u SITE -t $THREADS`
+* [ ] `feroxbuster -H "User-Agent: PENTEST" -w fzf-wordlists -u http://site/`
+* [ ] `feroxbuster -H "User-Agent: PENTEST" -w $WORDLIST -u SITE -t $THREADS`
 
 **Fingerprint Web Application Framework**
 
@@ -300,393 +289,393 @@ Nongreedy match `.*?website.com$`
 
 **Test For Weak Password Change Function**
 
-* Check if the old password asked to make a change
-* Check for the uniqueness of the forgotten password
-* Check for blank password change
-* Check for password change function with HTTP
-* Ensure the old password is not displayed after changed
-* Ensure the other sessions got destroyed after the password change
+* [ ] Check if the old password asked to make a change
+* [ ] Check for the uniqueness of the forgotten password
+* [ ] Check for blank password change
+* [ ] Check for password change function with HTTP
+* [ ] Ensure the old password is not displayed after changed
+* [ ] Ensure the other sessions got destroyed after the password change
 
 **Test For Weak Authentication In Alternative Channel**
 
-* Test authentication on the desktop browsers
-* Test authentication on the mobile browsers
-* Test authentication in a different country
-* Test authentication in a different language
-* Test authentication on desktop applications
-* Test authentication on mobile applications
+* [ ] Test authentication on the desktop browsers
+* [ ] Test authentication on the mobile browsers
+* [ ] Test authentication in a different country
+* [ ] Test authentication in a different language
+* [ ] Test authentication on desktop applications
+* [ ] Test authentication on mobile applications
 
 **Testing Directory Traversal File Include**
 
-* Identify the injection point on the URL
-* Test for Local File Inclusion
-* Test for Remote File Inclusion
-* Test Traversal on the URL parameter
-* Test Traversal on the cookie parameter
+* [ ] Identify the injection point on the URL
+* [ ] Test for Local File Inclusion
+* [ ] Test for Remote File Inclusion
+* [ ] Test Traversal on the URL parameter
+* [ ] Test Traversal on the cookie parameter
 
 **Testing Traversal With Encoding**
 
-* Test Traversal with Base64 encoding
-* Test Traversal with URL encoding
-* Test Traversal with ASCII encoding
-* Test Traversal with HTML encoding
-* Test Traversal with Hex encoding
-* Test Traversal with Binary encoding
-* Test Traversal with Octal encoding
-* Test Traversal with Gzip encoding
+* [ ] Test Traversal with Base64 encoding
+* [ ] Test Traversal with URL encoding
+* [ ] Test Traversal with ASCII encoding
+* [ ] Test Traversal with HTML encoding
+* [ ] Test Traversal with Hex encoding
+* [ ] Test Traversal with Binary encoding
+* [ ] Test Traversal with Octal encoding
+* [ ] Test Traversal with Gzip encoding
 
 **Testing Travesal With Different OS Schemes**
 
-* Test Traversal with Unix schemes
-* Test Traversal with Windows schemes
-* Test Traversal with Mac schemes
+* [ ] Test Traversal with Unix schemes
+* [ ] Test Traversal with Windows schemes
+* [ ] Test Traversal with Mac schemes
 
 **Test Other Encoding Techniques**
 
-* Test Traversal with Double encoding
-* Test Traversal with all characters encode
-* Test Traversal with only special characters encode
+* [ ] Test Traversal with Double encoding
+* [ ] Test Traversal with all characters encode
+* [ ] Test Traversal with only special characters encode
 
 **Test Authorization Schema Bypass**
 
-* Test for Horizontal authorization schema bypass
-* Test for Vertical authorization schema bypass
-* Test override the target with custom headers
+* [ ] Test for Horizontal authorization schema bypass
+* [ ] Test for Vertical authorization schema bypass
+* [ ] Test override the target with custom headers
 
 **Test For Privilege Escalation**
 
-* Identify the injection point
-* Test for bypassing the security measures
-* IDOR testing Automation Steps for Burp Pro Users
-  * Install Autorize from the Burp App (BApp) Store
-  * Capture login request and copy cookie
-  * Paste cookie into Autorize Configuration
-    * Note: Instead of pasting you can also select "Copy cookie from last request"
-  * Turn Autorize on and refresh page or walk the application for auth testing
-  * Monitor and verify findings (subject to false positives)
-* Test for parameter tampering to high privileged user
+* [ ] Identify the injection point
+* [ ] Test for bypassing the security measures
+* [ ] IDOR testing Automation Steps for Burp Pro Users
+  * [ ] Install Autorize from the Burp App (BApp) Store
+  * [ ] Capture login request and copy cookie
+  * [ ] Paste cookie into Autorize Configuration
+    * [ ] Note: Instead of pasting you can also select "Copy cookie from last request"
+  * [ ] Turn Autorize on and refresh page or walk the application for auth testing
+  * [ ] Monitor and verify findings (subject to false positives)
+* [ ] Test for parameter tampering to high privileged user
 
 **Test For Insecure Direct Object Reference**
 
-* Test to change the ID parameter
-* Test to add parameters at the endpoints
-* Test for HTTP parameter pollution
-* Test by adding an extension at the end
-* Test with outdated API versions
-* Test by wrapping the ID with an array
-* Test by wrapping the ID with a JSON object
-* Test for JSON parameter pollution
-* Test by changing the case
+* [ ] Test to change the ID parameter
+* [ ] Test to add parameters at the endpoints
+* [ ] Test for HTTP parameter pollution
+* [ ] Test by adding an extension at the end
+* [ ] Test with outdated API versions
+* [ ] Test by wrapping the ID with an array
+* [ ] Test by wrapping the ID with a JSON object
+* [ ] Test for JSON parameter pollution
+* [ ] Test by changing the case
 
 **SESSION MANAGEMENT TESTING**
 
 **Test For Session Management Schema**
 
-* Ensure all Set-Cookie directives are secure
-* Ensure no cookie operation takes place over an unencrypted channel
-* Ensure the cookie can’t be forced over an unencrypted channel
-* Ensure the HTTPOnly flag is enabled
-* Check if any cookies are persistent
-* Check for session cookies and cookie expiration date/time
-* Check for session fixation
-* Check for concurrent login
-* Check for session after logout
-* Check for session after closing the browser
-* Try decoding cookies (Base64, Hex, URL, etc)
+* [ ] Ensure all Set-Cookie directives are secure
+* [ ] Ensure no cookie operation takes place over an unencrypted channel
+* [ ] Ensure the cookie can’t be forced over an unencrypted channel
+* [ ] Ensure the HTTPOnly flag is enabled
+* [ ] Check if any cookies are persistent
+* [ ] Check for session cookies and cookie expiration date/time
+* [ ] Check for session fixation
+* [ ] Check for concurrent login
+* [ ] Check for session after logout
+* [ ] Check for session after closing the browser
+* [ ] Try decoding cookies (Base64, Hex, URL, etc)
 
 **Test For Cookie Attributes**
 
-* Ensure the cookie must be set with the secure attribute
-* Ensure the cookie must be set with the path attribute
-* Ensure the cookie must have the HTTPOnly flag
+* [ ] Ensure the cookie must be set with the secure attribute
+* [ ] Ensure the cookie must be set with the path attribute
+* [ ] Ensure the cookie must have the HTTPOnly flag
 
 **Test For Session Fixation**
 
-* Ensure new cookies have been issued upon a successful authentication
-* Test manipulating the cookies
+* [ ] Ensure new cookies have been issued upon a successful authentication
+* [ ] Test manipulating the cookies
 
 **Test For Exposed Session Variables**
 
-* Test for GET and POST vulnerabilities
-* Test if GET request incorporating the session ID used
-* Test by interchanging POST with GET method
+* [ ] Test for GET and POST vulnerabilities
+* [ ] Test if GET request incorporating the session ID used
+* [ ] Test by interchanging POST with GET method
 
 **Test For Back Refresh Attack**
 
-* Test after password change
+* [ ] Test after password change
 
 **Test For Cross Site Request Forgery**
 
-* Check if the token is validated on the server-side or not
-* Check if the token is validated for full or partial length
-* Check by comparing the CSRF tokens for multiple dummy accounts
-* Check CSRF by interchanging POST with GET method
-* Check CSRF by removing the CSRF token parameter
-* Check CSRF by removing the CSRF token and using a blank parameter
-* Check CSRF by using unused tokens
-* Check CSRF by replacing the CSRF token with its own values
-* Check CSRF by changing the content type to form-multipart
-* Check CSRF by changing or deleting some characters of the CSRF token
-* Check CSRF by changing the referrer to Referrer
-* Check CSRF by changing the host values
-* Check CSRF alongside clickjacking
+* [ ] Check if the token is validated on the server-side or not
+* [ ] Check if the token is validated for full or partial length
+* [ ] Check by comparing the CSRF tokens for multiple dummy accounts
+* [ ] Check CSRF by interchanging POST with GET method
+* [ ] Check CSRF by removing the CSRF token parameter
+* [ ] Check CSRF by removing the CSRF token and using a blank parameter
+* [ ] Check CSRF by using unused tokens
+* [ ] Check CSRF by replacing the CSRF token with its own values
+* [ ] Check CSRF by changing the content type to form-multipart
+* [ ] Check CSRF by changing or deleting some characters of the CSRF token
+* [ ] Check CSRF by changing the referrer to Referrer
+* [ ] Check CSRF by changing the host values
+* [ ] Check CSRF alongside clickjacking
 
 **Test For Logout Functionality**
 
-* Check the log out function on different pages
-* Check for the visibility of the logout button
-* Ensure after logout the session was ended
-* Ensure after logout we can’t able to access the dashboard by pressing the back button
-* Ensure proper session timeout has been set
-* Ensure there is a session timeout exists
-* Ensure after the timeout, all of the tokens are destroyed
+* [ ] Check the log out function on different pages
+* [ ] Check for the visibility of the logout button
+* [ ] Ensure after logout the session was ended
+* [ ] Ensure after logout we can’t able to access the dashboard by pressing the back button
+* [ ] Ensure proper session timeout has been set
+* [ ] Ensure there is a session timeout exists
+* [ ] Ensure after the timeout, all of the tokens are destroyed
 
 **Test For Session Puzzling**
 
-* Identify all the session variables
-* Try to break the logical flow of the session generation
+* [ ] Identify all the session variables
+* [ ] Try to break the logical flow of the session generation
 
 **Test For Session Hijacking**
 
-* Test session hijacking on target that doesn’t has HSTS enabled
-* Test by login with the help of captured cookies
+* [ ] Test session hijacking on target that doesn’t has HSTS enabled
+* [ ] Test by login with the help of captured cookies
 
 **Test For Reflected Cross Site Scripting**
 
-* Ensure these characters are filtered <>’’&””
-* Test with a character escape sequence
-* Test by replacing < and > with HTML entities < and >
-* Test payload with both lower and upper case
-* Test to break firewall regex by new line /r/n
-* Test with double encoding
-* Test with recursive filters
-* Test injecting anchor tags without whitespace
-* Test by replacing whitespace with bullets
-* Test by changing HTTP methods
+* [ ] Ensure these characters are filtered <>’’&””
+* [ ] Test with a character escape sequence
+* [ ] Test by replacing < and > with HTML entities < and >
+* [ ] Test payload with both lower and upper case
+* [ ] Test to break firewall regex by new line /r/n
+* [ ] Test with double encoding
+* [ ] Test with recursive filters
+* [ ] Test injecting anchor tags without whitespace
+* [ ] Test by replacing whitespace with bullets
+* [ ] Test by changing HTTP methods
 
 **Test For Stored Cross Site Scripting**
 
-* Identify stored input parameters that will reflect on the client-side
-* Look for input parameters on the profile page
-* Look for input parameters on the shopping cart page
-* Look for input parameters on the file upload page
-* Look for input parameters on the settings page
-* Look for input parameters on the forum, comment page
-* Test uploading a file with XSS payload as its file name
+* [ ] Identify stored input parameters that will reflect on the client-side
+* [ ] Look for input parameters on the profile page
+* [ ] Look for input parameters on the shopping cart page
+* [ ] Look for input parameters on the file upload page
+* [ ] Look for input parameters on the settings page
+* [ ] Look for input parameters on the forum, comment page
+* [ ] Test uploading a file with XSS payload as its file name
 
 **Test For HTTP Parameter Pollution**
 
-* Identify the backend server and parsing method used
-* Try to access the injection point
-* Try to bypass the input filters using HTTP Parameter Pollution
-* Test SQL Injection on authentication forms
-* Test SQL Injection on the search bar
-* Test SQL Injection on editable characteristics
-* Try to find SQL keywords or entry point detections
-* Try to inject SQL queries
-* Use tools like SQLmap or Hackbar
-* Use Google dorks to find the SQL keywords
-* Try GET based SQL Injection
-* Try POST based SQL Injection
-* Try COOKIE based SQL Injection
-* Try HEADER based SQL Injection
-* Try SQL Injection with null bytes before the SQL query
-* Try SQL Injection with URL encoding
-* Try SQL Injection with both lower and upper cases
-* Try SQL Injection with SQL Tamper scripts
-* Try SQL Injection with SQL Time delay payloads
-* Try SQL Injection with SQL Conditional delays
-* Try SQL Injection with Boolean based SQL
-* Try SQL Injection with Time based SQL
-* Try LDAP Injection for access control bypass
+* [ ] Identify the backend server and parsing method used
+* [ ] Try to access the injection point
+* [ ] Try to bypass the input filters using HTTP Parameter Pollution
+* [ ] Test SQL Injection on authentication forms
+* [ ] Test SQL Injection on the search bar
+* [ ] Test SQL Injection on editable characteristics
+* [ ] Try to find SQL keywords or entry point detections
+* [ ] Try to inject SQL queries
+* [ ] Use tools like SQLmap or Hackbar
+* [ ] Use Google dorks to find the SQL keywords
+* [ ] Try GET based SQL Injection
+* [ ] Try POST based SQL Injection
+* [ ] Try COOKIE based SQL Injection
+* [ ] Try HEADER based SQL Injection
+* [ ] Try SQL Injection with null bytes before the SQL query
+* [ ] Try SQL Injection with URL encoding
+* [ ] Try SQL Injection with both lower and upper cases
+* [ ] Try SQL Injection with SQL Tamper scripts
+* [ ] Try SQL Injection with SQL Time delay payloads
+* [ ] Try SQL Injection with SQL Conditional delays
+* [ ] Try SQL Injection with Boolean based SQL
+* [ ] Try SQL Injection with Time based SQL
+* [ ] Try LDAP Injection for access control bypass
 
 **Testing For XML Injection**
 
-* Check if the application is using XML for processing
-* Identify the XML Injection point by XML metacharacter
-* Construct XSS payload on top of XML
+* [ ] Check if the application is using XML for processing
+* [ ] Identify the XML Injection point by XML metacharacter
+* [ ] Construct XSS payload on top of XML
 
 **Test For Server Side Includes**
 
-* Use Google dorks to find the SSI
-* Construct RCE on top of SSI
-* Construct other injections on top of SSI
-* Test Injecting SSI on login pages, header fields, referrer, etc
-* Identify XPATH Injection point
+* [ ] Use Google dorks to find the SSI
+* [ ] Construct RCE on top of SSI
+* [ ] Construct other injections on top of SSI
+* [ ] Test Injecting SSI on login pages, header fields, referrer, etc
+* [ ] Identify XPATH Injection point
 
 **Test For IMAP SMTP Injection**
 
-* Identify IMAP SMTP Injection point
-* Understand the deployment structure of the system
-* Assess the injection impact
+* [ ] Identify IMAP SMTP Injection point
+* [ ] Understand the deployment structure of the system
+* [ ] Assess the injection impact
 
 **Test For Local File Inclusion**
 
-* Try to change the local path
-* Test LFI by adding a null byte at the end
+* [ ] Try to change the local path
+* [ ] Test LFI by adding a null byte at the end
 
 **Test For Remote File Inclusion**
 
-* Try to change the remote path
+* [ ] Try to change the remote path
 
 **Test For Command Injection**
 
-* Identify the Injection points
-* Look for Command Injection keywords
-* Test Command Injection using different delimiters
-* Test Command Injection with payload list
-* Test Command Injection with different OS commands
+* [ ] Identify the Injection points
+* [ ] Look for Command Injection keywords
+* [ ] Test Command Injection using different delimiters
+* [ ] Test Command Injection with payload list
+* [ ] Test Command Injection with different OS commands
 
 **Test For Format String Injection**
 
-* Identify the Injection points
-* Use different format parameters as payloads
-* Assess the injection impact
+* [ ] Identify the Injection points
+* [ ] Use different format parameters as payloads
+* [ ] Assess the injection impact
 
 **Test For Host Header Injection**
 
-* Test for HHI by changing the real Host parameter
-* Test for HHI by adding X-Forwarded Host parameter
-* Test for HHI by swapping the real Host and X-Forwarded Host parameter
-* Test for HHI by adding two Host parameters
-* Test for HHI by adding the target values in front of the original values
-* Test for HHI by adding the target with a slash after the original values
-* Test for HHI with other injections on the Host parameter
-* Test for HHI by password reset poisoning
+* [ ] Test for HHI by changing the real Host parameter
+* [ ] Test for HHI by adding X-Forwarded Host parameter
+* [ ] Test for HHI by swapping the real Host and X-Forwarded Host parameter
+* [ ] Test for HHI by adding two Host parameters
+* [ ] Test for HHI by adding the target values in front of the original values
+* [ ] Test for HHI by adding the target with a slash after the original values
+* [ ] Test for HHI with other injections on the Host parameter
+* [ ] Test for HHI by password reset poisoning
 
 **Test For Server Side Request Forgery**
 
-* Search for SSRF keywords only under the request header and body
-* Identify the Injection points
-* Test if the Injection points are exploitable
-* Assess the injection impact
+* [ ] Search for SSRF keywords only under the request header and body
+* [ ] Identify the Injection points
+* [ ] Test if the Injection points are exploitable
+* [ ] Assess the injection impact
 
 **Test For Server Side Template Injection**
 
-* Identify the Template injection vulnerability points
-* Identify the Templating engine
-* Use the tplmap to exploit
+* [ ] Identify the Template injection vulnerability points
+* [ ] Identify the Templating engine
+* [ ] Use the tplmap to exploit
 
 **Test For Improper Error Handling**
 
-* Identify the error output
-* Analyze the different outputs returned
-* Look for common error handling flaws
-* Test error handling by modifying the URL parameter
-* Test error handling by uploading unrecognized file formats
-* Test error handling by entering unrecognized inputs
-* Test error handling by making all possible errors
+* [ ] Identify the error output
+* [ ] Analyze the different outputs returned
+* [ ] Look for common error handling flaws
+* [ ] Test error handling by modifying the URL parameter
+* [ ] Test error handling by uploading unrecognized file formats
+* [ ] Test error handling by entering unrecognized inputs
+* [ ] Test error handling by making all possible errors
 
 **WEAK CRYPTOGRAPHY TESTING**
 
 **Test For Weak Transport Layer Security**
 
-* Test for DROWN weakness on SSLv2 protocol
-* Test for POODLE weakness on SSLv3 protocol
-* Test for BEAST weakness on TLSv1.0 protocol
-* Test for FREAK weakness on export cipher suites
-* Test for NOMORE weakness on RC4
-* Test for LUCKY 13 weakness on CBC mode ciphers
-* Test for CRIME weakness on TLS compression
-* Test for LOGJAM on DHE keys
-* Ensure the digital certificates should have at least 2048 bits of key length
-* Ensure the digital certificates should have at least SHA-256 signature algorithm
-* Ensure the digital certificates should not use MDF and SHA-1
-* Ensure the validity of the digital certificate
-* Ensure the minimum key length requirements
-* Look for weak cipher suites
-* Identify the logic of how the application works
-* Identify the functionality of all the buttons
-* Test by changing the numerical values into high or negative values
-* Test by changing the quantity
-* Test by modifying the payments
-* Test for parameter tampering
+* [ ] Test for DROWN weakness on SSLv2 protocol
+* [ ] Test for POODLE weakness on SSLv3 protocol
+* [ ] Test for BEAST weakness on TLSv1.0 protocol
+* [ ] Test for FREAK weakness on export cipher suites
+* [ ] Test for NOMORE weakness on RC4
+* [ ] Test for LUCKY 13 weakness on CBC mode ciphers
+* [ ] Test for CRIME weakness on TLS compression
+* [ ] Test for LOGJAM on DHE keys
+* [ ] Ensure the digital certificates should have at least 2048 bits of key length
+* [ ] Ensure the digital certificates should have at least SHA-256 signature algorithm
+* [ ] Ensure the digital certificates should not use MDF and SHA-1
+* [ ] Ensure the validity of the digital certificate
+* [ ] Ensure the minimum key length requirements
+* [ ] Look for weak cipher suites
+* [ ] Identify the logic of how the application works
+* [ ] Identify the functionality of all the buttons
+* [ ] Test by changing the numerical values into high or negative values
+* [ ] Test by changing the quantity
+* [ ] Test by modifying the payments
+* [ ] Test for parameter tampering
 
 **Test For Malicious File Upload**
 
-* Test malicious file upload by uploading malicious files
-* Test malicious file upload by putting your IP address on the file name
-* Test malicious file upload by right to left override
-* Test malicious file upload by encoded file name
-* Test malicious file upload by XSS payload on the file name
-* Test malicious file upload by RCE payload on the file name
-* Test malicious file upload by LFI payload on the file name
-* Test malicious file upload by RFI payload on the file name
-* Test malicious file upload by SQL payload on the file name
-* Test malicious file upload by other injections on the file name
-* Test malicious file upload by Inserting the payload inside of an image by the bmp.pl tool
-* Test malicious file upload by uploading large files (leads to DOS)
+* [ ] Test malicious file upload by uploading malicious files
+* [ ] Test malicious file upload by putting your IP address on the file name
+* [ ] Test malicious file upload by right to left override
+* [ ] Test malicious file upload by encoded file name
+* [ ] Test malicious file upload by XSS payload on the file name
+* [ ] Test malicious file upload by RCE payload on the file name
+* [ ] Test malicious file upload by LFI payload on the file name
+* [ ] Test malicious file upload by RFI payload on the file name
+* [ ] Test malicious file upload by SQL payload on the file name
+* [ ] Test malicious file upload by other injections on the file name
+* [ ] Test malicious file upload by Inserting the payload inside of an image by the bmp.pl tool
+* [ ] Test malicious file upload by uploading large files (leads to DOS)
 
 **Test For DOM Based Cross Site Scripting**
 
-* Try to identify DOM sinks
-* Build payloads to that DOM sink type
-* Look for URL redirect parameters
-* Test for URL redirection on domain parameters
-* Test for URL redirection by using a payload list
-* Test for URL redirection by using a whitelisted word at the end
-* Test for URL redirection by creating a new subdomain with the same as the target
-* Test for URL redirection by XSS
-* Test for URL redirection by profile URL flaw
+* [ ] Try to identify DOM sinks
+* [ ] Build payloads to that DOM sink type
+* [ ] Look for URL redirect parameters
+* [ ] Test for URL redirection on domain parameters
+* [ ] Test for URL redirection by using a payload list
+* [ ] Test for URL redirection by using a whitelisted word at the end
+* [ ] Test for URL redirection by creating a new subdomain with the same as the target
+* [ ] Test for URL redirection by XSS
+* [ ] Test for URL redirection by profile URL flaw
 
 **Test For Cross Origin Resource Sharing**
 
-* Look for “Access-Control-Allow-Origin” on the response
-* Use the CORS HTML exploit code for further exploitation
-* Ensure “X-Frame-Options” headers are enabled
-* Exploit with iframe HTML code for POC
+* [ ] Look for “Access-Control-Allow-Origin” on the response
+* [ ] Use the CORS HTML exploit code for further exploitation
+* [ ] Ensure “X-Frame-Options” headers are enabled
+* [ ] Exploit with iframe HTML code for POC
 
 **Card Payment Functionality**
 
 **Test For No-Rate Limiting**
 
-* Ensure rate limiting is enabled
-* Try to bypass rate limiting by changing the case of the endpoints
-* Try to bypass rate limiting by adding / at the end of the URL
-* Try to bypass rate limiting by adding HTTP headers
-* Try to bypass rate limiting by adding HTTP headers twice
-* Try to bypass rate limiting by adding Origin headers
-* Try to bypass rate limiting by IP rotation
-* Try to bypass rate limiting by using null bytes at the end
-* Try to bypass rate limiting by using race conditions
-* Ensure the website is striping the geodata
+* [ ] Ensure rate limiting is enabled
+* [ ] Try to bypass rate limiting by changing the case of the endpoints
+* [ ] Try to bypass rate limiting by adding / at the end of the URL
+* [ ] Try to bypass rate limiting by adding HTTP headers
+* [ ] Try to bypass rate limiting by adding HTTP headers twice
+* [ ] Try to bypass rate limiting by adding Origin headers
+* [ ] Try to bypass rate limiting by IP rotation
+* [ ] Try to bypass rate limiting by using null bytes at the end
+* [ ] Try to bypass rate limiting by using race conditions
+* [ ] Ensure the website is striping the geodata
 
 **Test For Broken Link Hijack**
 
-* Ensure there is no broken links are there
-* Test broken links by using the blc tool
-* Ensure the website is having SPF record
-* Test SPF by nslookup command
-* Try to bypass 2FA by using poor session management
-* Try to bypass 2FA via the OAuth mechanism
-* Try to bypass 2FA via brute-forcing
-* Try to bypass 2FA via response manipulation
-* Try to bypass 2FA by using activation links to login
-* Try to bypass 2FA by using status code manipulation
-* Try to bypass 2FA by changing the email or password
-* Try to bypass 2FA by using a null or empty entry
-* Try to bypass 2FA by changing the boolean into false
-* Try to bypass 2FA by removing the 2FA parameter on the request
+* [ ] Ensure there is no broken links are there
+* [ ] Test broken links by using the blc tool
+* [ ] Ensure the website is having SPF record
+* [ ] Test SPF by nslookup command
+* [ ] Try to bypass 2FA by using poor session management
+* [ ] Try to bypass 2FA via the OAuth mechanism
+* [ ] Try to bypass 2FA via brute-forcing
+* [ ] Try to bypass 2FA via response manipulation
+* [ ] Try to bypass 2FA by using activation links to login
+* [ ] Try to bypass 2FA by using status code manipulation
+* [ ] Try to bypass 2FA by changing the email or password
+* [ ] Try to bypass 2FA by using a null or empty entry
+* [ ] Try to bypass 2FA by changing the boolean into false
+* [ ] Try to bypass 2FA by removing the 2FA parameter on the request
 
 **Test For Weak OTP Implementation**
 
-* Try to bypass OTP by entering the old OTP
-* Try to bypass OTP by brute-forcing
-* Try to bypass OTP by using a null or empty entry
-* Try to bypass OTP by response manipulation
-* Try to bypass OTP by status code manipulation
-* Google Dorking to reveal specific information about the API
-* Git Dorking: `authorization: Bearer` , `filename: swagger.json`
-* Shodan Search: `"content-type: application/json"`, `"wp-json"`
-* Wayback Machine snapshots
-* Amass: `amass enum -active -d dns.com | grep api`
+* [ ] Try to bypass OTP by entering the old OTP
+* [ ] Try to bypass OTP by brute-forcing
+* [ ] Try to bypass OTP by using a null or empty entry
+* [ ] Try to bypass OTP by response manipulation
+* [ ] Try to bypass OTP by status code manipulation
+* [ ] Google Dorking to reveal specific information about the API
+* [ ] Git Dorking: `authorization: Bearer` , `filename: swagger.json`
+* [ ] Shodan Search: `"content-type: application/json"`, `"wp-json"`
+* [ ] Wayback Machine snapshots
+* [ ] Amass: `amass enum -active -d dns.com | grep api`
   * `amass enum -active -brute -w /usr/share/wordlists/API_superlist -d example.com -dir [directory name]`
-* Testing Directories: `gobuster dir -u http://10.x.x.x -w /location/to/wordlist.txt`
-* `Check for API calls in Devtools > network Tab or Web App Proxy`
-* Import curl request to Postman
-* Proxy all traffic to Postman/Burp and capture requests for history
-* Perform the actions that can be performed within application; this can be filtered in Postman
-* Import api doc files as new collections
+* [ ] Testing Directories: `gobuster dir -u http://10.x.x.x -w /location/to/wordlist.txt`
+* [ ] `Check for API calls in Devtools > network Tab or Web App Proxy`
+* [ ] Import curl request to Postman
+* [ ] Proxy all traffic to Postman/Burp and capture requests for history
+* [ ] Perform the actions that can be performed within application; this can be filtered in Postman
+* [ ] Import api doc files as new collections
 
 API Documentation Conventions
 
