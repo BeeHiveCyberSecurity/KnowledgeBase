@@ -168,6 +168,8 @@
     * [Web Pentester](operating-systems/athena-os/roles/web-pentester.md)
   * [Integrations](operating-systems/athena-os/integrations/README.md)
     * [Hack The Box](operating-systems/athena-os/integrations/hack-the-box.md)
+  * [Clients](operating-systems/athena-os/clients/README.md)
+    * [TigerVNC](operating-systems/athena-os/clients/configuring-tigervnc-on-athena-os.md)
 * [🐧 Ubuntu](operating-systems/ubuntu/README.md)
   * [Installation](operating-systems/ubuntu/installation/README.md)
     * [Switching](operating-systems/ubuntu/installation/switching/README.md)
