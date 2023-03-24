@@ -79,5 +79,9 @@ Now, it is the time to use a VNC client for connecting to Athena VNC server.
 ### Windows VNC client
 If you are on Windows, you can use [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/). Install it and connect to the Athena VNC server by typing the Athena IP address. If you didn't bind the VNC server to the default port as explained above, you must specify the `5901` port, and it will ask you the password set at the beginning by `vncpasswd` command.
 
+If in the `$HOME/.vnc/config` file the string `localhost` is uncommented, you should connect to `localhost:5901` instead of using the IP address of Athena OS.
+
 ### Linux VNC client
 If you are on Linux, you can use [Remmina](https://remmina.org/). Install it and connect to the Athena VNC server by typing the Athena IP address. If you didn't bind the VNC server to the default port as explained above, you must specify the `5901` port, and it will ask you the password set at the beginning by `vncpasswd` command.
+
+If in the `$HOME/.vnc/config` file the string `localhost` is uncommented, you should connect to `localhost:5901` instead of using the IP address of Athena OS.
