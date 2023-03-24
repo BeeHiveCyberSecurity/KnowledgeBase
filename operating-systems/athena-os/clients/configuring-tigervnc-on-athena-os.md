@@ -25,9 +25,9 @@ Once everything has been installed, the Athena VNC server needs to be configured
    #
    # :2=andrew
    # :3=lisa
-   :2=athena
+   :1=athena
    ```
-   It means that `athena` user is assigned to the `$DISPLAY=:2` and the VNC server will expose the VNC `athena` session on `5902` port.
+   It means that `athena` user is assigned to the `$DISPLAY=:1` and the VNC server will expose the VNC `athena` session on `5901` port.
 3. Create `~/.vnc/config` and at a minimum, define the type of session desired with a line like `session=foo` where `foo` corresponds to whichever desktop environment is to run. One can see which desktop environments are available on the system by seeing their corresponding `.desktop` files within `/usr/share/xsessions/`. In our example:
    ```
    session=gnome-xorg
@@ -36,22 +36,22 @@ Once everything has been installed, the Athena VNC server needs to be configured
    alwaysshared
    ```
 
-Start an instance of the `vncserver@.service` template and optionally enable it to run at boot time/shutdown. Note that the instance identifier in this case is the display number (e.g. instance `vncserver@:2.service` for display number :2). In our scenario, `athena` is assigned to the display `:2`, so the VNC server must be started by systemd in the following manner:
+Start an instance of the `vncserver@.service` template and optionally enable it to run at boot time/shutdown. Note that the instance identifier in this case is the display number (e.g. instance `vncserver@:1.service` for display number :1). In our scenario, `athena` is assigned to the display `:1`, so the VNC server must be started by systemd in the following manner:
 ```
-sudo systemctl start vncserver@:2.service
+sudo systemctl start vncserver@:1.service
 ```
 If no messages are shown, it should work. For checking if error was not produced, check the output of `status` argument of systemd. The no error result should show:
 ```
-sudo systemctl status vncserver@:2.service
-● vncserver@:2.service - Remote desktop service (VNC)
+sudo systemctl status vncserver@:1.service
+● vncserver@:1.service - Remote desktop service (VNC)
      Loaded: loaded (/usr/lib/systemd/system/vncserver@.service; disabled; preset: disabled)
      Active: active (running) since Thu 2023-03-23 19:49:15 CET; 28min ago
-    Process: 940 ExecStart=/usr/bin/vncsession-start :2 (code=exited, status=0/SUCCESS)
+    Process: 940 ExecStart=/usr/bin/vncsession-start :1 (code=exited, status=0/SUCCESS)
    Main PID: 947 (vncsession)
       Tasks: 0 (limit: 9430)
      Memory: 716.0K
-     CGroup: /system.slice/system-vncserver.slice/vncserver@:2.service
-             ‣ 947 /usr/bin/vncsession athena :2
+     CGroup: /system.slice/system-vncserver.slice/vncserver@:1.service
+             ‣ 947 /usr/bin/vncsession athena :1
 
 Mar 23 19:49:15 DESKTOP-LV4580H systemd[1]: Starting Remote desktop service (VNC)...
 Mar 23 19:49:15 DESKTOP-LV4580H systemd[1]: Started Remote desktop service (VNC).
@@ -66,19 +66,18 @@ Thu Mar 23 19:49:17 2023
  ComparingUpdateTracker: 0 pixels in / 0 pixels out
  ComparingUpdateTracker: (1:-nan ratio)
 ```
-Until now, the Athena VNC server is exposed on the `5902` port. If you would like to bind the VNC server on the `5900` default port, and you don't want to use a password for authenticating to the VNC server, you can bind the VNC server to the default port by:
+Until now, the Athena VNC server is exposed on the `5901` port. If you would like to bind the VNC server on the `5900` default port, and you don't want to use a password for authenticating to the VNC server, you can bind the VNC server to the default port by:
 ```
-x0vncserver -SecurityTypes none -display :2
+x0vncserver -SecurityTypes none -display :1
 ```
-where `-SecurityTypes none` prevents the usage of password for authenticating to the VNC server on the default port `5900`, and `-display :2` specifies the running display to be shown on this VNC session.
+where `-SecurityTypes none` prevents the usage of password for authenticating to the VNC server on the default port `5900`, and `-display :1` specifies the running display to be shown on this VNC session.
 
 ## Connect by a VNC client
 
 Now, it is the time to use a VNC client for connecting to Athena VNC server.
 
 ### Windows VNC client
-If you are on Windows, you can use [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/). Install it and connect to the Athena VNC server by typing the Athena IP address. If you didn't bind the VNC server to the default port as explained above, you must specify the `5902` port, and it will ask you the password set at the beginning by `vncpasswd` command:
-![image](https://user-images.githubusercontent.com/83867734/227327462-5d259dea-b93c-4c26-9da1-d8ad760827ba.png)
+If you are on Windows, you can use [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/). Install it and connect to the Athena VNC server by typing the Athena IP address. If you didn't bind the VNC server to the default port as explained above, you must specify the `5901` port, and it will ask you the password set at the beginning by `vncpasswd` command.
 
 ### Linux VNC client
-If you are on Linux, you can use [Remmina](https://remmina.org/). Install it and connect to the Athena VNC server by typing the Athena IP address. If you didn't bind the VNC server to the default port as explained above, you must specify the `5902` port, and it will ask you the password set at the beginning by `vncpasswd` command.
+If you are on Linux, you can use [Remmina](https://remmina.org/). Install it and connect to the Athena VNC server by typing the Athena IP address. If you didn't bind the VNC server to the default port as explained above, you must specify the `5901` port, and it will ask you the password set at the beginning by `vncpasswd` command.
