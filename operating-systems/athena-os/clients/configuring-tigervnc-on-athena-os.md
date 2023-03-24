@@ -1,4 +1,4 @@
-# Configure TigeVNC on Athena OS
+# Configure TigerVNC on Athena OS
 
 In several scenarios, like container or WSL images, users would like to connect to Athena OS environment by an external client. Here it is explained how to configure Athena OS as a VNC server by using TigerVNC.
 
