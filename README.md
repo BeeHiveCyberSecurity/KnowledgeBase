@@ -24,9 +24,7 @@ description: >-
 
 • Join the discussion and share your own insights and experiences
 
-
-
-#### While this site contains information about subjects such as DMCA, Copyright and Trademark Law, and other points of legal reference, this resource should not be considered as legal advice. Every situation that becomes a legal matter is unique in its own regard, and generalized writings should only be referred to for education on matter, not action or demand. If you believe based on information you find here that you have had your applicable Rights infringed, we suggest you seek private legal counsel.&#x20;
+#### While this site contains information about subjects such as DMCA, Copyright and Trademark Law, and other points of legal reference, this resource should not be considered as legal advice. Every situation that becomes a legal matter is unique in its own regard, and generalized writings should only be referred to for education on matter, not action or demand. If you believe based on information you find here that you have had your applicable Rights infringed, we suggest you seek private legal counsel.
 
 #### To contribute, please read our guidelines and follow our code of conduct.
 
@@ -38,7 +36,7 @@ Thank you for your interest in this repository. We're excited to see what you'll
 
 We'd like to thank the following contributors specifically for their excellent contributions...
 
-* The AthenaOS team, for the contribution of repository support +more
+* [D3vil0p3r](https://github.com/D3vil0p3r) - [AthenaOS](operating-systems/athena-os/) Team
 *
 *
 *
