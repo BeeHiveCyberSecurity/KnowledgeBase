@@ -181,7 +181,8 @@ Firefox ESR and Brave have been modified in order to integrate at the installati
 * Penetration Testing Kit
 * Privacy
 * uBlock Origin
-* Wappalyzer\
+* Wappalyzer
+* Wayback Machine\
 
 
 ### Payload to Dock
