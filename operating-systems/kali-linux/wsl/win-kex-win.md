@@ -56,7 +56,7 @@ Win-KeX utilises [TigerVNC](https://tigervnc.org/) for its client and server com
 
     when asked for authorisation to allow traffic through the Windows Defender firewall
 
-[![](<../../../.gitbook/assets/win kex pulseaudio\_firewall.png>)](<../../../.gitbook/assets/win kex pulseaudio\_firewall.png>)
+[![](<../../../.gitbook/assets/win kex pulseaudio\_firewall (1).png>)](<../../../.gitbook/assets/win kex pulseaudio\_firewall (1).png>)
 
 [Multiscreen Support](broken-reference)
 

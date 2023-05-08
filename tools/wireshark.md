@@ -28,7 +28,7 @@ Despite these challenges, Wireshark is an essential tool for anyone who works wi
 wireshark
 ```
 
-[![wireshark](../.gitbook/assets/wireshark.png)](../.gitbook/assets/wireshark.png)
+[![wireshark](<../.gitbook/assets/wireshark (1).png>)](<../.gitbook/assets/wireshark (1).png>)
 
 ### tshark Usage Example <a href="#tshark-usage-example" id="tshark-usage-example"></a>
 

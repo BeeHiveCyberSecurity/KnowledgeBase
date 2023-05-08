@@ -16,7 +16,7 @@ Seamless mode removes the visual segregation between Linux and Window apps and o
 
 Win-KeX utilises [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/) to achieve seamless desktop integration.
 
-[![](<../../../.gitbook/assets/win kex sl (1).png>)](<../../../.gitbook/assets/win kex sl (1).png>)
+[![](<../../../.gitbook/assets/win kex sl.png>)](<../../../.gitbook/assets/win kex sl.png>)
 
 [Prerequisites](broken-reference)
 
@@ -36,7 +36,7 @@ Win-KeX utilises [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxs
 
 This will start Win-KeX in seamless mode:
 
-[![](<../../../.gitbook/assets/win kex sl (1).png>)](<../../../.gitbook/assets/win kex sl (1).png>)
+[![](<../../../.gitbook/assets/win kex sl.png>)](<../../../.gitbook/assets/win kex sl.png>)
 
 The Kali panel is placed at the top of the screen and the Windows Start menu at the bottom.
 
@@ -52,7 +52,7 @@ The Kali panel is placed at the top of the screen and the Windows Start menu at 
 
 when asked for authorization to allow traffic through the Windows Defender firewall
 
-[![](<../../../.gitbook/assets/win kex pulseaudio\_firewall (1).png>)](<../../../.gitbook/assets/win kex pulseaudio\_firewall (1).png>)
+[![](<../../../.gitbook/assets/win kex pulseaudio\_firewall.png>)](<../../../.gitbook/assets/win kex pulseaudio\_firewall.png>)
 
 [Multiscreen Support](broken-reference)
 

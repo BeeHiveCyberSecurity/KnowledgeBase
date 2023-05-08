@@ -78,7 +78,7 @@ The third is [Etcher](https://www.balena.io/etcher/).
 1. Download and run Etcher.
 2. Choose the Kali Linux ISO file to be imaged with “select image” and verify that the USB drive to be overwritten is the correct one. Click the “Flash!” button once ready.
 
-[![](<../../../.gitbook/assets/kali usb install windows (1).png>)](<../../../.gitbook/assets/kali usb install windows (1).png>)
+[![](<../../../.gitbook/assets/kali usb install windows.png>)](<../../../.gitbook/assets/kali usb install windows.png>)
 
 3\. Once Etcher alerts you that the image has been flashed, you can safely remove the USB drive.
 

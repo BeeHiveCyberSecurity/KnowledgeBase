@@ -34,7 +34,7 @@ Using the native Microsoft client might yield a crispier GUI on HiDPI devices. T
 
 This will start the Win-KeX server and launch the Win-KeX client in full screen mode:
 
-[![](<../../../.gitbook/assets/win kex (2).png>)](<../../../.gitbook/assets/win kex (2).png>)
+[![](<../../../.gitbook/assets/win kex 2 (1).png>)](<../../../.gitbook/assets/win kex 2 (1).png>)
 
 [Start Root Session](broken-reference)
 
