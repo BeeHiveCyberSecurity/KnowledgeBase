@@ -4,13 +4,17 @@ description: >-
   wireless protocols, debug circuits, emulate cards, and more.
 ---
 
-# 🇷🇺 Flipper Zero
+# 🐬 Flipper Zero
 
 Flipper Zero is a portable multi-tool for pentesters and geeks in a toy-like body. It loves hacking digital stuff, such as radio protocols, access control systems, hardware and more. It's fully open-source and customizable, so you can extend it in whatever way you like.
 
 ### Multi-tool Device for Geeks
 
-![Flipper Zero in hand](https://static.tildacdn.com/tild3663-6632-4639-b161-323265356566/back.png)
+<div align="left">
+
+<img src="https://static.tildacdn.com/tild3663-6632-4639-b161-323265356566/back.png" alt="Flipper Zero in hand">
+
+</div>
 
 The idea of Flipper Zero is to combine all the hardware tools you'd need for exploration and development on the go. Flipper was inspired by pwnagotchi project, but unlike other DIY boards, Flipper is designed with the convenience of everyday usage in mind — it has a robust case, handy buttons, and shape, so there are no dirty PCBs or scratchy pins. Flipper turns your projects into a game, reminding you that development should always be fun.
 

@@ -14,7 +14,7 @@
   * [Ransomware](threats/software/ransomware.md)
   * [Macros](threats/software/macros.md)
 * [🖥 Hardware](threats/hardware.md)
-  * [🇷🇺 🇷🇺 🇷🇺 🇷🇺 🇷🇺 Flipper Zero](threats/hardware/flipper-zero/README.md)
+  * [🐬 Flipper Zero](threats/hardware/flipper-zero/README.md)
     * [Firmware](threats/hardware/flipper-zero/firmware/README.md)
       * [🐬 flipperzero](threats/hardware/flipper-zero/firmware/flipperzero.md)
         * [Getting Started](threats/hardware/flipper-zero/firmware/flipperzero/getting-started.md)
