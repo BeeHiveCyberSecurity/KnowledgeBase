@@ -35,9 +35,3 @@ Thank you for your interest in this repository. We're excited to see what you'll
 ## Appreciation
 
 We'd like to thank the following contributors specifically for their excellent contributions...
-
-* [D3vil0p3r](https://github.com/D3vil0p3r) - [AthenaOS](broken-reference) Team
-*
-*
-*
-*
