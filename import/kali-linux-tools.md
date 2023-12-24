@@ -1,10 +1,4 @@
----
-description: >-
-  HackRF is an open-source software-defined radio for RF communication. It's
-  versatile and can be customized to perform a range of tasks.
----
-
-# 📻 hackrf
+# Kali Linux Tools
 
 ### Packages and Binaries:
 

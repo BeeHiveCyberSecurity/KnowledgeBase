@@ -1,12 +1,8 @@
 ---
-description: >-
-  GNU Radio is an open-source software that provides a platform for building
-  software-defined radios and signal processing systems using SDR technology.
+description: GNU Radio provides signal processing blocks to implement software radios.
 ---
 
 # 📻 gnuradio
-
-GNU Radio is an open-source software tool that provides a platform for building software-defined radio systems. It allows users to build custom signal processing blocks and combine them to create complex radio systems for various applications such as communication, radar, and radio astronomy. GNU Radio provides a graphical user interface and a set of signal processing blocks that can be easily interconnected using a drag-and-drop interface. The tool is written in Python and C++, and it can be used on a variety of platforms including Linux, Windows, and MacOS. It also supports various hardware devices such as universal software radio peripherals (USRP), HackRF, and RTL-SDR. GNU Radio is widely used in academic research, industry, and hobbyist projects.
 
 ### Packages and Binaries:
 
@@ -20,7 +16,7 @@ While not primarily a simulation tool, GNU Radio does support development of sig
 
 This package contains the gnuradio-companion, a graphical tool for creating signal flow graphs and generating flow-graph source code. Also included are a variety of tools and utility programs.
 
-**Installed size:** `21.16 MB`\
+**Installed size:** `21.85 MB`\
 **How to install:** `sudo apt install gnuradio`
 
 <details>
@@ -33,37 +29,37 @@ This package contains the gnuradio-companion, a graphical tool for creating sign
 * libfmt9
 * libgcc-s1
 * libgmp10
-* libgnuradio-analog3.10.5
-* libgnuradio-audio3.10.5
-* libgnuradio-blocks3.10.5
-* libgnuradio-channels3.10.5
-* libgnuradio-digital3.10.5
-* libgnuradio-dtv3.10.5
-* libgnuradio-fec3.10.5
-* libgnuradio-fft3.10.5
-* libgnuradio-filter3.10.5
-* libgnuradio-iio3.10.5
-* libgnuradio-network3.10.5
-* libgnuradio-pdu3.10.5
-* libgnuradio-pmt3.10.5
-* libgnuradio-qtgui3.10.5
-* libgnuradio-runtime3.10.5
-* libgnuradio-soapy3.10.5
-* libgnuradio-trellis3.10.5
-* libgnuradio-uhd3.10.5
-* libgnuradio-video-sdl3.10.5
-* libgnuradio-vocoder3.10.5
-* libgnuradio-wavelet3.10.5
-* libgnuradio-zeromq3.10.5
+* libgnuradio-analog3.10.8
+* libgnuradio-audio3.10.8
+* libgnuradio-blocks3.10.8
+* libgnuradio-channels3.10.8
+* libgnuradio-digital3.10.8
+* libgnuradio-dtv3.10.8
+* libgnuradio-fec3.10.8
+* libgnuradio-fft3.10.8
+* libgnuradio-filter3.10.8
+* libgnuradio-iio3.10.8
+* libgnuradio-network3.10.8
+* libgnuradio-pdu3.10.8
+* libgnuradio-pmt3.10.8
+* libgnuradio-qtgui3.10.8
+* libgnuradio-runtime3.10.8
+* libgnuradio-soapy3.10.8
+* libgnuradio-trellis3.10.8
+* libgnuradio-uhd3.10.8
+* libgnuradio-video-sdl3.10.8
+* libgnuradio-vocoder3.10.8
+* libgnuradio-wavelet3.10.8
+* libgnuradio-zeromq3.10.8
 * libjs-mathjax
 * libqt5core5a
 * libqt5widgets5
 * libsoapysdr0.8
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
-* libuhd4.3.0
-* libvolk2-bin
-* libvolk2.5
+* libuhd4.5.0
+* libvolk-bin
+* libvolk3.0
 * python3
 * python3
 * python3-click
@@ -93,7 +89,7 @@ This package contains the gnuradio-companion, a graphical tool for creating sign
 Dial tone example
 
 ```
-:~# man dial_tone
+root@kali:~# man dial_tone
 DIAL_TONE(1)                     User Commands                    DIAL_TONE(1)
 
 NAME
@@ -115,7 +111,7 @@ SEE ALSO
        tags_demo(1)      uhd_rx_cfile(1)     uhd_rx_nogui(1)     uhd_siggen(1)
        uhd_siggen_gui(1)
 
-DIAL_TONE 3.10.5.1                2023-02-04                      DIAL_TONE(1)
+DIAL_TONE 3.10.8.0                2023-11-17                      DIAL_TONE(1)
 ```
 
 ***
@@ -125,7 +121,7 @@ DIAL_TONE 3.10.5.1                2023-02-04                      DIAL_TONE(1)
 A Gnu Radio Example gr-qtgui
 
 ```
-:~# man display_qt
+root@kali:~# man display_qt
 DISPLAY_QT(1)                    User Commands                   DISPLAY_QT(1)
 
 NAME
@@ -141,7 +137,7 @@ DESCRIPTION
 SEE ALSO
        http://gnuradio.squarespace.com/examples/tag/qt
 
-display_qt 3.10.5.1               2023-02-04                     DISPLAY_QT(1)
+display_qt 3.10.8.0               2023-11-17                     DISPLAY_QT(1)
 ```
 
 ***
@@ -151,11 +147,11 @@ display_qt 3.10.5.1               2023-02-04                     DISPLAY_QT(1)
 GNU Radio Companion (GRC) is a graphical tool for creating GNU Radio signal flowgraphs.
 
 ```
-:~# gnuradio-companion -h
+root@kali:~# gnuradio-companion -h
 usage: gnuradio-companion [-h] [--log {debug,info,warning,error,critical}]
                           [flow_graphs ...]
 
-GNU Radio Companion 3.10.5.1 This program is part of GNU Radio GRC comes with
+GNU Radio Companion 3.10.8.0 This program is part of GNU Radio GRC comes with
 ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to
 redistribute it.
 
@@ -174,7 +170,7 @@ options:
 Show details on installed GNU radio
 
 ```
-:~# gnuradio-config-info -h
+root@kali:~# gnuradio-config-info -h
 Program options: gnuradio-config-info [options]:
   -h [ --help ]         print help message
   --print-all           print all information
@@ -200,7 +196,7 @@ Program options: gnuradio-config-info [options]:
 Gnuradio control port gui
 
 ```
-:~# gr-ctrlport-monitor -h
+root@kali:~# gr-ctrlport-monitor -h
 usage: gr-ctrlport-monitor [-h] [host] port
 
 GNU Radio Control Port Monitor
@@ -220,7 +216,7 @@ options:
 Gnuradio control port gui
 
 ```
-:~# gr-perf-monitorx -h
+root@kali:~# gr-perf-monitorx -h
 usage: gr-perf-monitorx [-h] [host] port
 
 GNU Radio Performance Monitor
@@ -240,7 +236,7 @@ options:
 GUI for creating filters for GNU Radio
 
 ```
-:~# gr_filter_design -h
+root@kali:~# gr_filter_design -h
 Usage: gr_filter_design: [options] (input_filename)
 
 Options:
@@ -254,7 +250,7 @@ Options:
 The swiss army knife of module editing
 
 ```
-:~# gr_modtool --help
+root@kali:~# gr_modtool --help
 Usage: gr_modtool [OPTIONS] COMMAND [ARGS]...
 
   A tool for editing GNU Radio out-of-tree modules.
@@ -284,7 +280,7 @@ Commands:
 Display time series of samples from a file
 
 ```
-:~# gr_plot -h
+root@kali:~# gr_plot -h
 usage: gr_plot [-h]
                [-d {complex64,float32,uint32,int32,uint16,int16,uint8,int8}]
                [-B BLOCK] [-s START] [-R SAMPLE_RATE]
@@ -319,7 +315,7 @@ options:
 Constellation plot of I\&Q data using GNU Radio
 
 ```
-:~# gr_plot_const -h
+root@kali:~# gr_plot_const -h
 usage: gr_plot_const [-h] [-B BLOCK] [-s START] [-R SAMPLE_RATE] FILE
 
 Takes a GNU Radio complex binary file and displays the I&Q data versus time
@@ -349,7 +345,7 @@ options:
 Frequency domain GNU Radio plotting
 
 ```
-:~# gr_plot_fft -h
+root@kali:~# gr_plot_fft -h
 usage: gr_plot_fft [-h]
                    [-d {complex64,float32,uint32,int32,uint16,int16,uint8,int8}]
                    [-B BLOCK] [-s START] [-R SAMPLE_RATE]
@@ -389,7 +385,7 @@ options:
 Plot complex binary I\&Q data versus time using GNU Radio
 
 ```
-:~# gr_plot_iq -h
+root@kali:~# gr_plot_iq -h
 usage: gr_plot_iq [-h] [-B BLOCK] [-s START] [-R SAMPLE_RATE] FILE
 
 Takes a GNU Radio complex binary file and displays the I&Q data versus time.
@@ -419,7 +415,7 @@ options:
 GNU Radio power spectrum plotting
 
 ```
-:~# gr_plot_psd -h
+root@kali:~# gr_plot_psd -h
 usage: gr_plot_psd [-h]
                    [-d {complex64,float32,int32,uint32,int16,uint16,int8,uint8}]
                    [-B BLOCK] [-s START] [-R SAMPLE_RATE]
@@ -467,7 +463,7 @@ options:
 Plot data using Qt graphics and GNU Radio
 
 ```
-:~# man gr_plot_qt
+root@kali:~# man gr_plot_qt
 GR_PLOT_QT(1)                    User Commands                   GR_PLOT_QT(1)
 
 NAME
@@ -481,7 +477,7 @@ SEE ALSO
        gr_plot_float(1)    gr_plot_int(1)    gr_plot_iq(1)    gr_plot_psd_c(1)
        gr_plot_psd_f(1)  gr_plot_qt(1)  gr_plot_short(1)
 
-gr_plot_qt 3.10.5.1               2023-02-04                     GR_PLOT_QT(1)
+gr_plot_qt 3.10.8.0               2023-11-17                     GR_PLOT_QT(1)
 ```
 
 ***
@@ -491,7 +487,7 @@ gr_plot_qt 3.10.5.1               2023-02-04                     GR_PLOT_QT(1)
 A Gnu Radio Utility
 
 ```
-:~# gr_read_file_metadata -h
+root@kali:~# gr_read_file_metadata -h
 usage: gr_read_file_metadata [-h] [-D] FILE
 
 Read in a GNU Radio file with meta data, extracts the header and prints it.
@@ -511,7 +507,7 @@ options:
 Gnu Radio Companion Compiler
 
 ```
-:~# grcc -h
+root@kali:~# grcc -h
 usage: grcc [-h] [-o DIR] [-u] [-r] GRC_FILE [GRC_FILE ...]
 
 Compile a GRC file (.grc) into a GNU Radio Python program and run it.
@@ -533,7 +529,7 @@ options:
 Gnu Radio Polar Configurator
 
 ```
-:~# polar_channel_construction -h
+root@kali:~# polar_channel_construction -h
 POLAR code channel constructor commandline tool
 usage: polar_channel_construction [-h] [-c {BEC,AWGN}] [-b BLOCK_SIZE]
                                   [-s DESIGN_SNR] [-k MU]
@@ -556,7 +552,7 @@ options:
 GNURadio and UHD tags example
 
 ```
-:~# tags_demo --help
+root@kali:~# tags_demo --help
 UHD Tags Demo Allowed options:
   --help                             help message
   --addr arg                         the device address in string format
@@ -579,8 +575,7 @@ Look at the USRP output on a scope to see the timed bursts.
 Display spectrum from UHD receiver
 
 ```
-:~# uhd_fft -h
-Warning: failed to XInitThreads()
+root@kali:~# uhd_fft -h
 usage: uhd_fft [-h] [-a ARGS] [--spec SPEC] [-A ANTENNA] [-s SAMP_RATE]
                [-g GAIN] [-p POWER] -f FREQ [--lo-offset LO_OFFSET]
                [-c CHANNELS] [--lo-export LO_EXPORT] [--lo-source LO_SOURCE]
@@ -657,7 +652,7 @@ UHD FFT Arguments:
 Save UHD received data
 
 ```
-:~# uhd_rx_cfile -h
+root@kali:~# uhd_rx_cfile -h
 Usage: uhd_rx_cfile: [options] output_filename
 
 Options:
@@ -700,7 +695,7 @@ Options:
 GNU Radio receiver
 
 ```
-:~# uhd_rx_nogui -h
+root@kali:~# uhd_rx_nogui -h
 usage: uhd_rx_nogui [-h] [-a ARGS] [--spec SPEC] [-A ANTENNA] [-f Hz] [-c Hz]
                     [-g dB] [-m TYPE] [-o RATE] [-r dB] [-p FREQ]
                     [-O AUDIO_OUTPUT] [--show-async-msg]
@@ -737,7 +732,7 @@ options:
 Signal Generator using UHD hardware
 
 ```
-:~# uhd_siggen -h
+root@kali:~# uhd_siggen -h
 usage: uhd_siggen [-h] [-a ARGS] [--spec SPEC] [-A ANTENNA] [-s SAMP_RATE]
                   [-g GAIN] [-p POWER] -f FREQ [--lo-offset LO_OFFSET]
                   [-c CHANNELS] [--lo-export LO_EXPORT]
@@ -821,8 +816,7 @@ Siggen Arguments:
 GNU Radio signal generator using UHD hardware
 
 ```
-:~# uhd_siggen_gui -h
-Warning: failed to XInitThreads()
+root@kali:~# uhd_siggen_gui -h
 usage: uhd_siggen_gui [-h] [-a ARGS] [--spec SPEC] [-A ANTENNA] [-s SAMP_RATE]
                       [-g GAIN] [-p POWER] -f FREQ [--lo-offset LO_OFFSET]
                       [-c CHANNELS] [--lo-export LO_EXPORT]
@@ -911,7 +905,7 @@ Header files for the GNU Radio software defined radio system. Since GNU Radio is
 
 Part of the main gnuradio build.
 
-**Installed size:** `2.55 MB`\
+**Installed size:** `2.57 MB`\
 **How to install:** `sudo apt install gnuradio-dev`
 
 <details>
@@ -932,7 +926,7 @@ Part of the main gnuradio build.
 * libgsm1-dev
 * libspdlog-dev
 * libthrift-dev
-* libvolk2-dev
+* libvolk-dev
 * pybind11-dev
 * python3-dev
 
@@ -942,21 +936,33 @@ Part of the main gnuradio build.
 
 #### gnuradio-doc <a href="#gnuradio-doc" id="gnuradio-doc"></a>
 
-Documentation for the GNU Radio software defined radio system in html and xml form.
+Documentation for the GNU Radio software defined radio system in html and PDF form.
+
+HTML docs start file:///usr/share/doc/gnuradio-doc/html/index.htnl
+
+PDF docs in file:///usr/share/doc/gnuradio-doc/refman.pdf.gz
 
 Part of the main gnuradio build.
 
-**Installed size:** `249.87 MB`\
+**Installed size:** `300.03 MB`\
 **How to install:** `sudo apt install gnuradio-doc`
+
+<details>
+
+<summary>Dependencies:</summary>
+
+* libjs-mathjax
+
+</details>
 
 ***
 
-#### libgnuradio-analog3.10.5 <a href="#libgnuradio-analog3105" id="libgnuradio-analog3105"></a>
+#### libgnuradio-analog3.10.8 <a href="#libgnuradio-analog3108" id="libgnuradio-analog3108"></a>
 
 Library for handling analog signal processing functions. These functions are also in gnuradio-core. Part of the main gnuradio build.
 
-**Installed size:** `662 KB`\
-**How to install:** `sudo apt install libgnuradio-analog3.10.5`
+**Installed size:** `679 KB`\
+**How to install:** `sudo apt install libgnuradio-analog3.10.8`
 
 <details>
 
@@ -965,24 +971,24 @@ Library for handling analog signal processing functions. These functions are als
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-blocks3.10.5
-* libgnuradio-fft3.10.5
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-blocks3.10.8
+* libgnuradio-fft3.10.8
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-audio3.10.5 <a href="#libgnuradio-audio3105" id="libgnuradio-audio3105"></a>
+#### libgnuradio-audio3.10.8 <a href="#libgnuradio-audio3108" id="libgnuradio-audio3108"></a>
 
 This is the gr-audio library, used to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer. The underlying hardware driver is system and OS dependent and this module should automatically discover the correct one to use. Part of the main gnuradio build.
 
-**Installed size:** `554 KB`\
-**How to install:** `sudo apt install libgnuradio-audio3.10.5`
+**Installed size:** `591 KB`\
+**How to install:** `sudo apt install libgnuradio-audio3.10.8`
 
 <details>
 
@@ -993,23 +999,23 @@ This is the gr-audio library, used to connect to audio sources (mic-in) and sink
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libjack-jackd2-0 | libjack-0.125
 * libportaudio2
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
 
 </details>
 
 ***
 
-#### libgnuradio-blocks3.10.5 <a href="#libgnuradio-blocks3105" id="libgnuradio-blocks3105"></a>
+#### libgnuradio-blocks3.10.8 <a href="#libgnuradio-blocks3108" id="libgnuradio-blocks3108"></a>
 
 Some non-signal processing blocks. These functions are also in gnuradio-core. Part of the main gnuradio build.
 
-**Installed size:** `3.02 MB`\
-**How to install:** `sudo apt install libgnuradio-blocks3.10.5`
+**Installed size:** `3.14 MB`\
+**How to install:** `sudo apt install libgnuradio-blocks3.10.8`
 
 <details>
 
@@ -1019,23 +1025,23 @@ Some non-signal processing blocks. These functions are also in gnuradio-core. Pa
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libsndfile1
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-channels3.10.5 <a href="#libgnuradio-channels3105" id="libgnuradio-channels3105"></a>
+#### libgnuradio-channels3.10.8 <a href="#libgnuradio-channels3108" id="libgnuradio-channels3108"></a>
 
 Some channel oriented processing blocks. These functions are also in gnuradio-core. Part of the main gnuradio build.
 
-**Installed size:** `466 KB`\
-**How to install:** `sudo apt install libgnuradio-channels3.10.5`
+**Installed size:** `475 KB`\
+**How to install:** `sudo apt install libgnuradio-channels3.10.8`
 
 <details>
 
@@ -1043,24 +1049,24 @@ Some channel oriented processing blocks. These functions are also in gnuradio-co
 
 * libc6
 * libgcc-s1
-* libgnuradio-analog3.10.5
-* libgnuradio-blocks3.10.5
-* libgnuradio-filter3.10.5
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-analog3.10.8
+* libgnuradio-blocks3.10.8
+* libgnuradio-filter3.10.8
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-digital3.10.5 <a href="#libgnuradio-digital3105" id="libgnuradio-digital3105"></a>
+#### libgnuradio-digital3.10.8 <a href="#libgnuradio-digital3108" id="libgnuradio-digital3108"></a>
 
 All the functions for doing digital modulation and demodulation, including bpsk, qpsk, gmsk and ofdm signals. Part of the main gnuradio build.
 
-**Installed size:** `1.67 MB`\
-**How to install:** `sudo apt install libgnuradio-digital3.10.5`
+**Installed size:** `1.77 MB`\
+**How to install:** `sudo apt install libgnuradio-digital3.10.8`
 
 <details>
 
@@ -1069,25 +1075,25 @@ All the functions for doing digital modulation and demodulation, including bpsk,
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-analog3.10.5
-* libgnuradio-blocks3.10.5
-* libgnuradio-filter3.10.5
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-analog3.10.8
+* libgnuradio-blocks3.10.8
+* libgnuradio-filter3.10.8
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-dtv3.10.5 <a href="#libgnuradio-dtv3105" id="libgnuradio-dtv3105"></a>
+#### libgnuradio-dtv3.10.8 <a href="#libgnuradio-dtv3108" id="libgnuradio-dtv3108"></a>
 
 ATSC support, gr-atsc ported to a new framework, as well as DVB-S2, DVB-T, DVB-T2 digital video broadcast standards. Part of the main gnuradio build.
 
-**Installed size:** `1.40 MB`\
-**How to install:** `sudo apt install libgnuradio-dtv3.10.5`
+**Installed size:** `1.43 MB`\
+**How to install:** `sudo apt install libgnuradio-dtv3.10.8`
 
 <details>
 
@@ -1096,25 +1102,25 @@ ATSC support, gr-atsc ported to a new framework, as well as DVB-S2, DVB-T, DVB-T
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-fec3.10.5
-* libgnuradio-fft3.10.5
-* libgnuradio-filter3.10.5
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-fec3.10.8
+* libgnuradio-fft3.10.8
+* libgnuradio-filter3.10.8
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-fec3.10.5 <a href="#libgnuradio-fec3105" id="libgnuradio-fec3105"></a>
+#### libgnuradio-fec3.10.8 <a href="#libgnuradio-fec3108" id="libgnuradio-fec3108"></a>
 
 Handle forward error correction processing in gnuradio. Implements the GNU Radio FEC API, supporting encoders and decoders for no-op dummmy, repetition, and convolutional classes. Part of the main gnuradio build.
 
-**Installed size:** `947 KB`\
-**How to install:** `sudo apt install libgnuradio-fec3.10.5`
+**Installed size:** `996 KB`\
+**How to install:** `sudo apt install libgnuradio-fec3.10.8`
 
 <details>
 
@@ -1123,24 +1129,24 @@ Handle forward error correction processing in gnuradio. Implements the GNU Radio
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-blocks3.10.5
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-blocks3.10.8
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libgsl27
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-fft3.10.5 <a href="#libgnuradio-fft3105" id="libgnuradio-fft3105"></a>
+#### libgnuradio-fft3.10.8 <a href="#libgnuradio-fft3108" id="libgnuradio-fft3108"></a>
 
 Library for Fourier transform techniques used in gnuradio. Uses single precision FFT from libfftw3-single3. Part of the main gnuradio build.
 
-**Installed size:** `326 KB`\
-**How to install:** `sudo apt install libgnuradio-fft3.10.5`
+**Installed size:** `335 KB`\
+**How to install:** `sudo apt install libgnuradio-fft3.10.8`
 
 <details>
 
@@ -1150,22 +1156,22 @@ Library for Fourier transform techniques used in gnuradio. Uses single precision
 * libfftw3-single3
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-filter3.10.5 <a href="#libgnuradio-filter3105" id="libgnuradio-filter3105"></a>
+#### libgnuradio-filter3.10.8 <a href="#libgnuradio-filter3108" id="libgnuradio-filter3108"></a>
 
 Library of filter blocks used in gnuradio. Implements FIR, IIR and FFT filters, as well as Polyphase filterbank and PFB arbitrary resampler methods. Part of the main gnuradio build.
 
-**Installed size:** `1.02 MB`\
-**How to install:** `sudo apt install libgnuradio-filter3.10.5`
+**Installed size:** `1.04 MB`\
+**How to install:** `sudo apt install libgnuradio-filter3.10.8`
 
 <details>
 
@@ -1174,18 +1180,18 @@ Library of filter blocks used in gnuradio. Implements FIR, IIR and FFT filters, 
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-fft3.10.5
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-fft3.10.8
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-iio3.10.5 <a href="#libgnuradio-iio3105" id="libgnuradio-iio3105"></a>
+#### libgnuradio-iio3.10.8 <a href="#libgnuradio-iio3108" id="libgnuradio-iio3108"></a>
 
 Libiio is a library that has been conceived to ease the development of applications interfacing Industrial Input/Output (IIO) devices through the IIO subsystem of the Linux kernel.
 
@@ -1193,8 +1199,8 @@ The IIO blocks for GnuRadio can be used to create flowgraphs that interface IIO 
 
 Part of the main gnuradio build.
 
-**Installed size:** `550 KB`\
-**How to install:** `sudo apt install libgnuradio-iio3.10.5`
+**Installed size:** `575 KB`\
+**How to install:** `sudo apt install libgnuradio-iio3.10.8`
 
 <details>
 
@@ -1205,23 +1211,23 @@ Part of the main gnuradio build.
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libiio0
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-network3.10.5 <a href="#libgnuradio-network3105" id="libgnuradio-network3105"></a>
+#### libgnuradio-network3.10.8 <a href="#libgnuradio-network3108" id="libgnuradio-network3108"></a>
 
 Library of blocks that implement UDP and TCP source and sink blocks supporting both IPv4 and IPv6. Part of the main gnuradio build.
 
-**Installed size:** `606 KB`\
-**How to install:** `sudo apt install libgnuradio-network3.10.5`
+**Installed size:** `631 KB`\
+**How to install:** `sudo apt install libgnuradio-network3.10.8`
 
 <details>
 
@@ -1231,21 +1237,21 @@ Library of blocks that implement UDP and TCP source and sink blocks supporting b
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
 
 </details>
 
 ***
 
-#### libgnuradio-pdu3.10.5 <a href="#libgnuradio-pdu3105" id="libgnuradio-pdu3105"></a>
+#### libgnuradio-pdu3.10.8 <a href="#libgnuradio-pdu3108" id="libgnuradio-pdu3108"></a>
 
 Protocol Data Units library provides signal processing blocks that operate on Protocol Data Unit format messages. Many such blocks are analogs of streaming API functionality. Part of the main gnuradio build.
 
-**Installed size:** `638 KB`\
-**How to install:** `sudo apt install libgnuradio-pdu3.10.5`
+**Installed size:** `679 KB`\
+**How to install:** `sudo apt install libgnuradio-pdu3.10.8`
 
 <details>
 
@@ -1254,21 +1260,21 @@ Protocol Data Units library provides signal processing blocks that operate on Pr
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
 
 </details>
 
 ***
 
-#### libgnuradio-pmt3.10.5 <a href="#libgnuradio-pmt3105" id="libgnuradio-pmt3105"></a>
+#### libgnuradio-pmt3.10.8 <a href="#libgnuradio-pmt3108" id="libgnuradio-pmt3108"></a>
 
 Polymorphic Types are opaque data types that are designed as generic containers of data that can be safely passed around between blocks and threads in GNU Radio. Part of the main gnuradio build.
 
-**Installed size:** `394 KB`\
-**How to install:** `sudo apt install libgnuradio-pmt3.10.5`
+**Installed size:** `419 KB`\
+**How to install:** `sudo apt install libgnuradio-pmt3.10.8`
 
 <details>
 
@@ -1277,18 +1283,18 @@ Polymorphic Types are opaque data types that are designed as generic containers 
 * libc6
 * libgcc-s1
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-qtgui3.10.5 <a href="#libgnuradio-qtgui3105" id="libgnuradio-qtgui3105"></a>
+#### libgnuradio-qtgui3.10.8 <a href="#libgnuradio-qtgui3108" id="libgnuradio-qtgui3108"></a>
 
 QT-based graphical sinks for gnuradio applications. Implements opengl, raster and native plotting methods, and supports a QT Style Sheet (QSS) file to adjust the look. Part of the main gnuradio build.
 
-**Installed size:** `1.83 MB`\
-**How to install:** `sudo apt install libgnuradio-qtgui3.10.5`
+**Installed size:** `1.89 MB`\
+**How to install:** `sudo apt install libgnuradio-qtgui3.10.8`
 
 <details>
 
@@ -1297,28 +1303,28 @@ QT-based graphical sinks for gnuradio applications. Implements opengl, raster an
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-fft3.10.5
-* libgnuradio-filter3.10.5
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-fft3.10.8
+* libgnuradio-filter3.10.8
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libqt5core5a
 * libqt5gui5 | libqt5gui5-gles
 * libqt5widgets5
 * libqwt-qt5-6
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-runtime3.10.5 <a href="#libgnuradio-runtime3105" id="libgnuradio-runtime3105"></a>
+#### libgnuradio-runtime3.10.8 <a href="#libgnuradio-runtime3108" id="libgnuradio-runtime3108"></a>
 
 Top level component library. Defines core blocks. Handles settings for logging, performance counters, and control port. Part of the main gnuradio build.
 
-**Installed size:** `1.97 MB`\
-**How to install:** `sudo apt install libgnuradio-runtime3.10.5`
+**Installed size:** `2.10 MB`\
+**How to install:** `sudo apt install libgnuradio-runtime3.10.8`
 
 <details>
 
@@ -1330,23 +1336,23 @@ Top level component library. Defines core blocks. Handles settings for logging, 
 * libfmt9
 * libgcc-s1
 * libgmp10
-* libgnuradio-pmt3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-pmt3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
-* libthrift-0.17.0
+* libthrift-0.19.0
 * libunwind8
-* libvolk2.5
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-soapy3.10.5 <a href="#libgnuradio-soapy3105" id="libgnuradio-soapy3105"></a>
+#### libgnuradio-soapy3.10.8 <a href="#libgnuradio-soapy3108" id="libgnuradio-soapy3108"></a>
 
 Soapy hardware drivers using the SoapySDR driver framework. Part of the main gnuradio build.
 
-**Installed size:** `462 KB`\
-**How to install:** `sudo apt install libgnuradio-soapy3.10.5`
+**Installed size:** `459 KB`\
+**How to install:** `sudo apt install libgnuradio-soapy3.10.8`
 
 <details>
 
@@ -1356,22 +1362,22 @@ Soapy hardware drivers using the SoapySDR driver framework. Part of the main gnu
 * libfmt9
 * libgcc-s1
 * libgmp10
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libsoapysdr0.8
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
 
 </details>
 
 ***
 
-#### libgnuradio-trellis3.10.5 <a href="#libgnuradio-trellis3105" id="libgnuradio-trellis3105"></a>
+#### libgnuradio-trellis3.10.8 <a href="#libgnuradio-trellis3108" id="libgnuradio-trellis3108"></a>
 
 Library for trellis coding modulation, including the Viterbi Algorithm, Concatenated Coding and Turbo Decoding based upon finite state machine (FSM) class. Part of the main gnuradio build.
 
-**Installed size:** `1.00 MB`\
-**How to install:** `sudo apt install libgnuradio-trellis3.10.5`
+**Installed size:** `1.02 MB`\
+**How to install:** `sudo apt install libgnuradio-trellis3.10.8`
 
 <details>
 
@@ -1380,21 +1386,21 @@ Library for trellis coding modulation, including the Viterbi Algorithm, Concaten
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
 
 </details>
 
 ***
 
-#### libgnuradio-uhd3.10.5 <a href="#libgnuradio-uhd3105" id="libgnuradio-uhd3105"></a>
+#### libgnuradio-uhd3.10.8 <a href="#libgnuradio-uhd3108" id="libgnuradio-uhd3108"></a>
 
 The gnuradio interface to the UHD library to connect to and send and receive data between to the Ettus Research, LLC product line - including the USRP family of software radio peripheral devices. Part of the main gnuradio build.
 
-**Installed size:** `674 KB`\
-**How to install:** `sudo apt install libgnuradio-uhd3.10.5`
+**Installed size:** `791 KB`\
+**How to install:** `sudo apt install libgnuradio-uhd3.10.8`
 
 <details>
 
@@ -1404,23 +1410,23 @@ The gnuradio interface to the UHD library to connect to and send and receive dat
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
-* libuhd4.3.0
-* libvolk2.5
+* libuhd4.5.0
+* libvolk3.0
 
 </details>
 
 ***
 
-#### libgnuradio-video-sdl3.10.5 <a href="#libgnuradio-video-sdl3105" id="libgnuradio-video-sdl3105"></a>
+#### libgnuradio-video-sdl3.10.8 <a href="#libgnuradio-video-sdl3108" id="libgnuradio-video-sdl3108"></a>
 
 Library for handling SDL (Simple DirectMedia Layer) video data. Implements input and output blocks. Part of the main gnuradio build.
 
-**Installed size:** `238 KB`\
-**How to install:** `sudo apt install libgnuradio-video-sdl3.10.5`
+**Installed size:** `247 KB`\
+**How to install:** `sudo apt install libgnuradio-video-sdl3.10.8`
 
 <details>
 
@@ -1429,51 +1435,51 @@ Library for handling SDL (Simple DirectMedia Layer) video data. Implements input
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libsdl1.2debian
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
 
 </details>
 
 ***
 
-#### libgnuradio-vocoder3.10.5 <a href="#libgnuradio-vocoder3105" id="libgnuradio-vocoder3105"></a>
+#### libgnuradio-vocoder3.10.8 <a href="#libgnuradio-vocoder3108" id="libgnuradio-vocoder3108"></a>
 
 Library of vocoder blocks, including ulaw, alaw, gsm and codec2. Debian uses external libraries for gsm and codec2.
 
 Part of the main gnuradio build.
 
-**Installed size:** `318 KB`\
-**How to install:** `sudo apt install libgnuradio-vocoder3.10.5`
+**Installed size:** `327 KB`\
+**How to install:** `sudo apt install libgnuradio-vocoder3.10.8`
 
 <details>
 
 <summary>Dependencies:</summary>
 
 * libc6
-* libcodec2-1.0
+* libcodec2-1.2
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libgsm1
-* libspdlog1.10-fmt9
+* libspdlog1.12-fmt9
 * libstdc++6
 
 </details>
 
 ***
 
-#### libgnuradio-wavelet3.10.5 <a href="#libgnuradio-wavelet3105" id="libgnuradio-wavelet3105"></a>
+#### libgnuradio-wavelet3.10.8 <a href="#libgnuradio-wavelet3108" id="libgnuradio-wavelet3108"></a>
 
 Library of Daubechies wavelet function blocks. wvps computes the Wavelet Power Spectrum from a set of wavelet coefficients.
 
 Part of the main gnuradio build.
 
-**Installed size:** `110 KB`\
-**How to install:** `sudo apt install libgnuradio-wavelet3.10.5`
+**Installed size:** `115 KB`\
+**How to install:** `sudo apt install libgnuradio-wavelet3.10.8`
 
 <details>
 
@@ -1481,8 +1487,8 @@ Part of the main gnuradio build.
 
 * libc6
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
 * libgsl27
 * libstdc++6
 
@@ -1490,14 +1496,14 @@ Part of the main gnuradio build.
 
 ***
 
-#### libgnuradio-zeromq3.10.5 <a href="#libgnuradio-zeromq3105" id="libgnuradio-zeromq3105"></a>
+#### libgnuradio-zeromq3.10.8 <a href="#libgnuradio-zeromq3108" id="libgnuradio-zeromq3108"></a>
 
 0MQ messaging library support. Provide network socket endpoints for gnuradio data and message streams. PUB/SUB, PUSH/PULL, REP/REQ models supported.
 
 Part of the main gnuradio build.
 
-**Installed size:** `382 KB`\
-**How to install:** `sudo apt install libgnuradio-zeromq3.10.5`
+**Installed size:** `431 KB`\
+**How to install:** `sudo apt install libgnuradio-zeromq3.10.8`
 
 <details>
 
@@ -1506,9 +1512,9 @@ Part of the main gnuradio build.
 * libc6
 * libfmt9
 * libgcc-s1
-* libgnuradio-pmt3.10.5
-* libgnuradio-runtime3.10.5
-* libspdlog1.10-fmt9
+* libgnuradio-pmt3.10.8
+* libgnuradio-runtime3.10.8
+* libspdlog1.12-fmt9
 * libstdc++6
 * libzmq5
 
@@ -1516,7 +1522,7 @@ Part of the main gnuradio build.
 
 ***
 
-Updated on: 2023-Mar-08\
+Updated on: 2023-Nov-24\
 
 
 ***
