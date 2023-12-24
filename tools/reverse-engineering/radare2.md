@@ -7,20 +7,6 @@ description: >-
 
 # 📎 radare2
 
-Radare2 is a powerful open-source command-line reverse engineering tool that can be used for analyzing binary files, disassembling and debugging programs, and cracking software. It is designed to work with different operating systems, including Windows, Linux, macOS, and Android, and supports multiple architectures, such as x86, ARM, MIPS, and PowerPC.
-
-One of the most significant advantages of Radare2 is its flexibility and extensibility. It provides a modular architecture that allows users to customize and extend its functionality by adding plugins, scripts, and modules. This makes it an ideal tool for reverse engineers, security researchers, and developers who need to analyze and manipulate binary files.
-
-Radare2 includes various features that can be used for security-related purposes. For example, it provides a debugger that can be used to trace and analyze the execution of programs, which can be useful for identifying vulnerabilities and security flaws. Additionally, it includes a disassembler that can be used to examine the code of programs and detect malicious behavior.
-
-Another important security feature provided by Radare2 is its support for cryptographic algorithms. It includes different tools that can be used for analyzing and manipulating encrypted data, such as XOR, AES, and RC4. This can be useful for cracking passwords and encryption keys, and for analyzing malware that uses encryption to hide its code.
-
-Radare2 also includes a variety of tools for analyzing and manipulating binary files. For example, it provides a hex editor that can be used to view and edit the content of binary files, and a file carving tool that can be used to extract data from damaged or corrupted files. Additionally, it includes a binary diff tool that can be used to compare two binary files and identify differences between them.
-
-Finally, Radare2 includes a scripting language that allows users to automate tasks and create custom tools. This can be useful for creating scripts to automate repetitive tasks, or for creating custom plugins to extend Radare2's functionality. Additionally, Radare2's scripting language can be used to create custom malware analysis tools, which can be shared with the community.
-
-In conclusion, Radare2 is a powerful open-source reverse engineering tool that provides a wide range of features for analyzing and manipulating binary files. It includes various security-related features, such as debugging, disassembling, and cryptographic analysis, which can be useful for identifying vulnerabilities and detecting malware. Additionally, its extensible and customizable architecture makes it an ideal tool for security researchers, reverse engineers, and developers who need to analyze and manipulate binary files.
-
 ### Packages and Binaries:
 
 #### libradare2-5.0.0 <a href="#libradare2-500" id="libradare2-500"></a>
@@ -114,7 +100,7 @@ It is composed by an hexadecimal editor (radare) with a wrapped IO layer support
 Advanced command-line hexadecimal editor, disassembler and debugger
 
 ```
-:~# r2 -h
+root@kali:~# r2 -h
 Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
           [-s addr] [-B baddr] [-m maddr] [-c cmd] [-e k=v] file|pid|-|--|=
  --           run radare2 without opening any file
@@ -172,7 +158,7 @@ Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
 Radare2 remoting manager TODO
 
 ```
-:~# r2agent -h
+root@kali:~# r2agent -h
 Usage: r2agent [-adhs] [-p port]
   -a        listen for everyone (localhost by default)
   -d        run in daemon mode (background)
@@ -190,7 +176,7 @@ Usage: r2agent [-adhs] [-p port]
 Radare2 package manager
 
 ```
-:~# r2pm -h
+root@kali:~# r2pm -h
 Usage: r2pm [init|update|cmd] [...]
 Commands:
  -I,info                     information about repository and installed packages
@@ -231,7 +217,7 @@ Environment:
 **r2r**
 
 ```
-:~# r2r -h
+root@kali:~# r2r -h
 Usage: r2r [-qvVnL] [-j threads] [test file/dir | @test-type]
  -h           print this help
  -v           show version
@@ -269,11 +255,11 @@ OS/Arch for archos tests: linux-x64
 Binary program info extractor
 
 ```
-:~# rabin2 -h
-Usage: rabin2 [-AcdeEghHiIjlLMqrRsSUvVxzZ] [ at] [-a arch] [-b bits] [-B addr]
+root@kali:~# rabin2 -h
+Usage: rabin2 [-AcdeEghHiIjlLMqrRsSUvVxzZ] [-@ at] [-a arch] [-b bits] [-B addr]
               [-C F:C:D] [-f str] [-m addr] [-n str] [-N m:M] [-P[-P] pdb]
               [-o str] [-O str] [-k query] [-D lang symname] file
-  [addr]       show section, symbol or import at addr
+ -@ [addr]       show section, symbol or import at addr
  -A              list sub-binaries and their arch-bits pairs
  -a [arch]       set arch (x86, arm, .. or <arch>_<bits>)
  -b [bits]       set bits (32, 64 ...)
@@ -353,7 +339,7 @@ Environment:
 Advanced command-line hexadecimal editor, disassembler and debugger
 
 ```
-:~# radare2 -h
+root@kali:~# radare2 -h
 Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
           [-s addr] [-B baddr] [-m maddr] [-c cmd] [-e k=v] file|pid|-|--|=
  --           run radare2 without opening any file
@@ -411,7 +397,7 @@ Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
 Unified binary diffing utility
 
 ```
-:~# radiff2 -h
+root@kali:~# radiff2 -h
 Usage: radiff2 [-abBcCdeGhijnrOpqsSxuUvVzZ] [-A[A]] [-g sym] [-m graph_mode][-t %] [file] [file]
   -a [arch]  specify architecture plugin to use (x86, arm, ..)
   -A [-A]    run aaa or aaaa after loading each binary (see -C)
@@ -464,7 +450,7 @@ Graph Output formats: (-m [mode])
 Advanced command-line hexadecimal editor
 
 ```
-:~# rafind2 -h
+root@kali:~# rafind2 -h
 Usage: rafind2 [-mXnzZhqv] [-a align] [-b sz] [-f/t from/to] [-[e|s|S] str] [-x hex] -|file|dir ..
  -a [align] only accept aligned hits
  -b [size]  set block size
@@ -498,7 +484,7 @@ Usage: rafind2 [-mXnzZhqv] [-a align] [-b sz] [-f/t from/to] [-[e|s|S] str] [-x 
 Radare2 frontend for r\_egg, compile programs into tiny binaries for x86-32/64 and arm.
 
 ```
-:~# ragg2 -h
+root@kali:~# ragg2 -h
 Usage: ragg2 [-FOLsrxhvz] [-a arch] [-b bits] [-k os] [-o file] [-I path]
              [-i sc] [-E enc] [-B hex] [-c k=v] [-C file] [-p pad] [-q off]
              [-S string] [-f fmt] [-nN dword] [-dDw off:hex] [-e expr] file|f.asm|-
@@ -544,7 +530,7 @@ Usage: ragg2 [-FOLsrxhvz] [-a arch] [-b bits] [-k os] [-o file] [-I path]
 Block based hashing utility
 
 ```
-:~# rahash2 -h
+root@kali:~# rahash2 -h
 Usage: rahash2 [-BhjkLqrv] [-b S] [-a A] [-c H] [-E A] [-s S] [-f O] [-t O] [file] ...
  -a algo     comma separated list of algorithms (default is 'sha256')
  -b bsize    specify the size of the block (instead of full file)
@@ -576,7 +562,7 @@ Usage: rahash2 [-BhjkLqrv] [-b S] [-a A] [-c H] [-E A] [-s S] [-f O] [-t O] [fil
 Radare2 utility to run programs in exotic environments
 
 ```
-:~# rarun2 -h
+root@kali:~# rarun2 -h
 Usage: rarun2 -v|-t|script.rr2 [directive ..]
 program=/bin/ls
 arg1=/bin
@@ -585,7 +571,7 @@ arg1=/bin
 # arg4=:048490184058104849
 # arg5=:!ragg2 -p n50 -d 10:0x8048123
 # 
-# @ABCD # 300 chars filled with ABCD pattern
+# arg7=@300@ABCD # 300 chars filled with ABCD pattern
 # system=r2 -
 # daemon=false
 # aslr=no
@@ -630,7 +616,7 @@ timeout=3
 **rasign2**
 
 ```
-:~# rasign2 -h
+root@kali:~# rasign2 -h
 Usage: rasign2 [options] [file]
  -a [-a]          add extra 'a' to analysis command
  -A               make signatures from all .o files in the provided .a file
@@ -656,7 +642,7 @@ Examples:
 Radare2 assembler and disassembler tool
 
 ```
-:~# rasm2 -h
+root@kali:~# rasm2 -h
 Usage: rasm2 [-ACdDehLBvw] [-a arch] [-b bits] [-o addr] [-s syntax]
              [-f file] [-F fil:ter] [-i skip] [-l len] 'code'|hex|-
  -a [arch]    Set architecture to assemble/disassemble (see -L)
@@ -677,7 +663,7 @@ Usage: rasm2 [-ACdDehLBvw] [-a arch] [-b bits] [-o addr] [-s syntax]
  -l [len]     Input/Output length
  -L           List RAsm plugins: (a=asm, d=disasm, A=analyze, e=ESIL)
  -LL          List RAnal plugins
- -o, [addr] Set start address for code (default 0)
+ -o,-@ [addr] Set start address for code (default 0)
  -O [file]    Output file name (rasm2 -Bf a.asm -O a)
  -p           Run SPP over input for assembly
  -q           quiet mode
@@ -703,7 +689,7 @@ Environment:
 Radare version control
 
 ```
-:~# ravc2 -h
+root@kali:~# ravc2 -h
 Usage: ravc2 [action] [file ...]
  init            initialize repository in current directory
  add [file ..]   add files to the current repository
@@ -726,7 +712,7 @@ Examples:
 Radare base converter
 
 ```
-:~# rax2 -h
+root@kali:~# rax2 -h
 Usage: rax2 [options] [expr ...]
   =[base]                      ;  rax2 =10 0x46 -> output in base 10
   int     ->  hex              ;  rax2 10

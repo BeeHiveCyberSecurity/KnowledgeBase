@@ -7,20 +7,6 @@ description: >-
 
 # 💾 afflib
 
-Afflib is an open-source security tool that provides advanced forensic imaging and analysis capabilities for digital evidence. It is designed to work with different file systems, including NTFS, FAT, HFS+, and EXT2/3/4, and supports different types of storage devices, such as hard disks, solid-state drives, and USB drives.
-
-One of the most significant advantages of Afflib is its support for different types of digital evidence. It can be used to create forensic images of physical disks, logical disks, and individual files, and supports different image formats, such as RAW, EWF, AFF, and EnCase. Additionally, Afflib can be used to analyze and recover deleted files, detect hidden files, and carve data from unallocated disk space.
-
-Afflib includes various features that can be used for security-related purposes. For example, it provides a tool called "afcat" that can be used to extract data from forensic images and export it to different file formats, such as CSV, HTML, and XML. This can be useful for creating reports and presenting evidence in court.
-
-Another important security feature provided by Afflib is its support for cryptographic hashing. It includes different hash algorithms, such as MD5, SHA1, SHA256, and SHA512, that can be used to verify the integrity of digital evidence and detect tampering. Additionally, Afflib provides a tool called "afhash" that can be used to generate hash values for different files and compare them against known hash values.
-
-Afflib also includes a variety of tools for analyzing and manipulating forensic images. For example, it provides a tool called "afinfo" that can be used to display detailed information about a forensic image, such as the file system type, the partition layout, and the file allocation table. Additionally, it includes a tool called "afconvert" that can be used to convert forensic images between different formats and compress them for easier storage and transfer.
-
-Finally, Afflib includes a set of APIs that can be used to develop custom forensic tools and integrate Afflib's functionality into other applications. This can be useful for developers who need to create custom forensic analysis tools or integrate forensic capabilities into other security-related applications.
-
-In conclusion, Afflib is a powerful open-source security tool that provides advanced forensic imaging and analysis capabilities for digital evidence. It includes various security-related features, such as forensic imaging, data recovery, and cryptographic hashing, that can be useful for detecting tampering and presenting evidence in court. Additionally, its flexible and extensible architecture makes it an ideal tool for security researchers, forensic analysts, and developers who need to analyze and manipulate digital evidence.
-
 #### afflib-tools <a href="#afflib-tools" id="afflib-tools"></a>
 
 The Advanced Forensic Format (AFF) is on-disk format for storing computer forensic information. Critical features of AFF include:
@@ -69,7 +55,7 @@ The AFF Toolkit provides these executables: affcat, affcompare, affconvert, affc
 Output contents of an image file to stdout.
 
 ```
-:~# affcat -h
+root@kali:~# affcat -h
 affcat version 3.7.20
 usage: affcat [options] infile [... more infiles]
 options:
@@ -93,7 +79,7 @@ options:
 Compare the contents of an ISO file to an AFF file
 
 ```
-:~# affcompare -h
+root@kali:~# affcompare -h
 affcompare version 3.7.20
 
 usage: affcompare [options] file1 file2
@@ -145,7 +131,7 @@ Options documented above:
 Convert files between RAW and AFF formats
 
 ```
-:~# affconvert -h
+root@kali:~# affconvert -h
 affconvert version 3.7.20
 
 usage:   affconvert [options] file1 [... files] 
@@ -160,7 +146,7 @@ Please, see more info in manpage.
 Reorder and recompress AFF files
 
 ```
-:~# affcopy -h
+root@kali:~# affcopy -h
 affcopy version 3.7.20
 usage: affcopy [options] file1 file
                     Copies file1 to file2
@@ -194,10 +180,10 @@ Signature Options:
 
 
 Encryption Options:   Specify passphrase encryption for filename.aff with:
-      file://:/filename.aff
+      file://:passphrase@/filename.aff
 
 Examples:
-       affcopy  file.aff   file://:/file-encrypted.aff   - encrypt file.aff
+       affcopy  file.aff   file://:mypassword@/file-encrypted.aff   - encrypt file.aff
        affcopy -vy -X9 *.aff s3:///     Copy all files in current
                                directory to S3 default bucket with X9 compression
 ```
@@ -209,7 +195,7 @@ Examples:
 Handle encryption issues
 
 ```
-:~# affcrypto -h
+root@kali:~# affcrypto -h
 affcrypto version 3.7.20
 usage: affcrypto [options] filename.aff [filename2.aff ... ]
    prints if each file is encrypted or not.
@@ -255,7 +241,7 @@ AFFLIB_DECRYPTING_PRIVATE_KEYFILE
 Create a diskprint AFF structure
 
 ```
-:~# affdiskprint -h
+root@kali:~# affdiskprint -h
 affdiskprint version 3.7.20
 usage: affdiskprint [options] infile 
    -x XML     =   Verify the diskprint
@@ -270,7 +256,7 @@ usage: affdiskprint [options] infile
 Print information about an AFF file
 
 ```
-:~# affinfo -h
+root@kali:~# affinfo -h
 affinfo version 3.7.20
 usage: affinfo [options] infile
    -a = print ALL segments (normally data segments are suppressed)
@@ -311,7 +297,7 @@ Compilation:
 Fix a corrupted AFF file
 
 ```
-:~# affix -h
+root@kali:~# affix -h
 usage: affix [options] file1 [...]
   -y = Actually modify the files; normally just reports the problems
   -v = Just print the version number and exit.
@@ -324,7 +310,7 @@ usage: affix [options] file1 [...]
 Recover broken pages of an AFF file
 
 ```
-:~# affrecover -h
+root@kali:~# affrecover -h
 usage: affrecover filename
 ```
 
@@ -335,7 +321,7 @@ usage: affrecover filename
 Segment manipulation tool
 
 ```
-:~# affsegment -h
+root@kali:~# affsegment -h
 affsegment version 3.7.20
 usage: affsegment [options] file1.aff [file2.aff ...]
 options:
@@ -375,7 +361,7 @@ same segment twice on one command line.
 Sign an existing AFF file
 
 ```
-:~# affsign -h
+root@kali:~# affsign -h
 affsign version 3.7.20
 usage: affsign [options] filename.aff
 This program will:
@@ -400,7 +386,7 @@ options:
 Print specific statistics about one or more AFF files
 
 ```
-:~# affstats -h
+root@kali:~# affstats -h
 affstats version 3.7.20
 
 usage: affstats [options] infile(s)
@@ -415,7 +401,7 @@ usage: affstats [options] infile(s)
 Provide access to AFF containers
 
 ```
-:~# affuse -h
+root@kali:~# affuse -h
 FUSE options:
     -d   -o debug          enable debug output (implies -f)
     -f                     foreground operation
@@ -484,7 +470,7 @@ Module options:
 Verify the digital signature on a signed file
 
 ```
-:~# affverify -h
+root@kali:~# affverify -h
 affverify version 3.7.20
 usage: affverify [options] filename.aff
 Verifies the digital signatures on a file
@@ -502,7 +488,7 @@ options:
 Print AFF information as XML
 
 ```
-:~# affxml -h
+root@kali:~# affxml -h
 affxml version 3.7.20
 usage: affxml [options] infile... 
    -V         =   Just print the version number and exit
