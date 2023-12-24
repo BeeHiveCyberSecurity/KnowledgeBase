@@ -32,6 +32,10 @@ This documentation is created using a mixture of artificial intelligence, basic 
 
 Thank you for your interest in this repository. We're excited to see what you'll build and achieve with the information provided here!
 
-## Appreciation
 
-We'd like to thank the following contributors specifically for their excellent contributions...
+
+<figure><img src=".gitbook/assets/Artboard 1.png" alt="" width="188"><figcaption></figcaption></figure>
+
+BeeHive helps small, medium, and large businesses alike protect from increasingly severe cyber threats. With services and solutions to contain and stop malware and ransomware, detect and counter advanced persistent threats, cease brand abuse, spot vulnerabilities and exposures in your website and so much more, BeeHive enables security in all the places you work, live, and visit.
+
+For more information, visit our website at https://www.beehive.systems/&#x20;
