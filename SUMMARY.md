@@ -41,6 +41,7 @@
       * [🐬 roguemaster](threats/hardware/flipper-zero/firmware/roguemaster.md)
       * [🐬 unleashed](threats/hardware/flipper-zero/firmware/unleashed.md)
 * [🤦 Human](threats/human/README.md)
+  * [Advanced Persistent Threats (APTs)](threats/human/advanced-persistent-threats-apts.md)
   * [Phishing](threats/human/phishing.md)
   * [Social Engineering](threats/human/social-engineering.md)
   * [Typosquatting](threats/human/typosquatting.md)
