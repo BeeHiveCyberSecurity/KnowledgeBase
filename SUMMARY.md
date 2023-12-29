@@ -38,6 +38,7 @@
           * [Flipper Build Tool](threats/hardware/flipper-zero/firmware/flipper-xtreme/wiki/flipper-build-tool.md)
           * [FAP (Flipper Application Package)](threats/hardware/flipper-zero/firmware/flipper-xtreme/wiki/fap-flipper-application-package.md)
           * [Flipper Application Manifests (.fam)](threats/hardware/flipper-zero/firmware/flipper-xtreme/wiki/flipper-application-manifests-.fam.md)
+      * [🐬 roguemaster](threats/hardware/flipper-zero/firmware/roguemaster.md)
 * [🤦 Human](threats/human/README.md)
   * [Phishing](threats/human/phishing.md)
   * [Social Engineering](threats/human/social-engineering.md)
