@@ -404,7 +404,6 @@
     * [Google Inc. v. American Blind & Wallpaper Factory, Inc.](law-policy-and-ethics/dmca/notable-cases/google-inc.-v.-american-blind-and-wallpaper-factory-inc..md)
     * [Columbia Pictures Industries, Inc. v. Redd Horne, Inc.](law-policy-and-ethics/dmca/notable-cases/columbia-pictures-industries-inc.-v.-redd-horne-inc..md)
 
-***
+## ℹ About
 
-* [Import](import/README.md)
-  * [Kali Linux Tools](import/kali-linux-tools.md)
+* [🔌 Ports](about/port.md)
