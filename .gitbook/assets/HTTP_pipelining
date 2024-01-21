@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>HTTP pipelining - Wikipedia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["",
+"January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"62b66b1c-2705-4c3f-b1c1-f0c39bb4578a","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"HTTP_pipelining","wgTitle":"HTTP pipelining","wgCurRevisionId":1180356711,"wgRevisionId":1180356711,"wgArticleId":1218572,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: missing periodical","Webarchive template wayback links","All articles with unsourced statements","Articles with unsourced statements from August 2010","Hypertext Transfer Protocol"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"HTTP_pipelining","wgRelevantArticleId":1218572,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia",
+"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":6,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgULSCurrentAutonym":"English","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q727120","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready",
+"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","mediawiki.toggleAllCollapsibles","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.switcher","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.42.0-wmf.14">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/HTTP_pipelining2.svg/1200px-HTTP_pipelining2.svg.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="834">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/HTTP_pipelining2.svg/800px-HTTP_pipelining2.svg.png">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="556">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/HTTP_pipelining2.svg/640px-HTTP_pipelining2.svg.png">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="445">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="HTTP pipelining - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/HTTP_pipelining">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=HTTP_pipelining&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/HTTP_pipelining">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-HTTP_pipelining rootpage-HTTP_pipelining skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page.</div></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools" role="navigation" >
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-client-prefs-landmark" aria-label="Appearance">
+		
+		
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Special:CreateAccount&amp;returnto=HTTP+pipelining" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Special:UserLogin&amp;returnto=HTTP+pipelining" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=HTTP+pipelining" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=HTTP+pipelining" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Motivation_and_limitations"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Motivation_and_limitations">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Motivation and limitations</div>
+		</a>
+		
+		<ul id="toc-Motivation_and_limitations-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Implementation_status"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Implementation_status">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Implementation status</div>
+		</a>
+		
+			<button aria-controls="toc-Implementation_status-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Implementation status subsection</span>
+			</button>
+		
+		<ul id="toc-Implementation_status-sublist" class="vector-toc-list">
+			<li id="toc-Implementation_in_web_browsers"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Implementation_in_web_browsers">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span>Implementation in web browsers</div>
+			</a>
+			
+			<ul id="toc-Implementation_in_web_browsers-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Implementation_in_web_proxy_servers"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Implementation_in_web_proxy_servers">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span>Implementation in web proxy servers</div>
+			</a>
+			
+			<ul id="toc-Implementation_in_web_proxy_servers-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Other_implementations"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Other_implementations">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.3</span>Other implementations</div>
+			</a>
+			
+			<ul id="toc-Other_implementations-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>See also</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">HTTP pipelining</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 10 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-10" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">10 languages</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Canalitzaci%C3%B3_HTTP" title="Canalització HTTP – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/HTTP-Pipelining" title="HTTP-Pipelining – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Pipelining_HTTP" title="Pipelining HTTP – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/HTTP_pipelining" title="HTTP pipelining – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/HTTP_pipelining" title="HTTP pipelining – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/HTTP%E3%83%91%E3%82%A4%E3%83%97%E3%83%A9%E3%82%A4%E3%83%B3" title="HTTPパイプライン – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Pipelining_HTTP" title="Pipelining HTTP – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/HTTP_pipelining" title="HTTP pipelining – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/HTTP_pipelining" title="HTTP pipelining – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/HTTP%E7%AE%A1%E7%B7%9A%E5%8C%96" title="HTTP管線化 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q727120#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/HTTP_pipelining" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:HTTP_pipelining" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/HTTP_pipelining"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=HTTP_pipelining&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/HTTP_pipelining"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=HTTP_pipelining&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/HTTP_pipelining" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/HTTP_pipelining" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=HTTP_pipelining&amp;oldid=1180356711" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=HTTP_pipelining&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=HTTP_pipelining&amp;id=1180356711&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHTTP_pipelining"><span>Get shortened URL</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q727120" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=HTTP_pipelining&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=HTTP_pipelining&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Page tools">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-client-prefs-landmark" aria-label="Appearance">
+						</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><figure class="mw-halign-right" typeof="mw:File/Thumb"><a href="/wiki/File:HTTP_pipelining2.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/19/HTTP_pipelining2.svg/300px-HTTP_pipelining2.svg.png" decoding="async" width="300" height="209" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/19/HTTP_pipelining2.svg/450px-HTTP_pipelining2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/19/HTTP_pipelining2.svg/600px-HTTP_pipelining2.svg.png 2x" data-file-width="640" data-file-height="445" /></a><figcaption>Time diagram of non-pipelined vs. pipelined connection</figcaption></figure>
+<style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1045330069">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:#f8f9fa;border:1px solid #aaa;padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:720px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}</style><table class="sidebar nomobile nowraplinks hlist"><tbody><tr><th class="sidebar-title"><a href="/wiki/HTTP" title="HTTP">HTTP</a></th></tr><tr><td class="sidebar-image"><span typeof="mw:File"><a href="/wiki/File:HTTP_logo.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HTTP_logo.svg/180px-HTTP_logo.svg.png" decoding="async" width="180" height="96" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HTTP_logo.svg/270px-HTTP_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HTTP_logo.svg/360px-HTTP_logo.svg.png 2x" data-file-width="512" data-file-height="274" /></a></span></td></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/HTTP_persistent_connection" title="HTTP persistent connection">Persistence</a></li>
+<li><a href="/wiki/HTTP_compression" title="HTTP compression">Compression</a></li>
+<li><a href="/wiki/HTTPS" title="HTTPS">HTTPS</a></li>
+<li><a href="/wiki/QUIC" title="QUIC">QUIC</a></li></ul></td>
+</tr><tr><th class="sidebar-heading">
+<a href="/wiki/HTTP#Request_methods" title="HTTP">Request methods</a></th></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/HTTP#Request_methods" title="HTTP">OPTIONS</a></li>
+<li><a href="/wiki/HTTP#Request_methods" title="HTTP">GET</a></li>
+<li><a href="/wiki/HTTP#Request_methods" title="HTTP">HEAD</a></li>
+<li><a href="/wiki/POST_(HTTP)" title="POST (HTTP)">POST</a></li>
+<li><a href="/wiki/HTTP#Request_methods" title="HTTP">PUT</a></li>
+<li><a href="/wiki/HTTP#Request_methods" title="HTTP">DELETE</a></li>
+<li><a href="/wiki/HTTP#Request_methods" title="HTTP">TRACE</a></li>
+<li><a href="/wiki/HTTP#Request_methods" title="HTTP">CONNECT</a></li>
+<li><a href="/wiki/PATCH_(HTTP)" title="PATCH (HTTP)">PATCH</a></li></ul></td>
+</tr><tr><th class="sidebar-heading">
+<a href="/wiki/List_of_HTTP_header_fields" title="List of HTTP header fields">Header fields</a></th></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/HTTP_cookie" title="HTTP cookie">Cookie</a></li>
+<li><a href="/wiki/HTTP_ETag" title="HTTP ETag">ETag</a></li>
+<li><a href="/wiki/HTTP_location" title="HTTP location">Location</a></li>
+<li><a href="/wiki/HTTP_referer" title="HTTP referer">HTTP referer</a></li>
+<li><a href="/wiki/Do_Not_Track" title="Do Not Track">DNT</a></li>
+<li><a href="/wiki/X-Forwarded-For" title="X-Forwarded-For">X-Forwarded-For</a></li></ul></td>
+</tr><tr><th class="sidebar-heading">
+<a href="/wiki/List_of_HTTP_status_codes" title="List of HTTP status codes">Response status codes</a></th></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/HTTP_301" title="HTTP 301">301 Moved Permanently</a></li>
+<li><a href="/wiki/HTTP_302" title="HTTP 302">302 Found</a></li>
+<li><a href="/wiki/HTTP_303" title="HTTP 303">303 See Other</a></li>
+<li><a href="/wiki/HTTP_403" title="HTTP 403">403 Forbidden</a></li>
+<li><a href="/wiki/HTTP_404" title="HTTP 404">404 Not Found</a></li>
+<li><a href="/wiki/HTTP_451" title="HTTP 451">451 Unavailable for Legal Reasons</a></li></ul></td>
+</tr><tr><th class="sidebar-heading">
+Security access control methods</th></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/Basic_access_authentication" title="Basic access authentication">Basic access authentication</a></li>
+<li><a href="/wiki/Digest_access_authentication" title="Digest access authentication">Digest access authentication</a></li></ul></td>
+</tr><tr><th class="sidebar-heading">
+Security vulnerabilities</th></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/HTTP_header_injection" title="HTTP header injection">HTTP header injection</a></li>
+<li><a href="/wiki/HTTP_request_smuggling" title="HTTP request smuggling">HTTP request smuggling</a></li>
+<li><a href="/wiki/HTTP_response_splitting" title="HTTP response splitting">HTTP response splitting</a></li>
+<li><a href="/wiki/HTTP_parameter_pollution" title="HTTP parameter pollution">HTTP parameter pollution</a></li></ul></td>
+</tr><tr><td class="sidebar-navbar"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:HTTP" title="Template:HTTP"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:HTTP" title="Template talk:HTTP"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a href="/wiki/Special:EditPage/Template:HTTP" title="Special:EditPage/Template:HTTP"><abbr title="Edit this template">e</abbr></a></li></ul></div></td></tr></tbody></table>
+<p><b>HTTP pipelining</b> is a feature of <b>HTTP/1.1</b>, which allows multiple <a href="/wiki/HTTP" title="HTTP">HTTP</a> requests to be sent over a single <a href="/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">TCP</a> connection without waiting for the corresponding responses.<sup id="cite_ref-HTTP/1.1-pipelining_1-0" class="reference"><a href="#cite_note-HTTP/1.1-pipelining-1">&#91;1&#93;</a></sup> HTTP/1.1 requires servers to respond to pipelined requests correctly, with non-pipelined but valid responses even if server does not support HTTP pipelining. Despite this requirement, many legacy HTTP/1.1 servers do not support pipelining correctly, forcing most HTTP clients to not use HTTP pipelining.
+</p><p>The technique was superseded by <b>multiplexing</b> via <a href="/wiki/HTTP/2" title="HTTP/2">HTTP/2</a>,<sup id="cite_ref-:0_2-0" class="reference"><a href="#cite_note-:0-2">&#91;2&#93;</a></sup> which is supported by most modern <a href="/wiki/Web_browser" title="Web browser">browsers</a>.<sup id="cite_ref-browser_support_3-0" class="reference"><a href="#cite_note-browser_support-3">&#91;3&#93;</a></sup>
+</p><p>In <a href="/wiki/HTTP/3" title="HTTP/3">HTTP/3</a>, multiplexing is accomplished via <a href="/wiki/QUIC" title="QUIC">QUIC</a> which replaces <a href="/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">TCP</a>. This further reduces loading time, as there is no <a href="/wiki/Head-of-line_blocking" title="Head-of-line blocking">head-of-line blocking</a> even if some packets are lost.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Motivation_and_limitations">Motivation and limitations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit&amp;section=1" title="Edit section: Motivation and limitations"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The pipelining of requests results in a dramatic improvement<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup> in the loading times of HTML pages, especially over high <a href="/wiki/Latency_(engineering)" title="Latency (engineering)">latency</a> connections such as <a href="/wiki/Satellite_Internet" class="mw-redirect" title="Satellite Internet">satellite Internet connections</a>. The speedup is less apparent on broadband connections, as the limitation of HTTP 1.1 still applies: the server must send its responses in the same order that the requests were received—so the entire connection remains <a href="/wiki/FIFO_and_LIFO_accounting" title="FIFO and LIFO accounting">first-in-first-out</a><sup id="cite_ref-HTTP/1.1-pipelining_1-1" class="reference"><a href="#cite_note-HTTP/1.1-pipelining-1">&#91;1&#93;</a></sup> and <a href="/wiki/Head-of-line_blocking" title="Head-of-line blocking">HOL blocking</a> can occur.
+</p><p>The asynchronous operations of <a href="/wiki/HTTP/2" title="HTTP/2">HTTP/2</a> and <a href="/wiki/SPDY" title="SPDY">SPDY</a> are solution for this.<sup id="cite_ref-lwnspdy_5-0" class="reference"><a href="#cite_note-lwnspdy-5">&#91;5&#93;</a></sup> By 2017 most browsers supported HTTP/2 by default which uses multiplexing instead.<sup id="cite_ref-:0_2-1" class="reference"><a href="#cite_note-:0-2">&#91;2&#93;</a></sup>
+</p><p>Non-<a href="/wiki/Idempotence_(computer_science)#Examples" class="mw-redirect" title="Idempotence (computer science)">idempotent</a> requests such as <a href="/wiki/POST_(HTTP)" title="POST (HTTP)"><code>POST</code></a> should not be pipelined.<sup id="cite_ref-non-idempotent_6-0" class="reference"><a href="#cite_note-non-idempotent-6">&#91;6&#93;</a></sup> Read requests like <code>GET</code> and <code>HEAD</code> can always be pipelined. A sequence of other idempotent requests like <code>PUT</code> and <code>DELETE</code> can be pipelined or not depending on whether requests in the sequence depend on the effect of others.<sup id="cite_ref-HTTP/1.1-pipelining_1-2" class="reference"><a href="#cite_note-HTTP/1.1-pipelining-1">&#91;1&#93;</a></sup>
+</p><p>HTTP pipelining requires both the client and the server to support it. <a href="/wiki/Hypertext_Transfer_Protocol" class="mw-redirect" title="Hypertext Transfer Protocol">HTTP/1.1</a> conforming servers are required to produce valid responses to pipelined requests, but may not actually process requests concurrently.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup>
+</p>
+<div style="clear:left;"></div>
+<p>Most pipelining problems happen in HTTP intermediate nodes (hop-by-hop), i.e. in <a href="/wiki/Proxy_server" title="Proxy server">proxy servers</a>, especially in transparent proxy servers (if one of them along the HTTP chain does not handle pipelined requests properly then nothing works as it should).<sup id="cite_ref-make-pipelining-usable_8-0" class="reference"><a href="#cite_note-make-pipelining-usable-8">&#91;8&#93;</a></sup>
+</p><p>Using pipelining with HTTP proxy servers is usually not recommended also because the HOL blocking problem may really slow down proxy server responses (as the server responses must be in the same order of the received requests).<sup id="cite_ref-HTTP/1.1-pipelining_1-3" class="reference"><a href="#cite_note-HTTP/1.1-pipelining-1">&#91;1&#93;</a></sup> <sup id="cite_ref-MSIE-8-chat-2008_9-0" class="reference"><a href="#cite_note-MSIE-8-chat-2008-9">&#91;9&#93;</a></sup>
+</p><p><b>Example</b>: if a client sends 4 pipelined GET requests to a proxy through a single connection and the first one is not in its cache then the proxy has to forward that request to the destination web server; if the following three requests are instead found in its cache, the proxy has to wait for the web server response, then it has to send it to the client and only then it can send the three <a href="/wiki/Web_cache" title="Web cache">cached</a> responses too.
+</p><p>If instead a client opens 4 connections to a proxy and sends 1 GET request per connection (without using pipelining) the proxy can send the three cached responses to client in parallel before the response from server is received, decreasing the overall completion time (because requests are served in parallel with no head-of-line blocking problem).<sup id="cite_ref-HTTP/1.1-concurrency_10-0" class="reference"><a href="#cite_note-HTTP/1.1-concurrency-10">&#91;10&#93;</a></sup> The same advantage exists in HTTP/2 multiplexed streams.
+</p>
+<h2><span class="mw-headline" id="Implementation_status">Implementation status</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit&amp;section=2" title="Edit section: Implementation status"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Pipelining was introduced in HTTP/1.1 and was not present in HTTP/1.0.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
+</p><p>There have always been complaints about browsers, proxy servers, etc. not working well when using pipelined requests / responses, up to the point that for many years (at least till 2011) software developers, engineers, web experts, etc. tried to summarize the various kind of problems they noted, to fix things and to give advices about how to deal with pipelining on the Open Web.<sup id="cite_ref-make-pipelining-usable_8-1" class="reference"><a href="#cite_note-make-pipelining-usable-8">&#91;8&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Implementation_in_web_browsers">Implementation in web browsers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit&amp;section=3" title="Edit section: Implementation in web browsers"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Of all the major browsers, only <a href="/wiki/Opera_(web_browser)" title="Opera (web browser)">Opera</a> had a fully working implementation that was enabled by default. In other browsers HTTP pipelining was disabled or not implemented.<sup id="cite_ref-lwnspdy_5-1" class="reference"><a href="#cite_note-lwnspdy-5">&#91;5&#93;</a></sup>
+</p>
+<ul><li><a href="/wiki/Internet_Explorer_8" title="Internet Explorer 8">Internet Explorer 8</a> does not support pipeline requests, due to concerns regarding buggy proxies and <a href="/wiki/Head-of-line_blocking" title="Head-of-line blocking">head-of-line blocking</a>.<sup id="cite_ref-MSIE-8-chat-2008_9-1" class="reference"><a href="#cite_note-MSIE-8-chat-2008-9">&#91;9&#93;</a></sup></li>
+<li><a href="/wiki/Internet_Explorer_11" title="Internet Explorer 11">Internet Explorer 11</a> does not support pipelining.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup></li>
+<li>Mozilla browsers (such as <a href="/wiki/Mozilla_Firefox" class="mw-redirect" title="Mozilla Firefox">Mozilla Firefox</a>, <a href="/wiki/SeaMonkey" title="SeaMonkey">SeaMonkey</a> and <a href="/wiki/Camino_(web_browser)" title="Camino (web browser)">Camino</a>) used to support pipelining; however, it was removed in Firefox 54.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> When it was supported, pipelining was disabled by default to avoid issues with misbehaving servers.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup> If pipelining was enabled by the user, Mozilla browsers used some heuristics, mostly to turn pipelining off for older <a href="/wiki/Internet_Information_Services" title="Internet Information Services">Microsoft IIS</a> servers.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup> The removal was eventually backported to SeaMonkey.</li>
+<li><a href="/wiki/Konqueror" title="Konqueror">Konqueror</a> 2.0 supports pipelining, but it is disabled by default.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup></li>
+<li><a href="/wiki/Google_Chrome" title="Google Chrome">Google Chrome</a> previously supported pipelining, but it has been disabled due to bugs and problems with poorly behaving servers.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup></li>
+<li><a href="/wiki/Pale_Moon_(web_browser)" class="mw-redirect" title="Pale Moon (web browser)">Pale Moon (web browser)</a> supports pipelining, and is enabled by default.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup></li></ul>
+<h3><span class="mw-headline" id="Implementation_in_web_proxy_servers">Implementation in web proxy servers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit&amp;section=4" title="Edit section: Implementation in web proxy servers"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Most HTTP proxies do not pipeline outgoing requests.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup>
+</p><p>Some HTTP proxies, including transparent HTTP proxies, may manage pipelined requests very badly (e.g. by mixing up the order of pipelined responses).<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup>
+</p><p>Some versions of the <a href="/wiki/Squid_(software)" title="Squid (software)">Squid</a> web proxy will pipeline up to two outgoing requests. This functionality has been disabled by default and needs to be manually enabled for "bandwidth management and access logging reasons".<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup> Squid supports multiple requests from clients.
+</p><p>The <a href="/wiki/Polipo" title="Polipo">Polipo</a> proxy pipelines outgoing requests.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup>
+</p><p>Tempesta FW, an open source <a href="/wiki/Application_delivery_controller" title="Application delivery controller">application delivery controller</a>,<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup> also pipelines requests to backend servers.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Other_implementations">Other implementations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit&amp;section=5" title="Edit section: Other implementations"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <a href="/wiki/Libwww" title="Libwww">libwww</a> <a href="/wiki/Library_(computing)" title="Library (computing)">library</a> made by the <a href="/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium">World Wide Web Consortium</a> (W3C), supports pipelining since version 5.1 released at 18 February 1997.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">&#91;25&#93;</a></sup>
+</p><p>Other application development libraries that support HTTP pipelining include:
+</p>
+<ul><li>Perl modules providing client support for HTTP pipelining are HTTP::Async and the LWPng (<a href="/wiki/Libwww-perl" class="mw-redirect" title="Libwww-perl">libwww-perl</a> New Generation) library.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">&#91;26&#93;</a></sup></li>
+<li>The Microsoft <a href="/wiki/.NET_Framework" title=".NET Framework">.NET Framework</a> 3.5 supports HTTP pipelining in the module <code>System.Net.HttpWebRequest</code>.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">&#91;27&#93;</a></sup></li>
+<li><a href="/wiki/Qt_(framework)" class="mw-redirect" title="Qt (framework)">Qt</a> class <code>QNetworkRequest</code>, introduced in 4.4.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">&#91;28&#93;</a></sup></li></ul>
+<p>Some other applications currently exploiting pipelining are:
+</p>
+<ul><li>IceBreak application server since BUILD389</li>
+<li>phttpget from <a href="/wiki/FreeBSD" title="FreeBSD">FreeBSD</a> (a minimalist pipelined HTTP client)<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">&#91;29&#93;</a></sup></li>
+<li><a href="/wiki/Libcurl" class="mw-redirect" title="Libcurl">libcurl</a> previously had limited support for pipelining using the CURLMOPT_PIPELINING option,<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">&#91;30&#93;</a></sup> but this support was removed in version 7.65.0<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">&#91;31&#93;</a></sup></li>
+<li><a href="/wiki/Portsnap" title="Portsnap">portsnap</a> (a <a href="/wiki/FreeBSD" title="FreeBSD">FreeBSD</a> <a href="/wiki/FreeBSD_Ports" title="FreeBSD Ports">ports tree</a> distribution system)</li>
+<li><a href="/wiki/APT_(software)" title="APT (software)">Advanced Packaging Tool</a> (APT) supports pipelining.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (August 2010)">citation needed</span></a></i>&#93;</sup></li>
+<li><a href="/wiki/Apache_Subversion" title="Apache Subversion">Subversion</a> (SVN) has optional support for HTTP pipelining with the serf WebDAV access module (the default module, neon, does not have pipelining support).<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">&#91;32&#93;</a></sup><sup id="cite_ref-33" class="reference"><a href="#cite_note-33">&#91;33&#93;</a></sup></li>
+<li><a href="/wiki/Microsoft_Message_Queuing" title="Microsoft Message Queuing">Microsoft Message Queuing</a> on <a href="/wiki/Windows_Server_2003" title="Windows Server 2003">Windows Server 2003</a> utilises pipelining on HTTP by default, and can be configured to use it on HTTPS.<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">&#91;34&#93;</a></sup></li>
+<li>IBM <a href="/wiki/CICS" title="CICS">CICS</a> 3.1 supports HTTP pipelining within its client.<sup id="cite_ref-35" class="reference"><a href="#cite_note-35">&#91;35&#93;</a></sup></li></ul>
+<p>Testing tools which support HTTP pipelining include:
+</p>
+<ul><li><a href="/wiki/Httperf" title="Httperf">httperf</a><sup id="cite_ref-36" class="reference"><a href="#cite_note-36">&#91;36&#93;</a></sup></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit&amp;section=6" title="Edit section: See also"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/HTTP_persistent_connection" title="HTTP persistent connection">HTTP persistent connection</a></li>
+<li><a href="/wiki/WebSocket" title="WebSocket">WebSocket</a></li>
+<li><a href="/wiki/SPDY" title="SPDY">SPDY</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit&amp;section=7" title="Edit section: References"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-HTTP/1.1-pipelining-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-HTTP/1.1-pipelining_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-HTTP/1.1-pipelining_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-HTTP/1.1-pipelining_1-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-HTTP/1.1-pipelining_1-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFFieldingReschke2014" class="citation journal cs1">Fielding, R.; Reschke, J. (2014). Fielding, R.; Reschke, J. (eds.). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc7230#section-6.3.2">"Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing: Pipelining"</a>. ietf.org. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC7230">10.17487/RFC7230</a></span><span class="reference-accessdate">. Retrieved <span class="nowrap">2014-07-24</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Hypertext+Transfer+Protocol+%28HTTP%2F1.1%29%3A+Message+Syntax+and+Routing%3A+Pipelining&amp;rft.date=2014&amp;rft_id=info%3Adoi%2F10.17487%2F&#82;FC7230&amp;rft.aulast=Fielding&amp;rft.aufirst=R.&amp;rft.au=Reschke%2C+J.&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc7230%23section-6.3.2&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span> <span class="cs1-visible-error citation-comment"><code class="cs1-code">{{<a href="/wiki/Template:Cite_journal" title="Template:Cite journal">cite journal</a>}}</code>: </span><span class="cs1-visible-error citation-comment">Cite journal requires <code class="cs1-code">&#124;journal=</code> (<a href="/wiki/Help:CS1_errors#missing_periodical" title="Help:CS1 errors">help</a>)</span></span>
+</li>
+<li id="cite_note-:0-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Connection_management_in_HTTP_1.x$revision/1330814">"Revision 1330814 | Connection management in HTTP/1.x | MDN"</a>. <i>MDN Web Docs</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-03-19</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=MDN+Web+Docs&amp;rft.atitle=Revision+1330814+%7C+Connection+management+in+HTTP%2F1.x+%7C+MDN&amp;rft_id=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FHTTP%2FConnection_management_in_HTTP_1.x%24revision%2F1330814&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-browser_support-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-browser_support_3-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://caniuse.com/#search=http2">"HTTP2 browser support"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">March 9,</span> 2017</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=HTTP2+browser+support&amp;rft_id=http%3A%2F%2Fcaniuse.com%2F%23search%3Dhttp2&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFNielsenGettysBaird-SmithPrud&#39;hommeaux1997" class="citation web cs1"><a href="/wiki/Henrik_Frystyk_Nielsen" title="Henrik Frystyk Nielsen">Nielsen, Henrik Frystyk</a>; <a href="/wiki/Jim_Gettys" title="Jim Gettys">Gettys, Jim</a>; Baird-Smith, Anselm; Prud'hommeaux, Eric; <a href="/wiki/H%C3%A5kon_Wium_Lie" title="Håkon Wium Lie">Lie, Håkon Wium</a>; <a href="/wiki/Chris_Lilley_(computer_scientist)" title="Chris Lilley (computer scientist)">Lilley, Chris</a> (24 June 1997). <a rel="nofollow" class="external text" href="http://www.w3.org/Protocols/HTTP/Performance/Pipeline.html">"Network Performance Effects of HTTP/1.1, CSS1, and PNG"</a>. World Wide Web Consortium<span class="reference-accessdate">. Retrieved <span class="nowrap">14 January</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Network+Performance+Effects+of+HTTP%2F1.1%2C+CSS1%2C+and+PNG&amp;rft.pub=World+Wide+Web+Consortium&amp;rft.date=1997-06-24&amp;rft.aulast=Nielsen&amp;rft.aufirst=Henrik+Frystyk&amp;rft.au=Gettys%2C+Jim&amp;rft.au=Baird-Smith%2C+Anselm&amp;rft.au=Prud%27hommeaux%2C+Eric&amp;rft.au=Lie%2C+H%C3%A5kon+Wium&amp;rft.au=Lilley%2C+Chris&amp;rft_id=http%3A%2F%2Fwww.w3.org%2FProtocols%2FHTTP%2FPerformance%2FPipeline.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-lwnspdy-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-lwnspdy_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-lwnspdy_5-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFWillis2009" class="citation web cs1">Willis, Nathan (18 November 2009). <a rel="nofollow" class="external text" href="https://lwn.net/Articles/362473/">"Reducing HTTP latency with SPDY"</a>. <a href="/wiki/LWN.net" title="LWN.net">LWN.net</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Reducing+HTTP+latency+with+SPDY&amp;rft.pub=LWN.net&amp;rft.date=2009-11-18&amp;rft.aulast=Willis&amp;rft.aufirst=Nathan&amp;rft_id=https%3A%2F%2Flwn.net%2FArticles%2F362473%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-non-idempotent-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-non-idempotent_6-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec8.html">"Connections"</a>. <a href="/wiki/W3.org" class="mw-redirect" title="W3.org">w3.org</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Connections&amp;rft.pub=w3.org&amp;rft_id=http%3A%2F%2Fwww.w3.org%2FProtocols%2Frfc2616%2Frfc2616-sec8.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www-archive.mozilla.org/projects/netlib/http/pipelining-faq.html">"HTTP/1.1 Pipelining FAQ'<span class="cs1-kern-right"></span>"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=HTTP%2F1.1+Pipelining+FAQ%27&amp;rft_id=https%3A%2F%2Fwww-archive.mozilla.org%2Fprojects%2Fnetlib%2Fhttp%2Fpipelining-faq.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-make-pipelining-usable-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-make-pipelining-usable_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-make-pipelining-usable_8-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFMark_Nottingham2011" class="citation web cs1">Mark Nottingham (March 14, 2011). <a rel="nofollow" class="external text" href="https://www.ietf.org/archive/id/draft-nottingham-http-pipeline-01.html">"Making HTTP Pipelining Usable on the Open Web"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">October 16,</span> 2021</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Making+HTTP+Pipelining+Usable+on+the+Open+Web&amp;rft.date=2011-03-14&amp;rft.au=Mark+Nottingham&amp;rft_id=https%3A%2F%2Fwww.ietf.org%2Farchive%2Fid%2Fdraft-nottingham-http-pipeline-01.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-MSIE-8-chat-2008-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-MSIE-8-chat-2008_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-MSIE-8-chat-2008_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20101204053757/http://www.microsoft.com/windowsxp/expertzone/chats/transcripts/08_0814_ez_ie8.mspx">"Wayback link of 'Windows Internet Explorer 8 Expert Zone Chat (August 14, 2008)'<span class="cs1-kern-right"></span>"</a>. <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a>. August 14, 2008. Archived from <a rel="nofollow" class="external text" href="http://www.microsoft.com/windowsxp/expertzone/chats/transcripts/08_0814_ez_ie8.mspx">the original</a> on December 4, 2010<span class="reference-accessdate">. Retrieved <span class="nowrap">May 10,</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Wayback+link+of+%27Windows+Internet+Explorer+8+Expert+Zone+Chat+%28August+14%2C+2008%29%27&amp;rft.pub=Microsoft&amp;rft.date=2008-08-14&amp;rft_id=http%3A%2F%2Fwww.microsoft.com%2Fwindowsxp%2Fexpertzone%2Fchats%2Ftranscripts%2F08_0814_ez_ie8.mspx&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-HTTP/1.1-concurrency-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-HTTP/1.1-concurrency_10-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFFieldingReschke2014" class="citation journal cs1">Fielding, R.; Reschke, J. (2014). Fielding, R.; Reschke, J. (eds.). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc7230#section-6.4">"Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing: Concurrency"</a>. ietf.org. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC7230">10.17487/RFC7230</a></span><span class="reference-accessdate">. Retrieved <span class="nowrap">2014-07-24</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Hypertext+Transfer+Protocol+%28HTTP%2F1.1%29%3A+Message+Syntax+and+Routing%3A+Concurrency&amp;rft.date=2014&amp;rft_id=info%3Adoi%2F10.17487%2F&#82;FC7230&amp;rft.aulast=Fielding&amp;rft.aufirst=R.&amp;rft.au=Reschke%2C+J.&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc7230%23section-6.4&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span> <span class="cs1-visible-error citation-comment"><code class="cs1-code">{{<a href="/wiki/Template:Cite_journal" title="Template:Cite journal">cite journal</a>}}</code>: </span><span class="cs1-visible-error citation-comment">Cite journal requires <code class="cs1-code">&#124;journal=</code> (<a href="/wiki/Help:CS1_errors#missing_periodical" title="Help:CS1 errors">help</a>)</span></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20160424204340/http://www8.org/w8-papers/5c-protocols/key/key.html">"Key Differences between HTTP/1.0 and HTTP/1.1"</a>. Archived from <a rel="nofollow" class="external text" href="http://www8.org/w8-papers/5c-protocols/key/key.html">the original</a> on 2016-04-24<span class="reference-accessdate">. Retrieved <span class="nowrap">2016-04-16</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Key+Differences+between+HTTP%2F1.0+and+HTTP%2F1.1&amp;rft_id=http%3A%2F%2Fwww8.org%2Fw8-papers%2F5c-protocols%2Fkey%2Fkey.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation news cs1"><a rel="nofollow" class="external text" href="https://blogs.msdn.microsoft.com/ie/2005/04/11/internet-explorer-and-connection-limits/">"Internet Explorer and Connection Limits"</a>. <i>IEBlog</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-11-14</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEBlog&amp;rft.atitle=Internet+Explorer+and+Connection+Limits&amp;rft_id=https%3A%2F%2Fblogs.msdn.microsoft.com%2Fie%2F2005%2F04%2F11%2Finternet-explorer-and-connection-limits%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/54">Firefox 54 Release Notes</a></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=264354">"Bug 264354: Enable HTTP pipelining by default"</a>. <a href="/wiki/Mozilla" title="Mozilla">Mozilla</a><span class="reference-accessdate">. Retrieved <span class="nowrap">September 16,</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Bug+264354%3A+Enable+HTTP+pipelining+by+default&amp;rft.pub=Mozilla&amp;rft_id=https%3A%2F%2Fbugzilla.mozilla.org%2Fshow_bug.cgi%3Fid%3D264354&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://hg.mozilla.org/releases/mozilla-2.0/file/09565753ce5f/netwerk/protocol/http/src/nsHttpConnection.cpp#l251">"Source code – nsHttpConnection.cpp"</a>. <i>Firefox source code</i>. Mozilla. May 7, 2010<span class="reference-accessdate">. Retrieved <span class="nowrap">December 5,</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Firefox+source+code&amp;rft.atitle=Source+code+%E2%80%93+nsHttpConnection.cpp&amp;rft.date=2010-05-07&amp;rft_id=https%3A%2F%2Fhg.mozilla.org%2Freleases%2Fmozilla-2.0%2Ffile%2F09565753ce5f%2Fnetwerk%2Fprotocol%2Fhttp%2Fsrc%2FnsHttpConnection.cpp%23l251&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFEmir_Arian" class="citation book cs1">Emir Arian. <a rel="nofollow" class="external text" href="https://books.google.com/books?id=J1gb2eb-NuEC&amp;dq=pipelining+%22konqueror%22&amp;pg=PA31"><i>Internet Communication: Protocols and related subjects</i></a><span class="reference-accessdate">. Retrieved <span class="nowrap">2021-10-16</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Internet+Communication%3A+Protocols+and+related+subjects&amp;rft.au=Emir+Arian&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DJ1gb2eb-NuEC%26dq%3Dpipelining%2B%2522konqueror%2522%26pg%3DPA31&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.chromium.org/developers/design-documents/network-stack/http-pipelining">HTTP Pipelining - The Chromium Projects</a></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://forum.palemoon.org/viewtopic.php?f=5&amp;t=16869&amp;p=123455">"HTTP/1 Pipelining support has been removed in Firefox 54 - Pale Moon forum"</a>. <i>forum.palemoon.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-06-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=forum.palemoon.org&amp;rft.atitle=HTTP%2F1+Pipelining+support+has+been+removed+in+Firefox+54+-+Pale+Moon+forum&amp;rft_id=https%3A%2F%2Fforum.palemoon.org%2Fviewtopic.php%3Ff%3D5%26t%3D16869%26p%3D123455&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFMark_Nottingham2007" class="citation web cs1">Mark Nottingham (June 20, 2007). <a rel="nofollow" class="external text" href="https://www.mnot.net/blog/2007/06/20/proxy_caching">"The State of Proxy Caching"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">May 16,</span> 2009</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+State+of+Proxy+Caching&amp;rft.date=2007-06-20&amp;rft.au=Mark+Nottingham&amp;rft_id=https%3A%2F%2Fwww.mnot.net%2Fblog%2F2007%2F06%2F20%2Fproxy_caching&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFMark_Nottingham2011" class="citation web cs1">Mark Nottingham (July 11, 2011). <a rel="nofollow" class="external text" href="https://www.mnot.net/blog/2011/07/11/what_proxies_must_do">"What proxies must do"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">October 16,</span> 2021</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=What+proxies+must+do&amp;rft.date=2011-07-11&amp;rft.au=Mark+Nottingham&amp;rft_id=https%3A%2F%2Fwww.mnot.net%2Fblog%2F2011%2F07%2F11%2Fwhat_proxies_must_do&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.squid-cache.org/Doc/config/pipeline_prefetch/">"squid&#160;: pipeline_prefetch configuration directive"</a>. <a href="/wiki/Squid_(software)" title="Squid (software)">Squid</a>. November 9, 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">December 1,</span> 2009</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=squid+%3A+pipeline_prefetch+configuration+directive&amp;rft.pub=Squid&amp;rft.date=2009-11-09&amp;rft_id=http%3A%2F%2Fwww.squid-cache.org%2FDoc%2Fconfig%2Fpipeline_prefetch%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.pps.jussieu.fr/~jch/software/polipo/">"Polipo — a caching web proxy"</a>. Juliusz Chroboczek. September 18, 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">November 12,</span> 2009</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Polipo+%E2%80%94+a+caching+web+proxy&amp;rft.pub=Juliusz+Chroboczek&amp;rft.date=2009-09-18&amp;rft_id=http%3A%2F%2Fwww.pps.jussieu.fr%2F~jch%2Fsoftware%2Fpolipo%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://github.com/tempesta-tech/tempesta">"Tempesta FW — a Linux Application Delivery Controller"</a>. GitHub<span class="reference-accessdate">. Retrieved <span class="nowrap">March 29,</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Tempesta+FW+%E2%80%94+a+Linux+Application+Delivery+Controller&amp;rft.pub=GitHub&amp;rft_id=https%3A%2F%2Fgithub.com%2Ftempesta-tech%2Ftempesta&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://github.com/tempesta-tech/tempesta/wiki/Servers:-Tempesta&#39;s-side">"Servers: Tempesta's side - tempesta-tech/tempesta Wiki"</a>. Tempesta Technologies INC. August 1, 2017<span class="reference-accessdate">. Retrieved <span class="nowrap">March 29,</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Servers%3A+Tempesta%27s+side+-+tempesta-tech%2Ftempesta+Wiki&amp;rft.pub=Tempesta+Technologies+INC&amp;rft.date=2017-08-01&amp;rft_id=https%3A%2F%2Fgithub.com%2Ftempesta-tech%2Ftempesta%2Fwiki%2FServers%3A-Tempesta%27s-side&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKahan2002" class="citation web cs1">Kahan, José (June 7, 2002). <a rel="nofollow" class="external text" href="http://www.w3.org/Library/User/History.html">"Change History of libwww"</a>. <a href="/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium">World Wide Web Consortium</a><span class="reference-accessdate">. Retrieved <span class="nowrap">August 3,</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Change+History+of+libwww&amp;rft.pub=World+Wide+Web+Consortium&amp;rft.date=2002-06-07&amp;rft.aulast=Kahan&amp;rft.aufirst=Jos%C3%A9&amp;rft_id=http%3A%2F%2Fwww.w3.org%2FLibrary%2FUser%2FHistory.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20120310042434/http://miltonkeynes.pm.org/talks/2010/02/colin_bradford_http_async.pdf">"Using HTTP::Async for Parallel HTTP Requests (Colin Bradford)"</a> <span class="cs1-format">(PDF)</span>. Archived from <a rel="nofollow" class="external text" href="http://miltonkeynes.pm.org/talks/2010/02/colin_bradford_http_async.pdf">the original</a> <span class="cs1-format">(PDF)</span> on 2012-03-10<span class="reference-accessdate">. Retrieved <span class="nowrap">2010-08-03</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Using+HTTP%3A%3AAsync+for+Parallel+HTTP+Requests+%28Colin+Bradford%29&amp;rft_id=http%3A%2F%2Fmiltonkeynes.pm.org%2Ftalks%2F2010%2F02%2Fcolin_bradford_http_async.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://blogs.msdn.com/b/mflasko/archive/2006/07/17/669293.aspx">System.Net.HttpWebRequest &amp; pipelining</a></span>
+</li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://doc.qt.nokia.com/4.6/qnetworkrequest.html">QNetworkRequest Class Reference</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20091222054207/http://doc.qt.nokia.com/4.6/qnetworkrequest.html">Archived</a> 2009-12-22 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>, Nokia QT documentation</span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.daemonology.net/phttpget/">Pipelined HTTP GET utility</a></span>
+</li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://curl.haxx.se/dev/readme-pipelining.html">Curl pipelining explanation</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20120627181619/http://curl.haxx.se/dev/readme-pipelining.html">Archived</a> 2012-06-27 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>, Curl developer documentation</span>
+</li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://daniel.haxx.se/blog/2019/04/06/curl-says-bye-bye-to-pipelining/">Curl pipelining removal announcement</a><a rel="nofollow" class="external text" href="https://web.archive.org/web/20210205184800/https://daniel.haxx.se/blog/2019/04/06/curl-says-bye-bye-to-pipelining/">Archived</a> 2021-02-05 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFC._Michael_PilatoBen_Collins-SussmanBrian_W._Fitzpatrick2008" class="citation book cs1">C. Michael Pilato; Ben Collins-Sussman; Brian W. Fitzpatrick (2008). <i>Version Control with Subversion</i>. <a href="/wiki/O%27Reilly_Media" title="O&#39;Reilly Media">O'Reilly Media</a>. p.&#160;238. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-596-51033-6" title="Special:BookSources/978-0-596-51033-6"><bdi>978-0-596-51033-6</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Version+Control+with+Subversion&amp;rft.pages=238&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2008&amp;rft.isbn=978-0-596-51033-6&amp;rft.au=C.+Michael+Pilato&amp;rft.au=Ben+Collins-Sussman&amp;rft.au=Brian+W.+Fitzpatrick&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFJustin_R._Erenkrantz2007" class="citation web cs1">Justin R. Erenkrantz (2007). <a rel="nofollow" class="external text" href="http://www.erenkrantz.com/oscon/OSCON%202007%20Subversion%20New%20Toys.pdf">"Subversion: Powerful New Toys"</a> <span class="cs1-format">(PDF)</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Subversion%3A+Powerful+New+Toys&amp;rft.date=2007&amp;rft.au=Justin+R.+Erenkrantz&amp;rft_id=http%3A%2F%2Fwww.erenkrantz.com%2Foscon%2FOSCON%25202007%2520Subversion%2520New%2520Toys.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://technet.microsoft.com/en-us/library/cc737394%28WS.10%29.aspx">"HTTP/HTTPS messages"</a>. <a href="/wiki/Microsoft_TechNet" title="Microsoft TechNet">Microsoft TechNet</a>. January 21, 2005.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=HTTP%2FHTTPS+messages&amp;rft.pub=Microsoft+TechNet&amp;rft.date=2005-01-21&amp;rft_id=https%3A%2F%2Ftechnet.microsoft.com%2Fen-us%2Flibrary%2Fcc737394%2528WS.10%2529.aspx&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://publib.boulder.ibm.com/infocenter/cicsts/v3r1/index.jsp?topic=/com.ibm.cics.ts31.doc/dfhtl/topics/dfhtl_cwspipelining.htm">How CICS Web support handles pipelining</a></span>
+</li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20120608143409/http://www.hpl.hp.com/research/linux/httperf/">"HTTP Website"</a>. Archived from <a rel="nofollow" class="external text" href="http://www.hpl.hp.com/research/linux/httperf/">the original</a> on 2012-06-08<span class="reference-accessdate">. Retrieved <span class="nowrap">2010-10-01</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=HTTP+Website&amp;rft_id=http%3A%2F%2Fwww.hpl.hp.com%2Fresearch%2Flinux%2Fhttperf%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTTP_pipelining&amp;action=edit&amp;section=8" title="Edit section: External links"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>RFC 7230 <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFFieldingReschke2014" class="citation journal cs1">Fielding, R.; Reschke, J. (2014). Fielding, R; Reschke, J (eds.). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc7230#section-6.3.2">"Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"</a>. ietf.org. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC7230">10.17487/RFC7230</a></span><span class="reference-accessdate">. Retrieved <span class="nowrap">2014-07-24</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Hypertext+Transfer+Protocol+%28HTTP%2F1.1%29%3A+Message+Syntax+and+Routing&amp;rft.date=2014&amp;rft_id=info%3Adoi%2F10.17487%2F&#82;FC7230&amp;rft.aulast=Fielding&amp;rft.aufirst=R.&amp;rft.au=Reschke%2C+J.&amp;rft_id=http%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc7230%23section-6.3.2&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHTTP+pipelining" class="Z3988"></span> <span class="cs1-visible-error citation-comment"><code class="cs1-code">{{<a href="/wiki/Template:Cite_journal" title="Template:Cite journal">cite journal</a>}}</code>: </span><span class="cs1-visible-error citation-comment">Cite journal requires <code class="cs1-code">&#124;journal=</code> (<a href="/wiki/Help:CS1_errors#missing_periodical" title="Help:CS1 errors">help</a>)</span></li>
+<li><a rel="nofollow" class="external text" href="https://www.mozilla.org/projects/netlib/http/pipelining-faq.html">HTTP/1.1 Pipelining FAQ at mozilla.org</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.w3.org/Protocols/HTTP/Performance/Pipeline.html">"Network Performance Effects of HTTP/1.1, CSS1, and PNG" at w3.org</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.die.net/musings/page_load_time/">"Optimizing Page Load Times" article</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.daemonology.net/phttpget/">phttpget</a></li>
+<li><a rel="nofollow" class="external text" href="https://code.google.com/p/serf/">serf</a> C library</li></ul>
+<!-- 
+NewPP limit report
+Parsed by mw2407
+Cached time: 20240114195852
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.323 seconds
+Real time usage: 0.387 seconds
+Preprocessor visited node count: 1647/1000000
+Post‐expand include size: 55107/2097152 bytes
+Template argument size: 666/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 91316/5000000 bytes
+Lua time usage: 0.208/10.000 seconds
+Lua memory usage: 6819585/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  335.714      1 -total
+ 57.31%  192.409      1 Template:Reflist
+ 22.59%   75.825      1 Template:HTTP
+ 22.29%   74.833     23 Template:Cite_web
+ 22.02%   73.930      1 Template:Sidebar
+ 21.28%   71.440      3 Template:Cite_journal
+ 13.02%   43.704      1 Template:Citation_needed
+ 10.81%   36.286      1 Template:Fix
+  7.92%   26.585      2 Template:Category_handler
+  3.08%   10.326      3 Template:Webarchive
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1218572-0!canonical and timestamp 20240114195851 and revision id 1180356711. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=HTTP_pipelining&amp;oldid=1180356711">https://en.wikipedia.org/w/index.php?title=HTTP_pipelining&amp;oldid=1180356711</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Category</a>: <ul><li><a href="/wiki/Category:Hypertext_Transfer_Protocol" title="Category:Hypertext Transfer Protocol">Hypertext Transfer Protocol</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_errors:_missing_periodical" title="Category:CS1 errors: missing periodical">CS1 errors: missing periodical</a></li><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_August_2010" title="Category:Articles with unsourced statements from August 2010">Articles with unsourced statements from August 2010</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 16 October 2023, at 03:28<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=HTTP_pipelining&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li>
+		<button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
+
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-78647fdcdc-vwv9b","wgBackendResponseTime":117,"wgPageParseReport":{"limitreport":{"cputime":"0.323","walltime":"0.387","ppvisitednodes":{"value":1647,"limit":1000000},"postexpandincludesize":{"value":55107,"limit":2097152},"templateargumentsize":{"value":666,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":91316,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  335.714      1 -total"," 57.31%  192.409      1 Template:Reflist"," 22.59%   75.825      1 Template:HTTP"," 22.29%   74.833     23 Template:Cite_web"," 22.02%   73.930      1 Template:Sidebar"," 21.28%   71.440      3 Template:Cite_journal"," 13.02%   43.704      1 Template:Citation_needed"," 10.81%   36.286      1 Template:Fix","  7.92%   26.585      2 Template:Category_handler","  3.08%   10.326      3 Template:Webarchive"]},"scribunto":{"limitreport-timeusage":{"value":"0.208","limit":"10.000"},"limitreport-memusage":{"value":6819585,"limit":52428800}},"cachereport":{"origin":"mw2407","timestamp":"20240114195852","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"HTTP pipelining","url":"https:\/\/en.wikipedia.org\/wiki\/HTTP_pipelining","sameAs":"http:\/\/www.wikidata.org\/entity\/Q727120","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q727120","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-11-28T12:40:00Z","dateModified":"2023-10-16T03:28:53Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/19\/HTTP_pipelining2.svg","headline":"technique in which multiple HTTP requests are sent on a single TCP connection without waiting for the corresponding responses"}</script>
+</body>
+</html>
