@@ -67,9 +67,10 @@
   * [21](about/port/21.md)
   * [22](about/port/22.md)
   * [23](about/port/23.md)
-  * [2323](about/port/2323.md)
   * [25](about/port/25.md)
   * [587](about/port/587.md)
+  * [2323](about/port/2323.md)
+  * [53](about/port/53.md)
 
 ## ⚙ Tools
 
