@@ -4,7 +4,7 @@ description: >-
   With 600+ tools & robust security, it's essential for cybersecurity pros.
 ---
 
-# 🐧 Kali Linux
+# Kali Linux
 
 Kali Linux is an advanced operating system specifically designed for the purpose of digital forensics and penetration testing. It is a comprehensive platform that is equipped with all the tools required to conduct various tests and investigations on networks, web applications, wireless networks, and other digital devices.
 

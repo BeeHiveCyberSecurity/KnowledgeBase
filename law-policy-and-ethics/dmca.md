@@ -4,7 +4,7 @@ description: >-
   providers from user-generated content liability in the US.
 ---
 
-# ⚖ DMCA
+# DMCA
 
 The Digital Millennium Copyright Act (DMCA) is a United States copyright law that provides a legal framework for addressing copyright infringement on the Internet. The law was enacted in 1998 and amended the existing copyright law to address issues arising from the digital age.
 

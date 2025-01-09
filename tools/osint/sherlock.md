@@ -4,7 +4,7 @@ description: >-
   identification of usernames across websites and social media platforms.
 ---
 
-# ℹ sherlock
+# sherlock
 
 Sherlock is an open-source tool designed for digital forensic investigation and penetration testing. It is used to identify potential security weaknesses and vulnerabilities in web applications, networks, and online accounts. The tool was developed by Rastamouse, a security researcher, and is written in Python.
 

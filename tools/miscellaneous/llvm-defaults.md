@@ -4,7 +4,7 @@ description: >-
   development environment for LLVM-based projects on Debian systems.
 ---
 
-# 📦 llvm-defaults
+# llvm-defaults
 
 LLVM is a collection of modular and reusable compiler and toolchain technologies. llvm-defaults is a tool that simplifies the installation and management of LLVM packages on Debian-based Linux distributions. It provides a meta-package that depends on the appropriate version of LLVM and its associated libraries and tools. By using llvm-defaults, users can easily install and maintain LLVM packages, including Clang, a popular C++ compiler, and other development tools that rely on LLVM. The tool also ensures that the correct dependencies are installed and that upgrades are smooth and error-free. LLVM and llvm-defaults are widely used in the development of operating systems, programming languages, and other software that require efficient and reliable compilation and optimization.
 

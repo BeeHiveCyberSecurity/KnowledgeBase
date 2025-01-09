@@ -5,7 +5,7 @@ description: >-
   high-level API.
 ---
 
-# 🔏 libnfc
+# libnfc
 
 Libnfc is a free and open-source software library that provides a convenient and secure way to communicate with Near Field Communication (NFC) devices. NFC technology is widely used in various applications such as contactless payment systems, access control systems, public transportation, and electronic ticketing. Libnfc enables developers to easily build applications that interact with NFC devices without needing to understand the low-level details of NFC protocol.
 

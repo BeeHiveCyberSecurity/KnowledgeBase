@@ -5,7 +5,7 @@ description: >-
   support.
 ---
 
-# 🐧 Arch Linux
+# Arch Linux
 
 Arch Linux is a powerful and versatile Linux distribution designed to provide users with complete control over their system. Known for its simplicity, flexibility, and stability, Arch Linux is an excellent choice for advanced users who want to customize their operating system to their exact specifications.
 

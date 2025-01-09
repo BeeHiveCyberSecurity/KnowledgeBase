@@ -4,7 +4,7 @@ description: >-
   to use, customizable, and powerful tools for devs and sysadmins.
 ---
 
-# ⚙ NetBSD
+# NetBSD
 
 NetBSD is a free and open-source Unix-like operating system that is known for its portability, security, and reliability. It is one of the most versatile operating systems available today, supporting a wide range of hardware platforms, including embedded systems, servers, workstations, and even some old and obscure hardware. NetBSD is also designed to be highly customizable and easy to use, making it an excellent choice for both novice and advanced users.
 

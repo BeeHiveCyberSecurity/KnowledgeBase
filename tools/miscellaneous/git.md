@@ -4,7 +4,7 @@ description: >-
   during software development. It allows collaboration and enables rollbacks.
 ---
 
-# 📦 git
+# git
 
 #### git <a href="#git" id="git"></a>
 

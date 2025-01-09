@@ -1,4 +1,4 @@
-# ⚖ Fair Use
+# Fair Use
 
 Fair use is a legal doctrine that provides a limited exception to the exclusive rights granted to copyright owners under the copyright law of the United States. It allows for the use of copyrighted material for purposes such as criticism, commentary, news reporting, teaching, scholarship, or research, without the need for permission from the copyright owner, provided that the use does not negatively impact the copyright owner's ability to profit from their work.
 

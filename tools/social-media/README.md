@@ -5,5 +5,5 @@ description: >-
   communities.
 ---
 
-# 🔉 Social Media
+# Social Media
 

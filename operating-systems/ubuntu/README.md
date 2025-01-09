@@ -4,7 +4,7 @@ description: >-
   and extensive customization options for desktops, laptops, and servers.
 ---
 
-# 🐧 Ubuntu
+# Ubuntu
 
 Ubuntu is a popular open-source operating system that has become increasingly popular over the years. Developed by Canonical Ltd, it is a free, user-friendly and versatile operating system that is built on the Linux kernel. Ubuntu provides users with a powerful, stable and secure operating system that is designed to work on desktops, laptops, and servers.
 
