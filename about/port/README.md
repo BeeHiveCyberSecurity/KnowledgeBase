@@ -4,5 +4,5 @@ description: >-
   them.
 ---
 
-# 🔌 Ports
+# Ports
 

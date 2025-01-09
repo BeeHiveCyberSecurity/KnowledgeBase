@@ -60,9 +60,9 @@
   * [False Flags](threats/disinformation/false-flags.md)
   * [Deep Fakes](threats/disinformation/deep-fakes.md)
 
-## ℹ️ About
+## About
 
-* [🔌 Ports](about/port/README.md)
+* [Ports](about/port/README.md)
   * [20](about/port/20.md)
   * [21](about/port/21.md)
   * [22](about/port/22.md)
@@ -74,7 +74,7 @@
   * [80](about/port/80.md)
   * [194](about/port/194.md)
 
-## ⚙️ Tools
+## Tools
 
 * [📻 Radio Frequency & SubGHZ](tools/radio-frequency-and-subghz/README.md)
   * [📻 gnuradio](tools/radio-frequency-and-subghz/gnuradio.md)
