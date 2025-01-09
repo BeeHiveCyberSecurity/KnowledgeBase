@@ -4,7 +4,7 @@ description: >-
   hard to determine its accuracy.
 ---
 
-# 📀 Grey Propaganda
+# Grey Propaganda
 
 Grey propaganda is a form of propaganda that is neither entirely true nor entirely false, making it difficult for the audience to determine its accuracy or bias. It often involves the use of manipulated or incomplete information, and the source may not be clearly identified or may present themselves as an impartial observer. Grey propaganda is often used to manipulate public opinion, discredit opposing viewpoints, or gain support for a particular cause or agenda. It can be difficult to detect and counter, as it often appears to be a legitimate source of information. However, critical thinking and fact-checking can help identify and expose grey propaganda.
 

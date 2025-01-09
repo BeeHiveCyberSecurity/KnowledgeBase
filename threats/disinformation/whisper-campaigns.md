@@ -4,7 +4,7 @@ description: >-
   gossip to influence public opinion without attribution or evidence.
 ---
 
-# 🔇 Whisper Campaigns
+# Whisper Campaigns
 
 Whisper campaigns, also known as dark campaigns or backchanneling, are a type of propaganda tactic used to spread rumors or false information about a person or group, often with the intent of damaging their reputation or influencing public opinion. Unlike overt propaganda, which relies on public statements or media campaigns, whisper campaigns operate behind the scenes, spreading rumors or gossip through personal conversations, phone calls, or social media channels.
 

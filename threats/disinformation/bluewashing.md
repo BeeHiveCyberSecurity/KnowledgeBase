@@ -5,7 +5,7 @@ description: >-
   related to env conservation and management.
 ---
 
-# 🔵 Bluewashing
+# Bluewashing
 
 Bluewashing (a word with similar connotations to "whitewash" and "greenwash") is term used to describe deceptive marketing that overstates a company's commitment to responsible social practices. It can be used interchangeably with the term greenwashing but has a greater focus on economic and community factors. Alternatively, it could be phrased as a way that companies hide the social damage that their policies have caused.
 

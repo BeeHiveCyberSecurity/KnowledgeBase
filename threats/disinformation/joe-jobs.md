@@ -4,7 +4,7 @@ description: >-
   individual or organization to send false and damaging messages.
 ---
 
-# 👨 "Joe Jobs"
+# "Joe Jobs"
 
 In the world of propaganda, a "joe job" is a type of cyber attack that aims to damage the reputation or credibility of a person or organization by sending out fake emails or other online communications that appear to come from them. These emails typically contain malicious content, such as viruses or spam, and are designed to make it appear as if the victim is responsible for sending them out.
 

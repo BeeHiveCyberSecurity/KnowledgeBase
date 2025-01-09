@@ -4,7 +4,7 @@ description: >-
   involving propaganda and disinformation to influence opinions and actions.
 ---
 
-# ⚔ Info Warfare
+# Info Warfare
 
 Information warfare refers to the use of information and communication technologies to achieve strategic objectives. It involves a range of techniques and tactics used to influence, manipulate, and deceive target audiences. Information warfare can take many forms, including propaganda, disinformation, and cyberattacks.
 

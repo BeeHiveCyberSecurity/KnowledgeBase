@@ -4,7 +4,7 @@ description: >-
   viewpoint or message using truthful information and transparent sources.
 ---
 
-# ⚪ White Propaganda
+# White Propaganda
 
 
 

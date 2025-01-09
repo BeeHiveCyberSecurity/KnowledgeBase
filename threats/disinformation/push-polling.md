@@ -4,7 +4,7 @@ description: >-
   spreading misleading or false information through fake polls.
 ---
 
-# 📳 Push Polling
+# Push Polling
 
 Push polling is a propaganda technique that involves the use of carefully crafted phone calls to influence people's opinions and behavior. It is a type of political campaigning that attempts to manipulate public opinion by spreading misleading or false information. In a push poll, a caller will ask a series of leading questions that are designed to persuade the recipient to adopt a certain point of view, rather than to collect unbiased data.
 

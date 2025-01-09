@@ -5,7 +5,7 @@ description: >-
   measures needed to prevent harm.
 ---
 
-# 👿 Deep Fakes
+# Deep Fakes
 
 ## Technical Summary
 

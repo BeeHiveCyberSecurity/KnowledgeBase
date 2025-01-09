@@ -4,7 +4,7 @@ description: >-
   spreading false information or attributing it to a false source.
 ---
 
-# ⚫ Black Propaganda
+# Black Propaganda
 
 Black propaganda is a form of propaganda intended to create the impression that it was created by those it is supposed to discredit. Black propaganda contrasts with gray propaganda, which does not identify its source, as well as white propaganda, which does not disguise its origins at all. It is typically used to vilify or embarrass the enemy through misrepresentation.
 

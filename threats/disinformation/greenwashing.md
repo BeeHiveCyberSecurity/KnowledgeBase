@@ -5,7 +5,7 @@ description: >-
   than it actually is.
 ---
 
-# 🟢 Greenwashing
+# Greenwashing
 
 
 

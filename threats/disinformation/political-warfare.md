@@ -4,7 +4,7 @@ description: >-
   political objectives by undermining an opponent's ideology or legitimacy.
 ---
 
-# 🏨 Political Warfare
+# Political Warfare
 
 Political warfare refers to the use of disinformation, propaganda, and other manipulative tactics to influence political outcomes, often with the aim of advancing a particular agenda or undermining an opponent. It is an extension of the traditional military concept of warfare, but instead of using military force, political warfare is aimed at shaping perceptions and beliefs to gain an advantage in political and ideological battles.
 

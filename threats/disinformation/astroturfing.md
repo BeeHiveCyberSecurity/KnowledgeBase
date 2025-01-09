@@ -5,7 +5,7 @@ description: >-
   campaigns.
 ---
 
-# 🍥 Astroturfing
+# Astroturfing
 
 Astroturfing refers to the deceptive practice of simulating grassroots support or opposition for a political, social, or commercial message. This manipulation is achieved through fake identities, automated scripts, paid shills, and other misleading techniques to sway public opinion, influence political discourse, and affect consumer behavior.
 

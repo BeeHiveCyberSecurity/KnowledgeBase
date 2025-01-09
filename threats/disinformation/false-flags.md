@@ -4,7 +4,7 @@ description: >-
   false impression of the source or intention of an action or event.
 ---
 
-# 🚩 False Flags
+# False Flags
 
 In the context of propaganda, "false flags" refer to the intentional dissemination of misleading or fabricated information, often attributed to a source other than the true originator, with the intention of deceiving an audience or generating a desired response.
 
