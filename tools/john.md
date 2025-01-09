@@ -5,7 +5,7 @@ description: >-
   auditing and testing.
 ---
 
-# 🔐 john
+# john
 
 John, also known as John the Ripper, is a powerful and versatile password cracking tool designed for security professionals and hackers. It is an open-source software that can be used on multiple platforms, including Windows, Linux, and macOS.
 

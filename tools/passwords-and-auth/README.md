@@ -5,5 +5,5 @@ description: >-
   using factors such as biometrics, tokens, etc
 ---
 
-# 🔐 Passwords & Auth
+# Passwords & Auth
 

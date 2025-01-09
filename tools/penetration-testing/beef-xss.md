@@ -5,7 +5,7 @@ description: >-
   testing.
 ---
 
-# 🎩 beef-xss
+# beef-xss
 
 Beef-XSS is a powerful security tool that is designed to help organizations and security professionals identify vulnerabilities in web applications by simulating real-world attacks. With its intuitive user interface and advanced features, Beef-XSS is the ideal tool for anyone looking to enhance their security posture and protect their web applications from cyber attacks.
 

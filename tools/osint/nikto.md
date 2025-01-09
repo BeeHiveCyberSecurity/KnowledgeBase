@@ -4,7 +4,7 @@ description: >-
   misconfigurations. It sends HTTP requests and provides a detailed report.
 ---
 
-# ℹ nikto
+# nikto
 
 Nikto is a free and open-source web server scanner that is widely used for detecting vulnerabilities and security issues in web applications. It is designed to perform comprehensive scans of web servers and identify potential security risks that could be exploited by attackers.
 

@@ -4,7 +4,7 @@ description: >-
   using LUKS format with customizable encryption settings and key management.
 ---
 
-# 🔐 cryptsetup
+# cryptsetup
 
 Cryptsetup is a powerful security tool designed to help protect sensitive data stored on Linux systems. This open-source software provides full disk encryption capabilities, ensuring that your data is safe and secure from prying eyes.
 

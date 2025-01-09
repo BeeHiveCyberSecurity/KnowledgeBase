@@ -5,7 +5,7 @@ description: >-
   visualization.
 ---
 
-# 🕸 spiderfoot
+# spiderfoot
 
 Spiderfoot is a powerful open-source security tool that provides users with the ability to conduct reconnaissance and gather intelligence on a wide range of targets. The tool is designed to be highly flexible and customizable, allowing users to tailor their investigations to their specific needs.
 

@@ -4,7 +4,7 @@ description: >-
   directories by performing a dictionary-based brute-force attack.
 ---
 
-# ℹ dirb
+# dirb
 
 Dirb is an open-source web application scanner that is used for testing the security of web applications by identifying hidden web pages and directories. It is a command-line tool that can be used to perform various tests on a web server, such as detecting directories, guessing filenames, and finding sensitive files. The tool is very popular in the cybersecurity community and is widely used by security professionals and penetration testers to find potential vulnerabilities in web applications.
 

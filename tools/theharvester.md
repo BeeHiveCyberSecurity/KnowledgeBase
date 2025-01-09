@@ -4,7 +4,7 @@ description: >-
   public/private data sources. Flexible and user-friendly.
 ---
 
-# ℹ theharvester
+# theharvester
 
 TheHarvester is a powerful security tool designed to help individuals and organizations gather valuable intelligence from a variety of sources. Whether you're a security professional, a researcher, or just someone who wants to keep an eye on potential threats, TheHarvester can help you find the information you need to stay informed and protected.
 

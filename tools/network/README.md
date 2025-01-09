@@ -5,5 +5,5 @@ description: >-
   without physical connections.
 ---
 
-# 🌐 Networks & Wireless
+# Networks & Wireless
 

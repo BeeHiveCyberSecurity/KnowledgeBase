@@ -4,7 +4,7 @@ description: >-
   on multiple protocols. User-friendly interface and versatile capabilities.
 ---
 
-# 🔐 hydra
+# hydra
 
 Hydra is a powerful and comprehensive security tool designed to help penetration testers and security professionals conduct brute-force attacks on various protocols and applications. The tool is widely used by security researchers and experts worldwide, providing them with the ability to perform testing and analysis on various security protocols, including HTTP, SMTP, FTP, Telnet, and many more.
 

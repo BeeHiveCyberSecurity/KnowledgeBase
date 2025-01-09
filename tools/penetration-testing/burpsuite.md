@@ -4,7 +4,7 @@ description: >-
   intruder. Detects various vulnerabilities such as SQL injection and XSS
 ---
 
-# 🎩 burpsuite
+# burpsuite
 
 BurpSuite is a powerful security testing tool that is designed to assist in finding and exploiting vulnerabilities in web applications. It is a comprehensive solution that can be used for web application security testing, scanning, and analysis, as well as for penetration testing.
 

@@ -5,7 +5,7 @@ description: >-
   attempts.
 ---
 
-# ℹ dnsrecon
+# dnsrecon
 
 DNSRecon is a powerful security tool that allows system administrators, network engineers, and security professionals to perform comprehensive reconnaissance of the Domain Name System (DNS). DNSRecon is a command-line tool that is designed to identify common DNS misconfigurations, vulnerabilities, and weaknesses that could be exploited by attackers to gain unauthorized access to a network.
 

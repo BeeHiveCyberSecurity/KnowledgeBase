@@ -4,7 +4,7 @@ description: >-
   subdomains associated with a domain name, enhancing network security.
 ---
 
-# ℹ subfinder
+# subfinder
 
 Subfinder is a powerful security tool designed to help you discover subdomains associated with a given domain name. With its intuitive and user-friendly interface, subfinder is the ideal tool for both novice and experienced security professionals who want to identify potential vulnerabilities in their network infrastructure.
 

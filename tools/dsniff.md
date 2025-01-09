@@ -4,7 +4,7 @@ description: >-
   detects/prevents threats. Decryption, hijacking, DNS spoofing features.
 ---
 
-# ℹ dsniff
+# dsniff
 
 dsniff is a powerful security tool that has been designed to help network administrators and security professionals detect, intercept and monitor network traffic. This tool can be used to identify vulnerabilities in the network and prevent attacks before they occur. dsniff can be installed on a variety of platforms, including Linux, macOS, and Windows.
 

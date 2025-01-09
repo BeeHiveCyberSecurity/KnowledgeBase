@@ -5,7 +5,7 @@ description: >-
   protocols.
 ---
 
-# 🔐 hashcat
+# hashcat
 
 Hashcat is a highly powerful and efficient security tool designed to crack passwords and other cryptographic hash functions. With its state-of-the-art technology and unmatched processing speed, Hashcat has become a popular tool for security professionals, ethical hackers, and penetration testers who are looking to test the strength of their system's security.
 

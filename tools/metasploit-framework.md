@@ -4,7 +4,7 @@ description: >-
   exploit modules library for efficient penetration testing.
 ---
 
-# 🎩 metasploit-framework
+# metasploit-framework
 
 Metasploit Framework is a popular security tool designed to help security professionals test the security of their systems and identify vulnerabilities. The tool is an open-source project that is constantly updated and maintained by a large community of developers, making it a reliable and trustworthy tool for penetration testing and vulnerability assessment.
 

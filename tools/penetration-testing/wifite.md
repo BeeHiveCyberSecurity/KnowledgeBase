@@ -5,7 +5,7 @@ description: >-
   security professionals.
 ---
 
-# 🎩 wifite
+# wifite
 
 Wifite is a powerful security tool designed to test and secure wireless networks. It is a Python-based wireless auditing tool that enables security professionals and network administrators to automate the process of testing wireless network security, identify vulnerabilities and flaws, and enhance network security.
 

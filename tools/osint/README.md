@@ -4,5 +4,5 @@ description: >-
   open/closed source data types.
 ---
 
-# ℹ Surface Intelligence
+# Surface Intelligence
 

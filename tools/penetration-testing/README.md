@@ -5,5 +5,5 @@ description: >-
   attackers.
 ---
 
-# 🎩 Penetration Testing
+# Penetration Testing
 
