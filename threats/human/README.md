@@ -5,5 +5,5 @@ description: >-
   threats.
 ---
 
-# 🤦 Human
+# Human
 
