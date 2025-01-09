@@ -4,7 +4,7 @@ description: >-
   versatile and can be customized to perform a range of tasks.
 ---
 
-# 📻 hackrf
+# hackrf
 
 ### Packages and Binaries:
 

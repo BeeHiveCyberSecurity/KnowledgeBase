@@ -2,7 +2,7 @@
 description: GNU Radio provides signal processing blocks to implement software radios.
 ---
 
-# 📻 gnuradio
+# gnuradio
 
 ### Packages and Binaries:
 

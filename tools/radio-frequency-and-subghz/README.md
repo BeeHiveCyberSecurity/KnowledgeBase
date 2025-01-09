@@ -1,2 +1,2 @@
-# 📻 Radio Frequency & SubGHZ
+# Radio Frequency & SubGHZ
 

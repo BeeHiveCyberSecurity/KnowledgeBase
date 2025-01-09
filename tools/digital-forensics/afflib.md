@@ -5,7 +5,7 @@ description: >-
   recovery.
 ---
 
-# 💾 afflib
+# afflib
 
 #### afflib-tools <a href="#afflib-tools" id="afflib-tools"></a>
 

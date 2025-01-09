@@ -4,5 +4,5 @@ description: >-
   digital evidence in order to investigate and prevent cybercrimes.
 ---
 
-# 👁 Digital Forensics
+# Digital Forensics
 
