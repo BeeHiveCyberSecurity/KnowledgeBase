@@ -5,5 +5,5 @@ description: >-
   functionality of the device.
 ---
 
-# 🖥 Hardware
+# Hardware
 
