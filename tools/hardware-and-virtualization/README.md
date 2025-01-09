@@ -5,5 +5,5 @@ description: >-
   machines or environments on top of physical.
 ---
 
-# 🖲 Hardware & Virtualization
+# Hardware & Virtualization
 
