@@ -5,7 +5,7 @@ description: >-
   analysis.
 ---
 
-# 🌐 ettercap
+# ettercap
 
 Ettercap is a powerful and versatile network security tool that is widely used by security professionals and hackers alike for various purposes. It is an open-source and free tool that is available for Windows, Linux, and macOS operating systems.
 

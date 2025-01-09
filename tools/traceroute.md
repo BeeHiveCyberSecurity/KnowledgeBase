@@ -5,7 +5,7 @@ description: >-
   vulnerabilities.
 ---
 
-# 🌐 traceroute
+# traceroute
 
 Traceroute, also known as tracert in Windows, is a network diagnostic tool that is used to trace the path taken by an Internet Protocol (IP) packet from its source to its destination. It works by sending a sequence of Internet Control Message Protocol (ICMP) packets to each router along the path between the source and destination, and measuring the time taken for each response. The results of these measurements can be used to determine the route taken by the packet, as well as the performance of each router along the way.
 

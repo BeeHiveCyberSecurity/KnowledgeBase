@@ -4,7 +4,7 @@ description: >-
   and WIDS (wireless intrusion detection) framework.
 ---
 
-# 🌐 kismet
+# kismet
 
 Kismet is a powerful security tool designed to detect, monitor and analyze wireless networks. It is an open-source tool, available on multiple platforms, including Linux, Windows, and macOS, and provides a comprehensive suite of features for wireless network security analysis.
 

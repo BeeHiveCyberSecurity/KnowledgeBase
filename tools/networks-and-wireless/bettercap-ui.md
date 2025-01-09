@@ -4,7 +4,7 @@ description: >-
   real-time network monitoring, packet analysis, SSL stripping and more.
 ---
 
-# 🌐 bettercap-ui
+# bettercap-ui
 
 ## Packages and Binaries:
 

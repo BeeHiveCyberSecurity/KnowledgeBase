@@ -5,7 +5,7 @@ description: >-
   expertise.
 ---
 
-# 🌐 responder
+# responder
 
 Responder is a powerful and open-source security tool designed for detecting and responding to network-based attacks. The tool is used for testing the security of various systems and services by simulating different attack scenarios.
 

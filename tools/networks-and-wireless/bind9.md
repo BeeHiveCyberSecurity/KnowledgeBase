@@ -4,7 +4,7 @@ description: >-
   supports DNSSEC, dynamic updates, zone transfers, and load balancing
 ---
 
-# 🌐 bind9
+# bind9
 
 BIND9, or the Berkeley Internet Name Domain version 9, is a widely used open-source DNS (Domain Name System) server software. It is used by millions of organizations around the world to provide DNS services and is considered to be one of the most stable and secure DNS server software available.
 

@@ -5,7 +5,7 @@ description: >-
   vulnerabilities.
 ---
 
-# 🌐 ubertooth
+# ubertooth
 
 Ubertooth is an open-source Bluetooth security tool designed for monitoring and testing Bluetooth Low Energy (BLE) and Bluetooth Classic (BT) wireless communications. It is a hardware device that can be used in combination with software tools to perform various security-related tasks, such as sniffing, injecting, jamming, and capturing Bluetooth packets.
 

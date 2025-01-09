@@ -1,4 +1,4 @@
-# 🌐 tcpreplay
+# tcpreplay
 
 ### Packages and Binaries:
 

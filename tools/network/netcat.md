@@ -5,7 +5,7 @@ description: >-
   professionals and network engineers.
 ---
 
-# 🌐 netcat
+# netcat
 
 Netcat is a powerful and versatile network utility that can be used for a wide range of tasks such as port scanning, file transfer, and network troubleshooting. It is commonly referred to as the "Swiss Army Knife" of networking tools due to its extensive capabilities and ease of use.
 

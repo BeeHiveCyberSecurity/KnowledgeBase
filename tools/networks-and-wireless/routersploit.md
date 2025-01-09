@@ -4,7 +4,7 @@ description: >-
   vulnerabilities in routers and other network devices. It's written in Python.
 ---
 
-# 🌐 routersploit
+# routersploit
 
 ### RouterSploit Usage Examples <a href="#routersploit-usage-examples" id="routersploit-usage-examples"></a>
 

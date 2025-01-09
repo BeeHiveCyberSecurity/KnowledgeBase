@@ -4,7 +4,7 @@ description: >-
   identifies hosts, open ports, services, OS, and potential vulnerabilities.
 ---
 
-# 🌐 nmap
+# nmap
 
 Nmap, short for Network Mapper, is a free and open-source security tool used for network exploration, management, and security auditing. It is designed to provide users with a comprehensive and accurate view of a network's structure, devices, and services. Nmap uses a variety of techniques to identify active hosts, operating systems, open ports, and running services.
 

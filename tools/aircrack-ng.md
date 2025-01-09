@@ -4,7 +4,7 @@ description: >-
   packet capturing, password cracking, deauthentication, and more.
 ---
 
-# 🌐 aircrack-ng
+# aircrack-ng
 
 Aircrack-ng is a security tool that is primarily used to crack Wi-Fi passwords. It is a suite of tools that are designed to assess the security of wireless networks. The tool is primarily used by security researchers and network administrators to identify and resolve vulnerabilities in wireless networks.
 

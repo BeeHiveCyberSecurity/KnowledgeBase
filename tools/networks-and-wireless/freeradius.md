@@ -4,7 +4,7 @@ description: >-
   authentication and authorization for network devices and applications.
 ---
 
-# 🌐 freeradius
+# freeradius
 
 FreeRADIUS is an open-source, high-performance, and highly configurable RADIUS server. It is used for centralized authentication, authorization, and accounting for network devices and services. With support for a wide range of authentication methods, including username and password, certificates, and smart cards, FreeRADIUS can authenticate users and devices against a variety of backend databases, such as MySQL, PostgreSQL, and LDAP.
 

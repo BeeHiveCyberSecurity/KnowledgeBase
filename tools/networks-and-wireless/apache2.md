@@ -4,7 +4,7 @@ description: >-
   and applications on the internet. It's reliable, secure and customizable.
 ---
 
-# 🌐 apache2
+# apache2
 
 ### Packages and Binaries:
 

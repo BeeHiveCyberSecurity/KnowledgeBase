@@ -4,7 +4,7 @@ description: >-
   security professionals to capture, analyze, and filter network traffic.
 ---
 
-# 🌐 wireshark
+# wireshark
 
 Wireshark is a free and open-source packet analyzer that allows users to capture and analyze network traffic in real-time. It was originally known as Ethereal and was developed by Gerald Combs in 1998. Wireshark is available for multiple platforms, including Windows, macOS, and Linux.
 

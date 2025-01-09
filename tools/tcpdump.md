@@ -5,7 +5,7 @@ description: >-
   security threat detection.
 ---
 
-# 🌐 tcpdump
+# tcpdump
 
 TCPdump is a powerful and widely-used command-line network sniffer tool that is capable of capturing and analyzing network traffic in real-time. It is an open-source network protocol analyzer that runs on various Unix-like operating systems such as Linux, FreeBSD, and macOS. TCPdump captures network packets and displays their contents in a human-readable format.
 

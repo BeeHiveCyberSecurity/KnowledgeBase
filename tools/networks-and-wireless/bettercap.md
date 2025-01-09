@@ -4,7 +4,7 @@ description: >-
   attackers to perform various tasks, such as sniffing and spoofing.
 ---
 
-# 🌐 bettercap
+# bettercap
 
 Bettercap is a versatile and powerful open-source security tool that is used by security professionals to test network security and perform security assessments. It is built on top of the popular packet sniffing and manipulation tool, libpcap, and provides a modular framework that enables developers to create their own plugins or modules to extend its functionality.
 

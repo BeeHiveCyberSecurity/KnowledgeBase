@@ -5,7 +5,7 @@ description: >-
   and extensions.
 ---
 
-# 🌐 net-snmp
+# net-snmp
 
 Net-SNMP is a free and open-source suite of tools used to manage and monitor network-attached devices. It is based on the Simple Network Management Protocol (SNMP) and provides a range of features for monitoring and controlling network devices such as routers, switches, servers, and printers.
 

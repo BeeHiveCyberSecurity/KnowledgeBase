@@ -4,7 +4,7 @@ description: >-
   protocol interaction, security testing, and penetration testing.
 ---
 
-# 🌐 impacket-scripts
+# impacket-scripts
 
 Impacket and Impacket-scripts are two widely used security tools in the realm of cybersecurity. These tools are open-source and provide a variety of functions that can be used for penetration testing, network reconnaissance, and other security assessments.
 

@@ -4,7 +4,7 @@ description: >-
   for Windows clients. It's easy to use, secure, and highly customizable.
 ---
 
-# 🌐 samba
+# samba
 
 Samba is an open-source software suite that provides file and print services for Windows clients using the SMB/CIFS protocol. It allows Unix-based systems to share files and printers with Windows-based systems, and vice versa. Samba is a popular tool for network administrators and IT professionals, and is widely used in enterprise environments.
 
