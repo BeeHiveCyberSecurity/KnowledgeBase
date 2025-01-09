@@ -5,7 +5,7 @@ description: >-
   scanning and Postfix integration.
 ---
 
-# 🪔 clamav
+# clamav
 
 ClamAV is a free and open-source antivirus software toolkit that provides real-time protection against viruses, Trojans, and other malware. ClamAV is widely used on Unix-based systems such as Linux, and is also available for Windows.
 

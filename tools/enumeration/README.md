@@ -5,5 +5,5 @@ description: >-
   ordered sequence.
 ---
 
-# 📰 Enumeration & Lists
+# Enumeration & Lists
 

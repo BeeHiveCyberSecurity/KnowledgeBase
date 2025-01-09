@@ -5,5 +5,5 @@ description: >-
   resources, and firewalls protect network access.
 ---
 
-# ☁ Database, Cloud, & Firewalls
+# Database, Cloud, & Firewalls
 

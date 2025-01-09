@@ -5,7 +5,7 @@ description: >-
   security.
 ---
 
-# 🗃 sqlmap
+# sqlmap
 
 SQLMap is a powerful security tool designed to automate the process of detecting and exploiting SQL injection vulnerabilities in web applications. Developed by Bernardo Damele and Miroslav Stampar, SQLMap is an open-source tool that has become increasingly popular among penetration testers, security researchers, and web developers who want to secure their web applications against SQL injection attacks.
 

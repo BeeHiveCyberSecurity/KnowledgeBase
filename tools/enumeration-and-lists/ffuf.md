@@ -4,7 +4,7 @@ description: >-
   authentication handling & detailed reporting for vulnerability identification.
 ---
 
-# 🔎 ffuf
+# ffuf
 
 FFUF is a versatile and powerful security tool designed to help security professionals and penetration testers automate and streamline the process of web application testing. With its intuitive interface and extensive feature set, FFUF provides a comprehensive suite of tools for discovering vulnerabilities, identifying potential security threats, and performing deep analysis of web applications.
 

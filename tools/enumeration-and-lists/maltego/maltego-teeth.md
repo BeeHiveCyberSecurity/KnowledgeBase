@@ -1,4 +1,4 @@
-# 📊 maltego-teeth
+# maltego-teeth
 
 ### Packages and Binaries:
 

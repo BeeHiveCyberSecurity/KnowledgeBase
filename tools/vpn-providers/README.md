@@ -4,5 +4,5 @@ description: >-
   allowing users to connect to the internet securely and anonymously.
 ---
 
-# 🔏 VPN Providers
+# VPN Providers
 

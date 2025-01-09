@@ -5,7 +5,7 @@ description: >-
   PIX/ASA.
 ---
 
-# 🧱 fwbuilder
+# fwbuilder
 
 FWBuilder is a powerful and comprehensive security tool that is designed to simplify the process of building and managing firewall rulesets for various platforms. It is a graphical user interface that provides a convenient way to create, manage, and deploy complex firewall configurations with ease. FWBuilder has been designed to support a variety of firewall platforms, including Linux iptables, Cisco PIX/ASA, and many others.
 

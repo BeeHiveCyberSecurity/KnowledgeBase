@@ -5,7 +5,7 @@ description: >-
   vulnerabilities in software.
 ---
 
-# 🔎 aflplusplus
+# aflplusplus
 
 AFL+++, the advanced version of American Fuzzy Lop (AFL), is a powerful security tool for identifying vulnerabilities in software. It is an open-source software security testing tool that uses fuzz testing to find potential security flaws in code. AFL+++ was created to address the limitations of its predecessor, AFL, and provides an extensive set of features for better test coverage, faster feedback, and improved exploitability detection.
 

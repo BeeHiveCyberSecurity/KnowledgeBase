@@ -5,7 +5,7 @@ description: >-
   detect hidden URLs make it useful for reconnaissance.
 ---
 
-# 🔗 getallurls
+# getallurls
 
 GetAllUrls is a command-line tool that can be used for reconnaissance and information gathering during penetration testing and security assessments. The tool is designed to extract and gather all possible URLs that are associated with a target domain or website.
 

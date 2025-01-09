@@ -4,7 +4,7 @@ description: >-
   used for password cracking and security testing on various platforms.
 ---
 
-# 📔 crunch
+# crunch
 
 Crunch is a powerful security tool that enables users to generate custom wordlists for password cracking and other security-related purposes. This open-source software is a popular choice among cybersecurity professionals and ethical hackers alike, as it offers a wide range of customizable options and settings to suit any use case.
 

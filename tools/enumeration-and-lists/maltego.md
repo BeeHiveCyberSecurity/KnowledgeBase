@@ -4,7 +4,7 @@ description: >-
   relationships between entities and helps to detect cyber threats.
 ---
 
-# 📊 maltego
+# maltego
 
 Maltego is a security tool that is used to gather information about individuals or organizations from various sources on the internet. It helps in identifying relationships between entities and visualizes the information in a graphical form. Maltego can be used for threat intelligence, vulnerability analysis, and network mapping. It offers different transforms, which are actions that take input data and produce results by using different data sources like social media, search engines, or public databases. Maltego also offers a customizable interface that can be tailored to the user's needs. It can be integrated with other security tools and allows for easy export of data in different formats. With its extensive capabilities, Maltego is widely used by security professionals, law enforcement agencies, and researchers to conduct investigations and gather intelligence.
 

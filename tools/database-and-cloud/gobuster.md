@@ -5,7 +5,7 @@ description: >-
   authentication.
 ---
 
-# 📈 gobuster
+# gobuster
 
 Gobuster is an open-source security tool designed for penetration testers, system administrators, and developers. The tool is widely used for identifying vulnerabilities and performing attacks on web applications. With its powerful features, Gobuster has become a popular tool in the information security industry.
 
