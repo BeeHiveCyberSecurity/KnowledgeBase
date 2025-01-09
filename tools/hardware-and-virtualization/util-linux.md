@@ -5,7 +5,7 @@ description: >-
   encryption.
 ---
 
-# ⚙ util-linux
+# util-linux
 
 Util-linux is a popular open-source collection of Linux utilities that provides various essential system tools to manage and maintain the Linux operating system. It includes more than 70 different utilities, such as fdisk, login, mount, and many others, that are commonly used by system administrators and end-users alike.
 

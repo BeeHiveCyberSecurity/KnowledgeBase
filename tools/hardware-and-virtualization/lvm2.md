@@ -4,7 +4,7 @@ description: >-
   logical volumes on one or more physical hard drives.
 ---
 
-# 💾 lvm2
+# lvm2
 
 LVM2 (Logical Volume Manager 2) is a tool used in Linux-based operating systems to manage and organize storage devices, including hard disks, SSDs, and other storage media, into logical volumes. LVM2 provides a layer of abstraction between physical storage devices and the file systems that use them, allowing for more flexibility and scalability in managing storage resources. With LVM2, multiple physical disks can be combined into a single logical volume, which can then be divided into smaller volumes or resized as needed. LVM2 also allows for snapshots and mirroring of volumes for backup and redundancy purposes.
 

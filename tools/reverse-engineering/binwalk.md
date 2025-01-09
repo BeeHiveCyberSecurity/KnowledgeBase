@@ -5,7 +5,7 @@ description: >-
   data.
 ---
 
-# 🗄 binwalk
+# binwalk
 
 Binwalk is an open-source, command-line tool used for analyzing, reverse engineering, and extracting firmware images, binaries, and other embedded files. It is designed to identify and extract embedded data within firmware images and other binary files, and to perform basic analysis of the extracted data.
 

@@ -4,7 +4,7 @@ description: >-
   server that enables users to remotely access and control other computers.
 ---
 
-# ⏭ freerdp2
+# freerdp2
 
 ### Packages and Binaries:
 

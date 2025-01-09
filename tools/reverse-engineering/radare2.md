@@ -5,7 +5,7 @@ description: >-
   cryptographic analysis.
 ---
 
-# 📎 radare2
+# radare2
 
 ### Packages and Binaries:
 

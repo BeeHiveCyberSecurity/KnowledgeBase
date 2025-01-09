@@ -4,7 +4,7 @@ description: >-
   systems on one machine. Ideal for cross-platform development and testing.
 ---
 
-# 🇲🇭 qemu
+# qemu
 
 QEMU (short for Quick EMUlator) is a powerful and versatile open-source virtual machine monitor that allows users to run operating systems and software on a wide range of platforms. QEMU is often used by software developers and system administrators to test their applications on different architectures without having to set up physical hardware. It can also be used by hobbyists and enthusiasts to experiment with different operating systems and configurations.
 
