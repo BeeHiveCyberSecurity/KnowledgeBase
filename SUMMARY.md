@@ -1,19 +1,19 @@
 # Table of contents
 
-* [👋 Welcome!](README.md)
-* [❓ FAQ](faq/README.md)
+* [Welcome!](README.md)
+* [FAQ](faq/README.md)
   * [Personal Security](faq/personal-security.md)
   * [Product Recommendations](faq/product-recommendations.md)
   * [Practice Recommendations](faq/practice-recommendations.md)
   * [Device Recommendations](faq/device-recommendations.md)
 
-## 📛 Threats
+## Threats
 
 * [💿 Software](threats/software/README.md)
   * [Malware](threats/software/malware.md)
   * [Ransomware](threats/software/ransomware.md)
   * [Macros](threats/software/macros.md)
-* [🖥 Hardware](threats/hardware.md)
+* [🖥️ Hardware](threats/hardware.md)
   * [🐬 Flipper Zero](threats/hardware/flipper-zero/README.md)
     * [Firmware](threats/hardware/flipper-zero/firmware/README.md)
       * [🐬 flipperzero](threats/hardware/flipper-zero/firmware/flipperzero.md)
@@ -45,11 +45,11 @@
   * [Social engineering](threats/human/social-engineering.md)
   * [Phishing](threats/human/phishing.md)
   * [Typosquatting](threats/human/typosquatting.md)
-* [➡ Disinformation](threats/disinformation/README.md)
+* [➡️ Disinformation](threats/disinformation/README.md)
   * [⚫ Black Propaganda](threats/disinformation/black-propaganda.md)
   * [⚪ White Propaganda](threats/disinformation/white-propaganda.md)
   * [📀 Grey Propaganda](threats/disinformation/grey-propaganda.md)
-  * [⚔ Info Warfare](threats/disinformation/info-warfare.md)
+  * [⚔️ Info Warfare](threats/disinformation/info-warfare.md)
   * [🏨 Political Warfare](threats/disinformation/political-warfare.md)
   * [🍥 Astroturfing](threats/disinformation/astroturfing.md)
   * [🟢 Greenwashing](threats/disinformation/greenwashing.md)
@@ -60,7 +60,7 @@
   * [🚩 False Flags](threats/disinformation/false-flags.md)
   * [👿 Deep Fakes](threats/disinformation/deep-fakes.md)
 
-## ℹ About
+## ℹ️ About
 
 * [🔌 Ports](about/port/README.md)
   * [20](about/port/20.md)
@@ -74,20 +74,20 @@
   * [80](about/port/80.md)
   * [194](about/port/194.md)
 
-## ⚙ Tools
+## ⚙️ Tools
 
 * [📻 Radio Frequency & SubGHZ](tools/radio-frequency-and-subghz/README.md)
   * [📻 gnuradio](tools/radio-frequency-and-subghz/gnuradio.md)
   * [📻 hackrf](tools/radio-frequency-and-subghz/hackrf.md)
-* [👁 Digital Forensics](tools/digital-forensics/README.md)
+* [👁️ Digital Forensics](tools/digital-forensics/README.md)
   * [💾 afflib](tools/digital-forensics/afflib.md)
 * [⏪ Reverse Engineering](tools/reverse-engineering/README.md)
-  * [🗄 binwalk](tools/reverse-engineering/binwalk.md)
+  * [🗄️ binwalk](tools/reverse-engineering/binwalk.md)
   * [📎 radare2](tools/reverse-engineering/radare2.md)
-* [🖲 Hardware & Virtualization](tools/hardware-and-virtualization/README.md)
+* [🖲️ Hardware & Virtualization](tools/hardware-and-virtualization/README.md)
   * [🇲🇭 🇲🇭 🇲🇭 🇲🇭 🇲🇭 qemu](tools/hardware-and-virtualization/qemu.md)
-  * [⏭ freerdp2](tools/hardware-and-virtualization/freerdp2.md)
-  * [⚙ util-linux](tools/hardware-and-virtualization/util-linux.md)
+  * [⏭️ freerdp2](tools/hardware-and-virtualization/freerdp2.md)
+  * [⚙️ util-linux](tools/hardware-and-virtualization/util-linux.md)
   * [💾 lvm2](tools/hardware-and-virtualization/lvm2.md)
 * [🔏 VPN Providers](tools/vpn-providers/README.md)
   * [ProtonVPN](tools/vpn-providers/protonvpn.md)
@@ -96,9 +96,9 @@
   * [Surfshark](tools/vpn-providers/surfshark.md)
   * [CyberGhost](tools/vpn-providers/cyberghost.md)
   * [Private Internet Access](tools/vpn-providers/private-internet-access.md)
-* [☁ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
-  * [🗃 sqlmap](tools/sqlmap.md)
-  * [⏺ cewl](tools/database-and-cloud/cewl.md)
+* [☁️ Database, Cloud, & Firewalls](tools/database-and-cloud/README.md)
+  * [🗃️ sqlmap](tools/sqlmap.md)
+  * [⏺️ cewl](tools/database-and-cloud/cewl.md)
   * [📈 gobuster](tools/database-and-cloud/gobuster.md)
   * [🧱 fwbuilder](tools/database-cloud-and-firewalls/fwbuilder.md)
   * [🪔 clamav](tools/database-cloud-and-firewalls/clamav.md)
@@ -119,15 +119,15 @@
   * [🔐 hashcat](tools/hashcat.md)
   * [🔐 hydra](tools/passwords-and-auth/hydra.md)
   * [🔐 cryptsetup](tools/passwords-and-auth/cryptsetup.md)
-* [ℹ Surface Intelligence](tools/osint/README.md)
-  * [ℹ theharvester](tools/theharvester.md)
-  * [ℹ subfinder](tools/subfinder.md)
-  * [ℹ dsniff](tools/dsniff.md)
-  * [ℹ dnsrecon](tools/osint/dnsrecon.md)
-  * [ℹ dirb](tools/osint/dirb.md)
-  * [ℹ nikto](tools/osint/nikto.md)
-  * [ℹ legion](tools/penetration-testing/legion.md)
-  * [🕸 spiderfoot](tools/surface-intelligence/spiderfoot.md)
+* [ℹ️ Surface Intelligence](tools/osint/README.md)
+  * [ℹ️ theharvester](tools/theharvester.md)
+  * [ℹ️ subfinder](tools/subfinder.md)
+  * [ℹ️ dsniff](tools/dsniff.md)
+  * [ℹ️ dnsrecon](tools/osint/dnsrecon.md)
+  * [ℹ️ dirb](tools/osint/dirb.md)
+  * [ℹ️ nikto](tools/osint/nikto.md)
+  * [ℹ️ legion](tools/penetration-testing/legion.md)
+  * [🕸️ spiderfoot](tools/surface-intelligence/spiderfoot.md)
 * [🌐 Networks & Wireless](tools/network/README.md)
   * [🌐 nmap](tools/nmap.md)
   * [🌐 impacket-scripts](tools/impacket-scripts.md)
@@ -150,13 +150,13 @@
   * [🌐 net-snmp](tools/networks-and-wireless/net-snmp.md)
   * [🌐 tcpreplay](tools/networks-and-wireless/kali-linux-tools.md)
 * [🔉 Social Media](tools/social-media/README.md)
-  * [ℹ sherlock](tools/osint/sherlock.md)
+  * [ℹ️ sherlock](tools/osint/sherlock.md)
 * [🧩 Miscellaneous](tools/miscellaneous/README.md)
   * [📦 git](tools/miscellaneous/git.md)
   * [🔏 libnfc](tools/miscellaneous/libnfc.md)
   * [📦 llvm-defaults](tools/miscellaneous/llvm-defaults.md)
 
-## 🖥 Operating Systems
+## 🖥️ Operating Systems
 
 * [🐧 Ubuntu](operating-systems/ubuntu/README.md)
   * [Installation](operating-systems/ubuntu/installation/README.md)
@@ -374,17 +374,17 @@
     * [Utilities](operating-systems/arch-linux/applications/utilities.md)
     * [Others](operating-systems/arch-linux/applications/others.md)
   * [Arch compared to other distributions](operating-systems/arch-linux/arch-compared-to-other-distributions.md)
-* [⚙ NetBSD](operating-systems/netbsd/README.md)
+* [⚙️ NetBSD](operating-systems/netbsd/README.md)
   * [Calls and Errors](operating-systems/netbsd/calls-and-errors.md)
   * [Libraries](operating-systems/netbsd/libraries.md)
   * [Lua Modules](operating-systems/netbsd/lua-modules.md)
   * [Devices and Drivers](operating-systems/netbsd/devices-and-drivers.md)
 
-## 🛡 Law, Policy, and Ethics
+## 🛡️ Law, Policy, and Ethics
 
-* [⚖ Fair Use](law-policy-and-ethics/fair-use.md)
-* [⚖ DMCA](law-policy-and-ethics/dmca.md)
-  * [🗄 Notable Cases](law-policy-and-ethics/dmca/notable-cases/README.md)
+* [⚖️ Fair Use](law-policy-and-ethics/fair-use.md)
+* [⚖️ DMCA](law-policy-and-ethics/dmca.md)
+  * [🗄️ Notable Cases](law-policy-and-ethics/dmca/notable-cases/README.md)
     * [MGM Studios Inc. v. Grokster, Ltd.](law-policy-and-ethics/dmca/notable-cases/mgm-studios-inc.-v.-grokster-ltd..md)
     * [Viacom International, Inc v YouTube, Inc](law-policy-and-ethics/dmca/notable-cases/viacom-international-inc-v-youtube-inc.md)
     * [Capitol Records, Inc. v. Thomas-Rasset](law-policy-and-ethics/dmca/notable-cases/capitol-records-inc.-v.-thomas-rasset.md)

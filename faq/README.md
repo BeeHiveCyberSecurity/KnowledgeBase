@@ -4,5 +4,5 @@ description: >-
   answered, it's here.
 ---
 
-# ❓ FAQ
+# FAQ
 

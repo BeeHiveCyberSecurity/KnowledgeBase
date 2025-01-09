@@ -5,7 +5,7 @@ description: >-
   and organizations to succeed and learn.
 ---
 
-# 👋 Welcome!
+# Welcome!
 
 ### Here's what you'll find in this hub:
 
@@ -34,4 +34,4 @@ Thank you for your interest in this repository. We're excited to see what you'll
 
 BeeHive helps small, medium, and large businesses alike protect from increasingly severe cyber threats. With services and solutions to contain and stop malware and ransomware, detect and counter advanced persistent threats, cease brand abuse, spot vulnerabilities and exposures in your website and so much more, BeeHive enables security in all the places you work, live, and visit.
 
-For more information, visit our website at [https://www.beehive.systems/ ](https://www.beehive.systems/)
+For more information, visit our website at [https://www.beehive.systems/](https://www.beehive.systems/)
