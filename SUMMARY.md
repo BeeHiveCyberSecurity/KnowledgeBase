@@ -1,11 +1,6 @@
 # Table of contents
 
 * [Welcome!](README.md)
-* [FAQ](faq/README.md)
-  * [Personal Security](faq/personal-security.md)
-  * [Product Recommendations](faq/product-recommendations.md)
-  * [Practice Recommendations](faq/practice-recommendations.md)
-  * [Device Recommendations](faq/device-recommendations.md)
 
 ## Threats
 

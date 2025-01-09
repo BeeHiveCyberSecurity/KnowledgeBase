@@ -24,14 +24,4 @@ description: >-
 
 • Join the discussion and share your own insights and experiences
 
-#### While this site contains information about subjects such as DMCA, Copyright and Trademark Law, and other points of legal reference, this resource should not be considered as legal advice. Every situation that becomes a legal matter is unique in its own regard, and generalized writings should only be referred to for education on matter, not action or demand. If you believe based on information you find here that you have had your applicable Rights infringed, we suggest you seek private legal counsel.
-
-#### To contribute, please read our guidelines and follow our code of conduct.
-
-This documentation is created using a mixture of artificial intelligence, basic automation, and human copywriting. As a result, you may find content here that is equal, same, or uncannily similar to publicly available sources. Not every individual submission is able to be screened for IP Violations, as the repository is inherrently open source. If you believe you have a complaint regarding information found on this website, please **create a change request on the GitHub, removing your restricted information specifically, citing your applicable Copyright or Trademark Registration**. Your request will be reviewed, and merged if your complaint is valid. You may additionally, rather than requesting a removal, modify the information on this repository to come in-line with your assumed rights, leaving it to help those looking to learn. The choice is yours and will be respected either way.
-
-Thank you for your interest in this repository. We're excited to see what you'll build and achieve with the information provided here!
-
-BeeHive helps small, medium, and large businesses alike protect from increasingly severe cyber threats. With services and solutions to contain and stop malware and ransomware, detect and counter advanced persistent threats, cease brand abuse, spot vulnerabilities and exposures in your website and so much more, BeeHive enables security in all the places you work, live, and visit.
-
-For more information, visit our website at [https://www.beehive.systems/](https://www.beehive.systems/)
+####

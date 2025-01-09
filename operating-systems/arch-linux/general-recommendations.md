@@ -38,7 +38,7 @@ This section contains helpful information related to package management. See FAQ
 
 #### pacman
 
-pacman is the Arch Linux _pac_kage _man_ager: it is highly encouraged to become familiar with it before reading any other articles.
+pacman is the Arch Linux _pa&#x63;_&#x6B;age _ma&#x6E;_&#x61;ger: it is highly encouraged to become familiar with it before reading any other articles.
 
 To enable downloading packages in parallel, see pacman#Enabling parallel downloads.
 
@@ -90,7 +90,7 @@ Once the login prompt appears, the messages from boot are cleared, leaving users
 
 #### Num Lock activation
 
-[Num Lock](https://en.wikipedia.org/wiki/Num\_Lock) is a toggle key found in most keyboards. For activating Num Lock's number key-assignment during startup, see Activating numlock on bootup.
+[Num Lock](https://en.wikipedia.org/wiki/Num_Lock) is a toggle key found in most keyboards. For activating Num Lock's number key-assignment during startup, see Activating numlock on bootup.
 
 ### Graphical user interface
 
@@ -98,7 +98,7 @@ This section provides orientation for users wishing to run graphical application
 
 #### Display server
 
-Xorg is the public, open-source implementation of the [X Window System](https://en.wikipedia.org/wiki/X\_Window\_System) (commonly X11, or X). It is required for running applications with graphical user interfaces (GUIs), and the majority of users will want to install it.
+Xorg is the public, open-source implementation of the [X Window System](https://en.wikipedia.org/wiki/X_Window_System) (commonly X11, or X). It is required for running applications with graphical user interfaces (GUIs), and the majority of users will want to install it.
 
 Wayland is a newer, alternative display server protocol with several compositors to choose from.
 
@@ -160,11 +160,11 @@ This section is confined to small networking procedures. See Network configurati
 
 #### Clock synchronization
 
-The [Network Time Protocol](https://en.wikipedia.org/wiki/Network\_Time\_Protocol) (NTP) is a protocol for synchronizing the clocks of computer systems over packet-switched, variable-latency data networks. See Time synchronization for implementations of such protocol.
+The [Network Time Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol) (NTP) is a protocol for synchronizing the clocks of computer systems over packet-switched, variable-latency data networks. See Time synchronization for implementations of such protocol.
 
 #### DNS security
 
-For better security while browsing the web, paying online, connecting to SSH services and similar tasks consider using DNSSEC-enabled DNS resolver that can validate signed [DNS](https://en.wikipedia.org/wiki/Domain\_Name\_System) records, and an encrypted protocol such as [DNS over TLS](https://en.wikipedia.org/wiki/DNS\_over\_TLS), [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS\_over\_HTTPS) or [DNSCrypt](https://en.wikipedia.org/wiki/DNSCrypt). See Domain name resolution for details.
+For better security while browsing the web, paying online, connecting to SSH services and similar tasks consider using DNSSEC-enabled DNS resolver that can validate signed [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) records, and an encrypted protocol such as [DNS over TLS](https://en.wikipedia.org/wiki/DNS_over_TLS), [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS) or [DNSCrypt](https://en.wikipedia.org/wiki/DNSCrypt). See Domain name resolution for details.
 
 #### Setting up a firewall
 
@@ -254,7 +254,7 @@ This section applies to small modifications that improve console programs' pract
 
 #### Tab-completion enhancements
 
-It is recommended to properly set up extended [tab completion](https://en.wikipedia.org/wiki/Command-line\_completion) right away, as instructed in the article of your chosen shell.
+It is recommended to properly set up extended [tab completion](https://en.wikipedia.org/wiki/Command-line_completion) right away, as instructed in the article of your chosen shell.
 
 #### Aliases
 
