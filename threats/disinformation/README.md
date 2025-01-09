@@ -4,5 +4,5 @@ description: >-
   deceive people, manipulate opinions, or influence behavior.
 ---
 
-# ➡ Disinformation
+# Disinformation
 
